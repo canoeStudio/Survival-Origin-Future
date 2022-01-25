@@ -1,0 +1,31 @@
+{
+
+  "result": {
+
+    "item": "t3s4ebw:magic_seed"
+
+  },
+
+  "ingredients": [
+
+    {
+
+      "item": "minecraft:wheat_seeds",
+
+      "data": 0
+
+    },
+
+    {
+
+      "item": "ebwizardry:magic_crystal",
+
+      "data": 0
+
+    }
+
+  ],
+
+  "type": "minecraft:crafting_shapeless"
+
+}
