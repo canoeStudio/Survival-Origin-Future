@@ -1,0 +1,7 @@
+{
+    "variants": {
+		"variant=quicksand": [
+            { "model": "biomesoplenty:quicksand" }
+        	]
+    }
+}
