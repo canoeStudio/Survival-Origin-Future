@@ -1,7 +1,0 @@
-{
-    "variants": {
-		"variant=mud": [
-            { "model": "biomesoplenty:mud" }
-        	]
-    }
-}
