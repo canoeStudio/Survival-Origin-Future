@@ -1,9 +1,0 @@
-recipes.remove(<eplus:table_upgrade>);
-recipes.remove(<eplus:decorative_book:6>);
-recipes.remove(<eplus:decorative_book:5>);
-recipes.remove(<eplus:decorative_book:4>);
-recipes.remove(<eplus:decorative_book:3>);
-recipes.remove(<eplus:decorative_book:2>);
-recipes.remove(<eplus:decorative_book:1>);
-recipes.remove(<eplus:decorative_book>);
-recipes.remove(<eplus:advanced_table>);
