@@ -1,5 +1,6 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
+ * This script is created for the Virtual-Survival---Climate-Control-Remastered
+ modpack by Canoe Studio and Hope Team.
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
