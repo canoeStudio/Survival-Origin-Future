@@ -1,0 +1,514 @@
+[2022-06-25 20:49:45] [Client thread INFO] CustomSkinLoader 14.13-SNAPSHOT-313
+[2022-06-25 20:49:45] [Client thread INFO] DataDir: D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader
+[2022-06-25 20:49:45] [Client thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2022-06-25 20:49:45] [Client thread INFO] Java Version: 1.8.0_60, Oracle Corporation
+[2022-06-25 20:49:45] [Client thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[2022-06-25 20:49:45] [Client thread INFO] Minecraft: 1.10.841(Virtual Survival - Climate Control Remastered 1.10.841 Transition 1 Virtual Survival - Climate Control Remastered 1.10.841 Transition 1)
+[2022-06-25 20:49:45] [Client thread INFO] Config File: D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\CustomSkinLoader.json
+[2022-06-25 20:49:45] [Client thread INFO] Try to load config.
+[2022-06-25 20:49:45] [Client thread INFO] Successfully load config.
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: MojangAPI
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: Legacy
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: CustomSkinAPI
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: UniSkinAPI
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: ElyByAPI
+[2022-06-25 20:49:45] [Client thread INFO] Add a profile loader: GlitchlessAPI
+[2022-06-25 20:49:45] [Client thread INFO] Successfully update config.
+[2022-06-25 20:49:45] [Client thread INFO] version : 14.13
+[2022-06-25 20:49:45] [Client thread INFO] buildNumber : 313
+[2022-06-25 20:49:45] [Client thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littlesk.in/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "default", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }]
+[2022-06-25 20:49:45] [Client thread INFO] enableDynamicSkull : true
+[2022-06-25 20:49:45] [Client thread INFO] enableTransparentSkin : true
+[2022-06-25 20:49:45] [Client thread INFO] forceIgnoreHttpsCertificate : false
+[2022-06-25 20:49:45] [Client thread INFO] forceLoadAllTextures : false
+[2022-06-25 20:49:45] [Client thread INFO] enableCape : true
+[2022-06-25 20:49:45] [Client thread INFO] forceFillSkullNBT : false
+[2022-06-25 20:49:45] [Client thread INFO] threadPoolSize : 3
+[2022-06-25 20:49:45] [Client thread INFO] retryTime : 1
+[2022-06-25 20:49:45] [Client thread INFO] cacheExpiry : 30
+[2022-06-25 20:49:45] [Client thread INFO] forceUpdateSkull : false
+[2022-06-25 20:49:45] [Client thread INFO] enableLocalProfileCache : false
+[2022-06-25 20:49:45] [Client thread INFO] enableCacheAutoClean : false
+[2022-06-25 20:49:45] [Client thread INFO] forceDisableCache : false
+[2022-06-25 20:55:58] [Lonelywjx INFO] Loading Lonelywjx's profile.
+[2022-06-25 20:55:58] [Lonelywjx INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:55:58] [Lonelywjx DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:55:58] [Lonelywjx INFO] Payload: ["Lonelywjx"]
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Content: [{"id":"6c6940ebf9494916838f878d165d1396","name":"lonelywjx"}]
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/6c6940ebf9494916838f878d165d1396'.
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Successfully request (Response Code: 200 , Content Length: 701)
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Saved to cache (Length: 701 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\350b9d17a10ee4c3ce1af65e66ec4ffe3f4677f2' , Expire: 1656161853)
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Content: {
+  "id" : "6c6940ebf9494916838f878d165d1396",
+  "name" : "lonelywjx",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTc1OTk0NiwKICAicHJvZmlsZUlkIiA6ICI2YzY5NDBlYmY5NDk0OTE2ODM4Zjg3OGQxNjVkMTM5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb25lbHl3angiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyYmI2MDE2ODljMWVlZTljNTY3ZTcxOTk4YTkyMTVhZTc0ODFhYTMyOTQ0MWQxYzEzOTlkODdmOTI2ZDhjZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 20:55:59] [Lonelywjx INFO] Lonelywjx's profile loaded.
+[2022-06-25 20:55:59] [Lonelywjx INFO] (SkinUrl: http://textures.minecraft.net/texture/622bb601689c1eee9c567e71998a9215ae7481aa329441d1c1399d87f926d8cd , Model: default , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1656161789)
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Try to request 'http://textures.minecraft.net/texture/622bb601689c1eee9c567e71998a9215ae7481aa329441d1c1399d87f926d8cd'.
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Cache file found (Length: 1148 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\assets\skins\62\622bb601689c1eee9c567e71998a9215ae7481aa329441d1c1399d87f926d8cd' , Expire: 0)
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Try to request 'http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933'.
+[2022-06-25 20:55:59] [Lonelywjx DEBUG] Cache file found (Length: 705 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\assets\skins\23\2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933' , Expire: 0)
+[2022-06-25 20:56:00] [Client thread DEBUG] Loading type: SKIN
+[2022-06-25 20:56:00] [Client thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.ThreadDownloadImageData
+[2022-06-25 20:56:00] [Client thread DEBUG] Loading type: CAPE
+[2022-06-25 20:56:15] [Jarrenitis's skull INFO] Loading Jarrenitis's profile.
+[2022-06-25 20:56:15] [Jarrenitis's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:56:15] [Jarrenitis's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:56:15] [Jarrenitis's skull INFO] Payload: ["Jarrenitis"]
+[2022-06-25 20:56:15] [ChimneySwift's skull INFO] Loading ChimneySwift's profile.
+[2022-06-25 20:56:15] [ChimneySwift's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:56:15] [ChimneySwift's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:56:15] [ChimneySwift's skull INFO] Payload: ["ChimneySwift"]
+[2022-06-25 20:56:15] [LividCoffee's skull INFO] Loading LividCoffee's profile.
+[2022-06-25 20:56:15] [LividCoffee's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:56:15] [LividCoffee's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:56:15] [LividCoffee's skull INFO] Payload: ["LividCoffee"]
+[2022-06-25 20:56:18] [LividCoffee's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 64)
+[2022-06-25 20:56:18] [LividCoffee's skull DEBUG] Content: [{"id":"7dd55e6bf16b48048df52f50f7191b2d","name":"LividCoffee"}]
+[2022-06-25 20:56:18] [LividCoffee's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/7dd55e6bf16b48048df52f50f7191b2d'.
+[2022-06-25 20:56:18] [Jarrenitis's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 63)
+[2022-06-25 20:56:18] [Jarrenitis's skull DEBUG] Content: [{"id":"38d5474836ab4c4c8671cae97a03072c","name":"Jarrenitis"}]
+[2022-06-25 20:56:18] [Jarrenitis's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/38d5474836ab4c4c8671cae97a03072c'.
+[2022-06-25 20:56:18] [ChimneySwift's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 65)
+[2022-06-25 20:56:18] [ChimneySwift's skull DEBUG] Content: [{"id":"20073cb8a09247e29a60bca856e62faf","name":"ChimneySwift"}]
+[2022-06-25 20:56:18] [ChimneySwift's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/20073cb8a09247e29a60bca856e62faf'.
+[2022-06-25 20:56:19] [LividCoffee's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 519)
+[2022-06-25 20:56:19] [LividCoffee's skull DEBUG] Saved to cache (Length: 519 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\83f73f72f7ee3666dbd4fa4d19091839bf3010b7' , Expire: 1656161874)
+[2022-06-25 20:56:19] [LividCoffee's skull DEBUG] Content: {
+  "id" : "7dd55e6bf16b48048df52f50f7191b2d",
+  "name" : "LividCoffee",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTc3OTU4NSwKICAicHJvZmlsZUlkIiA6ICI3ZGQ1NWU2YmYxNmI0ODA0OGRmNTJmNTBmNzE5MWIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaXZpZENvZmZlZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZWRmN2IzOWIyNjI0Y2E3N2NmYjc0MTJkNjljYWM2OGM4ZGJiZmU0YjcxOWZhOTA1MDViN2VkMmJkODAyOTM5IgogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-06-25 20:56:19] [Jarrenitis's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 514)
+[2022-06-25 20:56:19] [ChimneySwift's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 708)
+[2022-06-25 20:56:19] [LividCoffee's skull INFO] LividCoffee's profile loaded.
+[2022-06-25 20:56:19] [LividCoffee's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/3edf7b39b2624ca77cfb7412d69cac68c8dbbfe4b719fa90505b7ed2bd802939 , Model: default , CapeUrl: null  , Expiry: 1656161809)
+[2022-06-25 20:56:19] [ZexyZek's skull INFO] Loading ZexyZek's profile.
+[2022-06-25 20:56:19] [ZexyZek's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:56:19] [ZexyZek's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:56:19] [ZexyZek's skull INFO] Payload: ["ZexyZek"]
+[2022-06-25 20:56:19] [ChimneySwift's skull DEBUG] Saved to cache (Length: 708 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\ec96afc77f4a92713febbaddb220b8cd9a0081e4' , Expire: 1656161870)
+[2022-06-25 20:56:19] [ChimneySwift's skull DEBUG] Content: {
+  "id" : "20073cb8a09247e29a60bca856e62faf",
+  "name" : "ChimneySwift",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTc3OTcyOSwKICAicHJvZmlsZUlkIiA6ICIyMDA3M2NiOGEwOTI0N2UyOWE2MGJjYTg1NmU2MmZhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGltbmV5U3dpZnQiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk0MGMzNjY2MzY0YjA4MWMxNzRjZDgwYjUwNmE5MWIzNmE1NTBjOWMwMzg4OTM4OGI0ZGE0Njg1NWIzMGY2NyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzY2FjOGI3NzlmZTQxMzgzZTY3NWVlMmI4NjA3MWE3MTY1OGYyMTgwZjU2ZmJjZThhYTMxNWVhNzBlMmVkNiIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 20:56:19] [ChimneySwift's skull INFO] ChimneySwift's profile loaded.
+[2022-06-25 20:56:19] [ChimneySwift's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/9940c3666364b081c174cd80b506a91b36a550c9c03889388b4da46855b30f67 , Model: default , CapeUrl: http://textures.minecraft.net/texture/953cac8b779fe41383e675ee2b86071a71658f2180f56fbce8aa315ea70e2ed6  , Expiry: 1656161809)
+[2022-06-25 20:56:19] [Jarrenitis's skull DEBUG] Saved to cache (Length: 514 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\6e27ec301dc3892f0beace915a28c6a649b276fc' , Expire: 1656161871)
+[2022-06-25 20:56:19] [Jarrenitis's skull DEBUG] Content: {
+  "id" : "38d5474836ab4c4c8671cae97a03072c",
+  "name" : "Jarrenitis",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTc3OTYzNSwKICAicHJvZmlsZUlkIiA6ICIzOGQ1NDc0ODM2YWI0YzRjODY3MWNhZTk3YTAzMDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYXJyZW5pdGlzIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZkYjg2NGNjNDhkNjI0NDIwMWIxMGNmMmU2YjkxNDg0M2VlNzI4NDllODc1NDZlOTg2NzcxYmZlNDU2YmQwMmEiCiAgICB9CiAgfQp9"
+  } ]
+}
+[2022-06-25 20:56:19] [Jarrenitis's skull INFO] Jarrenitis's profile loaded.
+[2022-06-25 20:56:19] [Jarrenitis's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/fdb864cc48d6244201b10cf2e6b914843ee72849e87546e986771bfe456bd02a , Model: default , CapeUrl: null  , Expiry: 1656161809)
+[2022-06-25 20:56:19] [ZexyZek's skull DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-06-25 20:56:19] [ZexyZek's skull DEBUG] Content: [{"id":"9bcd8c662a4c43f69b8635174aa42478","name":"ZexyZek"}]
+[2022-06-25 20:56:19] [ZexyZek's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/9bcd8c662a4c43f69b8635174aa42478'.
+[2022-06-25 20:56:20] [ZexyZek's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 695)
+[2022-06-25 20:56:20] [ZexyZek's skull DEBUG] Saved to cache (Length: 695 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\7ec31ce243cf9f0e135d31c1c80c1938269e57f7' , Expire: 1656161871)
+[2022-06-25 20:56:20] [ZexyZek's skull DEBUG] Content: {
+  "id" : "9bcd8c662a4c43f69b8635174aa42478",
+  "name" : "ZexyZek",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTc4MDY2NSwKICAicHJvZmlsZUlkIiA6ICI5YmNkOGM2NjJhNGM0M2Y2OWI4NjM1MTc0YWE0MjQ3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXh5WmVrIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZkNjllMDFhOTc3OTU5ZDA1ZjA4YjgzN2QwY2RlOTQ3NDUxMmRiM2FjMzkzNTRmNjFmNzg2Zjc1ZDFmMWM5NjYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1M2IxYTBkZmNiYWU5NTNjZGViNmYyYzJiZjZiZjc5OTQzMjM5YjEzNzI3ODBkYTQ0YmNiYjI5MjczMTMxZGEiCiAgICB9CiAgfQp9"
+  } ]
+}
+[2022-06-25 20:56:20] [ZexyZek's skull INFO] ZexyZek's profile loaded.
+[2022-06-25 20:56:20] [ZexyZek's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/fd69e01a977959d05f08b837d0cde9474512db3ac39354f61f786f75d1f1c966 , Model: default , CapeUrl: http://textures.minecraft.net/texture/153b1a0dfcbae953cdeb6f2c2bf6bf79943239b1372780da44bcbb29273131da  , Expiry: 1656161810)
+[2022-06-25 20:56:46] [Biffa2001's skull INFO] Loading Biffa2001's profile.
+[2022-06-25 20:56:46] [Biffa2001's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:56:46] [Biffa2001's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:56:46] [Biffa2001's skull INFO] Payload: ["Biffa2001"]
+[2022-06-25 20:56:49] [Biffa2001's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 62)
+[2022-06-25 20:56:49] [Biffa2001's skull DEBUG] Content: [{"id":"90f9a19fe32d462284c314feaaf85cd7","name":"Biffa2001"}]
+[2022-06-25 20:56:49] [Biffa2001's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/90f9a19fe32d462284c314feaaf85cd7'.
+[2022-06-25 20:56:51] [Biffa2001's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 513)
+[2022-06-25 20:56:51] [Biffa2001's skull DEBUG] Saved to cache (Length: 513 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\4c4f475e0a7d8f2c9d98d6ca9784f4a342b6485a' , Expire: 1656161903)
+[2022-06-25 20:56:51] [Biffa2001's skull DEBUG] Content: {
+  "id" : "90f9a19fe32d462284c314feaaf85cd7",
+  "name" : "Biffa2001",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTgxMTYzNSwKICAicHJvZmlsZUlkIiA6ICI5MGY5YTE5ZmUzMmQ0NjIyODRjMzE0ZmVhYWY4NWNkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCaWZmYTIwMDEiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzkwMjRjMTE4ZTc5YjM5NTBmNGIxNmZlN2NkMDk2NGRiNTA2NTg4ZGUxZjRmYzI5NDQwMTQyMmZjYWVlZmFlMCIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 20:56:51] [Biffa2001's skull INFO] Biffa2001's profile loaded.
+[2022-06-25 20:56:51] [Biffa2001's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/c9024c118e79b3950f4b16fe7cd0964db506588de1f4fc294401422fcaeefae0 , Model: default , CapeUrl: null  , Expiry: 1656161841)
+[2022-06-25 20:56:55] [Guude's skull INFO] Loading Guude's profile.
+[2022-06-25 20:56:55] [Guude's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:56:55] [Guude's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:56:55] [Guude's skull INFO] Payload: ["Guude"]
+[2022-06-25 20:56:57] [Guude's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 58)
+[2022-06-25 20:56:57] [Guude's skull DEBUG] Content: [{"id":"9cc9a90c7bd64b7eba0a76c4a53f4438","name":"Guude"}]
+[2022-06-25 20:56:57] [Guude's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/9cc9a90c7bd64b7eba0a76c4a53f4438'.
+[2022-06-25 20:56:58] [Guude's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 693)
+[2022-06-25 20:56:58] [Guude's skull DEBUG] Saved to cache (Length: 693 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\46e0f6023fa23da07e62e6ef40a6da6d0ffa611f' , Expire: 1656161910)
+[2022-06-25 20:56:58] [Guude's skull DEBUG] Content: {
+  "id" : "9cc9a90c7bd64b7eba0a76c4a53f4438",
+  "name" : "Guude",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTgxODc3MiwKICAicHJvZmlsZUlkIiA6ICI5Y2M5YTkwYzdiZDY0YjdlYmEwYTc2YzRhNTNmNDQzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdXVkZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNzNmMGVkM2NmZTg4ZWY0ODMxMzc2NWJmNTQwOWQ0YTk0NjMwMGMyMTk3ZjgwN2Q4ODRhNzQxOTljZGU4NTMwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NTNjYWM4Yjc3OWZlNDEzODNlNjc1ZWUyYjg2MDcxYTcxNjU4ZjIxODBmNTZmYmNlOGFhMzE1ZWE3MGUyZWQ2IgogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-06-25 20:56:58] [Guude's skull INFO] Guude's profile loaded.
+[2022-06-25 20:56:58] [Guude's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/c73f0ed3cfe88ef48313765bf5409d4a946300c2197f807d884a74199cde8530 , Model: default , CapeUrl: http://textures.minecraft.net/texture/953cac8b779fe41383e675ee2b86071a71658f2180f56fbce8aa315ea70e2ed6  , Expiry: 1656161848)
+[2022-06-25 20:57:39] [Fosler's skull INFO] Loading Fosler's profile.
+[2022-06-25 20:57:39] [Fosler's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:57:39] [Fosler's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:57:39] [Fosler's skull INFO] Payload: ["Fosler"]
+[2022-06-25 20:57:40] [Fosler's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 2)
+[2022-06-25 20:57:40] [Fosler's skull DEBUG] Content: []
+[2022-06-25 20:57:40] [Fosler's skull INFO] Profile not found.(Fosler's profile not found.)
+[2022-06-25 20:57:40] [Fosler's skull INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2022-06-25 20:57:40] [Fosler's skull DEBUG] Try to request 'https://littlesk.in/csl/Fosler.json'.
+[2022-06-25 20:57:41] [Fosler's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2022-06-25 20:57:41] [Fosler's skull DEBUG] Saved to cache (Length: 3 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\4af43f9137a867e615627825d5dc0278dd4fe760' , Expire: 1656161953)
+[2022-06-25 20:57:41] [Fosler's skull DEBUG] Content: {}
+
+[2022-06-25 20:57:41] [Fosler's skull INFO] Both skin and cape not found.
+[2022-06-25 20:57:41] [Fosler's skull INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2022-06-25 20:57:41] [Fosler's skull DEBUG] Try to request 'http://skin.prinzeugen.net/Fosler.json'.
+[2022-06-25 20:57:54] [Fosler's skull DEBUG] Failed to request http://skin.prinzeugen.net/Fosler.json (Exception: java.net.SocketTimeoutException: Read timed out)
+[2022-06-25 20:57:54] [Fosler's skull INFO] Profile not found.
+[2022-06-25 20:57:54] [Fosler's skull INFO] 4/6 Try to load profile from 'ElyBy'.
+[2022-06-25 20:57:54] [Fosler's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/Fosler'.
+[2022-06-25 20:57:55] [Fosler's skull DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2022-06-25 20:57:55] [Fosler's skull DEBUG] Saved to cache (Length: 0 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\982ba97b79843f60c787950a868a4e94eb41c7e1' , Expire: 1656165480)
+[2022-06-25 20:57:55] [Fosler's skull DEBUG] Content: 
+[2022-06-25 20:57:55] [Fosler's skull INFO] Profile not found.
+[2022-06-25 20:57:55] [Fosler's skull INFO] 5/6 Try to load profile from 'SkinMe'.
+[2022-06-25 20:57:55] [Fosler's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/Fosler.json'.
+[2022-06-25 20:57:56] [Fosler's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 37)
+[2022-06-25 20:57:56] [Fosler's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\979b4c9fd03a4245d2e07f08d6f331d6888b109d' , Expire: 1656161967)
+[2022-06-25 20:57:56] [Fosler's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-06-25 20:57:56] [Fosler's skull INFO] Error 404: User not found.
+[2022-06-25 20:57:56] [Fosler's skull INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2022-06-25 20:57:56] [Fosler's skull INFO] Both skin and cape not found.
+[2022-06-25 20:57:56] [Fosler's skull INFO] Fosler's profile not found in load list.
+[2022-06-25 20:58:05] [DylanGK's skull INFO] Loading DylanGK's profile.
+[2022-06-25 20:58:05] [DylanGK's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:58:05] [DylanGK's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:58:05] [DylanGK's skull INFO] Payload: ["DylanGK"]
+[2022-06-25 20:58:06] [DylanGK's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 60)
+[2022-06-25 20:58:06] [DylanGK's skull DEBUG] Content: [{"id":"24446a6df467413daf45dabc73e50f51","name":"DylanGK"}]
+[2022-06-25 20:58:06] [DylanGK's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/24446a6df467413daf45dabc73e50f51'.
+[2022-06-25 20:58:07] [DylanGK's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 507)
+[2022-06-25 20:58:07] [DylanGK's skull DEBUG] Saved to cache (Length: 507 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\80668c35235f6305a6d0c0b83fe37398cceca7b5' , Expire: 1656161982)
+[2022-06-25 20:58:07] [DylanGK's skull DEBUG] Content: {
+  "id" : "24446a6df467413daf45dabc73e50f51",
+  "name" : "DylanGK",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTg4NzQ1NywKICAicHJvZmlsZUlkIiA6ICIyNDQ0NmE2ZGY0Njc0MTNkYWY0NWRhYmM3M2U1MGY1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEeWxhbkdLIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjYWEzZjBhYWI4ZjdhNzlkNDY1MGU5NGQ4MDg3ZWIyMjNiOGFhZjBiYmIyZjdjN2ZjOGJlOWQwYzk4NjYzNjQiCiAgICB9CiAgfQp9"
+  } ]
+}
+[2022-06-25 20:58:07] [DylanGK's skull INFO] DylanGK's profile loaded.
+[2022-06-25 20:58:07] [DylanGK's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6caa3f0aab8f7a79d4650e94d8087eb223b8aaf0bbb2f7c7fc8be9d0c9866364 , Model: default , CapeUrl: null  , Expiry: 1656161917)
+[2022-06-25 20:58:28] [GregoriusT's skull INFO] Loading GregoriusT's profile.
+[2022-06-25 20:58:28] [GregoriusT's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:58:28] [GregoriusT's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:58:28] [GregoriusT's skull INFO] Payload: ["GregoriusT"]
+[2022-06-25 20:58:29] [GregoriusT's skull DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-06-25 20:58:29] [GregoriusT's skull DEBUG] Content: [{"id":"68af6d40a79e4a2998469d4a319ec774","name":"GregoriusT"}]
+[2022-06-25 20:58:29] [GregoriusT's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/68af6d40a79e4a2998469d4a319ec774'.
+[2022-06-25 20:58:29] [GregoriusT's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 514)
+[2022-06-25 20:58:29] [GregoriusT's skull DEBUG] Saved to cache (Length: 514 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\da4c0a4a3b4fde6a875e6170b0abd080fde1d220' , Expire: 1656162002)
+[2022-06-25 20:58:29] [GregoriusT's skull DEBUG] Content: {
+  "id" : "68af6d40a79e4a2998469d4a319ec774",
+  "name" : "GregoriusT",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTkxMDA5NCwKICAicHJvZmlsZUlkIiA6ICI2OGFmNmQ0MGE3OWU0YTI5OTg0NjlkNGEzMTllYzc3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmVnb3JpdXNUIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlYzgwOGMwNzZkYjc4NGVlZTkwOWFjZmRkNzI3MWZiYWUxMGVkZWNkMTM2ZGRlZjVmMDFjMmFhZTIwOWFiZjQiCiAgICB9CiAgfQp9"
+  } ]
+}
+[2022-06-25 20:58:29] [GregoriusT's skull INFO] GregoriusT's profile loaded.
+[2022-06-25 20:58:29] [GregoriusT's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/7ec808c076db784eee909acfdd7271fbae10edecd136ddef5f01c2aae209abf4 , Model: default , CapeUrl: null  , Expiry: 1656161939)
+[2022-06-25 20:58:35] [YorkAARGH's skull INFO] Loading YorkAARGH's profile.
+[2022-06-25 20:58:35] [YorkAARGH's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:58:35] [YorkAARGH's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:58:35] [YorkAARGH's skull INFO] Payload: ["YorkAARGH"]
+[2022-06-25 20:58:35] [CavemanFilms's skull INFO] Loading CavemanFilms's profile.
+[2022-06-25 20:58:35] [CavemanFilms's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:58:35] [CavemanFilms's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:58:35] [CavemanFilms's skull INFO] Payload: ["CavemanFilms"]
+[2022-06-25 20:58:36] [YorkAARGH's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 2)
+[2022-06-25 20:58:36] [YorkAARGH's skull DEBUG] Content: []
+[2022-06-25 20:58:36] [YorkAARGH's skull INFO] Profile not found.(YorkAARGH's profile not found.)
+[2022-06-25 20:58:36] [YorkAARGH's skull INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2022-06-25 20:58:36] [YorkAARGH's skull DEBUG] Try to request 'https://littlesk.in/csl/YorkAARGH.json'.
+[2022-06-25 20:58:36] [CavemanFilms's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 65)
+[2022-06-25 20:58:36] [CavemanFilms's skull DEBUG] Content: [{"id":"191aaa110dce4aa1a1a683bc64c782f9","name":"CavemanFilms"}]
+[2022-06-25 20:58:36] [CavemanFilms's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/191aaa110dce4aa1a1a683bc64c782f9'.
+[2022-06-25 20:58:37] [CavemanFilms's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 708)
+[2022-06-25 20:58:37] [CavemanFilms's skull DEBUG] Saved to cache (Length: 708 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\78b553c1c592f9c3bc5e653f7f619667a88234f0' , Expire: 1656162012)
+[2022-06-25 20:58:37] [CavemanFilms's skull DEBUG] Content: {
+  "id" : "191aaa110dce4aa1a1a683bc64c782f9",
+  "name" : "CavemanFilms",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTkxODE4NCwKICAicHJvZmlsZUlkIiA6ICIxOTFhYWExMTBkY2U0YWExYTFhNjgzYmM2NGM3ODJmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXZlbWFuRmlsbXMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyNzVlMmJmN2Q2N2JlNzA4Yzc5ZDJhMDE5MjI0ODI2YjcwNzJkZjA1Mjk0ODFkNzUwYWIxOTRlZGYxODRhIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMmU4ZDk3ZWM3OTEwMGU5MGE3NWQzNjlkMWIzYmE4MTI3M2M0ZjgyYmMxYjczN2U5MzRlZWQ0YTg1NGJlMWI2IgogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-06-25 20:58:37] [CavemanFilms's skull INFO] CavemanFilms's profile loaded.
+[2022-06-25 20:58:37] [CavemanFilms's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/a0275e2bf7d67be708c79d2a019224826b7072df0529481d750ab194edf184a , Model: default , CapeUrl: http://textures.minecraft.net/texture/a2e8d97ec79100e90a75d369d1b3ba81273c4f82bc1b737e934eed4a854be1b6  , Expiry: 1656161947)
+[2022-06-25 20:58:37] [YorkAARGH's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2022-06-25 20:58:37] [YorkAARGH's skull DEBUG] Saved to cache (Length: 3 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\df27f9e3fc079985ad3a925e3bb7159d2fcc3870' , Expire: 1656162009)
+[2022-06-25 20:58:37] [YorkAARGH's skull DEBUG] Content: {}
+
+[2022-06-25 20:58:37] [YorkAARGH's skull INFO] Both skin and cape not found.
+[2022-06-25 20:58:37] [YorkAARGH's skull INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2022-06-25 20:58:37] [YorkAARGH's skull DEBUG] Try to request 'http://skin.prinzeugen.net/YorkAARGH.json'.
+[2022-06-25 20:58:38] [YorkAARGH's skull DEBUG] Failed to request (Response Code: 404)
+[2022-06-25 20:58:38] [YorkAARGH's skull INFO] Profile not found.
+[2022-06-25 20:58:38] [YorkAARGH's skull INFO] 4/6 Try to load profile from 'ElyBy'.
+[2022-06-25 20:58:38] [YorkAARGH's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/YorkAARGH'.
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Saved to cache (Length: 0 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\3f5c6d5a82cd9298df4d9c327b6224b084dfaa77' , Expire: 1656165521)
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Content: 
+[2022-06-25 20:58:39] [YorkAARGH's skull INFO] Profile not found.
+[2022-06-25 20:58:39] [YorkAARGH's skull INFO] 5/6 Try to load profile from 'SkinMe'.
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/YorkAARGH.json'.
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 37)
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\e2e29ad69be6e1b22d7d28b1331c8f0eb4fc4eed' , Expire: 1656162012)
+[2022-06-25 20:58:39] [YorkAARGH's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-06-25 20:58:39] [YorkAARGH's skull INFO] Error 404: User not found.
+[2022-06-25 20:58:39] [YorkAARGH's skull INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2022-06-25 20:58:39] [YorkAARGH's skull INFO] Both skin and cape not found.
+[2022-06-25 20:58:39] [YorkAARGH's skull INFO] YorkAARGH's profile not found in load list.
+[2022-06-25 20:59:55] [XCompWiz's skull INFO] Loading XCompWiz's profile.
+[2022-06-25 20:59:55] [XCompWiz's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:59:55] [carnalizer's skull INFO] Loading carnalizer's profile.
+[2022-06-25 20:59:55] [XCompWiz's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:59:55] [carnalizer's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 20:59:55] [XCompWiz's skull INFO] Payload: ["XCompWiz"]
+[2022-06-25 20:59:55] [carnalizer's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 20:59:55] [carnalizer's skull INFO] Payload: ["carnalizer"]
+[2022-06-25 20:59:56] [carnalizer's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 63)
+[2022-06-25 20:59:56] [carnalizer's skull DEBUG] Content: [{"id":"f96f3d63fc7f46a7964386eb0b3d66cb","name":"carnalizer"}]
+[2022-06-25 20:59:56] [carnalizer's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/f96f3d63fc7f46a7964386eb0b3d66cb'.
+[2022-06-25 20:59:56] [XCompWiz's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 61)
+[2022-06-25 20:59:56] [XCompWiz's skull DEBUG] Content: [{"id":"b97e12cedbb14c0cafc8132b708a9b88","name":"XCompWiz"}]
+[2022-06-25 20:59:56] [XCompWiz's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/b97e12cedbb14c0cafc8132b708a9b88'.
+[2022-06-25 20:59:57] [XCompWiz's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 700)
+[2022-06-25 20:59:57] [XCompWiz's skull DEBUG] Saved to cache (Length: 700 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\520d437e4e7039c7b994b5a6b150aefb21baa81f' , Expire: 1656162088)
+[2022-06-25 20:59:57] [XCompWiz's skull DEBUG] Content: {
+  "id" : "b97e12cedbb14c0cafc8132b708a9b88",
+  "name" : "XCompWiz",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTk5NzkxMywKICAicHJvZmlsZUlkIiA6ICJiOTdlMTJjZWRiYjE0YzBjYWZjODEzMmI3MDhhOWI4OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJYQ29tcFdpeiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDk2ZTYzYTQ0Mjk3MDAzYTZiYzk3ZjYzNDJmN2Y0ZWFiMDdmMTUyOTI4NWIyZTI1ZDA1ZTI1YzgwZjU0ZDhlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMGNjMDg4NDA3MDA0NDczMjJkOTUzYTAyYjk2NWYxZDY1YTEzYTYwM2JmNjRiMTdjODAzYzIxNDQ2ZmUxNjM1IgogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-06-25 20:59:57] [XCompWiz's skull INFO] XCompWiz's profile loaded.
+[2022-06-25 20:59:57] [XCompWiz's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/2096e63a44297003a6bc97f6342f7f4eab07f1529285b2e25d05e25c80f54d8e , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1656162027)
+[2022-06-25 20:59:59] [carnalizer's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 702)
+[2022-06-25 20:59:59] [carnalizer's skull DEBUG] Saved to cache (Length: 702 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\c9d7c53311b73527c21fba924cb5bf8388c1b3cf' , Expire: 1656162093)
+[2022-06-25 20:59:59] [carnalizer's skull DEBUG] Content: {
+  "id" : "f96f3d63fc7f46a7964386eb0b3d66cb",
+  "name" : "carnalizer",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MTk5OTQ4MiwKICAicHJvZmlsZUlkIiA6ICJmOTZmM2Q2M2ZjN2Y0NmE3OTY0Mzg2ZWIwYjNkNjZjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjYXJuYWxpemVyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5Y2RiYTk3YjIwMGNlOGYwN2Q4NDU3NWZlZDBlMjcwYTU4M2VmMjliMDhlNDFhNmVmNWM0NWM2NmI0YzBiYTIiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3ODZmZTk5YmUzNzdkZmI2ODU4ODU5ZjkyNmM0ZGJjOTk1NzUxZTkxY2VlMzczNDY4YzVmYmY0ODY1ZTcxNTEiCiAgICB9CiAgfQp9"
+  } ]
+}
+[2022-06-25 20:59:59] [carnalizer's skull INFO] carnalizer's profile loaded.
+[2022-06-25 20:59:59] [carnalizer's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/d9cdba97b200ce8f07d84575fed0e270a583ef29b08e41a6ef5c45c66b4c0ba2 , Model: default , CapeUrl: http://textures.minecraft.net/texture/5786fe99be377dfb6858859f926c4dbc995751e91cee373468c5fbf4865e7151  , Expiry: 1656162029)
+[2022-06-25 21:01:45] [Pyro_0's skull INFO] Loading Pyro_0's profile.
+[2022-06-25 21:01:45] [Pyro_0's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:01:45] [Pyro_0's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:01:45] [Pyro_0's skull INFO] Payload: ["Pyro_0"]
+[2022-06-25 21:01:46] [Pyro_0's skull DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-06-25 21:01:46] [Pyro_0's skull DEBUG] Content: [{"id":"b5e04b88cc264d9f8d61fdb78f75df66","name":"Pyro_0"}]
+[2022-06-25 21:01:46] [Pyro_0's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/b5e04b88cc264d9f8d61fdb78f75df66'.
+[2022-06-25 21:01:47] [Pyro_0's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 766)
+[2022-06-25 21:01:47] [Pyro_0's skull DEBUG] Saved to cache (Length: 766 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\6f39220945301198f8081b2176e0be5e20a465d2' , Expire: 1656162200)
+[2022-06-25 21:01:47] [Pyro_0's skull DEBUG] Content: {
+  "id" : "b5e04b88cc264d9f8d61fdb78f75df66",
+  "name" : "Pyro_0",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MjEwNzc3OSwKICAicHJvZmlsZUlkIiA6ICJiNWUwNGI4OGNjMjY0ZDlmOGQ2MWZkYjc4Zjc1ZGY2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQeXJvXzAiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEyODQxMDJkMjZlNzY0OTllNjMxYmFmYTM2NmM1M2VmZTMwZGRlOWRjOTkzNmIzZDZjNTIxNTQ4N2Q3Mzg1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlOGQ5N2VjNzkxMDBlOTBhNzVkMzY5ZDFiM2JhODEyNzNjNGY4MmJjMWI3MzdlOTM0ZWVkNGE4NTRiZTFiNiIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 21:01:47] [Pyro_0's skull INFO] Pyro_0's profile loaded.
+[2022-06-25 21:01:47] [Pyro_0's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/aa284102d26e76499e631bafa366c53efe30dde9dc9936b3d6c5215487d7385 , Model: slim , CapeUrl: http://textures.minecraft.net/texture/a2e8d97ec79100e90a75d369d1b3ba81273c4f82bc1b737e934eed4a854be1b6  , Expiry: 1656162137)
+[2022-06-25 21:02:05] [MysteriousAges's skull INFO] Loading MysteriousAges's profile.
+[2022-06-25 21:02:05] [MysteriousAges's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:02:05] [MysteriousAges's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:02:05] [MysteriousAges's skull INFO] Payload: ["MysteriousAges"]
+[2022-06-25 21:02:06] [MysteriousAges's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 2)
+[2022-06-25 21:02:06] [MysteriousAges's skull DEBUG] Content: []
+[2022-06-25 21:02:06] [MysteriousAges's skull INFO] Profile not found.(MysteriousAges's profile not found.)
+[2022-06-25 21:02:06] [MysteriousAges's skull INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2022-06-25 21:02:06] [MysteriousAges's skull DEBUG] Try to request 'https://littlesk.in/csl/MysteriousAges.json'.
+[2022-06-25 21:02:07] [MysteriousAges's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2022-06-25 21:02:07] [MysteriousAges's skull DEBUG] Saved to cache (Length: 3 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\a6c90eea95add5abf2929770bc5a2a3faefc9bc3' , Expire: 1656162218)
+[2022-06-25 21:02:07] [MysteriousAges's skull DEBUG] Content: {}
+
+[2022-06-25 21:02:07] [MysteriousAges's skull INFO] Both skin and cape not found.
+[2022-06-25 21:02:07] [MysteriousAges's skull INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2022-06-25 21:02:07] [MysteriousAges's skull DEBUG] Try to request 'http://skin.prinzeugen.net/MysteriousAges.json'.
+[2022-06-25 21:02:07] [MysteriousAges's skull DEBUG] Failed to request (Response Code: 404)
+[2022-06-25 21:02:07] [MysteriousAges's skull INFO] Profile not found.
+[2022-06-25 21:02:07] [MysteriousAges's skull INFO] 4/6 Try to load profile from 'ElyBy'.
+[2022-06-25 21:02:07] [MysteriousAges's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/MysteriousAges'.
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Saved to cache (Length: 0 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\17a70555a2754df2553287176a43263532c30cc7' , Expire: 1656165728)
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Content: 
+[2022-06-25 21:02:08] [MysteriousAges's skull INFO] Profile not found.
+[2022-06-25 21:02:08] [MysteriousAges's skull INFO] 5/6 Try to load profile from 'SkinMe'.
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/MysteriousAges.json'.
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 37)
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\efab6ac333456e92fc4162a42f283b628608cba4' , Expire: 1656162219)
+[2022-06-25 21:02:08] [MysteriousAges's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-06-25 21:02:08] [MysteriousAges's skull INFO] Error 404: User not found.
+[2022-06-25 21:02:08] [MysteriousAges's skull INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2022-06-25 21:02:08] [MysteriousAges's skull INFO] Both skin and cape not found.
+[2022-06-25 21:02:08] [MysteriousAges's skull INFO] MysteriousAges's profile not found in load list.
+[2022-06-25 21:03:13] [AbrarSyed's skull INFO] Loading AbrarSyed's profile.
+[2022-06-25 21:03:13] [AbrarSyed's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:03:13] [AbrarSyed's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:03:13] [AbrarSyed's skull INFO] Payload: ["AbrarSyed"]
+[2022-06-25 21:03:14] [AbrarSyed's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 62)
+[2022-06-25 21:03:14] [AbrarSyed's skull DEBUG] Content: [{"id":"8e32d7a9c8124fa78daf465ff9ffa262","name":"AbrarSyed"}]
+[2022-06-25 21:03:14] [AbrarSyed's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/8e32d7a9c8124fa78daf465ff9ffa262'.
+[2022-06-25 21:03:14] [AbrarSyed's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 513)
+[2022-06-25 21:03:14] [AbrarSyed's skull DEBUG] Saved to cache (Length: 513 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\405db3d1ea987baa44f9ed4e1cb064b445409fc8' , Expire: 1656162287)
+[2022-06-25 21:03:14] [AbrarSyed's skull DEBUG] Content: {
+  "id" : "8e32d7a9c8124fa78daf465ff9ffa262",
+  "name" : "AbrarSyed",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MjE5NTAyMCwKICAicHJvZmlsZUlkIiA6ICI4ZTMyZDdhOWM4MTI0ZmE3OGRhZjQ2NWZmOWZmYTI2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBYnJhclN5ZWQiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI2MGY0NDZkOTdiMjE1MjA4ZDUyNWEwN2Y4MmRlZDRmNTc3M2U0ZjU2MWYyY2IxYmRlYzkxODlkMmFiOGMxYiIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 21:03:14] [AbrarSyed's skull INFO] AbrarSyed's profile loaded.
+[2022-06-25 21:03:14] [AbrarSyed's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b60f446d97b215208d525a07f82ded4f5773e4f561f2cb1bdec9189d2ab8c1b , Model: default , CapeUrl: null  , Expiry: 1656162224)
+[2022-06-25 21:03:35] [Soaryn's skull INFO] Loading Soaryn's profile.
+[2022-06-25 21:03:35] [Soaryn's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:03:35] [Soaryn's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:03:35] [Soaryn's skull INFO] Payload: ["Soaryn"]
+[2022-06-25 21:03:36] [Soaryn's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 59)
+[2022-06-25 21:03:36] [Soaryn's skull DEBUG] Content: [{"id":"4f3a8d1e33c144e7bce8e683027c7dac","name":"Soaryn"}]
+[2022-06-25 21:03:36] [Soaryn's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/4f3a8d1e33c144e7bce8e683027c7dac'.
+[2022-06-25 21:03:36] [Soaryn's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 506)
+[2022-06-25 21:03:36] [Soaryn's skull DEBUG] Saved to cache (Length: 506 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\b79efb31153c39830ac518c97caf4c4a108ec7f8' , Expire: 1656162310)
+[2022-06-25 21:03:36] [Soaryn's skull DEBUG] Content: {
+  "id" : "4f3a8d1e33c144e7bce8e683027c7dac",
+  "name" : "Soaryn",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MjIxNzIzMywKICAicHJvZmlsZUlkIiA6ICI0ZjNhOGQxZTMzYzE0NGU3YmNlOGU2ODMwMjdjN2RhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2FyeW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAwYzg3NTBmNThkMDQyMjEwNWRlNzgwODZjNWJhOTk5OWRmMzUyYWFlYTIzZmUwOTczNTBhMmU2ZWY2OGVlMyIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 21:03:36] [Soaryn's skull INFO] Soaryn's profile loaded.
+[2022-06-25 21:03:36] [Soaryn's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/f00c8750f58d0422105de78086c5ba9999df352aaea23fe097350a2e6ef68ee3 , Model: default , CapeUrl: null  , Expiry: 1656162246)
+[2022-06-25 21:03:45] [Notch's skull INFO] Loading Notch's profile.
+[2022-06-25 21:03:45] [Notch's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:03:45] [Notch's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:03:45] [Notch's skull INFO] Payload: ["Notch"]
+[2022-06-25 21:03:45] [Turkey2349's skull INFO] Loading Turkey2349's profile.
+[2022-06-25 21:03:45] [Turkey2349's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:03:45] [Turkey2349's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:03:45] [Turkey2349's skull INFO] Payload: ["Turkey2349"]
+[2022-06-25 21:03:45] [Tango's skull INFO] Loading Tango's profile.
+[2022-06-25 21:03:45] [Tango's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:03:45] [Tango's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:03:45] [Tango's skull INFO] Payload: ["Tango"]
+[2022-06-25 21:03:45] [Tango's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 58)
+[2022-06-25 21:03:45] [Tango's skull DEBUG] Content: [{"id":"62fec5a318964beb94e036e34898c787","name":"Tango"}]
+[2022-06-25 21:03:45] [Tango's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/62fec5a318964beb94e036e34898c787'.
+[2022-06-25 21:03:46] [Turkey2349's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 2)
+[2022-06-25 21:03:46] [Turkey2349's skull DEBUG] Content: []
+[2022-06-25 21:03:46] [Turkey2349's skull INFO] Profile not found.(Turkey2349's profile not found.)
+[2022-06-25 21:03:46] [Turkey2349's skull INFO] 2/6 Try to load profile from 'LittleSkin'.
+[2022-06-25 21:03:46] [Turkey2349's skull DEBUG] Try to request 'https://littlesk.in/csl/Turkey2349.json'.
+[2022-06-25 21:03:46] [Notch's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 58)
+[2022-06-25 21:03:46] [Notch's skull DEBUG] Content: [{"id":"069a79f444e94726a5befca90e38aaf5","name":"Notch"}]
+[2022-06-25 21:03:46] [Notch's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/069a79f444e94726a5befca90e38aaf5'.
+[2022-06-25 21:03:46] [Tango's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 505)
+[2022-06-25 21:03:46] [Tango's skull DEBUG] Saved to cache (Length: 505 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\ac55116a5149177f9e21fd76ac133bb69bbb05f1' , Expire: 1656162320)
+[2022-06-25 21:03:46] [Tango's skull DEBUG] Content: {
+  "id" : "62fec5a318964beb94e036e34898c787",
+  "name" : "Tango",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MjIyNjk1NiwKICAicHJvZmlsZUlkIiA6ICI2MmZlYzVhMzE4OTY0YmViOTRlMDM2ZTM0ODk4Yzc4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW5nbyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMjg4ODJlYjEwZGZkZDE5MWY0YjBmMGUxODQyYmM4M2RhMzJlM2EyNDhhNzc5ZjMwMGRjY2Y1NmM4NDVhZWNhIgogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-06-25 21:03:46] [Tango's skull INFO] Tango's profile loaded.
+[2022-06-25 21:03:46] [Tango's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/e28882eb10dfdd191f4b0f0e1842bc83da32e3a248a779f300dccf56c845aeca , Model: default , CapeUrl: null  , Expiry: 1656162256)
+[2022-06-25 21:03:46] [Notch's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 505)
+[2022-06-25 21:03:46] [Notch's skull DEBUG] Saved to cache (Length: 505 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\50281c1f554c43e05170ecbfb5b99ead2312f21d' , Expire: 1656162321)
+[2022-06-25 21:03:46] [Notch's skull DEBUG] Content: {
+  "id" : "069a79f444e94726a5befca90e38aaf5",
+  "name" : "Notch",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MjIyNzM1NiwKICAicHJvZmlsZUlkIiA6ICIwNjlhNzlmNDQ0ZTk0NzI2YTViZWZjYTkwZTM4YWFmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RjaCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTIwMDlhNDkyNWI1OGYwMmM3N2RhZGMzZWNlZjA3ZWE0Yzc0NzJmNjRlMGZkYzMyY2U1NTIyNDg5MzYyNjgwIgogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-06-25 21:03:46] [Notch's skull INFO] Notch's profile loaded.
+[2022-06-25 21:03:46] [Notch's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/292009a4925b58f02c77dadc3ecef07ea4c7472f64e0fdc32ce5522489362680 , Model: default , CapeUrl: null  , Expiry: 1656162256)
+[2022-06-25 21:03:47] [Turkey2349's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 3)
+[2022-06-25 21:03:47] [Turkey2349's skull DEBUG] Saved to cache (Length: 3 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\413690b5b741f6e4ff3710fadf5e1c54b70bfc5b' , Expire: 1656162317)
+[2022-06-25 21:03:47] [Turkey2349's skull DEBUG] Content: {}
+
+[2022-06-25 21:03:47] [Turkey2349's skull INFO] Both skin and cape not found.
+[2022-06-25 21:03:47] [Turkey2349's skull INFO] 3/6 Try to load profile from 'BlessingSkin'.
+[2022-06-25 21:03:47] [Turkey2349's skull DEBUG] Try to request 'http://skin.prinzeugen.net/Turkey2349.json'.
+[2022-06-25 21:03:47] [Turkey2349's skull DEBUG] Failed to request (Response Code: 404)
+[2022-06-25 21:03:47] [Turkey2349's skull INFO] Profile not found.
+[2022-06-25 21:03:47] [Turkey2349's skull INFO] 4/6 Try to load profile from 'ElyBy'.
+[2022-06-25 21:03:47] [Turkey2349's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/Turkey2349'.
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Successfully request (Response Code: 204 , Content Length: -1)
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Saved to cache (Length: 0 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\a9f655986f63a155ebd8da717c525a7f7cd9e4ed' , Expire: 1656165829)
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Content: 
+[2022-06-25 21:03:48] [Turkey2349's skull INFO] Profile not found.
+[2022-06-25 21:03:48] [Turkey2349's skull INFO] 5/6 Try to load profile from 'SkinMe'.
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/Turkey2349.json'.
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 37)
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\e67b0ebaa794c7e7c3b6d094239ae45163894e42' , Expire: 1656162318)
+[2022-06-25 21:03:48] [Turkey2349's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-06-25 21:03:48] [Turkey2349's skull INFO] Error 404: User not found.
+[2022-06-25 21:03:48] [Turkey2349's skull INFO] 6/6 Try to load profile from 'LocalSkin'.
+[2022-06-25 21:03:48] [Turkey2349's skull INFO] Both skin and cape not found.
+[2022-06-25 21:03:48] [Turkey2349's skull INFO] Turkey2349's profile not found in load list.
+[2022-06-25 21:04:11] [Quetzz's skull INFO] Loading Quetzz's profile.
+[2022-06-25 21:04:11] [Quetzz's skull INFO] 1/6 Try to load profile from 'Mojang'.
+[2022-06-25 21:04:11] [Quetzz's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-06-25 21:04:11] [Quetzz's skull INFO] Payload: ["Quetzz"]
+[2022-06-25 21:04:12] [Quetzz's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 59)
+[2022-06-25 21:04:12] [Quetzz's skull DEBUG] Content: [{"id":"473a57d9720549829dd1366cdbfa981f","name":"Quetzz"}]
+[2022-06-25 21:04:12] [Quetzz's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/473a57d9720549829dd1366cdbfa981f'.
+[2022-06-25 21:04:13] [Quetzz's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 506)
+[2022-06-25 21:04:13] [Quetzz's skull DEBUG] Saved to cache (Length: 506 , Path: 'D:\纪狗气死我辣\A.我的世界\服务器-VSACCR\.minecraft\versions\Virtual Survival - Climate Control Remastered 1.10.841 Transition 1\CustomSkinLoader\caches\b7c85310b28d96bcfa10235585c7547bc7a26441' , Expire: 1656162343)
+[2022-06-25 21:04:13] [Quetzz's skull DEBUG] Content: {
+  "id" : "473a57d9720549829dd1366cdbfa981f",
+  "name" : "Quetzz",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1NjE2MjI1NDA5MywKICAicHJvZmlsZUlkIiA6ICI0NzNhNTdkOTcyMDU0OTgyOWRkMTM2NmNkYmZhOTgxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJRdWV0enoiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFiOWI4ZWEwOTE4MzkxOGYzOTMzMzBkMTAxZjFhODJiMzdlNDUwNzQxNzEyYzllYmJkZTUxZGM4ZjRlMjc5MCIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-06-25 21:04:13] [Quetzz's skull INFO] Quetzz's profile loaded.
+[2022-06-25 21:04:13] [Quetzz's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/61b9b8ea09183918f393330d101f1a82b37e450741712c9ebbde51dc8f4e2790 , Model: default , CapeUrl: null  , Expiry: 1656162283)
