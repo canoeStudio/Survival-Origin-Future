@@ -1,0 +1,24 @@
+【晚荧】runaiovo 14:39:33
+魔力水晶碎片
+
+【晚荧】runaiovo 14:39:34
+<ebwizardry:crystal_shard>
+
+【晚荧】runaiovo 14:39:43
+魔力水晶
+
+【晚荧】runaiovo 14:39:44
+<ebwizardry:magic_crystal>
+
+【晚荧】runaiovo 14:39:55
+大型魔力水晶
+
+【晚荧】runaiovo 14:39:56
+<ebwizardry:grand_crystal>
+
+【晚荧】runaiovo 14:40:10
+水晶块
+
+【晚荧】runaiovo 14:40:11
+<ebwizardry:crystal_block>
+
