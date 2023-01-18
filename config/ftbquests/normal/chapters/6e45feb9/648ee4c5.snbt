@@ -1,0 +1,11 @@
+{
+	x: 0.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "0332e3dd",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/fluctus"
+		}]
+	}]
+}

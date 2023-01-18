@@ -1,0 +1,21 @@
+{
+	x: 105.0d,
+	y: 0.0d,
+	text: [
+		"再次回到&c巨魔洞穴&r，寻找由&c巨型黑曜石&r组成的巨大结构",
+		"",
+		"用&c巨人镐&r挖开，从箱子里获得&c余烬之灯&r"
+	],
+	dependencies: [
+		"811dbf19"
+	],
+	tasks: [{
+		uid: "12832470",
+		type: "observation",
+		title: "发现巨型黑曜石",
+		icon: "twilightforest:giant_obsidian",
+		match_type: "block_id",
+		match: "twilightforest:giant_obsidian",
+		timer: 0L
+	}]
+}

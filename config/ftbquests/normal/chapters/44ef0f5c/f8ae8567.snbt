@@ -1,0 +1,26 @@
+{
+	title: "击败暮色恶魂！",
+	icon: "twilightforest:trophy 1 3",
+	x: 70.0d,
+	y: 0.0d,
+	description: "获得成就：火之泪",
+	text: [
+		"击败恶魂"
+	],
+	dependencies: [
+		"b35da0af"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9bd91e86",
+		type: "advancement",
+		advancement: "twilightforest:progress_ur_ghast",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "26b816ee",
+		type: "xp",
+		auto: "enabled",
+		xp: 4000
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 6.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "c68ea66a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/fabrico"
+		}]
+	}]
+}

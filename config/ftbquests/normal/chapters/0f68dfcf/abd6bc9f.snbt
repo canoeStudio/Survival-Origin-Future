@@ -1,0 +1,14 @@
+{
+	x: 30.0d,
+	y: 0.0d,
+	dependencies: [
+		"f05e7a00"
+	],
+	tasks: [{
+		uid: "f0c496cf",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_destroyer"
+		}]
+	}]
+}

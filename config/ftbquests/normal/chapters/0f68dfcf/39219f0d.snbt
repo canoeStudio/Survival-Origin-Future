@@ -1,0 +1,24 @@
+{
+	title: "击败毁灭者",
+	x: 25.0d,
+	y: -5.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"f05e7a00"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f22c2a94",
+		type: "kill",
+		icon: "defiledlands:the_ravager",
+		entity: "defiledlands:the_destroyer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4042dfe0",
+		type: "xp",
+		auto: "enabled",
+		xp: 1500
+	}]
+}

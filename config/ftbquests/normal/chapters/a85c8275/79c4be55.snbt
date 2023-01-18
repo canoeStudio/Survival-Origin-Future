@@ -1,0 +1,25 @@
+{
+	title: "战利品",
+	x: 70.0d,
+	y: 0.0d,
+	dependencies: [
+		"20b369dc"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0eb744d3",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophyspider"
+		}]
+	},
+	{
+		uid: "46ad6193",
+		type: "item",
+		items: [{
+			item: "theaurorian:darkamulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

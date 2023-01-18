@@ -1,0 +1,7 @@
+{
+	title: "超多食物篇",
+	icon: "xlfoodmod:vanilla_flower",
+	always_invisible: false,
+	group: 1485714846,
+	default_quest_shape: ""
+}

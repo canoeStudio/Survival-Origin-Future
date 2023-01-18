@@ -5,8 +5,9 @@ allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
+radarHideInvisibleEntities:true
 #INGAME SETTINGS (DO NOT EDIT!)
-updateNotification:true
+updateNotification:false
 minimap:true
 caveMaps:2
 caveZoom:1
@@ -33,7 +34,7 @@ blockColours:0
 lighting:true
 dotsStyle:0
 dotNameScale:1.0
-compassOverWaypoints:false
+compassOverEverything:true
 showBiome:false
 showFlowers:true
 keepWaypointNames:true
@@ -56,12 +57,12 @@ openSlimeSettings:true
 alwaysShowDistance:false
 showLightLevel:0
 renderLayerIndex:1
-showTime:0
+showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
 centeredEnlarged:false
-zoomedOutEnlarged:false
+zoomOnEnlarged:0
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
@@ -72,7 +73,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
@@ -83,6 +84,7 @@ potionEffectPushBox:1
 minimapFrame:0
 minimapFrameColor:9
 compassColor:9
+northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:true
@@ -91,9 +93,22 @@ autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
 mainDotSize:2
 partialYTeleportation:true
+deleteReachedDeathpoints:true
+hideMinimapUnderScreen:true
+hideMinimapUnderF3:true
+manualCaveModeStartAuto:true
+manualCaveModeStart:-1
+chunkGridLineWidth:1
+temporaryWaypointsGlobal:true
+keepUnlockedWhenEnlarged:false
+enlargedMinimapAToggle:false
+displayStainedGlass:true
+waypointOnMapScale:0
+switchToAutoOnDeath:true
+displayWeatherInfo:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:89:-4:false:false:true:false
+interface:gui.xaero_minimap:73:64:false:false:true:true
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

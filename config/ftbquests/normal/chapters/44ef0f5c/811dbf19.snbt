@@ -1,0 +1,23 @@
+{
+	title: "云层之上",
+	icon: "twilightforest:giant_pickaxe",
+	x: 100.0d,
+	y: 0.0d,
+	description: "寻找余烬之灯的准备工作",
+	text: [
+		"击杀巨人获得&c巨人镐&r才可进行下一步"
+	],
+	dependencies: [
+		"c9e7fd44"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "578e26d3",
+		type: "item",
+		items: [{
+			item: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

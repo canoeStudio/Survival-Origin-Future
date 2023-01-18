@@ -1,0 +1,10 @@
+{
+	title: "等价交换装备篇",
+	icon: {
+		id: "projecte:item.pe_philosophers_stone",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 880697933,
+	default_quest_shape: ""
+}

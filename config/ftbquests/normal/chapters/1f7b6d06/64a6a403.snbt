@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "55bca4ec",
+		type: "emc",
+		value: 10000L
+	}],
+	rewards: [{
+		uid: "7c749c31",
+		type: "xp",
+		xp: 1000
+	}]
+}

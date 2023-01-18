@@ -1,0 +1,7 @@
+{
+	title: "披萨工艺篇",
+	icon: "pizzacraft:pizza_4",
+	always_invisible: false,
+	group: 1485714846,
+	default_quest_shape: ""
+}

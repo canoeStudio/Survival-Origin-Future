@@ -1,0 +1,18 @@
+{
+	x: 60.0d,
+	y: 0.0d,
+	description: "获得成就：号令砷铅铁机关",
+	text: [
+		"击败幻影骑士"
+	],
+	dependencies: [
+		"bf456125"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f7d445c7",
+		type: "advancement",
+		advancement: "twilightforest:progress_knights",
+		criterion: ""
+	}]
+}

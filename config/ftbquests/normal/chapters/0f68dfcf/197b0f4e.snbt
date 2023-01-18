@@ -1,0 +1,15 @@
+{
+	title: "获得毁灭锭",
+	x: 35.0d,
+	y: 0.0d,
+	dependencies: [
+		"abd6bc9f"
+	],
+	tasks: [{
+		uid: "075c3782",
+		type: "item",
+		items: [{
+			item: "defiledlands:ravaging_ingot"
+		}]
+	}]
+}

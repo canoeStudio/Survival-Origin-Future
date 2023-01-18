@@ -1,0 +1,17 @@
+{
+	title: "定位符石地牢",
+	icon: "theaurorian:runestonegate",
+	x: 25.0d,
+	y: 0.0d,
+	text: [
+		"符石地牢是由&c符石&r组成的高6层的&c高塔建筑&r，高度很高，整体为灰色"
+	],
+	dependencies: [
+		"3495ae13"
+	],
+	tasks: [{
+		uid: "e5e07258",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

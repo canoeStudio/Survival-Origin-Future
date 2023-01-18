@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "bd166b41",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,330 @@
+{
+	"images": {
+		"title": {
+			"image": "vsaccr:mainmenu/banner.png",
+			"posX": -125,
+			"posY": 15,
+			"width": 252,
+			"height": 86,
+			"alignment": "top_center"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"posX": -100,
+			"posY": 58,
+			"width": 200,
+			"height": 20,
+			"imageWidth": 1198,
+			"imageHeight": 124,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"texture": "vsaccr:mainmenu/longbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": -100,
+			"posY": 82,
+			"width": 200,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 1198,
+			"imageHeight": 124,
+			"texture": "vsaccr:mainmenu/longbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "vsaccr.menu.modlist",
+			"posX": -100,
+			"posY": 118,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "vsaccr:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"official_site": {
+			"text": "vsaccr.menu.official_site",
+			"posX": 2,
+			"posY": 118,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "vsaccr:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/canoeStudio/official-website-in-different-languages"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"posX": -100,
+			"posY": 142,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "vsaccr:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"posX": 2,
+			"posY": 142,
+			"width": 98,
+			"height": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"imageWidth": 607,
+			"imageHeight": 124,
+			"texture": "vsaccr:mainmenu/shortbuttonhd.png",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"refresh": {
+			"text": " ",
+			"posX": -25,
+			"posY": 5,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 498,
+			"imageHeight": 498,
+			"texture": "vsaccr:mainmenu/refreshdouble.png",
+			"tooltip": "vsaccr.menu.refresh",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"accounts": {
+			"text": " ",
+			"posX": -25,
+			"posY": 55,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"wrappedButton": 17325,
+			"texture": "vsaccr:mainmenu/account.png",
+			"tooltip": "vsaccr.menu.accounts"
+		},
+		"sponsor": {
+			"text": " ",
+			"posX": -25,
+			"posY": 30,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "vsaccr:mainmenu/patreon.png",
+			"tooltip": "vsaccr.menu.sponsor",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/canoeStudio/Sponsor-Address"
+			}
+		},
+        "discord": {
+            "text": " ",
+            "posX": -25,
+            "posY": 80,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "vsaccr:mainmenu/discord.png",
+            "tooltip": "vsaccr.menu.discord",
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/AvCm25kXNr"
+            }
+        },
+		"github": {
+			"text": " ",
+			"posX": -25,
+			"posY": 105,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "vsaccr:mainmenu/github.png",
+			"tooltip": "vsaccr.menu.github",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/canoeStudio/Virtual-Survival---Climate-Control-Remastered"
+			}
+		},
+		"open_folder": {
+			"text": " ",
+			"posX": -25,
+			"posY": 130,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "vsaccr:mainmenu/folder.png",
+			"tooltip": "vsaccr.menu.folder",
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
+		},
+		"bisect": {
+			"text": " ",
+			"posX": -25,
+			"posY": 155,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "vsaccr:mainmenu/bisect.png",
+			"tooltip": "vsaccr.menu.bisect",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/canoeStudio/Introduction-to-Server-Hosting"
+			}
+		}
+	},
+	"labels": {
+		"mojang": {
+			"text": "Copyright Mojang AB. Do not distribute!",
+			"hoverText": "¡ì7¡ìnMinecraft Credits",
+			"color": -1,
+			"alignment": "bottom_right",
+			"posX": -2,
+			"posY": -12,
+			"anchor": "end",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		},
+		"minecraft_version": {
+			"text": "¡ìaMinecraft ¡ì2#mcversion#",
+			"hoverText": "¡ìaMinecraft Coder Pack ¡ì2#mcpversion#",
+			"color": -1,
+			"posX": 2,
+			"posY": -52,
+			"alignment": "bottom_left"
+		},
+		"modinfo": {
+			"alignment": "bottom_left",
+			"text": "¡ì9Forge Version: ¡ìb#forgeversion# ¡ì7| ¡ìe¡ì6#modsloaded#¡ìe mods loaded",
+			"hoverText": "¡ìaFML Version: ¡ì2#fmlversion# ¡ì7| ¡ìd¡ì5#modsactive#¡ìd mods active",
+			"color": -1,
+			"posX": 2,
+			"posY": -32
+		},
+		"packinfo": {
+			"alignment": "bottom_left",
+			"text": "¡ìe¡ï ¡ìb¡ìlvsaccr curseforge ¡ìe¡ï ¡ìr¡ìdby CanoeStudio",
+			"hoverText": "¡ì5¡ï ¡ìc¡ìlvsaccr curseforge ¡ì5¡ï ¡ìr¡ìaby CanoeStudio",
+			"action": {
+				"type": "openLink",
+				"link": "https://www.curseforge.com/minecraft/modpacks/virtual-survival-and-climate-control"
+			},
+			"color": -1,
+			"posX": 2,
+			"posY": -42
+		},
+		"time": {
+			"text": "¡ì9Howdy, ¡ìe#username#¡ì9! ¡ì6Current Time: ¡ìb#time#",
+			"hoverText": "¡ì9Howdy, ¡ìe#username#¡ì9! ¡ì6Current Time: ¡ìd#date# ¡ìb#time#",
+			"posX": 2,
+			"posY": 12,
+			"color": -1,
+			"alignment": "top_left"
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 105,
+			"posY": 105,
+			"color": -256,
+			"alignment": "top_center",
+			"texts": "file:vsaccr:mainmenu/splashes.txt"
+		},
+		"background": {
+			"image": "",
+			"mode": "fill",
+			"slideshow": {
+				"images": [
+                    "vsaccr:backgrounds/1.png",
+                    "vsaccr:backgrounds/2.png",
+                    "vsaccr:backgrounds/3.png",
+                    "vsaccr:backgrounds/4.png",
+                    "vsaccr:backgrounds/5.png",
+                    "vsaccr:backgrounds/6.png",
+                    "vsaccr:backgrounds/7.png",
+                    "vsaccr:backgrounds/8.png",
+                    "vsaccr:backgrounds/9.png",
+                    "vsaccr:backgrounds/10.png",
+                    "vsaccr:backgrounds/11.png",
+                    "vsaccr:backgrounds/12.png",
+                    "vsaccr:backgrounds/13.png",
+                    "vsaccr:backgrounds/14.png",
+                    "vsaccr:backgrounds/15.png",
+                    "vsaccr:backgrounds/16.png",
+                    "vsaccr:backgrounds/17.png",
+                    "vsaccr:backgrounds/18.png",
+                    "vsaccr:backgrounds/19.png",
+                    "vsaccr:backgrounds/20.png",
+                    "vsaccr:backgrounds/21.png",
+                    "vsaccr:backgrounds/22.png",
+                    "vsaccr:backgrounds/23.png",
+                    "vsaccr:backgrounds/24.png",
+                    "vsaccr:backgrounds/25.png",
+                    "vsaccr:backgrounds/26.png",
+                    "vsaccr:backgrounds/27.png",
+                    "vsaccr:backgrounds/28.png",
+                    "vsaccr:backgrounds/29.png",
+                    "vsaccr:backgrounds/30.png",
+                    "vsaccr:backgrounds/31.png",
+                    "vsaccr:backgrounds/32.png",
+                    "vsaccr:backgrounds/33.png",
+                    "vsaccr:backgrounds/34.png"
+					],
+				"shuffle": true,
+				"displayDuration": 90,
+				"fadeDuration": 40,
+				"sync": true
+			}
+		}
+	}
+}

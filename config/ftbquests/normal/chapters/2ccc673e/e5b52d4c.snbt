@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "b0e6537a",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_shovel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

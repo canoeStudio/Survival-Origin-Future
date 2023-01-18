@@ -1,0 +1,11 @@
+{
+	x: 12.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "ab880cf5",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/victus"
+		}]
+	}]
+}

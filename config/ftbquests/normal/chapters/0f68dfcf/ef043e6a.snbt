@@ -1,0 +1,34 @@
+{
+	title: "毁灭工具",
+	x: 35.0d,
+	y: -5.0d,
+	text: [
+		"特殊工具，其特点是&c挖掘速度极快&r，但&c不会掉落&r物品"
+	],
+	dependencies: [
+		"197b0f4e"
+	],
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "ffe9c80a",
+		type: "item",
+		title: "毁灭工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Huimietool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Huimietool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

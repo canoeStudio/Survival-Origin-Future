@@ -1,0 +1,28 @@
+{
+	title: "击杀巫妖王",
+	icon: "twilightforest:trophy 1 1",
+	x: 40.0d,
+	y: 0.0d,
+	description: "获得成就：巫妖猎人",
+	text: [
+		"巫妖王的城堡在魔法地图上为一个戴着王冠的国王头像印记",
+		"",
+		"需要走机制，其真身的无敌护盾需要用近战武器&c反弹&r它发射的&c子弹&r，击中真身可消除&c一层护盾&r"
+	],
+	dependencies: [
+		"abb5776a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "22dd29a1",
+		type: "advancement",
+		advancement: "twilightforest:progress_lich",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "182ff62d",
+		type: "xp",
+		auto: "enabled",
+		xp: 3500
+	}]
+}

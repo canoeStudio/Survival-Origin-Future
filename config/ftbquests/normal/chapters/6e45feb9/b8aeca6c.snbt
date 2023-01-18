@@ -1,0 +1,11 @@
+{
+	x: 10.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "6458a91c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/gelum"
+		}]
+	}]
+}

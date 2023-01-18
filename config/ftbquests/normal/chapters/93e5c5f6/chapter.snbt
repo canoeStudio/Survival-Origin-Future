@@ -1,0 +1,7 @@
+{
+	title: "种子篇",
+	icon: "rustic:chili_pepper_seeds",
+	always_invisible: false,
+	group: 894810619,
+	default_quest_shape: ""
+}

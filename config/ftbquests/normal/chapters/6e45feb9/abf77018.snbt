@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "817433c7",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/vacuos"
+		}]
+	}]
+}

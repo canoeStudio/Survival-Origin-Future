@@ -1,0 +1,22 @@
+{
+	title: "搭建传送门",
+	icon: "contenttweaker:twilight_gem",
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"在草地上挖掘一个1格高的2X2的坑，在坑周围插满花朵并在坑内放满水，即可完成搭建",
+		"",
+		"丢入&c暮光水晶&r激活传送门"
+	],
+	dependencies: [
+		"3cfbd619"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae803e8f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:twilight_gem"
+		}]
+	}]
+}

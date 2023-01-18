@@ -1,0 +1,13 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "17dd77ca",
+		type: "item",
+		items: [{
+			item: "adpother:iron_respirator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

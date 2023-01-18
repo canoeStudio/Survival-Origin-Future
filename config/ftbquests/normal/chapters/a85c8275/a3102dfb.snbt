@@ -1,0 +1,17 @@
+{
+	x: 70.0d,
+	y: 10.0d,
+	text: [
+		"可在JEI中查看&c本影碎片&r的合成方法"
+	],
+	dependencies: [
+		"bd492654"
+	],
+	tasks: [{
+		uid: "47e53050",
+		type: "item",
+		items: [{
+			item: "theaurorian:umbraingot"
+		}]
+	}]
+}

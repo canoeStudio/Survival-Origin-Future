@@ -1,0 +1,25 @@
+{
+	title: "击败悼亡者",
+	x: 45.0d,
+	y: 0.0d,
+	text: [
+		"悼亡者必定掉落2个&c潜影壳&r"
+	],
+	dependencies: [
+		"a1a4453e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "531f7076",
+		type: "kill",
+		icon: "defiledlands:pellet_ravaging",
+		entity: "defiledlands:the_mourner",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4f14d7ca",
+		type: "xp",
+		auto: "enabled",
+		xp: 1700
+	}]
+}

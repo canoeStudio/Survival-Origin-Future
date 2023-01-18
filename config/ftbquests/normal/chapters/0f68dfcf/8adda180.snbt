@@ -1,0 +1,15 @@
+{
+	title: "造访污秽之地",
+	icon: "defiledlands:dirt_defiled",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"生成在&c主世界&r的群系&cDefiledLands&r，整体风格为暗紫色"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "53e997eb",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

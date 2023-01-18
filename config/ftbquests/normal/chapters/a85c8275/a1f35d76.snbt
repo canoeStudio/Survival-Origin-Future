@@ -1,0 +1,20 @@
+{
+	title: "前往极光幽静的准备工作",
+	x: 0.0d,
+	y: 0.0d,
+	description: "完成暮色森林&c终局成就&r以前往极光幽境",
+	text: [
+		"使用传送门框架搭建4X5的垂直结构即可",
+		"",
+		"使用&c打火石&r激活"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "8cbd5788",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianportalframebricks"
+		}]
+	}]
+}

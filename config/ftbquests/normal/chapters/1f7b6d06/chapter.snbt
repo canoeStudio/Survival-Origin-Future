@@ -1,0 +1,7 @@
+{
+	title: "EMC收集篇",
+	icon: "projecte:alchemical_chest",
+	always_invisible: false,
+	group: 880697933,
+	default_quest_shape: ""
+}

@@ -1,0 +1,18 @@
+{
+	title: "击杀污秽史莱姆",
+	x: -15.0d,
+	y: -5.0d,
+	text: [
+		"污秽之地史莱姆通常生成在污秽之地的地下"
+	],
+	dependencies: [
+		"099850c9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1cac4e5d",
+		type: "kill",
+		entity: "defiledlands:slime_defiled",
+		value: 1L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 80.0d,
+	y: 0.0d,
+	text: [
+		"进入月宫之前必须&c先&r收集皎月宝石",
+		"",
+		"在月宫周围的空岛上可找到皎月宝石"
+	],
+	dependencies: [
+		"2f0b79f9"
+	],
+	tasks: [{
+		uid: "7dccb993",
+		type: "item",
+		items: [{
+			item: "theaurorian:moongem"
+		}]
+	}]
+}

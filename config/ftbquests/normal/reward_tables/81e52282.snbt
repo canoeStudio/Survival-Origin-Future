@@ -1,0 +1,12 @@
+{
+	title: "随机内衬一个",
+	icon: "armorunder:flipflop_liner_material",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "armorunder:auto_chestplate_liner"
+	},
+	{
+		item: "armorunder:auto_leggings_liner"
+	}]
+}

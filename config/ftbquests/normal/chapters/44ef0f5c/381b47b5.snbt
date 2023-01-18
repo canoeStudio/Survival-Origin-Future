@@ -1,0 +1,25 @@
+{
+	x: 110.0d,
+	y: 0.0d,
+	description: "&e完成此进度以前往极光幽境",
+	text: [
+		"余烬之灯可蓄力之后烧毁&c荆棘&r，打开前往最终王城的路"
+	],
+	dependencies: [
+		"be58ee0c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2ffdfb7b",
+		type: "advancement",
+		advancement: "twilightforest:progress_troll",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "9880dd38",
+		type: "gamestage",
+		title: "现在你可以前往极光幽境了！",
+		auto: "no_toast",
+		stage: "极光幽境"
+	}]
+}

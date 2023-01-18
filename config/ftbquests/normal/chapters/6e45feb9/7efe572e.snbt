@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "305edc0c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/alkimia"
+		}]
+	}]
+}

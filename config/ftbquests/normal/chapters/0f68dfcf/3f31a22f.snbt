@@ -1,0 +1,21 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"召唤&c毁灭者&r的物品",
+		"",
+		"对祭坛&c直接右键&r使用"
+	],
+	dependencies: [
+		"a100f771"
+	],
+	tasks: [{
+		uid: "aec9e91c",
+		type: "item",
+		items: [{
+			item: "defiledlands:calling_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

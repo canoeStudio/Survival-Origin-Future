@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "8a4e0a7a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/alienis"
+		}]
+	}]
+}

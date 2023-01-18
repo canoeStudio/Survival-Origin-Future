@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "1fcc94d7",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_katar",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

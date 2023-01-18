@@ -1,0 +1,24 @@
+{
+	title: "击杀巫妖",
+	x: 45.0d,
+	y: 0.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"df90b3e1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a82d5f4d",
+		type: "kill",
+		icon: "twilightforest:zombie_scepter",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ffdae926",
+		type: "xp",
+		auto: "enabled",
+		xp: 3500
+	}]
+}

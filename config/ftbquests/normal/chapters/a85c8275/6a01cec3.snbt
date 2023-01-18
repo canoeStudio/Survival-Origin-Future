@@ -1,0 +1,24 @@
+{
+	title: "击败蛛母",
+	x: 65.0d,
+	y: 5.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"20b369dc"
+	],
+	optional: true,
+	tasks: [{
+		uid: "669780e7",
+		type: "kill",
+		icon: "theaurorian:aurorianstonesword",
+		entity: "theaurorian:spider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c3d75550",
+		type: "xp",
+		auto: "enabled",
+		xp: 4500
+	}]
+}

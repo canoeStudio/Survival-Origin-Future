@@ -1,0 +1,15 @@
+{
+	title: "战利品",
+	x: 50.0d,
+	y: 0.0d,
+	dependencies: [
+		"799e4368"
+	],
+	tasks: [{
+		uid: "3748813d",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_mourner"
+		}]
+	}]
+}

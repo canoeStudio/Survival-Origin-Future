@@ -1,0 +1,39 @@
+{
+  "guiScale": 0,
+  "hudScale": 0,
+  "tooltipScale": 0,
+  "customIndividualGuiScales": {},
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "net.minecraft.client.gui.GuiScreenResourcePacks",
+    "net.optifine.shaders.gui.GuiShaders",
+    "net.minecraft.client.gui.GuiScreenWorking",
+    "net.minecraft.client.gui.GuiWorldSelection",
+    "com.bloodnbonesgaming.loadingscreens.client.gui.override.GuiWorkingOverride",
+    "dmillerw.menu.gui.GuiRadialMenu",
+    "net.minecraft.client.gui.GuiChat",
+    "net.optifine.gui.GuiChatOF",
+    "com.feed_the_beast.ftblib.lib.gui.GuiWrapper",
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "net.silentchaos512.scalinghealth.gui.GuiConfigScalingHealth",
+    "net.minecraftforge.fml.client.GuiModList",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraftforge.fml.client.config.GuiEditArray",
+    "net.minecraftforge.fml.client.config.GuiConfig",
+    "lumien.custommainmenu.gui.GuiCustom",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [
+    "slimeknights.tconstruct.smeltery.client.module.GuiSearedFurnaceSideInventory",
+    "slimeknights.tconstruct.smeltery.client.module.GuiSmelterySideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsStencilTable",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsToolStation",
+    "slimeknights.tconstruct.tools.common.client.module.GuiInfoPanel",
+    "slimeknights.tconstruct.tools.common.client.module.GuiSideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiTinkerTabs"
+  ],
+  "dynamicGuiScales": []
+}

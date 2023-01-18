@@ -1,0 +1,24 @@
+{
+	title: "击杀暮色恶魂",
+	x: 70.0d,
+	y: 5.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"f8ae8567"
+	],
+	optional: true,
+	tasks: [{
+		uid: "05f84453",
+		type: "kill",
+		icon: "twilightforest:fiery_tears",
+		entity: "twilightforest:ur_ghast",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6842bea5",
+		type: "xp",
+		auto: "enabled",
+		xp: 4000
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "找到幻影骑士迷宫",
+	x: 50.0d,
+	y: 0.0d,
+	description: "获得成就：受奖冠军",
+	text: [
+		"幻影骑士迷宫在魔法地图上为一个&c头盔&r的印记",
+		"",
+		"进入幻影骑士迷宫时，需要一个&c任意战利品&r才能开启迷宫的大门"
+	],
+	dependencies: [
+		"0b8cba4f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2c4ff15e",
+		type: "advancement",
+		advancement: "twilightforest:progress_trophy_pedestal",
+		criterion: ""
+	}]
+}

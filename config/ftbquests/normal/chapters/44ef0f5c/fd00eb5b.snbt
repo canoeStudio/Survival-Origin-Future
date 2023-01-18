@@ -1,0 +1,28 @@
+{
+	title: "击败冰雪女王",
+	icon: "twilightforest:trophy 1 5",
+	x: 70.0d,
+	y: 10.0d,
+	description: "获得成就：澄澈之空",
+	text: [
+		"冰雪女王的城堡在魔法地图上为女王头像的标记",
+		"",
+		"需要走机制，有护盾的地方是无敌的，免疫任何攻击；没有护盾的地方可造成正常伤害"
+	],
+	dependencies: [
+		"8b95525b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cbe699bb",
+		type: "advancement",
+		advancement: "twilightforest:progress_glacier",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "19614634",
+		type: "xp",
+		auto: "enabled",
+		xp: 3500
+	}]
+}

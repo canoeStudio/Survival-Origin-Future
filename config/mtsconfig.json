@@ -1,0 +1,1118 @@
+{
+  "general": {
+    "dumpCraftingConfig": {
+      "value": false,
+      "comment": "If true, then all recipes for all items in packs will be dumped into the config file at boot.  WARNING: this will overwrite your existing crafting overrides file!"
+    },
+    "opSignEditingOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to edit signs on servers.  Does not affect client worlds."
+    },
+    "opPickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to pick up vehicles with wrenches.  Does not affect client worlds."
+    },
+    "creativePickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, vehicles can only be picked up in creative mode."
+    },
+    "keyRequiredToStartVehicles": {
+      "value": false,
+      "comment": "If true, vehicles can only be started if the player has the key in their hand."
+    },
+    "blockBreakage": {
+      "value": true,
+      "comment": "Whether or not vehicles and guns can break blocks when they hit them.  If false, vehicles will simply stop when they hit blocks, and guns won't break blocks when they hit them.  This will also disable explosive block breakage, though not explosions themselves."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
+    },
+    "creativeDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players."
+    },
+    "chunkloadVehicles": {
+      "value": true,
+      "comment": "If true, vehicles will be chunkloaded when on roads/tracks.  This allows them to travel into unloaded chunks."
+    },
+    "doLegacyLightCompats": {
+      "value": true,
+      "comment": "If true, legacy compatibility code will be performed on all models to make their lights work with newer versions.  This code will significantly slow down boot times due to needing to parse all models on boot, however, packs may not have functional lights without it.  Choose wisely if you want speed or features."
+    },
+    "useHSV": {
+      "value": false,
+      "comment": "If enabled, the MTS dev mode will export color values as HSV instead of hex."
+    },
+    "allPlanesWithNav": {
+      "value": false,
+      "comment": "If true, all planes will have the ability to use beacons for navigation.  This is false to allow pack authors to define new/old planes that have this capability, but can be turned on if you don't care about realism."
+    },
+    "speedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to vehicle movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "fuelUsageFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines use fuel.  Change this if you think engines use fuel too fast or slow."
+    },
+    "engineHoursFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines hours accumulate.  Change this if you want to adjust how fast engines wear out."
+    },
+    "climbSpeed": {
+      "value": 0.125,
+      "comment": "How far a vehicle will 'climb' blocks every tick when the wheels go into the ground.  Higher values make vehicles climb blocks quicker at the cost of smooth movement."
+    },
+    "gravityFactor": {
+      "value": 1.0,
+      "comment": "Factor for gravitational forces applied to vehicles.  Can be adjusted if you think cars are too 'floaty'.  Does not affect aircraft."
+    },
+    "engineSpeedTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how RPM affects engine temp.  Higher values will make engines heat up quicker at higher RPMs."
+    },
+    "engineBiomeTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how biome temp affects engine temp.  Higher values will make engines heat up quicker in hotter biomes."
+    },
+    "joinedPlayers": {
+      "value": [
+        "32ac8617-87ff-4ae0-8e79-6879d6979fc7"
+      ],
+      "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
+    },
+    "itemWeights": {
+      "comment1": "The following section is used for calculating item weights.  Any item that contains the text bits will have its weight multiplied by the following factor.",
+      "comment2": "This mass factors into vehicle performance, with particular emphasis on vehicle payloads.  Some defaults are presented here, but you can add/remove to your liking.",
+      "comment3": "Note that the part of the name searched is the item's registry name, NOT the in-game display name.  This is similar to what is in the /give command.",
+      "weights": {
+        "gold": 4.0,
+        "diamond": 4.0,
+        "ore": 2.5,
+        "iron": 4.0,
+        "coal": 2.0,
+        "stone": 1.5
+      }
+    }
+  },
+  "damage": {
+    "explosions": {
+      "value": true,
+      "comment": "Whether or not vehicles explode when crashed or shot down."
+    },
+    "wheelBreakage": {
+      "value": true,
+      "comment": "Whether or not wheels can be broken (go flat)."
+    },
+    "wheelDamageIgnoreVelocity": {
+      "value": false,
+      "comment": "Whether or not velocity is ignored when calculating wheel damage."
+    },
+    "propellerDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a propeller."
+    },
+    "jetDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a jet engine."
+    },
+    "wheelDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by wheels on vehicles."
+    },
+    "crashDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by crashes."
+    },
+    "bulletDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by bullets on vehicles."
+    },
+    "engineLeakProbability": {
+      "value": 0.01,
+      "comment": "Chance an engine will spring a leak if hit.  Explosions cause 10x this chance."
+    },
+    "crashItemDropPercentage": {
+      "value": 0.75,
+      "comment": "Percent that a crafting ingredient will be dropped when a vehicle is crashed.  Note that fire/explosions may destroy these items if enabled, so just because they drop does not mean you will get all of them."
+    },
+    "wheelDamageMinimumVelocity": {
+      "value": 0.2,
+      "comment": "Minimum velocity (blocks/second) which vehicles must be going to damage entities with their wheels."
+    }
+  },
+  "fuel": {
+    "comment1": "The following section is used for fuel configs for engines.  Each entry here is a single fuel type for engines.",
+    "comment2": "Inside each entry exist values for the potency of the fluids that can be considered to be that fuel type.",
+    "comment3": "You can make engines take different types of fluids for their fuels by editing these values.  See the in-game handbook for more information.",
+    "comment4": "If you are having troubles getting the name for a particular fluid, run the game with the mods you want and check the 'lastLoadedFluids' list.  This contains all the fluids that were present during the last run of the game.",
+    "fuels": {
+      "diesel": {
+        "creosote": 0.7,
+        "diesel": 1.0,
+        "lava": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "furnace": {
+        "lava": 1.0
+      },
+      "avgas": {
+        "lava": 1.0,
+        "gasoline": 1.0
+      },
+      "gasoline": {
+        "lava": 1.0,
+        "gasoline": 1.0,
+        "ethanol": 0.85
+      },
+      "electric": {
+        "lava": 1.0
+      },
+      "water": {
+        "lava": 1.0
+      },
+      "biodiesel": {
+        "lava": 1.0
+      }
+    },
+    "lastLoadedFluids": {
+      "seed_oil": "ÖÖ×ÓÓÍ",
+      "oil_residue": "²ĞÔü (¡ìbÀä¡ìr)",
+      "ignitz_fluid": "ÈÛÈÚÑæ¾§",
+      "binnie.brandy.elderberry": "½Ó¹ÇÄ¾¹û°×À¼µØ",
+      "binnie.juice.plum": "Àî×ÓÖ­",
+      "primal_metal": "ÈÛÈÚÔª½ğ",
+      "manyullyn": "ÈÛÈÚÂêÓñÁé",
+      "binnie.cider.apple": "Æ»¹û¾Æ",
+      "mirion": "ÈÛÈÚÔÌÄ§½á¾§",
+      "elementium": "ÈÛÈÚÔ´ÖÊ¸Ö",
+      "purpleslime": "ÒºÌ¬×ÏÉ«Ê·À³Ä·",
+      "dark_matter": "°µÁ÷ÖÊ",
+      "fuel_dense": "Å¨È¼ÁÏ (¡ìbÀä¡ìr)",
+      "binnie.juice.olive": "éÏé­ÓÍ",
+      "supremium": "ÈÛÈÚÖÕ¼«¾«»ª",
+      "invar": "ÈÛÈÚÒó¸Ö",
+      "binnie.juice.carrot": "ºúÂÜ²·Ö­",
+      "sakura.doburoku": "×Ç¾Æ",
+      "draconic_metal": "ÉñÁú¾ÛºÏÎï",
+      "oil_heavy_heat_1": "ÖØÓÍ (¡ì6ÈÈ¡ìr)",
+      "fiery_essence": "³ãÑª¾«»ª",
+      "binnie.juice.apricot": "ĞÓÖ­",
+      "sakura.red_wine": "ºìÆÏÌÑ¾Æ",
+      "binnie.juice.red.grape": "ºìÆÏÌÑÖ­",
+      "milk": "Å£ÄÌ",
+      "binnie.bacteria.vector": "Ï¸¾úÖÊÁ£",
+      "astrium_fluid": "ÈÛÈÚ°¢Ë¹ÌØÀïÄ·",
+      "crude_oil": "Ê¯ÓÍ",
+      "oil_distilled": "ÕôÁóÓÍ (¡ìbÀä¡ìr)",
+      "oil_heavy_heat_2": "ÖØÓÍ (¡ìc×ÆÈÈ¡ìr)",
+      "binnie.juice.cherry": "Ó£ÌÒÖ­",
+      "binnie.liqueur.raspberry": "Ê÷İ®Àû¿Ú¾Æ",
+      "chocolate_liquor": "Chocolate Liquor",
+      "bronze": "ÈÛÈÚÇàÍ­",
+      "binnie.juice.grapefruit": "Î÷èÖÖ­",
+      "draconium": "ÈÛÈÚÁúËØ",
+      "binnie.tequila": "ÁúÉàÀ¼¾Æ",
+      "sakura.food_oil": "Ê³ÓÃÓÍ",
+      "tamoltenauroriansteel": "ÈÛÈÚ¼«¹â¸Ö",
+      "binnie.liquor.apple": "Æ»¹ûÁÒ¾Æ",
+      "binnie.whiskey": "ÍşÊ¿¼É",
+      "oil_heavy": "ÖØÓÍ (¡ìbÀä¡ìr)",
+      "binnie.wine.red": "ºì¾Æ",
+      "ovium_fluid": "ÈÛÈÚÅ·Î¬Ä·",
+      "seed.oil": "ÖÖ×ÓÓÍ",
+      "liquid_death": "ËÀÍöÖ®Ë®",
+      "refined_obsidian": "ÈÛÈÚÇ¿»¯ºÚê×Ê¯",
+      "wine": "ÆÏÌÑ¾Æ",
+      "redstone": "²»ÎÈÈÛÈÚºìÊ¯",
+      "liquid_chocolate": "ÒºÌ¬ÇÉ¿ËÁ¦",
+      "obsidiorite_fluid": "ÈÛÈÚºÚÔÉÌú",
+      "binnie.brandy.plum": "Àî×Ó°×À¼µØ",
+      "aerotheum": "·ÉÑïÖ®Çå·ç",
+      "binnie.liqueur.peach": "ÌÒÀû¿Ú¾Æ",
+      "aluminum": "ÈÛÈÚÂÁ",
+      "binnie.juice.lime": "Ëá³ÈÖ­",
+      "cider": "Æ»¹û¾Æ",
+      "clay": "ÈÛÈÚÕ³ÍÁ",
+      "gold": "ÈÛÈÚ½ğ",
+      "binnie.resin": "Ê÷Ö¬",
+      "binnie.liqueur.chocolate": "ÇÉ¿ËÁ¦Àû¿Ú¾Æ",
+      "binnie.liqueur.mint": "±¡ºÉÀû¿Ú¾Æ",
+      "binnie.wine.apricot": "ĞÓ¾Æ",
+      "binnie.liqueur.anise": "°Ë½ÇÀû¿Ú¾Æ",
+      "prudentium": "ÈÛÈÚ³õ¼¶¾«»ª",
+      "sunnarium": "ÈÛÈÚÑô¹â»¯ºÏÎï",
+      "copper": "ÈÛÈÚÍ­",
+      "sakura.hot_spring_water": "ÎÂÈªË®",
+      "potion_lingering": "ÖÍÁôÒ©Ë®",
+      "gelid_enderium": "ÈÛÈÚ¼«º®Ä©Ó°",
+      "electrum": "ÈÛÈÚçúçê½ğ",
+      "biomass": "ÉúÎïÖÊ",
+      "binnie.dna.raw": "Ô­Éú DNA",
+      "poison": "¶¾Òº",
+      "binnie.rum.white": "°×ÀÊÄ·¾Æ",
+      "refinedcanolaoil": "¾«ÖÆ²Ë×ÑÓÍ",
+      "blood": "Ñª",
+      "alubrass": "ÈÛÈÚÂÁ»ÆÍ­",
+      "binnie.cider.peach": "ÌÒ×Ó¾Æ",
+      "fuel_gaseous_heat_2": "ÆøÌ¬È¼ÁÏ (¡ìc×ÆÈÈ¡ìr)",
+      "mana": "ÔªÊ¼Ä§Á¦",
+      "flux_goo": "Öä²¨ğ¤½¬",
+      "fuel_gaseous_heat_1": "ÆøÌ¬È¼ÁÏ (¡ì6ÈÈ¡ìr)",
+      "binnie.juice.banana": "Ïã½¶Ö­",
+      "binnie.wine.sparkling": "Æû¾Æ",
+      "energetic_metal": "ÈÛÈÚÄÜÁ¿½ğÊô",
+      "refined_biofuel": "²İÁÏÓÍ",
+      "infinity": "ÈÛÈÚÎŞ¾¡",
+      "wildberrywine": "Ò°İ®¾Æ",
+      "xpjuice": "ÒºÌ¬¾­Ñé",
+      "oil_residue_heat_2": "²ĞÔü (¡ìc×ÆÈÈ¡ìr)",
+      "bio.ethanol": "ÒÒ´¼",
+      "sakura.beer": "Æ¡¾Æ",
+      "sakura.yeast_liquid": "½ÍÄ¸Òº",
+      "karmesine_fluid": "ÈÛÈÚ¿¨Ã·Èû¶÷",
+      "triberium_fluid": "ÈÛÈÚÌ©²®Àû°²",
+      "fierymetal": "ÈÛÈÚ³ãÌú",
+      "oil_residue_heat_1": "²ĞÔü (¡ì6ÈÈ¡ìr)",
+      "binnie.ciderpear": "Àæ¾Æ",
+      "red_matter": "ºìÁ÷ÖÊ",
+      "dyonite_fluid": "ÈÛÈÚµÒ°ÂÄá",
+      "binnie.liqueur.herbal": "²İÒ©Àû¿Ú¾Æ",
+      "knightslime": "ÈÛÈÚÆïÊ¿Ê·À³Ä·",
+      "ice": "Ëé±ù",
+      "fuel_light": "ÇáÈ¼ÁÏ (¡ìbÀä¡ìr)",
+      "binnie.brandy.fruit": "Ë®¹û°×À¼µØ",
+      "sakura.sake": "Çå¾Æ",
+      "sky_stone": "ÈÛÈÚÔÉÊ¯",
+      "pigiron": "ÈÛÈÚÉúÌú",
+      "sakura.white_wine": "°×ÆÏÌÑ¾Æ",
+      "soulium": "ÈÛÈÚÀë»ê",
+      "fractum_fluid": "ÈÛÈÚËé½ğ",
+      "tin": "ÈÛÈÚÎı",
+      "empoweredoil": "³äÄÜÓÍ",
+      "ardite": "ÈÛÈÚ°¢µÏÌØ",
+      "binnie.wine.tomato": "·¬ÇÑ¾Æ",
+      "terrasteel": "ÈÛÈÚÌ©À­¸Ö",
+      "nucleum_fluid": "ÈÛÈÚ·ø¹âºÏ½ğ",
+      "binnie.wine.cherry": "Ó£ÌÒ¾Æ",
+      "bound_metal": "ÈÛÈÚÊø¸¿½ğÊô",
+      "obsidian": "ÈÛÈÚºÚê×Ê¯",
+      "glass": "ÈÛÈÚ²£Á§",
+      "fuel_mixed_light_heat_2": "»ìºÏÇáÈ¼ÁÏ (¡ìc×ÆÈÈ¡ìr)",
+      "fuel_mixed_light_heat_1": "»ìºÏÇáÈ¼ÁÏ (¡ì6ÈÈ¡ìr)",
+      "oil_distilled_heat_1": "ÕôÁóÓÍ (¡ì6ÈÈ¡ìr)",
+      "oil_distilled_heat_2": "ÕôÁóÓÍ (¡ìc×ÆÈÈ¡ìr)",
+      "violium_fluid": "ÈÛÈÚÉªÀ¶",
+      "binnie.wine.carrot": "ºúÂÜ²·¾Æ",
+      "binnie.spirit.gin": "¶ÅËÉ×Ó¾Æ",
+      "base_essence": "ÈÛÈÚ»ù´¡¾«»ª",
+      "binnie.liquor.apricot": "ĞÓÁÒ¾Æ",
+      "sand": "Á÷É³",
+      "binnie.brandy.cherry": "Ó£ÌÒ°×À¼µØ",
+      "mushroom_stew": "Ä¢¹½ìÒ",
+      "tamoltenmoonstone": "ÈÛÈÚğ¨ÔÂÊ¯",
+      "binnie.wine.citrus": "ÄûÃÊ¾Æ",
+      "binnie.juice.peach": "ÌÒÖ­",
+      "emerald": "ÈÛÈÚÂÌ±¦Ê¯",
+      "binnie.whiskey.corn": "²¨ÅÔÍşÊ¿¼É",
+      "binnie.liqueur.banana": "Ïã½¶Àû¿Ú¾Æ",
+      "palladium_fluid": "ÈÛÈÚîÙ",
+      "binnie.wine.banana": "Ïã½¶¾Æ",
+      "binnie.wine.pineapple": "²¤ÂÜ¾Æ",
+      "sakura.cocoa_liqueur": "¿É¿ÉÀû¿Ú¾Æ",
+      "neutronium": "³¬ÃÜÖĞ×ÓÁ÷Ìå",
+      "jauxum_fluid": "ÈÛÈÚ½ÜÎ÷Ä·",
+      "binnie.beer.wheat": "Ğ¡ÂóÆ¡¾Æ",
+      "binnie.whiskey.rye": "ºÚÂóÍşÊ¿¼É",
+      "mica": "ÈÛÈÚÔÆÄ¸",
+      "binnie.juice.elderberry": "½Ó¹ÇÄ¾¹ûÖ­",
+      "sentient_metal": "¸ĞÖªÁ÷ÖÊ",
+      "imperomite_fluid": "ÈÛÈÚµÛ½ğ",
+      "iridium": "ÈÛÈÚÒ¿",
+      "lava": "ÈÛÑÒ",
+      "lumium": "ÈÛÈÚÁ÷Ã÷",
+      "binnie.juice": "¹û¾Æ",
+      "honey": "ÃÛÌÇ",
+      "binnie.juice.apple": "Æ»¹ûÖ­",
+      "sakura.liqueur": "Àû¿Ú¾Æ",
+      "xu_evil_metal": "¶ñÄ§¹à×¢Ìú",
+      "liquid_candy": "ÒºÌ¬ÌÇ¹û",
+      "binnie.wine.agave": "ÁúÉàÀ¼¾Æ",
+      "binnie.spirit.neutral": "Ê³ÓÃ¾Æ¾«",
+      "binnie.liqueur.orange": "³ÈÀû¿Ú¾Æ",
+      "lumix_fluid": "ÈÛÈÚÁ÷Ã÷",
+      "binnie.beer.lager": "À­¸ñÆ¡¾Æ",
+      "dilithium_fluid": "ÈÛÈÚÌ©²®ÀûÑÇ",
+      "nickel": "ÈÛÈÚÄø",
+      "milk_chocolate": "Milk Chocolate",
+      "potion": "Ò©Ë®",
+      "knightmetal": "ÈÛÈÚÆïÊ¿½ğÊô",
+      "binnie.beer.stout": "ºÚÆ¡¾Æ",
+      "crystal_water": "½á¾§Ö®Ë®",
+      "binnie.juice.white.grape": "°×ÆÏÌÑÖ­",
+      "crystal_matrix": "²»¶¨ĞÍË®¾§¾ØÕó",
+      "osmium": "ÈÛÈÚï°",
+      "seismum_fluid": "ÈÛÈÚÈüÄ·",
+      "syrup": "ÌÇ½¬",
+      "stone": "ÈÛÈÚ½¹ºÚÊ¯Í·",
+      "uru_fluid": "ÈÛÈÚÎÚÂ³",
+      "basalt_fluid": "ÈÛÈÚĞşÎäÑÒ",
+      "binnie.juice.lemon": "ÄûÃÊÖ­",
+      "purifying_fluid": "¾»»¯Ö®Ë®",
+      "binnie.turpentine": "ËÉ½ÚÓÍ",
+      "iron": "ÈÛÈÚÌú",
+      "alewort": "ÂóÑ¿Ö­",
+      "binnie.mash.grain": "·¢½Í´óÂó½¬",
+      "petrotheum": "°å¿éÖ®²ãÑÒ",
+      "fuel_mixed_heavy": "»ìºÏÖØÈ¼ÁÏ (¡ìbÀä¡ìr)",
+      "binnie.liqueur.lemon": "ÄûÃÊÀû¿Ú¾Æ",
+      "potion_splash": "Åç½¦Ò©Ë®",
+      "binnie.brandy.apple": "Æ»¹û°×À¼µØ",
+      "duranite_fluid": "ÈÛÈÚ¶ÅÀ¼ÌØ",
+      "binnie.growth.medium": "ÅàÑø»ù",
+      "essence_metal": "ÈÛÈÚÔÌÄ§Ô´ÖÊ",
+      "ender": "Ğ³ÕñÈÛÈÚÄ©Ó°ÕäÖé",
+      "refined_fuel": "¾«ÖÆÈ¼ÁÏ",
+      "glowstone": "³äÄÜÒºÌ¬Ó«Ê¯",
+      "tiberium_fluid": "ÈÛÈÚË«ï®",
+      "for.honey": "·äÃÛ",
+      "tamoltencerulean": "ÈÛÈÚ¾§À¶",
+      "sakura.shouchu": "ÈÕ±¾ÉÕ¾Æ",
+      "binnie.latex": "Èé½º",
+      "sakura.brandy": "°×À¼µØ",
+      "tree_oil": "Ê÷ÓÍ",
+      "aurorium_fluid": "ÈÛÈÚ°ÂÂŞÀ­",
+      "zinc": "ÈÛÈÚĞ¿",
+      "tritonite_fluid": "ÈÛÈÚäö½ğ",
+      "binnie.brandy.citrus": "¸ÌéÙ°×À¼µØ",
+      "yrdeen_fluid": "ÈÛÈÚÔ­½ğ",
+      "oil_heat_1": "Ô­ÓÍ (¡ì6ÈÈ¡ìr)",
+      "terrax_fluid": "ÈÛÈÚµØÄ¸",
+      "binnie.spirit.sugarcane": "¿¨É³ÏÄ",
+      "binnie.liquor.pear": "ÀæÁÒ¾Æ",
+      "superium": "ÈÛÈÚ¸ß¼¶¾«»ª",
+      "binnie.juice.tomato": "Î÷ºìÊÁÖ­",
+      "adamant_fluid": "ÈÛÈÚ¾«½ğ",
+      "intermedium": "ÈÛÈÚÖĞ¼¶¾«»ª",
+      "binnie.wine.plum": "Àî×Ó¾Æ",
+      "fuel_dense_heat_1": "Å¨È¼ÁÏ (¡ì6ÈÈ¡ìr)",
+      "binnie.liquor.cherry": "Ó£ÌÒÁÒ¾Æ",
+      "chaotic_metal": "»ìãç½â¹¹ÖÊ",
+      "fuel_dense_heat_2": "Å¨È¼ÁÏ (¡ìc×ÆÈÈ¡ìr)",
+      "binnie.whiskey.wheat": "Ğ¡ÂóÍşÊ¿¼É",
+      "binnie.brandy.apricot": "ĞÓ°×À¼µØ",
+      "nihilite_fluid": "ÈÛÈÚĞé½ğ",
+      "valkyrie": "Molten Valkyrie Metal",
+      "fuel_light_heat_1": "ÇáÈ¼ÁÏ (¡ì6ÈÈ¡ìr)",
+      "fuel_light_heat_2": "ÇáÈ¼ÁÏ (¡ìc×ÆÈÈ¡ìr)",
+      "sakura.vodka": "·üÌØ¼Ó",
+      "silver": "ÈÛÈÚÒø",
+      "oil_heat_2": "Ô­ÓÍ (¡ìc×ÆÈÈ¡ìr)",
+      "ironwine": "ÌúÊ÷İ®¾Æ",
+      "steel": "ÈÛÈÚ¸Ö",
+      "binnie.beer.rye": "ºÚÂóÆ¡¾Æ",
+      "xu_demonic_metal": "ÈÛÈÚ¶ñÄ§½ğÊô",
+      "crystal": "ºÚê×Ê¯¾§Ìå",
+      "hot_spring_water": "ÎÂÈªË®",
+      "niob_fluid": "ÈÛÈÚîê",
+      "cobalt": "ÈÛÈÚîÜ",
+      "prometheum_fluid": "ÈÛÈÚîŞ",
+      "gravitite": "Molten Gravitite",
+      "short.mead": "·äÃÛ¾Æ",
+      "binnie.wine.white": "°×¾Æ",
+      "starmetal": "ÈÛÈÚĞÇ»Ô",
+      "refined_oil": "Ê¯ÄÔÓÍ",
+      "wyvern_metal": "·ÉÁú¾ÛºÏÎï",
+      "livingrock": "ÈÛÈÚ»îÊ¯",
+      "binnie.liqueur.hazelnut": "é»×ÓÀû¿Ú¾Æ",
+      "binnie.liqueur.cinnamon": "Èâ¹ğÀû¿Ú¾Æ",
+      "binnie.juice.pear": "ÀæÖ­",
+      "xu_enchanted_metal": "¸½Ä§½ğÊô",
+      "binnie.juice.pineapple": "²¤ÂÜÖ­",
+      "pyrotheum": "ÁÒÑæÖ®³ãìÍ",
+      "abyssum_fluid": "ÈÛÈÚÉîÔ¨½ğÊô",
+      "binnie.fermented.potatoes": "·¢½ÍÍÁ¶¹",
+      "proxii_fluid": "ÈÛÈÚÆÕÂŞ¿ËÏ£",
+      "binnie.juice.orange": "³ÈÖ­",
+      "binnie.brandy.grape": "°×À¼µØ",
+      "thaumium": "ÈÛÈÚÉñÃØ",
+      "binnie.liqueur.cherry": "Ó£ÌÒÀû¿Ú¾Æ",
+      "amber": "çúçê",
+      "sakura.maple_syrup": "·ãÌÇ½¬",
+      "biocrude": "Biocrude",
+      "juice": "¹ûÖ­",
+      "constantan": "ÈÛÈÚ¿µÍ­",
+      "lead": "ÈÛÈÚÇ¦",
+      "binnie.vodka": "·üÌØ¼Ó",
+      "binnie.bacteria.poly": "¾ÛºÏ¾ú",
+      "sakura.green_grape_fluid": "ÂÌÆÏÌÑÖ­",
+      "binnie.juice.cranberry": "ÂûÔ½İ®Ö­",
+      "magma_fluid": "ÈÛÈÚÑÒ½¬",
+      "fluix_steel": "ÈÛÈÚ¸£Â³ÒÁ¿ËË¹¸Ö",
+      "fuel_mixed_light": "»ìºÏÇáÈ¼ÁÏ (¡ìbÀä¡ìr)",
+      "void_metal": "ÈÛÈÚĞé¿Õ½ğÊô",
+      "nitronite_fluid": "ÈÛÈÚÏõ»¯ºÏ½ğ",
+      "binnie.liquor.elderberry": "½Ó¹ÇÄ¾¹ûÁÒ¾Æ",
+      "grapejuice": "ÆÏÌÑÖ­",
+      "pink_metal": "ÈÛÈÚ·ÛÉ«½ğÊô",
+      "solarium_fluid": "ÈÛÈÚÑô¹âºÏ½ğ",
+      "oil_dense": "³íÓÍ (¡ìbÀä¡ìr)",
+      "fuel_mixed_heavy_heat_2": "»ìºÏÖØÈ¼ÁÏ (¡ìc×ÆÈÈ¡ìr)",
+      "fuel_mixed_heavy_heat_1": "»ìºÏÖØÈ¼ÁÏ (¡ì6ÈÈ¡ìr)",
+      "mead": "·äÃÛ¾Æ",
+      "oliveoil": "éÏé­ÓÍ",
+      "applejuice": "Æ»¹ûÖ­",
+      "universal_metal": "¹²¾§UUºÏ½ğ",
+      "experience": "ÖªÊ¶¾«»ª",
+      "dark_chocolate": "Dark Chocolate",
+      "infinity_metal": "ÎŞ¾¡Ó¿Á÷",
+      "platinum": "ÈÛÈÚ²¬",
+      "binnie.brandy.pear": "Àæ°×À¼µØ",
+      "binnie.wine.cranberry": "ÂûÔ½İ®¾Æ",
+      "manasteel": "ÈÛÈÚÄ§Á¦¸Ö",
+      "tamoonwater": "ÔÂÂ¶",
+      "vibranium_fluid": "ÈÛÈÚÕñ½ğ",
+      "ale": "Æ¡¾Æ",
+      "binnie.liqueur.blackcurrant": "ºÚ¼ÓÂØÀû¿Ú¾Æ",
+      "alumite": "ÈÛÈÚÄÍËáÂÁ",
+      "binnie.liqueur.coffee": "¿§·ÈÀû¿Ú¾Æ",
+      "sakura.whiskey": "ÍşÊ¿¼É",
+      "valyrium_fluid": "ÈÛÈÚÍßÀ×ÀûÑÇ",
+      "meteorite_fluid": "ÈÛÈÚÔÉÌú",
+      "binnie.rum.dark": "ºÚÀÊÄ·¾Æ",
+      "binnie.sap": "Ê÷Òº",
+      "inferium": "ÈÛÈÚÏÂ¼¶¾«»ª",
+      "cryotheum": "¼«º®Ö®Áİ±ù",
+      "dirt": "ÒºÌ¬ÄàÍÁ",
+      "sakura.grape_fluid": "ÆÏÌÑÖ­",
+      "brass": "ÈÛÈÚ»ÆÍ­",
+      "water": "Ë®",
+      "lunar_water": "Lunar Water",
+      "binnie.beer.ale": "ÂóÑ¿¾Æ",
+      "binnie.mash.rye": "·¢½ÍºÚÂó½¬",
+      "binnie.liqueur.almond": "±âÌÒÀû¿Ú¾Æ",
+      "resin": "Ê÷Ö¬",
+      "binnie.mash.wheat": "·¢½ÍĞ¡Âó½¬",
+      "coal": "ÒºÌ¬ÃºÌ¿",
+      "binnie.liquor.fruit": "Ë®¹ûÁÒ¾Æ",
+      "sakura.rum": "ÀÊÄ·¾Æ",
+      "binnie.liqueur.melon": "Î÷¹ÏÀû¿Ú¾Æ",
+      "canolaoil": "²Ë×ÑÓÍ",
+      "mithril": "ÈÛÈÚÃØÒø",
+      "oil_dense_heat_2": "³íÓÍ (¡ìc×ÆÈÈ¡ìr)",
+      "binnie.mash.corn": "·¢½ÍÓñÃ×½¬",
+      "binnie.beer.corn": "ÓñÃ×Æ¡¾Æ",
+      "binnie.wine.fortified": "¼ÓÇ¿ÆÏÌÑ¾Æ",
+      "iox_fluid": "ÈÛÈÚÀë½ğ",
+      "oil": "Ô­ÓÍ (¡ìbÀä¡ìr)",
+      "signalum": "ÈÛÈÚĞÅËØ",
+      "enderium": "ÈÛÈÚÄ©Ó°",
+      "refined_glowstone": "ÈÛÈÚÇ¿»¯Ó«Ê¯",
+      "oil_dense_heat_1": "³íÓÍ (¡ì6ÈÈ¡ìr)",
+      "wildberryjuice": "Ò°İ®¹ûÖ­",
+      "steam": "ÕôÆû",
+      "fluxed_electrum": "ÈÛÈÚºìÊ¯çúçê½ğ",
+      "ironberryjuice": "ÌúÊ÷İ®Ö­",
+      "creosote": "ÔÓ·ÓÓÍ",
+      "sap": "Ê÷Ö­",
+      "osram_fluid": "ÈÛÈÚÅ·Ë¾ÀÊ",
+      "blueslime": "ÒºÌ¬À¶É«Ê·À³Ä·",
+      "eezo_fluid": "ÈÛÈÚÁãËØ",
+      "crystaloil": "¾§»¯ÓÍ",
+      "sakura.champagne": "ÏãéÄ",
+      "binnie.wine.elderberry": "½Ó¹ÇÄ¾¹û¾Æ",
+      "fuel_gaseous": "ÆøÌ¬È¼ÁÏ (¡ìbÀä¡ìr)",
+      "binnie.liqueur.blackberry": "ºÚİ®Àû¿Ú¾Æ",
+      "binnie.bacteria": "Ï¸¾ú"
+    }
+  },
+  "clientRendering": {
+    "renderHUD_1P": {
+      "value": true,
+      "comment": "If false, the HUD in vehicles will not render in 1st-person mode."
+    },
+    "renderHUD_3P": {
+      "value": true,
+      "comment": "If false, the HUD in vehicles will not render in 3rd-person mode."
+    },
+    "fullHUD_1P": {
+      "value": false,
+      "comment": "If true, the full-size HUD will render in 1st-person rather than the half-size HUD."
+    },
+    "fullHUD_3P": {
+      "value": false,
+      "comment": "If true, the full-size HUD will render in 3rd-person rather than the half-size HUD."
+    },
+    "transpHUD_1P": {
+      "value": false,
+      "comment": "If true, the background textures for the HUD will not be rendered in 1st-person."
+    },
+    "transpHUD_3P": {
+      "value": false,
+      "comment": "If true, the background textures for the HUD will not be rendered in 1st-person."
+    },
+    "renderWindows": {
+      "value": true,
+      "comment": "Should the glass on windows be rendered on vehicles?"
+    },
+    "innerWindows": {
+      "value": false,
+      "comment": "Should the glass on windows be rendered on the inside of the vehicle?  Note: if renderWindows is false, this config has no effect."
+    },
+    "vehicleBeams": {
+      "value": true,
+      "comment": "If false, beams on vehicles will not render."
+    },
+    "blockBeams": {
+      "value": true,
+      "comment": "If false, beams on blocks will not render."
+    },
+    "brightLights": {
+      "value": true,
+      "comment": "If false, lights from vehicles and blocks will not do brightness blending and will render as if they were part of the model at that same brightness.  Useful if you have shaders and this is causing troubles."
+    },
+    "blendedLights": {
+      "value": true,
+      "comment": "If false, beam-based lights from vehicles and blocks will not do brightness blending.  This is different from the general brightness setting as this will do OpenGL blending on the world to make it brighter, not just the beams themselves."
+    },
+    "playerTweaks": {
+      "value": true,
+      "comment": "If true, player hands will be modified when holding guns, and hands and legs will be modified when riding in vehicles.  Set this to false if mods cause issues, like two-hand rendering or player model issues."
+    }
+  },
+  "clientControls": {
+    "mouseYoke": {
+      "value": false,
+      "comment": "Enable mouse yoke for vehicles? Prevents looking around unless unlocked.  Think MCHeli controls."
+    },
+    "kbOverride": {
+      "value": true,
+      "comment": "Should keyboard controls be ignored when a joystick control is mapped?  Leave true to free up the keyboard while using a joysick."
+    },
+    "simpleThrottle": {
+      "value": true,
+      "comment": "If true, then vehicles will automatically go into reverse after stopped with the brake rather than staying stopped and waiting for you to shift.  When going in reverse, the opposite is true: the vehicle will shift into forwards when pressing forwards when stopped.  Additionally, the parking brake will automatically be set when leaving the vehicle."
+    },
+    "halfThrottle": {
+      "value": false,
+      "comment": "If true, then the gas key will only be a half-throttle, with the MOD+Throttle key becoming the full-speed control.  Useful if you want a more controlled vehicle experience.  Only valid on car/boat types with on-off throttles, and does not work in conjunction with simpleThrottle as that changes how the MOD key works with gas and brake keys."
+    },
+    "autostartEng": {
+      "value": true,
+      "comment": "If true, engines will automatically start when a driver enters a vehicle, and will turn off when they leave.  The parking brake will also be applied when leaving the vehicle.  Note: this does not bypass the fuel or electrical system."
+    },
+    "autoTrnSignals": {
+      "value": true,
+      "comment": "If true, turns signals will come on automatically when you start a turn, and will turn off when the turn completes.  If this is false, then they will only be able to be activated with the keybinds or via the panel."
+    },
+    "heliAutoLevel": {
+      "value": true,
+      "comment": "If true, helicopters will automatically return to level flight when you let off the control stick.  However, this will prevent them from doing loops.  The realistic value for this config is false, but the one that's more player-freindly is true.  Hence it being the default."
+    },
+    "classicJystk": {
+      "value": false,
+      "comment": "If true, the classic controller code will be used.  Note: THIS CODE MAY CRASH MOBILE DEVICES!  Also note that switching will probably mess up your keybinds.  Only do this if you are having issues with a joystick or controller not being recognized.  After changing this setting, reboot the game to make it take effect."
+    },
+    "north360": {
+      "value": false,
+      "comment": "If true, instruments will represent North as 360 degrees, instead of the Minecraft default of 180. Allows using the heading system that real-world pilots and militaries do."
+    },
+    "devMode": {
+      "value": false,
+      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
+    },
+    "steeringControlRate": {
+      "value": 2.0,
+      "comment": "How many degrees to turn the wheels on vehicles for every tick the button is held down.  This is not used when using a joystick."
+    },
+    "flightControlRate": {
+      "value": 0.6,
+      "comment": "How many degrees to move the elevators and ailerons on aircraft for every tick the button is held down.  This is not used when using a joystick."
+    },
+    "mouseYokeRate": {
+      "value": 0.1,
+      "comment": "How many degrees to move control surfaces for every 1 mouse unit change.  Used for mouse yoke controls."
+    },
+    "joystickDeadZone": {
+      "value": 0.03,
+      "comment": "Dead zone for joystick axis.  This is NOT joystick specific."
+    }
+  },
+  "controls": {
+    "keyboard": {
+      "aircraft.mod": {
+        "keyCode": 54
+      },
+      "aircraft.camlock": {
+        "keyCode": 157
+      },
+      "aircraft.yaw_r": {
+        "keyCode": 38
+      },
+      "aircraft.yaw_l": {
+        "keyCode": 36
+      },
+      "aircraft.pitch_u": {
+        "keyCode": 31
+      },
+      "aircraft.pitch_d": {
+        "keyCode": 17
+      },
+      "aircraft.roll_r": {
+        "keyCode": 32
+      },
+      "aircraft.roll_l": {
+        "keyCode": 30
+      },
+      "aircraft.throttle_u": {
+        "keyCode": 23
+      },
+      "aircraft.throttle_d": {
+        "keyCode": 37
+      },
+      "aircraft.flaps_u": {
+        "keyCode": 21
+      },
+      "aircraft.flaps_d": {
+        "keyCode": 35
+      },
+      "aircraft.brake": {
+        "keyCode": 48
+      },
+      "aircraft.panel": {
+        "keyCode": 22
+      },
+      "aircraft.radio": {
+        "keyCode": 12
+      },
+      "aircraft.gun_fire": {
+        "keyCode": 57
+      },
+      "aircraft.gun_switch": {
+        "keyCode": 47
+      },
+      "aircraft.zoom_i": {
+        "keyCode": 201
+      },
+      "aircraft.zoom_o": {
+        "keyCode": 209
+      },
+      "aircraft.js_inhibit": {
+        "keyCode": 70
+      },
+      "car.mod": {
+        "keyCode": 54
+      },
+      "car.camlock": {
+        "keyCode": 157
+      },
+      "car.turn_r": {
+        "keyCode": 32
+      },
+      "car.turn_l": {
+        "keyCode": 30
+      },
+      "car.gas": {
+        "keyCode": 17
+      },
+      "car.brake": {
+        "keyCode": 31
+      },
+      "car.panel": {
+        "keyCode": 22
+      },
+      "car.shift_u": {
+        "keyCode": 19
+      },
+      "car.shift_d": {
+        "keyCode": 33
+      },
+      "car.horn": {
+        "keyCode": 46
+      },
+      "car.radio": {
+        "keyCode": 12
+      },
+      "car.gun_fire": {
+        "keyCode": 57
+      },
+      "car.gun_switch": {
+        "keyCode": 47
+      },
+      "car.zoom_i": {
+        "keyCode": 201
+      },
+      "car.zoom_o": {
+        "keyCode": 209
+      },
+      "car.lights": {
+        "keyCode": 76
+      },
+      "car.turnsignal_l": {
+        "keyCode": 75
+      },
+      "car.turnsignal_r": {
+        "keyCode": 77
+      },
+      "car.js_inhibit": {
+        "keyCode": 70
+      }
+    },
+    "joystick": {
+      "aircraft.mod": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.camlock": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.yaw": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.pitch": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.roll": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.throttle": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.brake": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.brake_digital": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.gear": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.flaps_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.flaps_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.panel": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.park": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.radio": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.gun_fire": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.gun_switch": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.zoom_i": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.zoom_o": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.changeview": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_l": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_a": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_yaw_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_yaw_l": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_pitch_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_pitch_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_roll_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_roll_l": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.reverse": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.js_inhibit": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.mod": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.camlock": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.turn": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.gas": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.brake": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.brake_digital": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.panel": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.shift_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.shift_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.horn": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.park": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.radio": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.gun_fire": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.gun_switch": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.zoom_i": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.zoom_o": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.changeview": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.look_l": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.look_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.look_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.look_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.look_a": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.lights": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.turnsignal_l": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.turnsignal_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.js_inhibit": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      }
+    }
+  }
+}

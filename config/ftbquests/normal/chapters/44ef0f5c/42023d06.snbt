@@ -1,0 +1,18 @@
+{
+	x: 25.0d,
+	y: 0.0d,
+	text: [
+		"没有地图你怎么在暮色森林中探险啊？"
+	],
+	dependencies: [
+		"e356c862"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f245e5e0",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_empty"
+		}]
+	}]
+}

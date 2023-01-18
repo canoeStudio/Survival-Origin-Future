@@ -1,0 +1,16 @@
+{
+	title: "进入符石地牢",
+	x: 35.0d,
+	y: 0.0d,
+	dependencies: [
+		"49d63a80"
+	],
+	tasks: [{
+		uid: "ae8803f6",
+		type: "interaction",
+		title: "符石门锁孔",
+		icon: "theaurorian:runestonegatekeyhole",
+		match_type: "block_id",
+		match: "theaurorian:runestonegatekeyhole"
+	}]
+}

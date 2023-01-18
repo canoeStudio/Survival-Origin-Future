@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "f3a43175",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_hoe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

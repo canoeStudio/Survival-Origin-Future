@@ -1,0 +1,39 @@
+{
+	title: "获取迷宫地图核心",
+	icon: "twilightforest:maze_map_focus",
+	disable_toast: true,
+	x: 40.0d,
+	y: -10.0d,
+	text: [
+		"迷宫地图核心可通过击杀以上几种生物概率获得，可在&c暮色矿洞&r中寻找它们；也可稍后在&c牛头人迷宫&r找到",
+		"",
+		"矿洞在魔法地图上标记有两种，一种极小，如同半个硬币；另一种稍大，如同山头；标记大小代表矿洞的大小"
+	],
+	dependencies: [
+		"df90b3e1"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0e8fb268",
+		type: "kill",
+		entity: "twilightforest:redcap",
+		value: 1L
+	},
+	{
+		uid: "82208dad",
+		type: "kill",
+		entity: "twilightforest:redcap_sapper",
+		value: 1L
+	},
+	{
+		uid: "67ba53a1",
+		type: "kill",
+		entity: "twilightforest:minotaur",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b4bf75e8",
+		type: "item",
+		item: "twilightforest:maze_map_focus"
+	}]
+}

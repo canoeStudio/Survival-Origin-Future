@@ -1,0 +1,21 @@
+{
+	title: "The END",
+	icon: "twilightforest:glass_sword",
+	x: 120.0d,
+	y: 0.0d,
+	text: [
+		"终局内容尚在开发阶段，目前王城只是个空荡荡的壳子",
+		"",
+		"终局内容计划更新在高版本上，低版本的暮色森林多处于停更状态，游戏内容到此为止"
+	],
+	dependencies: [
+		"381b47b5"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "4b7af727",
+		type: "checkmark",
+		title: "阿这"
+	}]
+}

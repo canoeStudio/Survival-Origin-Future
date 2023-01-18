@@ -1,0 +1,107 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 234
+  width = 172
+  action = deep_customization_element:title_screen_forge_top
+  actionid = bc40bb16-0f57-465c-86d4-4cb4d4736e981673862357676
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 113
+  action = deep_customization_element:title_screen_branding
+  actionid = 8e168028-cd20-49b5-81b7-8c8ca05b8e3b1673862357677
+  y = 267
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 489
+  width = 150
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = cb850d27-c70b-467f-932e-4b6edbd463e11673862357677
+  y = 309
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 66400b5f-ea26-4955-b479-5864400f70d01673862357677
+  y = 182
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 0b991492-5d51-4720-aa1e-e639646c735d1673862357677
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = f6106fce-7d27-4213-979c-d1807cb8e0911673862357677
+  y = 0
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 2
+  action = movebutton
+  y = -141
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 24
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/vsaccr/mainmenu/language.png
+  backgroundnormal = resources/vsaccr/mainmenu/language.png
+}
+

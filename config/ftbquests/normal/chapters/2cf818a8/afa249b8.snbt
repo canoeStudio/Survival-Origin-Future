@@ -1,0 +1,13 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "1a52f033",
+		type: "item",
+		items: [{
+			item: "adpother:gold_respirator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

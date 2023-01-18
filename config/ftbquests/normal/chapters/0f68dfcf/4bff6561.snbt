@@ -1,0 +1,17 @@
+{
+	x: -20.0d,
+	y: -5.0d,
+	text: [
+		"使书龙&c繁殖&r的食物"
+	],
+	dependencies: [
+		"47184ea7"
+	],
+	tasks: [{
+		uid: "30a58a73",
+		type: "item",
+		items: [{
+			item: "defiledlands:foul_candy"
+		}]
+	}]
+}

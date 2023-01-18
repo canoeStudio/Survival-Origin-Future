@@ -1,0 +1,26 @@
+{
+	title: "击败毁灭者",
+	icon: "defiledlands:umbrium_sword",
+	x: 25.0d,
+	y: 0.0d,
+	text: [
+		"毁灭者必定掉落1个&c潜影壳&r"
+	],
+	dependencies: [
+		"3f31a22f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "65f7eda5",
+		type: "kill",
+		icon: "defiledlands:umbrium_sword",
+		entity: "defiledlands:the_destroyer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cd446293",
+		type: "xp",
+		auto: "enabled",
+		xp: 1500
+	}]
+}

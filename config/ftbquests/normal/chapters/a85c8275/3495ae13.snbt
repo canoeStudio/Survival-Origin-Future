@@ -1,0 +1,24 @@
+{
+	title: "定位器",
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"以&c粒子效果&r为指定的地点指明方向的定位器，&c未开启粒子效果可能无法看到定位粒子&r",
+		"",
+		"手持定位器&c潜行右键&r可以切换定位结构，但须&c严格按照&r符石地牢——暗石地牢——月宫的顺序攻略，否则卡进度"
+	],
+	dependencies: [
+		"f0d6e38f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ae92ada",
+		type: "item",
+		items: [{
+			id: "theaurorian:locator",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

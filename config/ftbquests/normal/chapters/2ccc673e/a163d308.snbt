@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "3db90718",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_pick",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

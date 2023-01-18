@@ -1,0 +1,21 @@
+{
+	title: "冲破云霄",
+	x: 90.0d,
+	y: 0.0d,
+	description: "杰克的豌豆",
+	text: [
+		"魔豆在巨魔洞穴中，通常刷新在被&c黑曜石&r包裹的战利品箱中，黑曜石通常为3X3X3的立体结构；击杀洞穴巨魔也有小概率获得",
+		"",
+		"需要种在&c肥沃泥土&r上；在巨魔洞穴的地表附近、巨人领地的下方可找到肥沃泥土"
+	],
+	dependencies: [
+		"5a880110"
+	],
+	tasks: [{
+		uid: "11c691ad",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_beans"
+		}]
+	}]
+}

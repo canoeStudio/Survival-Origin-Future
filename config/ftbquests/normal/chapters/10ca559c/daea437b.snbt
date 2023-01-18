@@ -1,0 +1,81 @@
+{
+	title: "披萨片全家桶",
+	x: -10.0d,
+	y: 0.5d,
+	text: [
+		"来一个不同味道的披萨片？"
+	],
+	dependencies: [
+		"b137bde2"
+	],
+	tasks: [{
+		uid: "d69f69bf",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_0"
+		}]
+	},
+	{
+		uid: "b8390f21",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_1"
+		}]
+	},
+	{
+		uid: "3299e535",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_2"
+		}]
+	},
+	{
+		uid: "886480af",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_3"
+		}]
+	},
+	{
+		uid: "53324868",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_4"
+		}]
+	},
+	{
+		uid: "7e8ec17c",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_5"
+		}]
+	},
+	{
+		uid: "9ac28668",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_6"
+		}]
+	},
+	{
+		uid: "0b96ab0b",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_7"
+		}]
+	},
+	{
+		uid: "830e7f6f",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_9"
+		}]
+	},
+	{
+		uid: "04a60e25",
+		type: "item",
+		items: [{
+			item: "pizzacraft:slice_10"
+		}]
+	}]
+}

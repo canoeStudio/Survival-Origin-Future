@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "d0c9b6aa",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

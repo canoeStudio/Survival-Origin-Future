@@ -1,0 +1,37 @@
+{
+	title: "发现新的矿石",
+	x: 10.0d,
+	y: 5.0d,
+	dependencies: [
+		"49b26294"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "13f07e89",
+		type: "observation",
+		title: "晶蓝矿石",
+		icon: "theaurorian:ceruleanore",
+		match_type: "block_id",
+		match: "theaurorian:ceruleanore",
+		timer: 0L
+	},
+	{
+		uid: "c9955f0b",
+		type: "observation",
+		title: "晶簇矿石",
+		icon: "theaurorian:geodeore",
+		match_type: "block_id",
+		match: "theaurorian:geodeore",
+		timer: 0L
+	},
+	{
+		uid: "47c4fa76",
+		type: "observation",
+		title: "皎月石矿石",
+		icon: "theaurorian:moonstoneore",
+		match_type: "block_id",
+		match: "theaurorian:moonstoneore",
+		timer: 0L
+	}]
+}

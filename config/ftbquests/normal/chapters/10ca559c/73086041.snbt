@@ -1,0 +1,49 @@
+{
+	title: "披萨厨师出击",
+	x: -10.0d,
+	y: 2.5d,
+	text: [
+		"合成厨师装备",
+		"证明你是一名合格的厨师",
+		""
+	],
+	dependencies: [
+		"b137bde2"
+	],
+	tasks: [{
+		uid: "1446c1b1",
+		type: "item",
+		items: [{
+			item: "pizzacraft:chef_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "182098eb",
+		type: "item",
+		items: [{
+			item: "pizzacraft:chef_shirt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "862add95",
+		type: "item",
+		items: [{
+			item: "pizzacraft:chef_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cc439d25",
+		type: "item",
+		items: [{
+			item: "pizzacraft:chef_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "神秘时代种子篇",
+	icon: "thaumadditions:vis_seeds/ignis",
+	always_invisible: false,
+	group: 894810619,
+	default_quest_shape: "square"
+}

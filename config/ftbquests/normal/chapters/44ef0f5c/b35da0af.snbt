@@ -1,0 +1,19 @@
+{
+	title: "激活陷阱",
+	x: 65.0d,
+	y: 0.0d,
+	text: [
+		"暮色恶魂的城堡在魔法地图上标志为一个粉色的头，找到并进入它的城堡",
+		"",
+		"在塔顶激活陷阱，将恶魂困住"
+	],
+	dependencies: [
+		"5660b2b3"
+	],
+	tasks: [{
+		uid: "ba7462f7",
+		type: "advancement",
+		advancement: "twilightforest:ghast_trap",
+		criterion: ""
+	}]
+}

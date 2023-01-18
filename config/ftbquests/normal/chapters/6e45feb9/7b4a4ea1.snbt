@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "e75c24e1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/visum"
+		}]
+	}]
+}

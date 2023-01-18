@@ -1,0 +1,21 @@
+{
+	x: 40.0d,
+	y: 0.0d,
+	text: [
+		"召唤&c悼亡者&r的物品",
+		"",
+		"对祭坛&c直接右键&r使用"
+	],
+	dependencies: [
+		"197b0f4e"
+	],
+	tasks: [{
+		uid: "63094b41",
+		type: "item",
+		items: [{
+			item: "defiledlands:idol_sorrow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

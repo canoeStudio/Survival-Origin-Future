@@ -1,0 +1,34 @@
+{
+	title: "战利品",
+	x: 115.0d,
+	y: 0.0d,
+	dependencies: [
+		"6f9540a9"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "80bb1e17",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophymoonqueen"
+		}]
+	},
+	{
+		uid: "c7111784",
+		type: "item",
+		items: [{
+			item: "theaurorian:crystallinesword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0a54338f",
+		type: "item",
+		items: [{
+			item: "theaurorian:crystallinepickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

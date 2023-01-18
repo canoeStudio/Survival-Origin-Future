@@ -1,0 +1,22 @@
+{
+	title: "击败皎月女王",
+	x: 110.0d,
+	y: 0.0d,
+	dependencies: [
+		"574331f5"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e62b25e8",
+		type: "kill",
+		icon: "theaurorian:trophymoonqueen",
+		entity: "theaurorian:moonqueen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a0bc1259",
+		type: "xp",
+		auto: "enabled",
+		xp: 5500
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "击杀冰雪女王",
+	x: 75.0d,
+	y: 10.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"fd00eb5b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "451892e6",
+		type: "kill",
+		icon: "divinerpg:snowslash",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fbc7dfd0",
+		type: "xp",
+		auto: "enabled",
+		xp: 3500
+	}]
+}

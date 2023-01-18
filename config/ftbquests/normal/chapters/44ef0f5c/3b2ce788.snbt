@@ -1,0 +1,32 @@
+{
+	title: "击杀雪怪首领",
+	x: 35.0d,
+	y: 10.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"8b95525b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2426b72e",
+		type: "kill",
+		icon: {
+			id: "twilightforest:yeti_helmet",
+			tag: {
+				ench: [{
+					id: 0s,
+					lvl: 2s
+				}]
+			}
+		},
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "23a89132",
+		type: "xp",
+		auto: "enabled",
+		xp: 3500
+	}]
+}

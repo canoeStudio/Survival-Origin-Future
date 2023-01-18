@@ -1,0 +1,32 @@
+{
+	x: 45.0d,
+	y: 15.5d,
+	description: "极光的馈赠",
+	text: [
+		"随使用而&c升级自身附魔等级&r，直到所有附魔均为&c满级&r"
+	],
+	dependencies: [
+		"4da66c08"
+	],
+	tasks: [{
+		uid: "4cd9db0c",
+		type: "item",
+		title: "极光钢套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jiguanggang"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jiguanggang"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

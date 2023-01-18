@@ -1,0 +1,19 @@
+{
+	title: "获得黑色心脏",
+	x: -5.0d,
+	y: -15.0d,
+	text: [
+		"通过击杀生成在污秽之地地下的&c蹒跚者&r可以获得"
+	],
+	dependencies: [
+		"99379ba3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fac7bc8b",
+		type: "item",
+		items: [{
+			item: "defiledlands:black_heart"
+		}]
+	}]
+}
