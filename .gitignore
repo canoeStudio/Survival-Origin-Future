@@ -1,0 +1,16 @@
+$ cat .gitignore
+#Whitelist
+*
+!*/
+
+#Folders
+!/config/**
+!/oresources/**
+!/patchouli_books/**
+!/resources/**
+!/scripts/**
+!/structures/**
+
+#Files
+!/.gitignore
+!/README.md
