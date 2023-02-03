@@ -854,7 +854,7 @@
                     <var>helmetmaxdamage</var>
                 </pct>
                 </round>
-                <str/>
+                <str>                     </str>
             </max>
             <max>
                 <var>helmetdamageleft</var>
@@ -897,7 +897,7 @@
                     <var>chestplatemaxdamage</var>
                 </pct>
                 </round>
-                <str/>
+                <str>                     </str>
             </max>
             <max>
                 <var>chestplatedamageleft</var>
