@@ -23,7 +23,6 @@ chaosGem.register();
 
 var chaosOre = VanillaFactory.createBlock("chaos_ore", <blockmaterial:iron_ore>);
 chaosOre.blockHardness(5.5);
-chaosOre.dropHandler();
 chaosOre.register();
 
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
