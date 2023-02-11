@@ -21,7 +21,7 @@ chaosGem.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
 }
 chaosGem.register();
 
-var chaosOre = VanillaFactory.createBlock("chaos_ore", <blockmaterial:iron_ore>);
+var chaosOre = VanillaFactory.createBlock("chaos_ore", <blockmaterial:rock>);
 chaosOre.blockHardness(5.5);
 chaosOre.register();
 
