@@ -5,11 +5,13 @@ $ cat .gitignore
 
 #Folders
 !/config/**
+!/groovy/**
 !/oresources/**
 !/patchouli_books/**
 !/resources/**
 !/scripts/**
 !/structures/**
+
 
 #Files
 !/.gitignore
