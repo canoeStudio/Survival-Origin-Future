@@ -1,0 +1,14 @@
+{
+  "packName": "VSACCR",
+  "version": "1.10.900-pre3",
+  "debug": false,
+  "classes": [],
+  "loaders": {
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ]
+  }
+}
