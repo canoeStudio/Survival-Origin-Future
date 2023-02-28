@@ -1,4 +1,9 @@
+/*
+ * This script is created for the VSACCR modpack by Canoe Studio.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */
 #loader crafttweaker reloadableevents
+#ikwid
 #priority 0
 
 import crafttweaker.player.IPlayer;
@@ -54,3 +59,4 @@ events.onPlayerPickupItem(function(event as PlayerPickupItemEvent){
         }
     }
 });
+
