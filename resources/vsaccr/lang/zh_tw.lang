@@ -1,0 +1,25 @@
+vsaccr.item.guide.name=§cVirtual Survival Climate & Adventure§b§o手冊
+vsaccr.item.guide.subtitle=入门必读Virtual Survival Climate & Adventure參考手冊
+
+vsaccr.command.purgeCommand.chat=已清理所有掉落物
+vsaccr.dismension.nether.remind=你已進去地獄維度，游戲難度會大幅增加！
+vsaccr.event.anticheat.pls_remove=§c探測載入嚴重不平衡模組，你必須移除以下破壞平衡性模組并重启游戲才可游玩：
+vsaccr.stage.disabled_item.name=已停用的物品
+vsaccr.stage.disabled_item.tooltip=§c已停用
+vsaccr.event.anticheat.chat=請不要作弊！好好玩！
+
+
+
+
+
+
+
+vsaccr.menu.modlist=模組清單
+vsaccr.menu.official_site=官方Github工作室主頁
+vsaccr.menu.refresh=§b刷新主菜单界面
+vsaccr.menu.accounts=個人使用者
+vsaccr.menu.sponsor=贊助倉庫
+vsaccr.menu.discord=加入官方Discord群組
+vsaccr.menu.github=官方模組包Github開源地址
+vsaccr.menu.folder=打開資料夾
+vsaccr.menu.bisect=關於模組包
