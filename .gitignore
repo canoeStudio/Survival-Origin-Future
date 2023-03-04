@@ -16,4 +16,3 @@ $ cat .gitignore
 #Files
 !/.gitignore
 !/README.md
-!/logo.png
