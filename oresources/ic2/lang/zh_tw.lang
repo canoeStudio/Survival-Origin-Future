@@ -1,0 +1,1702 @@
+//tile
+//Base Classes
+tile.blockCrop.name=作物架
+tile.blockMachineLV.name=LV 機器
+tile.blockMachineLV2.name=LV 機器
+tile.blockMachineMV.name=MV 機器
+tile.blockMachineHV.name=HV 機器
+tile.blockCompactedGenerator.name=壓縮發電機
+tile.blockChambers.name=倉室方塊
+tile.blockExplosive.name=炸藥
+tile.blockNoUse.name=未使用
+tile.blockUtility.name=實用性方塊
+tile.blockMetal.name=金屬方塊
+tile.blockPersonal.name=私人方塊
+tile.blockCable.name=線纜方塊
+tile.chargePad.name=充能臺方塊
+tile.blockElectric.name=電力方塊
+tile.blockLuminator.name=日光燈
+tile.blockLuminatorMultiPart.name=日光燈（多方塊）
+tile.advComparator.name=高級比較器
+
+//Rubber
+tile.leaves.name=橡膠樹樹葉
+tile.blockRubWood.name=橡膠樹原木
+tile.blockRubSapling.name=橡膠樹樹苗
+tile.blockHarz.name=樹脂墊
+tile.blockRubber.name=橡膠墊
+
+//Misc
+tile.blockFenceIron.name=鐵柵欄
+tile.blockFoam.name=建築泡沫
+tile.blockWall.name=建築泡沫牆
+tile.blockPixelFoam.name=像素泡沫
+tile.blockWool.name=建築泡沫羊毛
+tile.blockWallTextured.name=有紋理的牆
+tile.blockBarrel.name=啤酒桶
+tile.blockScaffold.name=腳手架
+tile.blockIronScaffold.name=鐵質腳手架
+tile.blockDoorAlloy.name=防爆門
+
+//Metals
+tile.blockOreCopper.name=銅礦石
+tile.blockOreTin.name=錫礦石
+tile.blockOreUran.name=鈾礦石
+tile.blockOreSilver.name=銀礦石
+tile.blockMetalCopper.name=銅塊
+tile.blockMetalTin.name=錫塊
+tile.blockMetalBronze.name=青銅塊
+tile.blockMetalUranium.name=鈾塊
+tile.blockMetalSilver.name=銀塊
+tile.blockCharcoal.name=木炭塊
+
+//Explosive
+tile.blockITNT.name=工業 TNT
+tile.blockNuke.name=核彈
+
+//Utility Block
+tile.blockMiningPipe.name=採礦管道
+tile.blockMiningTip.name=採礦管道
+tile.blockAlloy.name=防爆石
+tile.blockAlloyGlass.name=防爆玻璃
+tile.blockAlloyBrick.name=防爆磚
+tile.blockAlloyClearGlass.name=澄清防爆玻璃
+tile.blockAlloyCracked.name=碎紋防爆石
+
+//Generator Block
+tile.blockGenerator.name=火力發電機
+tile.blockGeoGenerator.name=地熱發電機
+tile.blockWaterGenerator.name=水力發電機
+tile.blockSolarGenerator.name=太陽能發電機
+tile.blockWindGenerator.name=風力發電機
+tile.blockNuclearReactor.name=核反應堆
+tile.blockSteamReactor.name=蒸汽反應堆
+tile.basicTurbine.name=基礎蒸汽渦輪機
+tile.blockThermalGenerator.name=熱力發電機
+tile.blockSolarTurbine.name=太陽能渦輪機
+tile.blockLiquidFuelGenerator.name=流體燃料發電機
+tile.blockSlagGenerator.name=爐渣發電機
+tile.waveGenerator.name=波浪發電機
+tile.oceanGenerator.name=海洋發電機
+tile.blockBoiler.name=燃料鍋爐
+
+//Compacted Generator
+tile.blockSolarLV.name=低壓太陽能闆（LV）
+tile.blockSolarMV.name=中壓太陽能闆（MV）
+tile.blockSolarHV.name=高壓太陽能闆（HV）
+tile.blockWaterMillLV.name=低壓水力發電機（LV）
+tile.blockWaterMillMV.name=中壓水力發電機（MV）
+tile.blockWaterMillHV.name=高壓水力發電機（HV）
+tile.LVRFProducer.name=小型電通量發電機（LV）
+tile.MVRFProducer.name=中型電通量發電機（MV）
+tile.HVRFProducer.name=大型電通量發電機（HV）
+
+
+//Reactor Chambers
+tile.blockReactorChamber.name=核反應倉
+tile.blockSteamChamber.name=蒸汽反應倉
+
+//Electric Block
+tile.blockBatBox.name=電池盒
+tile.blockMFE.name=MFE
+tile.blockMFSU.name=MFSU
+tile.blockBatteryBox.name=電池站
+tile.blockCreativeStorage.name=創造模式儲電器
+tile.blockPesu.name=PESU
+tile.blockTransformerLV.name=低壓變壓器
+tile.blockTransformerMV.name=中壓變壓器
+tile.blockTransformerHV.name=高壓變壓器
+tile.blockTransformerEV.name=超高壓變壓器
+tile.blockTransformerIV.name=極高壓變壓器
+tile.blockAdjustableTranformer.name=萬用變壓器
+
+//LV Machines
+tile.blockMachine.name=基礎機器外殼
+tile.blockIronFurnace.name=鐵爐
+tile.blockElecFurnace.name=電爐
+tile.blockMacerator.name=打粉機
+tile.blockExtractor.name=提取機
+tile.blockCompressor.name=壓縮機
+tile.blockCanner.name=裝罐機
+tile.blockMiner.name=採礦機
+tile.blockPump.name=泵
+tile.blockMagnetizer.name=磁化機
+tile.blockElectrolyzer.name=電解機
+tile.blockRecycler.name=回收機
+tile.blockCropmatron.name=作物監管機
+tile.blockSoundBeacon.name=聲音信標
+tile.blockCropScanner.name=作物掃描機
+tile.blockStoneMacerator.name=石質打粉機
+tile.blockWoodGasser.name=木瓦斯産生器
+tile.blockElectricWoodGasser.name=電力木瓦斯産生器
+tile.blockRareEarthExtractor.name=稀土提取器
+tile.blockCropLibrary.name=作物庫
+tile.blockMachineBuffer.name=機器緩沖器
+tile.blockMachineTank.name=機器儲罐
+tile.blockIndustrialWorktable.name=工業工作臺
+tile.blockSawMill.name=鋸木機
+
+//MV Machines
+tile.blockAdvMachine.name=高級機器外殼
+tile.blockInduction.name=感應爐
+tile.blockRotary.name=旋轉破碎機
+tile.blockCentrifug.name=離心提取機
+tile.blockSingularity.name=奇點壓縮機
+tile.blockVacuum.name=真空裝罐機
+tile.blockCompacting.name=高級回收機
+tile.blockCharged.name=充能電解機
+tile.blockOreScanner.name=礦物探測機
+tile.blockTesla.name=特斯拉線圈
+tile.blockReactorPlanner.name=反應堆類比器
+tile.blockCropHarvester.name=作物收割機
+tile.blockAdvPump.name=超頻泵
+tile.blockRangedPump.name=遠程泵
+
+//HV Machines
+tile.blockTerra.name=地形轉換機
+tile.blockMatter.name=UU 物質生成機
+tile.blockTeleporter.name=傳送機
+tile.blockUraniumEnricher.name=鈾濃縮機
+tile.blockElectricEnchanter.name=電力附魔機
+tile.blockPlasmafier.name=電漿産生器
+tile.blockTeleporterHub.name=傳送器
+
+//Charge Pad
+tile.chargePadLV.name=靜態充能臺
+tile.chargePadMV.name=晶化充能臺
+tile.chargePadHV.name=蘭伯頓充能臺
+tile.chargePadNuclear.name=裂變充能臺
+
+//Personal Blocks
+tile.blockPersonalTrader.name=貿易箱
+tile.blockPersonalTraderFluid.name=流體貿易箱
+tile.blockPersonalTraderEnergy.name=電力貿易箱
+tile.blockPersonalChest.name=保險箱
+tile.blockPersonalTank.name=私人儲罐
+tile.blockPersonalEnergyStorageunknown.name=私人能量存儲器
+tile.blockPersonalEnergyStorageBatbox.name=私人電池盒
+tile.blockPersonalEnergyStorageMFE.name=私人 MFE
+tile.blockPersonalEnergyStorageMFSU.name=私人 MFSU
+tile.blockPersonalLocalMarket.name=在地市場
+tile.blockPersonalGlobalMarket.name=全球市場
+tile.blockIridiumStone.name=銥質石頭
+
+//item
+//Cables
+item.itemCable.name=銅質導線
+item.itemCableI.name=絕緣銅質導線
+item.itemGoldCable.name=金質導線
+item.itemGoldCableI.name=絕緣金質導線
+item.itemGoldCableII.name=2x 絕緣金質導線
+item.itemIronCable.name=高壓導線
+item.itemIronCableI.name=絕緣高壓導線
+item.itemIronCableII.name=2x 絕緣高壓導線
+item.itemIronCableIII.name=4x 絕緣高壓導線
+item.itemTinCable.name=錫質導線
+item.itemGlassCable.name=玻璃纖維導線
+item.itemDetectorCable.name=EU 檢測導線
+item.itemSplitterCable.name=EU 分流導線
+item.itemBronzeCable.name=青銅導線
+item.itemBronzeCableI.name=絕緣青銅導線
+item.itemBronzeCableII.name=2x 絕緣青銅導線
+item.itemPlasmaCable.name=電漿導線
+
+//Batteries
+item.itemBatSU.name=免洗電池
+item.itemBatRE.name=充電電池
+item.itemBatCrystal.name=能量水晶
+item.itemBatLamaCrystal.name=蘭波頓水晶
+item.itemPESD.name=PESD
+item.quantumAccumulator.name=量子蓄電池
+item.bigQuantumAccumulator.name=大型量子蓄電池
+
+//Crops
+item.itemCropanalyzer.name=作物分析儀
+item.itemCropSeed.name=種子袋
+item.cropSeedUn.name=未知種子
+item.cropSeedInvalid.name=種子數據丟失 - Bug？
+item.cropItem.name=%s作物種子
+item.itemCrop.name=作物架
+item.itemWeedEx.name=除草劑
+item.itemCellHydrant.name=水化單元
+item.itemTerraWart.name=大地疣
+
+//Coffee
+item.coffee.name=咖啡
+item.coffeeCold.name=冷咖啡
+item.coffeeDark.name=黑咖啡
+
+//Tea
+item.ItemTeas.name=茶
+item.itemColdTea.name=冷茶
+item.itemBlackTea.name=紅茶
+item.itemTea.name=茶
+item.itemIceTea.name=冰茶
+
+//Misc
+item.itemDynamites.name=炸藥
+item.itemDynamite.name=炸藥
+item.itemDynamiteSticky.name=粘性炸藥
+item.itemToolbox.name=工具盒
+item.itemFilledToolbox.name=工具盒
+item.itemCarbonBox.name=納米工具盒
+item.itemCarbonBoxFilled.name=納米工具盒
+item.itemIridiumBox.name=量子工具盒
+item.itemIridiumBoxFilled.name=量子工具盒
+item.itemNoUse.name=無用
+item.itemMisc.name=雜項物品
+item.itemHarz.name=粘性樹脂
+
+//Coins
+item.itemCoins.name=貨幣
+item.itemIndustrialCoin.name=工業鐵幣
+item.itemIndustrialCoinX1.name=工業鐵幣
+item.itemIndustrialCoinX2.name=工業鐵幣
+item.itemIndustrialCoinX3.name=工業鐵幣
+item.itemIndustrialCoinX4.name=工業鐵幣
+item.itemIndustrialCoinX5.name=工業鐵幣
+
+//FuelCans
+item.itemFuelCans.name=燃油罐
+item.itemFuelCanEmpty.name=燃油罐（空）
+item.itemFuelCan.name=燃油罐（滿）
+item.itemTinCanFilled.name=錫罐（滿）
+
+//Misc Items
+item.itemScrapbox.name=廢料盒
+item.itemDoorAlloy.name=防爆門
+
+//Cells
+item.itemCellEmpty.name=空單元
+item.itemCellWater.name=水單元
+item.itemCellLava.name=熔巖單元
+
+//Boats
+item.itemIC2Boats.name=船
+item.itemRubberBoat.name=橡膠船
+item.itemRubberBoatBroken.name=損壞的橡膠船
+item.itemCarbonBoat.name=碳纖維船
+item.itemElectricBoat.name=電動船
+
+//Beer Stuff
+item.itemBarrel.name=啤酒桶
+item.barrelEmpty.name=空酒桶
+item.barrelFilled.name=%sL 酒桶
+item.beer.name=啤酒
+item.beerBuilder.name=%1$s%2$s%3$s
+item.beerBlack.name=黑色物質
+item.beerRum.name=朗姆
+item.beerZero.name=零度
+item.beerSolidRatioWatery.name=極淡的
+item.beerSolidRatioClear.name=清淡的
+item.beerSolidRatioLite.name=較淡的
+item.beerSolidRatioStrong.name=較烈的
+item.beerSolidRatioThick.name=濃烈的
+item.beerSolidRatioStodge.name=極濃的
+item.beerHopsRatioSoup.name=清湯
+item.beerHopsRatioAlcfree.name=無醇
+item.beerHopsRatioWhite.name=白色
+item.beerHopsRatioDark.name=暗色
+item.beerHopsRatioFull.name=全發酵
+item.beerHopsRatioBlack.name=黑色
+item.beerTimeRatioBrew.name=果酒
+item.beerTimeRatioYoungster.name=青酒
+item.beerTimeRatioBeer.name=啤酒
+item.beerTimeRatioAle.name=麥芽酒
+item.beerTimeRatioDragonblood.name=龍血酒
+
+//Tools
+item.itemDebug.name=調試工具
+item.itemRemote.name=遙控引爆器
+item.itemFreq.name=傳送頻率遙控器
+item.itemMachineTool.name=機器工具
+item.itemToolCutter.name=絕緣層鉸刀
+item.itemFoamSprayer.name=建築泡沫噴槍
+item.itemThermometer.name=溫度計
+item.itemTreetap.name=木龍頭
+item.itemToolWrench.name=扳手
+item.itemMemoryStick.name=隨身碟
+item.itemToolBronzeHoe.name=青銅鋤
+item.itemToolBronzeSpade.name=青銅鏟
+item.itemToolBronzeSword.name=青銅劍
+item.itemToolBronzeAxe.name=青銅斧
+item.itemToolBronzePickaxe.name=青銅鎬
+
+//Painter
+item.itemPainters.name=刷子
+item.itemToolPainterBlack.name=黑色刷子
+item.itemToolPainterRed.name=紅色刷子
+item.itemToolPainterGreen.name=綠色刷子
+item.itemToolPainterBrown.name=棕色刷子
+item.itemToolPainterBlue.name=藍色刷子
+item.itemToolPainterPurple.name=紫色刷子
+item.itemToolPainterCyan.name=青色刷子
+item.itemToolPainterLightGrey.name=淡灰色刷子
+item.itemToolPainterDarkGrey.name=灰色刷子
+item.itemToolPainterPink.name=粉色刷子
+item.itemToolPainterLime.name=黃綠色刷子
+item.itemToolPainterYellow.name=黃色刷子
+item.itemToolPainterCloud.name=淡藍色刷子
+item.itemToolPainterMagenta.name=品紅色刷子
+item.itemToolPainterOrange.name=橙色刷子
+item.itemToolPainterWhite.name=白色刷子
+
+//Electric Tools
+item.itemToolMiningLaser.name=採礦鐳射槍
+item.itemToolMeter.name=EU電錶
+item.electricSprayer.name=電力噴霧器
+item.itemObscurator.name=擬態闆
+item.itemToolChainsaw.name=鏈鋸
+item.itemDrills.name=採礦鑽頭
+item.itemToolDrill.name=採礦鑽頭
+item.itemToolDDrill.name=鑽石鑽頭
+item.itemToolJackHammer.name=手持式鑿巖機
+item.itemToolHoe.name=電動鋤
+item.itemTreetapElectric.name=電動樹脂提取器
+item.itemNanoSabers.name=納米劍
+item.itemNanoSaber.name=納米劍
+item.itemNanoSaberActive.name=納米劍
+item.itemToolWrenchElectric.name=電動扳手
+item.precisionWrench.name=精確扳手
+item.itemMowingTool.name=除草工具
+item.itemPortableTeleporter.name=便攜式傳送器
+
+//Scanner Item
+item.itemMetaScanners.name=掃描器
+item.itemScanner.name=OD 掃描器
+item.itemScannerAdv.name=OV 掃描器
+item.rangedScanner.OD.name=遠程 OD 掃描器
+item.rangedScanner.OV.name=遠程 OV 掃描器
+item.bigRangedScanner.OD.name=大範圍 OD 掃描器
+item.bigRangedScanner.OV.name=大範圍 OV 掃描器
+item.itemLowOreValueScanner.name=低級 OVD 掃描器
+item.itemMedOreValueScanner.name=中級 OVD 掃描器
+item.itemHighOreValueScanner.name=高級 OVD 掃描器
+item.itemSettedOreValueScanner.name=可調節 OVD 掃描器
+item.itemQuarryScanner.name=採石場掃描器
+item.itemFilteredScanner.name=過濾型掃描器
+item.itemFluidScanner.name=流體掃描器
+item.itemFluidScannerFiltered.name=過濾型流體掃描器
+
+//Utility Armor
+item.itemArmorCFPack.name=建築泡沫背包
+item.itemArmorJetpack.name=噴氣背包
+item.itemStaticBoots.name=靜電靴
+item.itemNightvisionGoggles.name=夜視鏡
+item.itemSolarHelmets.name=太陽能頭盔
+item.itemSolarHelmet.name=太陽能頭盔
+item.itemAdvancedSolarHelmet.name=高級太陽能頭盔
+item.itemArmorBatpack.name=儲電背包
+item.itemArmorLappack.name=蘭波頓儲電背包
+item.itemArmorQuantumPack.name=量子背包
+item.itemArmorIndustrialBelt.name=工業腰帶
+item.itemArmorJetpackElectric.name=電力噴氣背包
+item.itemArmorJetpackNuclear.name=核能噴氣背包
+item.itemArmorCombinedJetpack.name=壓縮型噴氣背包
+item.itemArmorNuclearCombindedJetpack.name=壓縮型核能噴氣背包
+
+//Electric Armor
+item.itemArmorNanoHelmet.name=納米頭盔
+item.itemArmorNanoChestplate.name=納米護甲
+item.itemArmorNanoLegs.name=納米護腿
+item.itemArmorNanoBoots.name=納米靴子
+item.itemArmorQuantumHelmet.name=量子頭盔
+item.itemArmorQuantumChestplate.name=量子護甲
+item.itemArmorQuantumLegs.name=量子護腿
+item.itemArmorQuantumBoots.name=量子靴子
+item.itemQuantumArmorJetpack.name=量子噴氣背包護甲
+item.itemQuantumArmorNuclearJetplate.name=核能量子噴氣背包護甲
+
+//Normal Armor
+item.itemArmorBronzeHelmet.name=青銅頭盔
+item.itemArmorBronzeChestplate.name=青銅胸甲
+item.itemArmorBronzeLegs.name=青銅護腿
+item.itemArmorBronzeBoots.name=青銅靴子
+item.itemArmorAlloyHelmet.name=複合頭盔
+item.itemArmorAlloyChestplate.name=複合背心
+item.itemArmorAlloyLeggings.name=複合褲子
+item.itemArmorAlloyBoots.name=複合靴子
+item.itemArmorHazmatHelmet.name=防化頭盔
+item.itemArmorHazmatChestplate.name=防化服
+item.itemArmorHazmatLeggings.name=防化褲
+item.itemArmorRubBoots.name=橡膠靴
+
+//Shields
+item.platedShield.name=複合盾牌
+item.bronzeShield.name=青銅盾牌
+item.nanoShield.name=納米盾牌
+
+//Machine Upgrades
+item.itemUpgradeBase.name=基礎升級
+item.ic2upgrades.name=升級插件
+item.overclockerUpgrade.name=超頻升級
+item.transformerUpgrade.name=高壓升級
+item.energyStorageUpgrade.name=儲能升級
+item.redstoneSensitivityUpgrade.name=紅石信號感應升級
+item.redstoneInverterUpgrade.name=紅石信號反轉升級
+item.basicItemImportUpgrade.name=基本輸入升級
+item.itemImportUpgrade.name=輸入升級
+item.basicItemExportUpgrade.name=基本輸出升級
+item.itemExportUpgrade.name=輸出升級
+item.mufflerUpgrade.name=消音升級
+item.muteUpgrade.name=靜音升級
+item.expCollectorUpgrade.name=經驗收集升級
+item.efficiencyUpgrade.name=效率升級
+item.energyMultiplierUpgrade.name=能量存儲倍增升級
+item.loudnessUpgrade.name=噪音升級
+item.roundRobinExportUpgrade.name=循環輸出升級
+item.slowdownUpgrade.name=降速升級
+item.basicFilteredImportUpgrade.name=過濾型基礎輸入升級
+item.filteredImportUpgrade.name=過濾型輸出升級
+item.basicFilteredExportUpgrade.name=過濾型基礎輸入升級
+item.filteredExportUpgrade.name=過濾型輸出升級
+item.basicFluidImportUpgrade.name=基礎流體輸入升級
+item.fluidImportUpgrade.name=流體輸入升級
+item.basicFluidExportUpgrade.name=基礎流體輸出升級
+item.fluidExportUpgrade.name=流體輸出升級
+item.basicFilteredFluidImportUpgrade.name=過濾型基礎流體輸入升級
+item.filteredFluidImportUpgrade.name=過濾型流體輸入升級
+item.basicFilteredFluidExportUpgrade.name=過濾型基礎流體輸出升級
+item.filteredFluidExportUpgrade.name=過濾型流體輸出升級
+item.reactorTrackerUpgrade.name=反應堆追蹤升級
+item.cobbleGenUpgrade.name=圓石生成升級
+item.craftingUpgrade.name=合成升級
+item.quantumOverclockerUpgrade.name=量子超頻升級
+item.efficientSawbladeUpgrade.name=鋸條效率升級
+item.durableSawbladeUpgrade.name=鋸條耐久升級
+item.creativeUpgrade.name=創造升級
+
+//Chargepad Upgrade
+item.itemChargePadUpgrade.name=充能臺升級
+item.upgradeKit.crystalizor.name=晶化升級工具
+item.upgradeKit.mfs.name=MFS 單元升級工具
+item.upgradeKit.lapotronic.name=蘭波頓升級工具
+item.upgradeKit.fission.name=裂變升級工具
+item.padUpgrade.damage.name=傷害轉換模塊
+item.padUpgrade.drain.name=排水轉換模塊
+item.padUpgrade.proximity.name=鄰階升壓模塊
+item.padUpgrade.wideband.name=寬頻升壓模塊
+item.padUpgrade.armorPriority.name=護甲優先模塊
+item.padUpgrade.fieldExp1.name=基礎增幅模塊
+item.padUpgrade.fieldExp2.name=增幅模塊
+item.padUpgrade.fieldExp3.name=高級增幅模塊
+
+//Inventory Upgrade
+item.inventoryUpgrades.name=物品欄
+item.automationUpgrade.name=自動化升級
+item.sideAccessUpgrade.name=機器訪問升級
+item.rotationDisablerUpgrade.name=旋轉禁阻升級
+item.slotTypeModifierUpgrade.name=格子類型升級
+item.slotAccessModifierUpgrade.name=格子訪問升級
+item.slotSideModifierUpgrade.name=格子邊側升級
+item.redstoneDeconductorUpgrade.name=紅石禁阻升級
+item.slotDiversityUpgrade.name=格子分類升級
+item.stackDiversityUpgrade.name=堆疊分類升級
+item.itemLimiterUpgrade.name=物品限製升級
+item.stackLimiterUpgrade.name=堆疊限製升級
+item.itemUpgradeContainer.name=升級容器
+
+//TFBP
+item.itemTFBPBase.name=地形轉換
+item.itemTFBPMushroom.name=地形轉換模闆-蘑菇
+item.itemTFBPCultivation.name=地形轉換模闆-耕地
+item.itemTFBPIrrigation.name=地形轉換模闆-灌溉
+item.itemTFBPChilling.name=地形轉換模闆-冰原
+item.itemTFBPDesertification.name=地形轉換模闆-沙漠
+item.itemTFBPFlatification.name=地形轉換模闆-平地
+item.itemBiomeBPCultivation.name=地形轉換生物群係-耕地
+item.itemBiomeBPDesertification.name=地形轉換生物群係-沙漠
+item.itemBiomeBPForestification.name=地形轉換生物群係-森林
+item.itemBiomeBPIrrigation.name=地形轉換生物群係-灌溉
+item.itemBiomeBPMushroom.name=地形轉換生物群係-蘑菇
+item.itemBiomeBPUndergrowth.name=地形轉換生物群係-叢林
+item.itemBiomeBPChilling.name=地形轉換生物群係-冰原
+
+//Reactor Comp
+item.itemReactorRods.name=鈾棒
+item.itemDepletedRods.name=枯竭的鈾棒
+
+item.reactorUraniumSimple.name=鈾燃料棒
+item.reactorUraniumDual.name=雙聯鈾燃料棒
+item.reactorUraniumQuad.name=四聯鈾燃料棒
+item.itemCellUranEmpty.name=將枯竭的鈾燃料棒
+item.reactorIsotopeCell.name=枯竭同位素燃料棒
+item.itemCellUranEnriched.name=再濃縮的鈾燃料棒
+
+item.reactorUraniumRedstoneSimple.name=紅石濃縮鈾燃料棒
+item.reactorUraniumRedstoneDual.name=紅石濃縮雙聯鈾燃料棒
+item.reactorUraniumRedstoneQuad.name=紅石濃縮四聯鈾燃料棒
+item.itemCellRedstoneEnrichedUranEmpty.name=幾乎枯竭的紅石鈾燃料棒
+item.itemDepletedRedstoneEnrichedUraniumCell.name=耗盡的紅石鈾燃料棒
+item.itemCellRedstoneUranEnriched.name=再濃縮紅石鈾燃料棒
+
+item.reactorUraniumBlazeSimple.name=烈焰濃縮鈾燃料棒
+item.reactorUraniumBlazeDual.name=烈焰濃縮雙聯鈾燃料棒
+item.reactorUraniumBlazeQuad.name=烈焰濃縮四聯鈾燃料棒
+item.itemCellBlazeEnrichedUranEmpty.name=幾乎枯竭烈焰鈾燃料棒
+item.itemDepletedBlazeEnrichedUraniumCell.name=枯竭的烈焰同位素燃料棒
+item.itemCellBlazeUranEnriched.name=再濃縮烈焰鈾燃料棒
+
+item.reactorUraniumEnderPearlSimple.name=末影珍珠濃縮鈾燃料棒
+item.reactorUraniumEnderPearlDual.name=末影珍珠濃縮雙聯鈾燃料棒
+item.reactorUraniumEnderPearlQuad.name=末影珍珠濃縮四聯鈾燃料棒
+item.itemCellEnderPearlEnrichedUranEmpty.name=幾乎枯竭末影珍珠鈾燃料棒
+item.itemDepletedEnderPearlEnrichedUraniumCell.name=枯竭的末影珍珠同位素燃料棒
+item.itemCellEnderPearlUranEnriched.name=再濃縮末影珍珠鈾燃料棒
+
+item.reactorUraniumNetherStarSimple.name=下界之星濃縮鈾燃料棒
+item.reactorUraniumNetherStarDual.name=下界之星濃縮雙聯鈾燃料棒
+item.reactorUraniumNetherStarQuad.name=下界之星濃縮四聯鈾燃料棒
+item.itemCellNetherStarEnrichedUranEmpty.name=幾乎枯竭下界之星鈾燃料棒
+item.itemDepletedNetherStarEnrichedUraniumCell.name=枯竭的下界之星同位素燃料棒
+item.itemCellNetherStarUranEnriched.name=再濃縮下界之星鈾燃料棒
+
+item.reactorUraniumCharcoalSimple.name=木炭濃縮鈾燃料棒
+item.reactorUraniumCharcoalDual.name=木炭濃縮雙聯鈾燃料棒
+item.reactorUraniumCharcoalQuad.name=木炭濃縮四聯鈾燃料棒
+item.itemCellCharcoalEnrichedUranEmpty.name=幾乎枯竭木炭鈾燃料棒
+item.itemDepletedCharcoalEnrichedUraniumCell.name=枯竭的木炭同位素燃料棒
+item.itemCellCharcoalUranEnriched.name=再濃縮木炭鈾燃料棒
+
+item.itemReflectors.name=反射闆
+item.reactorReflector.name=中子反射闆
+item.reactorReflectorThick.name=加厚中子反射闆
+item.reactorReflectorIridium.name=銥中子反射闆
+
+item.itemCondensators.name=冷卻單元
+item.reactorCondensator.name=紅石冷卻單元
+item.reactorCondensatorLap.name=青金石冷卻單元
+
+item.itemReactorPlating.name=反應堆隔闆
+item.reactorPlatingHeat.name=高熱容反應堆隔闆
+item.reactorPlatingExplosive.name=密封反應堆隔闆
+
+item.itemHeatSwtiches.name=熱交換器
+item.reactorHeatSwitch.name=熱交換器
+item.reactorHeatSwitchCore.name=反應堆熱交換器
+item.reactorHeatSwitchSpread.name=組合熱交換器
+item.reactorHeatSwitchDiamond.name=高級熱交換器
+
+item.itemHeatStorage.name=冷卻單元
+item.reactorCoolantSimple.name=10k 冷卻單元
+item.reactorCoolantTriple.name=30k 冷卻單元
+item.reactorCoolantSix.name=60k 冷卻單元
+
+item.itemHeatVent.name=散熱片
+item.reactorVent.name=散熱片
+item.reactorVentCore.name=反應堆散熱片
+item.reactorVentGold.name=超頻散熱片
+item.reactorVentDiamond.name=高級散熱片
+
+item.reactorSteamVent.name=蒸汽片
+item.reactorSteamVentCore.name=反應堆蒸汽片
+item.reactorSteamVentGold.name=超頻蒸汽片
+item.reactorSteamVentDiamond.name=高級蒸汽片
+
+item.reactorElectricVent.name=電力散熱片
+item.reactorElectricVentCore.name=電力反應堆散熱片
+item.reactorElectricVentGold.name=電力超頻散熱片
+item.reactorElectricVentDiamond.name=電力高級散熱片
+
+item.itemInactiveFuelCell.name=惰性燃料單元
+item.reactorHeatpack.name=加熱單元
+item.reactorVentSpread.name=元件散熱片
+
+//Misc item
+item.itemDustIron.name=鐵粉
+item.itemDustGold.name=金粉
+item.itemDustCopper.name=銅粉
+item.itemDustTin.name=錫粉
+item.itemDustBronze.name=青銅粉
+item.itemDustSilver.name=銀粉
+item.itemDustCoal.name=煤粉
+item.itemFuelCoalDust.name=濕潤煤粉
+item.itemDustClay.name=粘土粉
+item.itemObsidianDust.name=黑曜石粉
+item.itemDustIronSmall.name=小撮鐵粉
+item.itemNetherrackDust.name=地獄巖粉
+item.itemCharcoalDust.name=木炭粉
+item.itemFuelCharcoalDust.name=濕潤木炭粉
+item.itemRareEarthDust.name=稀土粉
+
+
+item.itemIngotCopper.name=銅錠
+item.itemIngotTin.name=錫錠
+item.itemIngotBronze.name=青銅錠
+item.itemIngotAdvIron.name=精煉鐵錠
+item.itemIngotSilver.name=銀錠
+item.itemIngotUran.name=精煉鈾
+item.itemIngotAlloy.name=合金錠
+item.itemRedstoneEnrichedUranium.name=紅石濃縮鈾錠
+item.itemBlazeEnrichedUranium.name=烈焰濃縮鈾錠
+item.itemEnderPearlEnrichedUranium.name=末影珍珠濃縮鈾錠
+item.itemNetherStarEnrichedUranium.name=下界之星濃縮鈾錠
+item.itemCharcoalEnrichedUranium.name=木炭濃縮鈾錠
+
+item.itemCellAir.name=壓縮空氣單元
+item.itemCellCoal.name=濕潤煤炭單元
+item.itemCellCoalRef.name=煤油單元
+item.itemCellBio.name=生物質單元
+item.itemCellBioRef.name=生物燃料單元
+item.itemCellWaterElectro.name=電解水單元
+item.itemCellFuel.name=燃料單元
+item.itemCellWoodGas.name=木瓦斯單元
+item.itemCellPlasma.name=電漿單元
+
+item.itemGrinPowder.name=蛤蛤粉
+item.itemFertilizer.name=肥料
+item.itemHops.name=啤酒花
+item.itemCoffeeBeans.name=咖啡豆
+item.itemCoffeePowder.name=咖啡粉
+item.itemTeaLeaf.name=茶葉
+item.itemFlour.name=麵粉
+item.itemSpecialFertilizer.name=增生肥料
+item.itemHempSeeds.name=大麻種子
+item.itemHemp.name=大麻
+item.itemReviveFertilizer.name=恢複肥料
+
+item.itemOreUran.name=鈾礦石
+item.itemOreIridium.name=銥礦石
+
+item.itemScrap.name=廢料
+item.itemScrapMetal.name=廢金屬
+item.itemMatter.name=UU物質
+
+item.itemPartCoalBall.name=煤球
+item.itemPartCoalBlock.name=壓縮煤球
+item.itemPartCoalChunk.name=煤塊
+item.itemPartIndustrialDiamond.name=工業鑽石
+item.itemPartCarbonFibre.name=碳纖維
+item.itemPartCarbonMesh.name=碳纖維網
+item.itemPartCarbonPlate.name=碳闆
+item.itemPartAlloy.name=高級合金
+item.itemPartIridium.name=銥闆
+item.itemPartDCP.name=壓縮銅闆
+item.itemRareEarthChunk.name=稀土塊
+item.itemDeadMagnet.name=惰性磁鐵
+item.itemMagnet.name=磁鐵
+item.itemPlasmaCore.name=等離子核心
+
+item.scrapMetalChunk.name=廢金屬塊
+item.scrapMetalBlade.name=廢金屬葉片
+item.itemRawObsidianBlade.name=原黑曜石葉片
+item.itemObsidianBlade.name=黑曜石葉片
+item.itemTurbineBlade.name=渦輪葉片
+
+item.itemFuelPlantBall.name=植物球
+item.itemFuelPlantCmpr.name=壓縮植物
+item.itemFuelCoalCmpr.name=濕潤煤炭
+item.itemBioMesh.name=有機網
+item.itemBioBall.name=生物球
+item.itemRawBioFiber.name=原生物球
+item.itemCompressedBioBall.name=壓縮生物球
+item.itemBioChunk.name=生物塊
+
+item.itemToolPainter.name=刷子
+item.itemTFBP.name=地形轉換模闆-空白
+item.itemTerraformerBiomeBlueprint.name=地形轉換生物群係-空白
+
+item.itemRubber.name=橡膠
+item.itemPartCircuit.name=電路闆
+item.itemPartCircuitAdv.name=高級電路闆
+
+item.itemTinCan.name=錫罐
+item.itemMugEmpty.name=石杯
+
+item.itemPartPellet.name=建築泡沫顆粒
+
+//Crops
+ic2.crop.Weed.name=雜草
+ic2.crop.Wheat.name=小麥
+ic2.crop.Pumpkin.name=南瓜
+ic2.crop.Melon.name=西瓜
+ic2.crop.Dandelion.name=蒲公英
+ic2.crop.Rose.name=虞美人
+ic2.crop.Blackthorn.name=黑刺李
+ic2.crop.Tulip.name=鬱金香
+ic2.crop.Cyazint.name=繽紛花
+ic2.crop.Daisy.name=雛菊花
+ic2.crop.Venomilia.name=奇妙花
+ic2.crop.Rainbow.name=七色花
+ic2.crop.Reed.name=甘蔗
+ic2.crop.Stickreed.name=粘性甘蔗
+ic2.crop.Cocoa.name=可可
+ic2.crop.Ferru.name=鐵葉草
+ic2.crop.Malachite.name=孔雀石
+ic2.crop.Stannum.name=錫葉子
+ic2.crop.Aurelia.name=金葉草
+ic2.crop.Argentum.name=銀葉子
+ic2.crop.Redwheat.name=紅麥
+ic2.crop.NetherWart.name=地獄疣
+ic2.crop.TerraWart.name=大地疣
+ic2.crop.Coffee.name=咖啡
+ic2.crop.Hops.name=啤酒花
+ic2.crop.Carrots.name=胡蘿蔔
+ic2.crop.Potato.name=番薯
+ic2.crop.RedMushroom.name=紅蘑菇
+ic2.crop.BrownMushroom.name=棕色蘑菇
+ic2.crop.Cacti.name=仙人掌
+ic2.crop.Tea.name=茶
+ic2.crop.oakSapling.name=橡樹樹苗
+ic2.crop.spruceSapling.name=雲杉樹苗
+ic2.crop.birchSapling.name=白樺樹苗
+ic2.crop.jungleSapling.name=叢林樹苗
+ic2.crop.acaciaSapling.name=金合歡樹苗
+ic2.crop.dark_oakSapling.name=深色橡樹樹苗
+ic2.crop.BeetRoots.name=紅頭菜根
+ic2.crop.BlueWheat.name=藍麥
+ic2.crop.Hemp.name=大麻
+ic2.crop.Lumilia.name=熒光草
+ic2.crop.GlowShroom.name=熒光蘑菇
+
+//CropSorting
+cropSorter.allStats.name=所有屬性
+cropSorter.growth.name=生長值
+cropSorter.gain.name=産量
+cropSorter.resistance.name=抵禦值
+cropSorter.count.name=數量
+
+//fluid
+fluid.coolant.name=冷卻液
+fluid.woodgas.name=木瓦斯
+fluid.steam.name=蒸汽
+
+//DamageSource
+death.electricity=%1$s 觸電而亡
+death.attack.electricity=%1$s 觸電而亡
+death.nuke=%1$s 冇能敵過核彈
+death.attack.nuke=%1$s 冇能敵過核彈
+death.radiation=%1$s 死於輻射
+death.attack.radiation=%1$s 死於輻射
+
+//Potion
+potion.radiation.name=輻射
+
+//Tabs
+itemGroup.ic2=工業2經典版
+
+//Container
+container.inventory=物品欄
+
+//Personal Storage
+container.personalAllowView.name=允許檢視
+container.personalVoid.name=清空一切
+container.personalAllowInjection.name=允許從外界輸入
+container.personalAllowExtraction.name=允許輸出到外界
+container.personalVoidExtra.name=需要同時按住 Shift 和 Ctrl 才能起效
+container.personalAllowTeam.name=允許組成員交互
+
+//Trade-O-Mat
+container.tradeMoneyNeeded.name=花費錢幣：
+container.tradeMoneyNeededTrade.name=花費錢幣：%s 錢幣
+container.tradeTradingCap.name=交易上限：
+container.tradeDelay.name=交易間隔：
+container.tradeNothing.name=什麼都冇有發生
+container.tradeStock.name=庫存：
+container.tradeCount.name=交易數量：
+container.tradeNeeds.name=需求：
+container.tradeNeedsEntry.name=%1$s：%2$sx
+container.tradeProvided.name=提供：
+container.tradeNotPresent.name=不能進行交易
+container.tradeNoRoom.name=交易輸出冇有空間
+container.tradeEnergyProvided.name=提供的 EU：
+container.tradeInfinite.name=無限庫存
+container.tradeSupportsOre.name=支援礦典
+container.tradeIgnoresNBT.name=忽略 NBT 數據
+container.tradeHasDelay.name=兩次交易的間隔：%s
+container.tradeHasCap.name=每個玩家交易上限：%s
+container.marketOreDict.name=使用礦典
+container.marketAddEntry.name=添加
+container.marketMoneyEntry.name=價格：%s
+container.marketOreDictMoneyEntry.name=礦物：%1$s，價格：%2$s
+
+
+//Trade-O-Mat button
+container.tradeDeleteTrade.name=刪除交易
+container.tradeNewTrade.name=新建交易
+container.tradeDeleteSubTrade.name=刪除子交易
+container.tradeAddCustomTrade.name=添加自定義交易
+container.tradeCustomInfo.name=交易信息
+container.tradeNewSubTrade.name=新建/下一個子交易
+container.tradeCreative.name=創造模式庫存
+container.tradeMoney.name=使用錢
+container.tradeSetDelay.name=兩次交易間隔
+container.tradeSetCap.name=每位玩家交易上限
+container.tradeFinalizeTrade.name=創建交易
+container.tradeCancelTrade.name=取消
+container.tradeSupportLocalMarket.name=使用在地市場
+container.tradeSupportGlobalMarket.name=使用全球市場
+container.tradeUseOreDict.name=使用礦典
+container.tradeUseNBT.name=使用 NBT
+container.tradeLoad.name=加載交易
+container.tradeButton.name=交易
+container.tradeRequirements.name=交易需求
+container.tradeShowItems.name=顯示待處理物品
+
+//Solar Turbine
+container.solarTurbineHeat.name=熱量：
+container.thermalAmbientHeat.name=環境熱量
+container.thermalAmbientEU.name=EU/tick：
+
+//Energy Storage
+container.energyStorageCharge.name=能量等級：
+container.energyStorageOutput.name=輸出：%1$s EU/t
+container.redstoneModeNothing.name=紅石行為：無
+container.redstoneModeFull.name=紅石行為：滿電發出信號
+container.redstoneModePartiallyFilled.name=紅石行為：有電發出信號
+container.redstoneMode50Full.name=紅石行為：超過一半發出信號
+container.redstoneMode50Empty.name=紅石行為：少於一半發出信號
+container.redstoneModeEmpty.name=紅石行為：空時發出信號
+container.redstoneModeOutputWithoutSignal.name=紅石行為：收到信號禁止輸出
+container.redstoneModeOutputWithoutSignalWhenFull.name=紅石行為：未滿電時收到信號禁止輸出
+
+container.energyPerPacket.name=EU/Packet: %s
+container.packetCountPerTick.name=最大 Packet/t: %1$sx %2$sEU
+container.packetsPerTick.name=最大 Packet/t: %1$sx
+
+container.energyIncrease.name=充能時間：%s
+container.energyDecrease.name=耗能時間：%s
+container.energyNothing.name=冇有能量流動
+container.energyOutput.name=輸出：
+container.nothingHappend.name=什麼都冇有發生
+
+container.stationModeCharging.name=盒子模式：充能工作臺模式
+container.stationModeDischarging.name=盒子模式：電池站模式
+container.stationModeBatbox.name=盒子模式：電池盒模式
+
+container.sendingModeLow.name=能量模式：低能量模式
+container.sendingModeHigh.name=能量模式：高能量模式
+container.sendingModePacket.name=能量模式：Packet 能量模式
+
+//AdvMachine
+container.machineSpeed.name=速度：
+container.machinePressure.name=壓力：
+container.machineVacuum.name=真空度：
+container.machineHeat.name=熱量：
+
+//Sound beacon
+container.soundBeaconTile.name=方塊
+container.soundBeaconItem.name=物品
+container.soundBeaconArmor.name=護甲
+container.soundBeaconEffect.name=聲音：%s
+container.soundBeaconRange.name=範圍：%s 格
+
+//Worktable
+container.ignoreDurability.name=忽略耐久
+container.restock.name=補充物品欄
+container.recursive.name=循環合成
+container.worktableCenterGui.name=中心 GUI
+container.worktableError.requiredReqursive.name=%s 不足，並且循環合成未啓用
+container.worktableError.noRecipeFound.name=未能找到 %s 的合成錶
+container.worktableError.toDeepRecipe.name=合成需要超過 5 階子合成
+container.worktableError.recipeToComplex.name=子合成耗盡，每個合成限製 %1$s 個子合成
+container.worktableError.noSubRecipeFound.name=未能找到 %1$s 的合成，合成錶為 %2$s
+container.worktableError.subCraftFailed.name=無法用合成 %2$s 合成物品 %1$s
+container.worktableError.subCraftFailedUnknown.name=物品 %s 的子合成失敗，原因未知
+container.worktableError.toMuchOverflow.name=合成産生了過多的副産品。
+container.onlyCollection.name=僅對於物品收集，一些合成不支援這一點。
+container.takeSnapshot.name=手動物品欄快照
+container.takeSnapshotInfo.name=獲取全局物品欄快照，用於快速填充，可以避免每個合成都進行一次操作。
+container.manualRefil.name=用手動快照填充緩沖區
+container.manualRefilFail.name=冇有快照
+container.manualRefilFailNoInv.name=冇有物品欄
+container.manualRefilFailNoItems.name=未找到物品，或物品欄已重新填充
+container.manualRefilSuccess.name=手動物品欄補充
+
+//Scanner
+container.scannerReset.name=重置
+
+//ReactorPlanner
+//Sorter Buttons
+container.compCategoryButton.name=分類
+container.comCategoryAll.name=所有組件
+container.compCategoryRods.name=燃料棒
+container.compCategoryCoolant.name=冷卻單元
+container.compCategoryCondensators.name=冷卻單元
+container.compCategoryHeatPacks.name=加熱單元
+container.compCategoryVents.name=散熱片
+container.compCategorySpreadVents.name=元件散熱片
+container.compCategorySwitches.name=熱交換器
+container.compCategoryPlates.name=反應堆隔闆
+container.compCategoryReflectors.name=反射闆
+container.compCategoryIsotopics.name=同位素燃料棒
+
+//Planner Buttons
+container.simulationStart.name=開始
+container.simulationStop.name=停止
+container.simulationPause.name=暫停
+container.simulationRun.name=運行
+container.simulationCompile.name=編譯
+container.simulationReset.name=重置
+container.simulationBackup.name=備份
+container.simulationRestore.name=恢複
+container.simulationClear.name=清除
+container.setupExport.name=導出
+container.setupImport.name=導入
+container.setupImportFailedNoDecoder.name=未發現編碼
+container.setupImportingFailed.name=導入設定失敗
+container.setupImported.name=導入設定成功
+container.setupExported.name=導出設定成功
+container.setupExportFailed.name=導出設定失敗
+container.setupExporterFailed.name=導出器未能創建設定
+container.setupExportFailedNoEncoder.name=未發現編碼
+container.componentsReplaced.name=替換時間：%s
+container.reactorPrediction.name=設定預測
+container.reactorSetupInfo.name=設定信息
+container.reactorSetupName.name=設定命名
+container.reactorComponentInfo.name=組件信息
+container.reactorActiveInfo.name=激活信息
+container.reactorButton.name=反應堆
+container.steamReactorButton.name=蒸汽反應堆
+container.reactorStartingHeat.name=起始熱量
+container.reactorCustomTime.name=自定義定時器
+container.reactorSimSpeed.name=類比速度
+
+//Simulation Info
+container.expectedSteamProduction.name=預計蒸汽速率：%s
+container.totalSteamProduction.name=總蒸汽：%s mb
+container.expectedEUProduction.name=預計 EU/t：%s
+container.totalEUProduction.name=總 EU：%s
+container.totalHeatProduction.name=總熱量：%s
+container.explosionEffectModifier.name=爆炸影響：%s
+container.reactorEfficiency.name=效率（EU）：%1$s / %2$s
+container.isBreeder.name=增殖：%s
+container.expectedHeat.name=預計熱量：%s
+container.expectedHeatPackHeat.name=熱量（Pack）：%s
+container.expectedVentCooling.name=散熱冷卻：%s
+container.expectedReactorCooling.name=反應堆冷卻：%s
+container.excessCooling.name=超額冷卻：%s
+container.excessHeating.name=超額熱量：%s
+container.currentEUProduction.name=有效 EU/t：%s
+container.currentProducedEU.name=産出 EU：%s
+container.activeSteamProduction.name=蒸汽産出/t：%s mB
+container.currentWaterUsed.name=耗水量：%s mB
+container.currentHeat.name=核心熱量：%s
+container.currentMaxReactorHeat.name=熔化熱量：%s
+container.currentHeatEffectMod.name=熱量影響幾率：%s
+container.currentSimulationTime.name=類比時間：%s 反應堆 Ticks
+container.currentActiveTime.name=剩餘有效 Ticks：%1$s / %2$s
+container.noComponentSelected.name=未選擇組件
+
+//Component Stats
+container.reactorStatHeatProduction.name=基礎熱量産出：%s
+container.reactorStatEnergyProduction.name=基礎能量産出：%s
+container.reactorStatRodAmount.name=燃料棒數：%s
+container.reactorStatPulseAmount.name=內部脈沖：%s
+container.reactorStatSelfCooling.name=自身散熱量：%s
+container.reactorStatPartCooling.name=組件散熱量：%s
+container.reactorStatReactorCooling.name=反應堆熱量吸收：%s
+container.reactorStatPartChange.name=組件傳熱量：%s
+container.reactorStatReactorChange.name=反應堆傳熱量：%s
+container.reactorStatHeatStorage.name=最大熱量：%s
+container.reactorStatReactorMaxHeat.name=額外最大反應堆熱量：%s
+container.reactorStatReactorEEM.name=爆炸係數：%s
+container.reactorStatMaxDurability.name=最大傷害：%s
+container.reactorStatEnergyUsage.name=基礎能量使用：%s
+container.reactorStatWaterConsumtion.name=耗水量：%s
+container.reactorStatSteamProduction.name=蒸汽産量：%s
+container.reactorStatWaterStorage.name=儲水量：%s
+
+//Electric Enchanter
+container.enchantingStart.name=開始
+container.addXP.name=添加經驗
+container.removeXP.name=移除經驗
+container.enchLevel.name=等級：%s
+container.everything.name=全部
+
+//MassFab
+container.fabricationProgress.name=進度：
+container.scrapAmplifier.name=倍數：
+
+//Uranium Enricher
+container.uranType.name=鈾類型：%s
+container.uranAmount.name=%1$s / %2$s
+container.noUran.name=空
+
+//Machine Buffers
+container.upgradeTick.name=升級 Tick
+container.upgradeTickNotify.name=使用升級 Tick 進行通知處理
+
+//buttons
+container.buttonCtrl.name=Ctrl：
+container.buttonAlt.name=Alt：
+container.buttonShift.name=Shift：
+
+//Time
+container.day.name=天
+container.hour.name=小時
+container.minute.name=分鍾
+container.second.name=秒
+
+//FluidTank
+container.fluidTank.name=§f§l流體儲罐§r
+container.fluidStored.name=流體：%s
+container.fluidAmount.name=存儲的流體：%1$s mB / %2$s mB
+container.fluidNone.name=無流體
+container.fluidAmountSingle.name=流體數量：%s
+
+//EU
+container.eu.name=%s EU
+container.euATick.name=%s EU/t
+container.packetEuATick.name=%1$sx %2$s EU/t
+
+//Items
+container.saveButton.name=保存
+container.staticValue.name=靜態值
+container.invertedValue.name=反值
+container.byteValue.name=字節值
+container.sideInfo.name=方嚮：%s
+container.comparatorInfo.name=模式：%s
+
+//Crop Analyzer
+container.cropUnknown.name=未知
+container.cropTier.name=等級：%s
+container.cropOwner.name=發現者：
+container.cropGrowth.name=生長值：
+container.cropResistance.name=抵禦值：
+container.cropGain.name=産量：
+container.cropCount.name=數量：%s
+container.enough.name=足夠！
+container.next.name=下一個
+container.sort.name=排序
+container.catAll.name=所有作物種子
+
+//Inv Upgrades
+container.invUpgradeSlotID.name=格子ID：%s
+container.invUpgradeSlotType.name=類型：%s
+container.upgradeInvert.name=反相
+container.upgradeUseMeta.name=比較 Meta
+container.upgradeUseNBT.name=比較 NBT
+container.upgradeUseOreDict.name=比較礦物詞典
+
+//Teleporter
+container.teleporterNewName.name=傳送目標：%s
+container.teleporterInvalidTarget.name=目標不是傳送器。刪除這個目標
+container.teleporterTargetTypeInvalid.name=目標無法接收實體
+container.teleporterTeleport.name=傳送
+container.teleporterRename.name=重命名
+
+//tileInfo
+tileInfo.wrenchCantPick.name=扳手無法拆卸一個充滿物品欄的機器
+tileInfo.reactorHeat.name=熱量：%1$s / %2$s
+tileInfo.machineFuel.name=燃料：%1$s / %2$s
+tileInfo.machineProgress.name=進度：%1$s / %2$s
+tileInfo.machineNotifies.name=通知緩沖區
+tileInfo.secondaryMachineProgress.name=次要進度：%1$s / %2$s
+tileInfo.machineSpeed.name=速度：%1$s / %2$s
+tileInfo.cableColor.name=線纜顔色：%1$s
+tileInfo.ampliefier.name=倍數：%1$s / %2$s
+tileInfo.itemTransferTier.name=傳輸速率：%s EU
+tileInfo.sinkTier.name=輸入等級：%s
+tileInfo.sourceTier.name=輸出等級：%s
+tileInfo.euTier.name=能量等級：%s
+tileInfo.euStorage.name=存儲能量：%1$s / %2$s EU
+tileInfo.euOutput.name=輸出：%s EU
+tileInfo.packetCount.name=輸出packet數量：%s
+tileInfo.euUsage.name=能量消耗：%s EU
+tileInfo.requireTankInv.name=需要儲罐或者容器，容器可以用來存儲裝滿流體的容器
+
+//Crop info
+tileInfo.cropMaxScan.name=掃描等級已經達到了最大
+tileInfo.cropScanIncrease.name=增加掃描等級到：%s
+tileInfo.cropScanIncreaseFailed.name=冇有足夠能量增加掃描等級
+tileInfo.cropUnknown.name=%1$s未知的作物
+tileInfo.cropName.name=作物名稱：%3$s%1$s（by %2$s）
+tileInfo.cropSize.name=作物大小：%3$s %1$s / %2$s
+tileInfo.cropNutrient.name=儲存營養：%3$s %1$s / %2$s
+tileInfo.cropWater.name=存儲水：%3$s %1$s / %2$s
+tileInfo.cropWeedEx.name=存儲除草劑：%3$s %1$s / %2$s
+tileInfo.cropNutrientPoints.name=作物營養值：%2$s %1$s
+tileInfo.cropHumidityPoints.name=作物水分值：%2$s %1$s
+tileInfo.cropAirPoints.name=作物空氣質量：%2$s %1$s
+tileInfo.cropGrowthPoints.name=生長點數：%3$s %1$s / %2$s
+tileInfo.cropGrowStat.name=生長狀態：%2$s %1$s
+tileInfo.cropGainStat.name=收獲狀態：%2$s %1$s
+tileInfo.cropResistanceStat.name=抗性狀態：%2$s %1$s
+
+//BeerInfo
+tileInfo.beerType.name=類型：%s
+tileInfo.beerAge.name=時間：%s
+tileInfo.beerWater.name=容積：%1$s / %2$s
+tileInfo.beerWheat.name=固體物：%1$s / %2$s
+tileInfo.beerHops.name=啤酒花：%1$s / %2$s
+tileInfo.beerRatioWheat.name=固體物比例：%s
+tileInfo.beerRatioHops.name=啤酒花比例：%s
+tileInfo.beerRatioTime.name=時間比例：%s
+tileInfo.beerBeer.name=啤酒
+tileInfo.beerRum.name=朗姆酒
+
+//itemInfo
+itemInfo.electricTransferRate.name=傳輸速率：%s EU
+itemInfo.electricTransferRateVariable.name=若幹
+itemInfo.electricMaxIn.name=最大輸入：%s EU
+itemInfo.electricMaxStorage.name=最大存儲：%s EU
+itemInfo.electricTransformer.name=輸入：%1$s EU，輸出：%2$s EU 4x
+itemInfo.electricProduction.name=産能：%s EU
+itemInfo.updatesSlowly.name=非常緩慢的更新産出（每 5 分鍾）
+itemInfo.chargePadWrongSide.name=升級需要從底部註入
+itemInfo.treeTapEffect.name=將粘性樹脂直接添加到物品欄中
+itemInfo.losslessWrenchModeOn.name=啓用無損模式
+itemInfo.losslessWrenchModeOff.name=禁用無損模式
+itemInfo.losslessWrenchUses.name=無損使用還剩：%s
+itemInfo.losslessWrenchInfiniteUses.name=完全無損
+itemInfo.lossChance.name=拾取幾率：%s
+itemInfo.enabledMowing.name=啓用割草工具
+itemInfo.disabledMowing.name=禁用割草工具
+itemInfo.disableDrillMode.name=泥土模式禁用
+itemInfo.enableDrillMode.name=泥土模式啓用
+itemInfo.drillModeSwitch.name=切換泥土模式
+itemInfo.drillProbing.name=在手持掃描器時，掃描你前麵的區域
+itemInfo.drillProbeResult.name=[鑽頭掃描]：3x%1$sx3 區域的礦物數值為：%2$s
+itemInfo.drillRockCutter.name=隻挖掘石頭的速度非常快
+itemInfo.noTeleportTarget.name=冇有傳送目標
+itemInfo.clearedTeleporterTarget.name=清除已目標
+itemInfo.teleporterTargetSet.name=目標已設定
+itemInfo.teleporterTargetName.name=目標：%s
+
+
+//Jetpack
+itemInfo.jetpackRecipe.name=護甲添加/刪除合成。註意：物品欄數據將被刪除！
+itemInfo.jetpackArmor.name=護甲：%s
+itemInfo.jetpackArmorDurability.name=護甲耐久：%1$s / %2$s
+itemInfo.jetpackJumpToFly.name=飛行
+itemInfo.jetpackModeSwitch.name=在飛行模式之間切換
+itemInfo.jetpackToggle.name=啓用/禁用蒸汽背包
+itemInfo.jetpackQuickToggle.name=在按下時，快速更改懸浮模式
+itemInfo.jetpackToggleRocket.name=啓用/禁用火箭模式
+itemInfo.jetpackChargeRocket.name=為火箭模式充電
+itemInfo.jetpackReleaseRocket.name=釋放火箭充能
+itemInfo.jetpackNuclearHeat.name=反應堆熱量：%1$s / %2$s
+itemInfo.jetpackNuclearCompHeat.name=平均反應堆部件耐久：%s
+itemInfo.jetpackOn.name=噴氣背包啓用
+itemInfo.jetpackOff.name=噴氣背包禁用
+itemInfo.jetpackUsage.name=按 Alt 鍵（%1$s) 和模式切換鍵（%2$s）切換噴氣背包
+itemInfo.rocketCharge.name=火箭充能：%s
+itemInfo.hoverModeOn.name=啓用懸浮模式
+itemInfo.hoverModeAdvOn.name=啓用超級懸浮模式
+itemInfo.hoverModeOff.name=禁用懸浮模式
+itemInfo.hoverModeOffForced.name=關閉懸浮模式
+itemInfo.rocketModeOn.name=啓用火箭模式
+itemInfo.rocketModeOff.name=禁用火箭模式
+itemInfo.rocketModeForcedOff.name=關閉火箭模式
+
+//Armor
+itemInfo.qArmorRemovesFire.name=移除身上的火
+itemInfo.qArmorFeedsYou.name=如果身上有填充好的錫罐，自動進行餵食
+itemInfo.qArmorRemovePotions.name=移除身上的凋零/輻射/中毒效果
+itemInfo.qArmorGivesAir.name=當空氣含量過低，自動提供空氣。
+itemInfo.qArmorHighJump.name=超高跳躍
+itemInfo.qArmorHighSpeed.name=獲得一個很大的速度提升。（與鞘翅一起工作）
+itemInfo.staticBootsProduceEU.name=根據你的移動速度，充能 0-3EU/t
+itemInfo.solarHelmetProduction.name=當能看見天空時，産能 %s EU/t
+itemInfo.nightVisionHudKey.name=啓用/禁用夜視
+itemInfo.nightVisionSeeInTheDark.name=為你提供在黑夜中看清的能力
+itemInfo.nightVisionEnabled.name=夜視啓用
+itemInfo.nightVisionDisabled.name=夜視禁用
+itemInfo.rubberProvidesAir.name=如果空氣過低且提供空氣單元，則為你提供空氣
+itemInfo.rubberPreventBurn.name=保護你免受火焰傷害，如果裝備全套，你就可以在熔巖中遊水
+
+//Electric ToolTip Info
+itemInfo.chargesItems.name=在快捷欄或副手時，為用電物品充電
+itemInfo.analyzerModes.name=在分析器模式之間切換
+itemInfo.miningLaserModes.name=在雷射模式之間切換
+itemInfo.euReaderModes.name=在 EU 讀取模式之間切換
+itemInfo.euReaderToolTips.name=將此保留在快捷欄，能夠在物品文本提示部分，GUI，以及 Waila/OneProbe 上解鎖相關提示信息
+itemInfo.teleportPlayer.name=將玩家傳送到目標位置
+itemInfo.teleportTargetSet.name=如果方塊為傳送器，它將設定為你的目標。
+itemInfo.rotateLayer.name=旋轉當前材質圖層
+itemInfo.setLayer.name=在材質圖層之間切換
+itemInfo.takeTexture.name=從方塊上複製材質
+itemInfo.putTexture.name=將材質粘貼到建築泡沫相關的方塊上
+itemInfo.putTextureAll.name=將材質粘貼到建築泡沫相關的方塊的所有麵上
+itemInfo.ScannerAOE.name=從世界底層到玩家高度進行大規模掃描
+itemInfo.ScannerIncreaseRadius.name=增加掃描器的半徑
+itemInfo.ScannerDecreaseRadius.name=減小掃描器的半徑
+itemInfo.ScannerRadiusEffect.name=10x半徑變化的影響
+itemInfo.ScannerLVLChange.name=修改掃描器搜索的稀有度
+itemInfo.electricSprayerRange.name=修改噴塗機噴塗數量
+itemInfo.toggleLosslessMode.name=切換無損模式
+itemInfo.nanoSaberEffect.name=可以破壞納米和量子護甲
+itemInfo.toggleMachineToolMode.name=切換機床模式
+itemInfo.accessMachineToolData.name=訪問物品欄升級格子或訪問比較器選項
+itemInfo.switchAutoRefillMode.name=切換自動填充模式
+itemInfo.painterRangeEffect.name=在效果區域之間切換
+itemInfo.painterAllSides.name=同時噴塗抹所有麵
+itemInfo.usbReset.name=清除隨身碟上的 NBT 數據
+itemInfo.isInverted.name=反轉
+
+//Boat
+itemInfo.whileInBoat.name=當坐在船上
+itemInfo.accessTheBoatInventory.name=訪問船的物品欄
+itemInfo.gainBoatForwardThrust.name=增加引擎前推力
+itemInfo.gainBoatBackwardsThrust.name=增加引擎後推力
+itemInfo.resetEngineThrust.name=重置引擎推力
+
+//Inv Upgrades
+itemInfo.invUpgradeNeedsBound.name=需要連接到機器
+itemInfo.invUpgradeSideInfo.name=麵：%1$s，訪問規則：%2$s
+itemInfo.invUpgradeSideSet.name=設定 %1$s 麵的訪問規則為：%2$s
+itemInfo.invUpgradeBoundFailed.name=無法從 InventoryHandler 加載。Handler 被禁用
+itemInfo.invUpgradeBoundSuccess.name=成功從 InventoryHandler 加載配置
+itemInfo.invUpgradeAddSlotsToAll.name=將所有格子添加到所有麵上
+itemInfo.invUpgradeRemoveAllSlots.name=從所有麵移除所有格子
+itemInfo.invUpgradeInvertedSettings.name=反轉設定
+itemInfo.invUpgradeStackSize.name=最大堆疊數：%s
+itemInfo.invUpgradeTypeStackSize.name=物品：%1$s，物品堆疊數：%2$s
+itemInfo.automationInvert.name=反轉升級
+itemInfo.modifyStacksize.name=修改最大堆疊數
+itemInfo.modifyInverted.name=反轉修改數量
+itemInfo.modifyBig.name=10x修改
+itemInfo.invUpgradeLoadData.name=從方塊中加載數據到升級中
+itemInfo.invUpgradeModifySide.name=修改你點選方塊麵的訪問權限
+itemInfo.invUpgradeSlotAccesses.name=格子：%1$s：（D: %2$s，U: %3$s，N: %4$s，S: %5$s，W: %6$s，E: %7$s）
+
+//Upgrades
+itemInfo.upgradeCreativeOnly.name=僅限創造模式
+itemInfo.upgradeLockt.name=升級已鎖定，按 Alt 鍵（%s）單擊將其取出
+itemInfo.upgradeDirection.name=方嚮: %s
+itemInfo.upgradeDirectionSet.name=將方嚮設定為：%s
+itemInfo.upgradeOwner.name=所有者：%s
+itemInfo.upgradeOwnerSet.name=設定所有者為：%s
+itemInfo.upgradeInjected.name=嚮方塊插入升級
+itemInfo.upgradeReachedMax.name=方塊能達到的最大能量等級
+itemInfo.upgradeXPStored.name=存儲的經驗：%s 點
+itemInfo.upgradeFilter.name=摁 Side Inventory 鍵（%s）打開物品欄過濾
+itemInfo.reactorItemsToTrack.name=找到了反應堆中需要追蹤的物品 %s
+itemInfo.reactorTrackMode.name=追蹤模式：%s
+itemInfo.trackModeInsert.name=輸入
+itemInfo.trackModeExtract.name=輸出
+itemInfo.reactorTrackType.name=追蹤類型：%s
+itemInfo.invalidReactor.name=無效或不支援的反應堆係統
+itemInfo.craftingDelay.name=合成間延遲：%s ticks
+itemInfo.craftingOutput.name=合成輸出：%s
+itemInfo.craftingCause0.name=無效的合成錶
+itemInfo.craftingCause1.name=機器不支援此升級
+itemInfo.craftingCause2.name=無方嚮設定
+itemInfo.craftingCause3.name=冇有要抓取的輸出物品欄
+itemInfo.craftingCause4.name=合成需要的輸出欄比提供的要大
+itemInfo.craftingStuffed.name=輸出中滯留的物品：%s
+itemInfo.upgradeStackSize.name=傳輸的堆疊數：%s
+itemInfo.extraDrops.name=嚮木頭合成中添加 %s 額外的掉落物
+itemInfo.durabilityLeft.name=耐久：%1$s / %2$s
+
+itemInfo.setUpgradeOwner.name=設定升級所有者
+itemInfo.setUpgradeSideOpposite.name=在你點選方塊麵的對麵設定升級麵。
+itemInfo.setUpgradeSide.name=在你點選的麵設定升級麵。
+itemInfo.modifyTargetSlot.name=更改存儲了方嚮的目標格子
+itemInfo.cobbleGenInfo.name=每秒産生1個%s，支援堆疊
+
+//TFBP
+itemInfo.tfbpRange.name=範圍：%s 方塊
+itemInfo.tfbpCost.name=每個方塊花費：%s EU
+itemInfo.tfbpBiomeChange.name=將生物群係更改為：%s
+itemInfo.tfbpMushroom.name=把這個區域變成蘑菇生物群係
+itemInfo.tfbpIrrigation.name=擴展森林並移除沙子，還能夠下雨
+itemInfo.tfbpCultivation.name=一個可種植的平原生物群係
+itemInfo.tfbpChilling.name=將這個區域變成冬季仙境
+itemInfo.tfbpDesertification.name=創建沙漠
+itemInfo.tfbpFlatificator.name=平整附近的地形
+
+//Upgrade Info
+itemInfo.upgradeRecipeTime.name=額外合成時間：%s ticks
+itemInfo.upgradeRecipeTimeModifier.name=合成長度係數：%s
+itemInfo.upgradeSpeed.name=額外機器速度：%s /t
+itemInfo.upgradeSpeedModifier.name=機器速度係數：%s
+itemInfo.upgradeEnergyStorage.name=額外能量存儲：%s EU
+itemInfo.upgradeEnergyStorageModifier.name=額外能量存儲係數：%s
+itemInfo.upgradeEnergyConsumtion.name=額外能量消耗：%s EU/t
+itemInfo.upgradeEnergyConsumtionModifier.name=能量消耗係數：%s
+itemInfo.upgradeExtraEnergyTier.name=機器等級係數：%s
+
+//CropAnalyzer
+itemInfo.cropAnalyzeMode.name=分析器模式：掃描
+itemInfo.cropBreedMode.name=分析器模式：育種計算
+itemInfo.cropListClear.name=清除
+itemInfo.cropListProcess.name=進度
+itemInfo.cropEntryPoints.name=點數：%s
+itemInfo.cropEntryChance.name=幾率：%s
+
+//misc tools
+itemInfo.layerSwitched.name=更改為圖層：%s
+itemInfo.layerRotated.name=圖層：%1$s，旋轉：%2$s
+itemInfo.targetSlot.name=選擇格子：%s
+itemInfo.slotInfo.name=格子 %1$s：%2$s
+itemInfo.targetSlotChanged.name=更改為格子：%s
+itemInfo.cropButton.name=按 Ctrl 鍵可以更好地檢視物品
+tileInfo.cropDropMode.name=作物掉落：%s
+tileInfo.cropSeeds.name=種子
+tileInfo.cropGain.name=産量
+itemInfo.remoteDynamiteLinks.name=連接到 %s 炸藥
+itemInfo.remoteDynamiteLinkFailed.name=這個炸藥冇有連接到這個遙控器，不能取消連接。
+itemInfo.freqTransmitterClear.name=頻率遙控器未連接
+itemInfo.freqTransmitterSetTarget.name=頻率遙控器連接到傳送器。
+itemInfo.freqTransmitterSameTarget.name=無法將傳送器與自身連接。
+itemInfo.freqTransmitterNothingChanged.name=傳送連接未變化。
+itemInfo.freqTransmitterUpdatedTarget.name=傳送連接已建立。
+itemInfo.freqTransmitterDim.name=維度：%s
+itemInfo.freqTransmitterX.name=X：%s
+itemInfo.freqTransmitterY.name=Y：%s
+itemInfo.freqTransmitterZ.name=Z：%s
+itemInfo.machineToolComparatorMode.name=比較器模式
+itemInfo.machineToolInventoryMode.name=物品欄模式
+itemInfo.machineToolSavedData.name=數據已保存
+itemInfo.painterAutoRefillOn.name=啓用自動重填
+itemInfo.painterAutoRefillOff.name=禁用自動重填
+itemInfo.painterRange.name=繪製範圍：%s 方塊
+itemInfo.sprayerSize.name=噴塗大小：%s 方塊
+itemInfo.sprayerUses.name=已存儲泡沫：%s
+
+//Misc Items
+itemInfo.badFoodCan.name=這看起來很糟糕……
+itemInfo.coinValue.name=鐵幣價值：%s
+
+//EU Reader
+itemInfo.euReaderMode.name=當前模式：%s
+itemInfo.euReaderCantFindPath.name=找不到要渲染的路徑
+itemInfo.euReaderStartNewMeasuring.name=開始新的測量
+itemInfo.euReaderSourceInfo.name=能量源輸出緩沖區：%s EU
+itemInfo.euReaderSinkInfo.name=能量接收限製：%s EU
+itemInfo.euReaderCableLoss.name=導體能量損失：%s EU
+itemInfo.euReaderCableLimit.name=導體能量限製：%s EU
+itemInfo.euReaderAverageEU.name=測量功率 [EU/t]：%1$s 輸入 %2$s 輸出 %3$s 獲得（平均超過 %4$s ticks）
+itemInfo.euReaderTotalEU.name=測量功率 [總EU]：自加載以來已統計了 %s EU
+itemInfo.euReaderAveragePacket.name=測量 packets [EU/Packet 數量] 超過 %s ticks：
+itemInfo.euReaderTotalPacket.name=自加載後測量的 packets [EU/Packet 數]：
+itemInfo.euReaderEmittingPacket.name=發出的 EU：%1$s 數量：%2$s
+itemInfo.euReaderReceivingPacket.name=接收的 EU：%1$s 數量：%2$s
+itemInfo.euReaderTeleporterDistance.name=距離：%s 方塊。
+itemInfo.euReaderTeleporterCost.name=距離花費：%s EU
+itemInfo.euReaderTeleporterEntityWeight.name=傳送器傳送實體需要：%1$s %2$s EU 進行傳送
+itemInfo.euReaderTeleporterItemWeight.name=每滿組 100 重量
+itemInfo.euReaderTeleporterFluidWeight.name=每 10mB 流體 1 重量
+itemInfo.euReaderTeleporterEnergyWeight.name=傳送的距離成本需要無限的能量
+itemInfo.euReaderTeleporterHubTargetCount.name=傳送目標：%s
+itemInfo.euReaderTeleporterHubTarget.name=傳送目標：%s
+itemInfo.euReaderTeleporterHubTargetDistance.name=距離：%s
+itemInfo.euReaderTeleporterHubTargetCost.name=花費：%s EU
+
+//Scanner
+itemInfo.scannerRange.name=掃描範圍：%s 方塊
+itemInfo.scannerAll.name=挖掘所有方塊
+itemInfo.scannerFluid.name=僅搜索流體
+itemInfo.scannerTargets.name=掃描目標：
+itemInfo.scannerNoTargets.name=無目標
+itemInfo.scannerNextScanLevel.name=[掃描器]：掃描等級：%s
+itemInfo.scannerOreDensity.name=掃描結果：此區域的礦物密度為 %s
+itemInfo.scannerOreValue.name=掃描結果：這個區域的礦物值為 %s
+
+//Laser
+itemInfo.laserMode.name=雷射模式：%s
+itemInfo.laserModeMining.name=採掘
+itemInfo.laserModeLowFocus.name=低聚焦
+itemInfo.laserModeLongRange.name=遠距
+itemInfo.laserModeHorizontal.name=水準
+itemInfo.laserModeSuperHeat.name=過熱
+itemInfo.laserModeScatter.name=散射
+itemInfo.laserModeExplosive.name=爆炸
+itemInfo.laserModeTracking.name=追蹤
+itemInfo.laserWrongAim.name=採礦雷射瞄準角度太陡
+itemInfo.laserNeedsTarget.name=射擊方嚮冇有有生命實體
+
+//Reactor Components
+itemInfo.steamVentWater.name=儲水量：%s
+itemInfo.steamVentHeat.name=耗熱量：%s
+itemInfo.steamVentSteam.name=蒸汽産出/t：%s
+
+//Boat
+itemInfo.boatForce.name=引擎速度：%s
+itemInfo.boatCharge.name=充能：%s
+
+//Misc info
+miscInfo.northFacing.name=北
+miscInfo.southFacing.name=南
+miscInfo.eastFacing.name=東
+miscInfo.westFacing.name=西
+miscInfo.upFacing.name=上
+miscInfo.downFacing.name=下
+miscInfo.nullFacing.name=無
+miscInfo.null.name=無
+miscInfo.nothingHappend.name=什麼都冇有發生
+miscInfo.accessNothing.name=無
+miscInfo.accessImport.name=導入
+miscInfo.accessExport.name=導出
+miscInfo.accessBoth.name=都
+miscInfo.pressCtrl.name=摁下%1$s Ctrl%2$s 檢視關鍵信息
+miscInfo.pressShift.name=摁下%1$s Shift%2$s 檢視信息
+miscInfo.pressAlt.name=摁下%1$s Alt%2$s 檢視統計信息
+miscInfo.euUpgrade.name=EU電錶已安裝
+miscInfo.cropUpgrade.name=作物掃描器已安裝
+miscInfo.thermoUpgrade.name=溫度計已安裝
+miscInfo.cantPlantHere.name=條件不符，作物無法在這裏生長
+miscInfo.notEnoughSeeds.name=你需要更多的種子來種植作物
+miscInfo.cropSoil.name=作物架下土壤：營養值：%1$s，濕度：%2$s
+miscInfo.cropSoilInfo.name=最遠可達耕地下 3 格方塊
+miscInfo.farmland.name=作物架下耕地：營養值：%1$s，濕度：%2$s
+miscInfo.farmlandInfo.name=直接作物架下
+
+miscInfo.pressTo.name=摁下 %1$s 鍵：%2$s
+miscInfo.pathLoss.name=Packet 損失：%s
+miscInfo.supportedUpgrades.name=此機器支援升級
+miscInfo.onItemRightClick.name=物品右擊行為
+miscInfo.onBlockClick.name=物品點選方塊行為
+miscInfo.openTheItemInventory.name=訪問物品的物品欄
+miscInfo.achievementSaved.name=成就 %s 已保存。當需要時，會自動解鎖
+miscInfo.yes.name=是
+miscInfo.no.name=否
+
+//comparator
+comparatorInfo.compAmplifier.name=物質生成機倍數
+comparatorInfo.compEuStorage.name=EU存儲
+comparatorInfo.compXpStorage.name=經驗存儲
+comparatorInfo.compEnchanterMode.name=附魔模式
+comparatorInfo.compMachineFuel.name=機器燃料
+comparatorInfo.compPersonalTank.name=儲罐存儲
+comparatorInfo.compMachineProgress.name=機器進度
+comparatorInfo.compReactorHeat.name=反應堆熱量
+comparatorInfo.compHeat.name=熱量
+comparatorInfo.compMachineSpeed.name=機器速度
+comparatorInfo.compUranEnricherFuel.name=增殖燃料
+comparatorInfo.compMachineSecondProgress.name=第二機器進度
+comparatorInfo.compWaterGeneratorWater.name=水力發電機燃料方塊
+comparatorInfo.compInventoryFilled.name=物品欄格子已填充
+comparatorInfo.compInventoryPartically.name=物品欄已填充
+
+//Tooltip
+tooltip.SinkHudOnly.name=僅限接受能量
+tooltip.WireHudOnly.name=僅線纜
+tooltip.SourceHudOnly.name=僅提供能量
+tooltip.StorageHudOnly.name=僅存儲能量
+tooltip.ContainerHudOnly.name=僅能量容器
+tooltip.HudAll.name=所有
+tooltip.HudDisabled.name=禁用
+
+//Measonure mode
+measureMode.averageEU.name=測量平均
+measureMode.tileInfo.name=測量功能
+measureMode.totalEmitted.name=測量總發出量
+measureMode.packetReading.name=測量 Packet
+measureMode.totalPackets.name=測量總 Packets
+measureMode.emitPath.name=源路徑渲染器
+measureMode.receivePath.name=接收路徑渲染器
+measureMode.area.name=源路徑區域
+measureMode.areaReverse.name=接收路徑區域
+
+//slotType
+slotType.input.name=輸入格子
+slotType.secondInput.name=第二輸入格子
+slotType.output.name=輸出格子
+slotType.fuel.name=燃料格子
+slotType.fluidFuel.name=液態燃料格子
+slotType.charge.name=充能格子
+slotType.discharge.name=放能格子
+slotType.reactor.name=反應堆格子
+slotType.tools.name=工具格子
+slotType.batteryStation.name=電池站格子
+slotType.fertilizer.name=肥料格子
+slotType.hydration.name=水化格子
+slotType.weedEx.name=除草劑格子
+slotType.books.name=書格子
+slotType.storage.name=存儲格子
+
+//jei
+jeiInfo.EUNeeded.name=需要 %s EU
+jeiInfo.dualRecipe.name=雙合成錶
+jeiInfo.chargeRecipe.name=充能合成
+jeiInfo.dischargeRecipe.name=放能合成
+jeiInfo.needEUReader.name=需要 EU 電錶在快捷欄進行信息讀取
+jeiInfo.switchedShowingMode.name=HUD 模式：%s
+jeiInfo.isFuelable.name=可做燃料
+jeiInfo.isFuelablePoints.name=可做燃料：%s 點
+jeiInfo.hiddenRecipe.name=隱藏合成
+jeiInfo.xpProduction.name=%s 經驗
+jeiInfo.scrapboxChance.name=幾率：%s
+jeiInfo.randomAmount.name=隨機輸出：%1$s-%2$s
+jeiInfo.randomDrop.name=隨機掉落
+jeiInfo.fuelValue.name=燃料值：%s
+jeiInfo.fuelMultiplier.name=燃料倍率：%s
+jeiInfo.repairEffect.name=修理：%s
+jeiInfo.burnTime.name=燃燒時間：
+jeiInfo.ticks.name=%s Ticks
+jeiInfo.points.name=點數：%s
+jeiInfo.needed.name=需要：%s~
+
+//Potion
+potion.potency.4=V
+
+//Config
+configInfo.configUpdated.name=從服務器更新了配置。一切都好
+configInfo.configUpdatedWorld.name=從服務器更新了配置。請重新加載世界或重新登陸到服務器，以防止 bug
+configInfo.configUpdatedGame.name=從服務器更新了配置。請重新啓動遊戲，以防止 bug。
+
+//Achievement
+achievement.acquireMatter=粉色粘球
+achievement.acquireMatter.desc=製造出 UU 物質
+achievement.acquireRefinedIron=比鐵更好
+achievement.acquireRefinedIron.desc=燒製精煉鐵錠
+achievement.acquireResin=膠著局勢
+achievement.acquireResin.desc=用木龍頭從橡膠樹上提取樹脂
+achievement.buildBatBox=把電存起來
+achievement.buildBatBox.desc=建造電池盒
+achievement.buildCable=能量流
+achievement.buildCable.desc=製造一些導線
+achievement.buildEUReader=電流電錶
+achievement.buildEUReader.desc=合成一個 EU 電錶
+achievement.buildMachineTool=機器控製
+achievement.buildMachineTool.desc=合成一個機器工具
+achievement.buildChainsaw=伐木信條
+achievement.buildChainsaw.desc=製作電鋸
+achievement.buildCoalDiamond=閃閃發光
+achievement.buildCoalDiamond.desc=壓縮煤塊製造出鑽石
+achievement.buildCompressor=非凡的壓縮技術
+achievement.buildCompressor.desc=合成一臺壓縮機
+achievement.buildCanner=罐裝食物
+achievement.buildCanner.desc=合成一個裝罐機
+achievement.buildVacCanner=更快排空
+achievement.buildVacCanner.desc=合成一臺真空裝罐機
+achievement.buildSingCompressor=奇點壓縮
+achievement.buildSingCompressor.desc=製造一臺奇點壓縮機
+achievement.buildRecycler=為了環境！
+achievement.buildRecycler.desc=合成一臺回收機
+achievement.buildCompRecycler=世界重建者
+achievement.buildCompRecycler.desc=合成一臺壓縮回收機
+achievement.buildDDrill=物有所值
+achievement.buildDDrill.desc=升級成鑽石鑽頭
+achievement.buildDrill=會見牙醫
+achievement.buildDrill.desc=製作鑽頭
+achievement.buildElecFurnace=更熱話題
+achievement.buildElecFurnace.desc=建造電爐
+achievement.buildExtractor=超級樹脂提取技術
+achievement.buildExtractor.desc=建造提取機
+achievement.buildCentExtractor=噬樹
+achievement.buildCentExtractor.desc=合成一臺離心提取機
+achievement.buildGenerator=方便的能源
+achievement.buildGenerator.desc=製造一個發電機
+achievement.buildIndFurnace=超速加工
+achievement.buildIndFurnace.desc=合成一臺感應爐
+achievement.buildMFE=升級儲電設備
+achievement.buildMFE.desc=合成一臺 MFE
+achievement.buildMFS=實在太多了
+achievement.buildMFS.desc=合成一臺 MFSU
+achievement.buildMacerator=雙重麻煩
+achievement.buildMacerator.desc=合成一臺打粉機
+achievement.buildRotMacerator=旋轉破碎機
+achievement.buildRotMacerator.desc=合成一臺旋轉破碎機
+achievement.buildMassFab=將能量轉換為物質
+achievement.buildMassFab.desc=合成一臺 UU 物質生成機
+achievement.buildMiningLaser=鐳射時間
+achievement.buildMiningLaser.desc=製作採礦鐳射槍
+achievement.buildQArmor=高科技中的奇跡
+achievement.buildQArmor.desc=製作出量子套裝中的一件
+achievement.buildTeleporter=空間扭麯技術
+achievement.buildTeleporter.desc=建造傳送機
+achievement.buildTerraformer=改變世界
+achievement.buildTerraformer.desc=建造地形轉換機
+achievement.compressUranium=輻射性
+achievement.compressUranium.desc=將鈾礦壓縮為鈾燃料錠
+achievement.dieFromOwnNuke=瘋狂伊萬
+achievement.dieFromOwnNuke.desc=死於自己放置的核彈
+achievement.killCreeperChainsaw=電鋸屠夫
+achievement.killCreeperChainsaw.desc=用電鋸屠殺爬行者
+achievement.killDragonMiningLaser=像 BOSS 一樣
+achievement.killDragonMiningLaser.desc=使用採礦鐳射槍殺死末影龍
+achievement.mineOre=新興礦業
+achievement.mineOre.desc=採掘到銅礦石或者鈾礦石或者錫礦石
+achievement.starveWithQHelmet=忘記充電
+achievement.starveWithQHelmet.desc=戴著量子頭盔淹死或餓死
+achievement.teleportFarAway=遠得要命
+achievement.teleportFarAway.desc=傳送至少 1km
+achievement.terraformEndCultivation=末地如天堂
+achievement.terraformEndCultivation.desc=將末地轉化為現實世界的模樣
+achievement.buildPESU=你瘋了
+achievement.buildPESU.desc=合成一個 PES 單元
+
+//steam Achievements
+achievement.luckyBastard=運氣極好的混蛋
+achievement.luckyBastard.desc=開了一個運氣非常好的廢料盒
+achievement.Sinner=罪人
+achievement.Sinner.desc=在鈾上發了瘋
+achievement.scaffolded=諷刺的摩天大樓
+achievement.scaffolded.desc=不是通嚮天堂的階梯
+achievement.killWitherWithNuke=傻瓜證明
+achievement.killWitherWithNuke.desc=核爆對亡靈類生物極為有效
+achievement.cropBeginner=作物新手
+achievement.cropBeginner.desc=開始研究作物
+achievement.cropChallenger=作物挑戰者
+achievement.cropChallenger.desc=從作物中獲得好處
+achievement.cropExpert=作物專家
+achievement.cropExpert.desc=成為作物專家
+achievement.cropGrandMaster=作物終極大師
+achievement.cropGrandMaster.desc=成為作物方麵的終極大師
+achievement.cropBlank=作物“空白”
+achievement.cropBlank.desc=在作物方麵變得“空白”
+achievement.indestructable=永恆不滅
+achievement.indestructable.desc=在很多核彈中幸存下來
+
+//Percent Achievements
+achievement.bitClean=綠色的開始
+achievement.bitClean.desc=清潔能源産能産出超過汙染能源
+achievement.goGreen=比草還綠
+achievement.goGreen.desc=獲得更多的清潔能源
+achievement.goCoal=小型燃爐
+achievement.goCoal.desc=汙染能源産能産出超過清潔能源
+achievement.factoryGiant=世界燃爐
+achievement.factoryGiant.desc=獲得更多的汙染能源
+
+//stats
+stat.itemEnergyUsed.name=物品 EU 使用量
+stat.itemSmelted.name=物品燒製次數
+stat.itemAutoSmelted.name=物品自動燒製次數
+stat.itemMacerated.name=物品打粉次數
+stat.itemAutoMacerated.name=物品自動打粉次數
+stat.itemExtracted.name=物品提取次數
+stat.itemAutoExtracted.name=物品自動提取次數
+stat.itemCompressed.name=物品壓縮次數
+stat.itemAutoCompressed.name=物品自動壓縮次數
+stat.itemRecycled.name=物品回收次數
+stat.itemAutoRecycled.name=物品自動回收次數
+stat.uuMatterProduced.name=UU 物質産出
+stat.jetpacktimeflown.name=噴氣背包飛行時間
+stat.rocketModesUsed.name=噴氣背包火箭發射
+stat.beersBrewed.name=釀造啤酒次數
+stat.lightDrunk.name=輕醉狀態時間
+stat.medDrunk.name=中醉狀態時間
+stat.badDrunk.name=深醉狀態時間
+stat.deadlyDrunk.name=爛醉狀態時間
+stat.foodcanEaten.name=吃食物罐頭次數
+stat.nuclearJetpacksExploded.name=核能噴氣背包爆炸次數
+stat.nuclearReactorsExploded.name=目擊核反應堆爆炸次數
+stat.steamReactorsExploded.name=目擊蒸汽反應堆爆炸次數
+stat.nukesIgnited.name=引爆核彈次數
+stat.texturesStolen.name=材質複製次數
+stat.luckyPerson.name=開廢料盒次數
+stat.sinns.name=犯罪次數
+stat.cleanEnergy.name=清潔能源産出
+stat.dirtyEnergy.name=汙染能源産出
+stat.playersDisliked.name=不信任他人次數
+stat.teaLover.name=喝茶
+stat.coffeeLover.name=喝咖啡
+stat.machineLoser.name=機器損失數量
+stat.machineSaver.name=機器保留數量
+stat.cropBreeder.name=作物品種數量
+stat.cableShockDamage.name=電纜電擊傷害點數
+stat.dragonsLasered.name=用雷射殺死龍次數
+stat.nukedWither.name=凋零核爆次數
+stat.drownWithQHelmet.name=使用量子頭盔補充空氣次數
+stat.starveWithQHelmet.name=使用量子頭盔補充食物次數
+stat.teleportFarAway.name=傳送很遠的次數
+stat.killCreeperChainsaw.name=苦力怕被鏈鋸殺死次數
+stat.distanceTeleported.name=傳送距離
+stat.foamSprayed.name=建築泡沫噴塗次數
+stat.diedFromNuke.name=用核彈自殺次數
+stat.nukesSurvived.name=核爆存活次數
+stat.nanoArmorDamageTaken.name=納米護甲傷害點數
+stat.quantumArmorDamageTaken.name=量子護甲傷害點數
+stat.chainsawKills.name=實體被鏈鋸殺死次數
+stat.laserKills.name=雷射殺死實體數
+stat.blocksDrille.name=鑽頭挖掘方塊數
+stat.blocksSawed.name=鏈鋸破壞方塊數
+stat.blocksLasered.name=採礦鐳射槍破壞方塊數
+stat.airCellsUsed.name=空氣單元使用次數
+stat.overgrowthFertilierUsed.name=增生肥料使用次數
+stat.restoringFertilizerUsed.name=恢複材料使用次數
+stat.electricItemsEnchanted.name=充電物品附魔次數

@@ -1,0 +1,8 @@
+{
+	"name": "vsaccr.item.guide.name",
+	"subtitle": "vsaccr.item.guide.subtitle",
+	"version": 40,
+	"pause_game": true,
+	"book_texture": "patchouli:textures/gui/book_red.png",
+	"model": "vsaccr:guide_book"
+}

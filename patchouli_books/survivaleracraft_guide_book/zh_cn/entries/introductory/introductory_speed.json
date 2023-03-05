@@ -1,0 +1,11 @@
+{
+    "name": "§5快速提前合成工具",
+    "icon": "touhou_little_maid:album",
+    "category": "patchouli:introductory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)$(l)快速提前合成工具教程：$()$(li)采掘石子开始$(li)破坏树叶获取木棍$(li)挖掘沙砾收集燧石$(li)使用小刀收割原版草$(li)合成粗糙的斧头"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+﻿
+item.penny.name=Θ 1
+
+item.nickel.name=Θ 5
+
+item.dime.name=Θ 10
+item.quarter.name=Θ 25
+
+item.dollar_bill.name=Θ 100
+item.five_dollar_bill.name=Θ 500
+item.ten_dollar_bill.name=Θ 1000
+item.twenty_dollar_bill.name=Θ 2000
+item.fifty_dollar_bill.name=Θ 5000
+item.hundred_dollar_bill.name=Θ 10000

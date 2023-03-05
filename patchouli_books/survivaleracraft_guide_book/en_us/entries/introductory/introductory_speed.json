@@ -1,0 +1,11 @@
+{
+    "name": "§5Fast advance synthesis tool",
+    "icon": "minecraft:bed:14",
+    "category": "patchouli:introductory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)$(l) Quick advance synthesis tool tutorial: $() $(li) Quarry stones to start $(li) Destroy leaves to get sticks $(li) Dig gravel to collect flint $(li) Use knife to harvest original grass $(li) Synthesize rough axe"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "twilightforest:world",
+  "name": "主要的地标性建筑",
+  "description": "是时候打击那些老板了!",
+  "icon": "twilightforest:magic_map",
+  "sortnum": 2000
+}
