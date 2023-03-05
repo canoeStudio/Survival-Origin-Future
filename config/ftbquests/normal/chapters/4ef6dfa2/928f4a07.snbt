@@ -1,0 +1,24 @@
+{
+	title: "月露",
+	x: -2.0d,
+	y: 7.0d,
+	text: [
+		"饮用后&c消除&r所有&c负面效果&r并给予短暂生命恢复效果的神奇药水",
+		"",
+		"用&c水&r装满&c炼药锅&r，在夜空下放置一整晚，水会出现白色的颗粒，此时将&c青金石&r丢入，便可制作出&c月露&r"
+	],
+	dependencies: [
+		"0028c0c6"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "33c7f717",
+		type: "item",
+		items: [{
+			item: "nyx:lunar_water_bottle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

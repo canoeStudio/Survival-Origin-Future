@@ -1,0 +1,21 @@
+{
+	title: "全新的农业内容",
+	icon: "futuremc:netherite_hoe",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"&a\"我一生最大的愿望，就是让人类摆脱饥饿，让天下人都吃饱饭\""
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "4fcc4609",
+		type: "checkmark",
+		title: "我理解了"
+	}],
+	rewards: [{
+		uid: "c70b4e28",
+		type: "item",
+		item: "xlfoodmod:rice_seeds",
+		count: 8
+	}]
+}

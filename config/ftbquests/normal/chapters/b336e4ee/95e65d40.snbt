@@ -1,0 +1,110 @@
+{
+	title: "女仆饰品",
+	disable_toast: true,
+	x: 10.0d,
+	y: -5.0d,
+	text: [
+		"女仆使用的饰品"
+	],
+	dependencies: [
+		"f26a9191"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f14c9ba1",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:ultramarine_orb_elixir"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25c8c94a",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:explosion_protect_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6e9a2e8",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:fire_protect_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67143ccb",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:projectile_protect_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d0988b1",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:magic_protect_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb60e485",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:fall_protect_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1252434d",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:drown_protect_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "176e799a",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:tombstone_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef50efd5",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:hata_sasimono"
+		}]
+	},
+	{
+		uid: "e4606250",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:nimble_fabric"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b49ee0f9",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:mute_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

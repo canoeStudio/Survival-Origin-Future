@@ -1,0 +1,27 @@
+{
+	title: "盐矿",
+	x: 15.0d,
+	y: -20.0d,
+	description: "获取盐的好途径",
+	text: [
+		"广泛生成在地下的矿石，是获取盐的唯一途径"
+	],
+	dependencies: [
+		"e8515da2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77893e5c",
+		type: "observation",
+		title: "发现岩盐矿",
+		icon: "xlfoodmod:rock_salt",
+		match_type: "block_id",
+		match: "xlfoodmod:rock_salt",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "3ac0d096",
+		type: "item",
+		item: "xlfoodmod:salt"
+	}]
+}

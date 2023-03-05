@@ -1,0 +1,15 @@
+{
+	title: "茶风 · 纪事",
+	icon: "teastory:milk_tea 1 4",
+	x: 10.0d,
+	y: -10.0d,
+	text: [
+		"&a\"神农尝百草，日遇七十二毒，得茶而解之。\""
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "d1d72162",
+		type: "checkmark"
+	}]
+}

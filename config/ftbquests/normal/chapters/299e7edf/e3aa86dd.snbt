@@ -1,0 +1,21 @@
+{
+	x: 35.0d,
+	y: -5.0d,
+	text: [
+		"放置&c炒茶(煮饭)锅&r",
+		"",
+		"手持&c淘好的米&r右键进行装填；手持&c水桶&r右键倒入水；手持&c木锅盖&r右键盖上锅盖；手持&c打火石&r右键点火",
+		"",
+		"§7§m§o摆烂§r等待一分钟"
+	],
+	dependencies: [
+		"bda5cbce"
+	],
+	tasks: [{
+		uid: "bfca64ee",
+		type: "item",
+		items: [{
+			item: "teastory:rice_ball"
+		}]
+	}]
+}

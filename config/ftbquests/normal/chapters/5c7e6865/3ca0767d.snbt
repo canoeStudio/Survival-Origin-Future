@@ -1,0 +1,38 @@
+{
+	title: "丰富的作物",
+	x: 15.0d,
+	y: -30.0d,
+	text: [
+		"可从农贸市场中购买"
+	],
+	dependencies: [
+		"e8515da2"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "d4a18827",
+		type: "item",
+		title: "新的作物",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any XLzhongzi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "XLzhongzi"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f7612201",
+		type: "item",
+		item: "xlfoodmod:chicken_sandwich",
+		count: 8
+	}]
+}

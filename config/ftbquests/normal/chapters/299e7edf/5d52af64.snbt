@@ -1,0 +1,30 @@
+{
+	title: "干叶",
+	x: 25.0d,
+	y: -15.0d,
+	text: [
+		"通过加工，可获得各种各样的干叶"
+	],
+	dependencies: [
+		"f9350ec5"
+	],
+	tasks: [{
+		uid: "098b40e1",
+		type: "item",
+		title: "干叶",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Ganye"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Ganye"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"用于查看女仆相关信息的书"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "9aa9d40d",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

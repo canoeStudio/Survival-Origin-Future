@@ -1,0 +1,17 @@
+{
+	x: 20.0d,
+	y: -5.0d,
+	text: [
+		"破坏普通耕地的作物概率掉落"
+	],
+	dependencies: [
+		"d1cd1de7"
+	],
+	tasks: [{
+		uid: "171afe03",
+		type: "item",
+		items: [{
+			item: "teastory:xian_rice_seeds"
+		}]
+	}]
+}

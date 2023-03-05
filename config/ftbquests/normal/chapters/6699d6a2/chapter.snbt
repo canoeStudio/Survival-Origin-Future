@@ -1,0 +1,7 @@
+{
+	title: "屠杀狂魔",
+	icon: "draconicevolution:dragon_heart",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

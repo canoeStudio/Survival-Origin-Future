@@ -1,0 +1,50 @@
+{
+	title: "培养好感",
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"女仆入睡后&c自然苏醒&r、在&c电子琴&r、&c书桌&r、&c直播台&r上玩耍可以提升好感度",
+		"",
+		"高好感度能&c提升女仆的属性&r，但低好感度也&c无任何惩罚&r"
+	],
+	dependencies: [
+		"ad2618bb"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "80faea43",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:maid_joy",
+			tag: {
+				MaidJoyType: "piano"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41e570a8",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:maid_joy",
+			tag: {
+				MaidJoyType: "reading"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22bc8e61",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:maid_joy",
+			tag: {
+				MaidJoyType: "live"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

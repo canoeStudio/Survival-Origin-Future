@@ -1,0 +1,19 @@
+{
+	x: 32.5d,
+	y: 5.0d,
+	text: [
+		"用于制作&c生披萨&r的场所",
+		"",
+		"将其放置，&c直接右键&r打开，放入材料即可制作生披萨"
+	],
+	dependencies: [
+		"ef4d80d2"
+	],
+	tasks: [{
+		uid: "2d6e96b3",
+		type: "item",
+		items: [{
+			item: "pizzacraft:bakeware"
+		}]
+	}]
+}

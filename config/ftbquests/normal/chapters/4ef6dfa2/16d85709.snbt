@@ -1,0 +1,46 @@
+{
+	title: "陨石套装",
+	disable_toast: true,
+	x: 5.0d,
+	y: 19.5d,
+	dependencies: [
+		"b7421087"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d3410ab0",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1f55ca0",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5535c198",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6fb9c30",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

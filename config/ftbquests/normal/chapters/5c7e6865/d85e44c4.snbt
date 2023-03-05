@@ -1,0 +1,41 @@
+{
+	title: "种植工具",
+	disable_toast: true,
+	x: 25.0d,
+	y: 20.0d,
+	text: [
+		"部分作物需要种植在支架上才可生长，支架可在锄好的地上使用"
+	],
+	dependencies: [
+		"96489e02"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "448d0778",
+		type: "item",
+		items: [{
+			item: "sakura:vanilla_splint"
+		}]
+	},
+	{
+		uid: "f1a8c34a",
+		type: "item",
+		items: [{
+			item: "sakura:grape_splint_stand"
+		}]
+	},
+	{
+		uid: "754981d2",
+		type: "item",
+		items: [{
+			item: "sakura:grape_splint"
+		}]
+	},
+	{
+		uid: "f3ad1528",
+		type: "item",
+		items: [{
+			item: "sakura:pepper_splint"
+		}]
+	}]
+}

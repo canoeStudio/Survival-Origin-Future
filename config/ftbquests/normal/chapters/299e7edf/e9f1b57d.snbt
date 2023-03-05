@@ -1,0 +1,17 @@
+{
+	title: "披萨工艺",
+	icon: "pizzacraft:pizza_6",
+	x: 10.0d,
+	y: 10.0d,
+	description: "来点菠萝(?",
+	text: [
+		"要怎样制作一个披萨呢？制作披萨的流程是什么样的呢？"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "b7d85c3b",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "317ce8db",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "5901e35c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "projecte"
+	}]
+}

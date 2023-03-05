@@ -1,0 +1,44 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "77d549d6",
+		type: "item",
+		items: [{
+			item: "adpother:iron_respirator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "419731af",
+		type: "item",
+		items: [{
+			item: "adpother:iron_vacuum_tube"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a75539a",
+		type: "item",
+		items: [{
+			item: "adpother:iron_vacuum_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "96559add",
+		type: "item",
+		items: [{
+			item: "adpother:iron_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "18c4aa1d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "pollution_gold"
+	}]
+}

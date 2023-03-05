@@ -1,0 +1,17 @@
+{
+	x: 30.0d,
+	y: 17.5d,
+	text: [
+		"一种食材加工的工具，&l可在JEI中查看加工配方&r"
+	],
+	dependencies: [
+		"96489e02"
+	],
+	tasks: [{
+		uid: "fb097b5a",
+		type: "item",
+		items: [{
+			item: "sakura:stone_mortar"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "酿造工具",
+	x: 25.0d,
+	y: 10.0d,
+	text: [
+		"用于酿酒的配套工具，&l所有工具均可在JEI中查看使用配方&r",
+		"",
+		"&c酿造桶&r是生产原液的场所",
+		"",
+		"&c蒸馏桶&r是酿酒的主要场所，可酿造多种酒；需要放置在&c岩浆块&r上才可使用",
+		"",
+		"&c储藏桶&r用于盛放已经酿好的酒，可用对应容器取出"
+	],
+	dependencies: [
+		"96489e02"
+	],
+	tasks: [{
+		uid: "311d9fcf",
+		type: "item",
+		items: [{
+			item: "sakura:barrel"
+		}]
+	},
+	{
+		uid: "62bde90b",
+		type: "item",
+		items: [{
+			item: "sakura:barrel_distillation"
+		}]
+	},
+	{
+		uid: "8b87c3e7",
+		type: "item",
+		items: [{
+			item: "sakura:barrel_out"
+		}]
+	}]
+}

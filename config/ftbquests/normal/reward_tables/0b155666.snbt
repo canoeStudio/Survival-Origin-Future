@@ -1,0 +1,53 @@
+{
+	title: "projectE Blind Box",
+	loot_size: 1,
+	rewards: [{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	}],
+	loot_crate: {
+		string_id: "blind_box",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

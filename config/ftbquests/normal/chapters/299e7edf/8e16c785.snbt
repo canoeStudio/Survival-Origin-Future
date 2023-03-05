@@ -1,0 +1,17 @@
+{
+	x: 30.0d,
+	y: -15.0d,
+	text: [
+		"用来装茶叶的容器"
+	],
+	dependencies: [
+		"5d52af64"
+	],
+	tasks: [{
+		uid: "bbafea35",
+		type: "item",
+		items: [{
+			item: "teastory:empty_tea_bag"
+		}]
+	}]
+}

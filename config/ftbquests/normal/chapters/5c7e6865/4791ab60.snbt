@@ -1,0 +1,13 @@
+{
+	title: "种植拓展",
+	icon: "minecraft:wheat",
+	x: 0.0d,
+	y: 0.0d,
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "4b00aee7",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

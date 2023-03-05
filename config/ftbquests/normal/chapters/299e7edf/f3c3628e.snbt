@@ -1,0 +1,126 @@
+{
+	title: "厨房设备",
+	disable_toast: true,
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"用于装饰厨房的多功能方块",
+		"",
+		"不仅可以让厨房更美观，提供更加&a丰富的功能&r，还可以让各种食物有&a更好的存放处&r"
+	],
+	dependencies: [
+		"4bc407ab"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d547b7f9",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "29df48fd",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}]
+	},
+	{
+		uid: "fc0ab29d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "fde67fac",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}]
+	},
+	{
+		uid: "46ee0288",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "5acc7e9f",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "34dd2310",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "fbafcfaf",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:kitchen_floor"
+		}]
+	},
+	{
+		uid: "ae9d70e5",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d4f3604",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38dcb1ac",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	},
+	{
+		uid: "e10d705a",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "716ee653",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}]
+	},
+	{
+		uid: "995ecead",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	},
+	{
+		uid: "b23ca9f9",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	}]
+}

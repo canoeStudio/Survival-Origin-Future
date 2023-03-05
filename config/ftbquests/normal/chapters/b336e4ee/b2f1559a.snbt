@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 5.0d,
+	text: [
+		"可&c回收&r并&c重新召唤&r女仆",
+		"",
+		"只能在&c战利品箱&r中找到，可能已预先封存了已驯服的女仆"
+	],
+	dependencies: [
+		"ad2618bb"
+	],
+	tasks: [{
+		uid: "e7dec0ec",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:smart_slab"
+		}],
+		ignore_nbt: 1b
+	}]
+}

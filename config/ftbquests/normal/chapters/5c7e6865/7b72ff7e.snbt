@@ -1,0 +1,59 @@
+{
+	title: "丰富的食物",
+	x: 20.0d,
+	y: -25.0d,
+	dependencies: [
+		"3ca0767d",
+		"b1e669ad"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "520ba9fd",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:nether_cake"
+		}]
+	},
+	{
+		uid: "e67a23e5",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:jambon_beurre"
+		}]
+	},
+	{
+		uid: "7467e277",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:chicken_sandwich"
+		}]
+	},
+	{
+		uid: "aaf1a35e",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:hamburger"
+		}]
+	},
+	{
+		uid: "71ac633b",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:oreo_cake"
+		}]
+	},
+	{
+		uid: "15790c24",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:beef_stew"
+		}]
+	},
+	{
+		uid: "11a3922d",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:vanilla_icecream"
+		}]
+	}]
+}

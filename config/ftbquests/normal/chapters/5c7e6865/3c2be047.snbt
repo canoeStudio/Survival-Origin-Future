@@ -1,0 +1,25 @@
+{
+	title: "容器",
+	x: 27.5d,
+	y: 10.0d,
+	dependencies: [
+		"ab983bcf",
+		"c1fd7de2"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "bbb93fab",
+		type: "item",
+		items: [{
+			item: "sakura:materials 1 47"
+		}]
+	},
+	{
+		uid: "c132a62b",
+		type: "item",
+		items: [{
+			item: "sakura:cup"
+		}]
+	}]
+}

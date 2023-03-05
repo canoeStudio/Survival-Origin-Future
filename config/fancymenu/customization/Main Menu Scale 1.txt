@@ -1,0 +1,228 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  minimummcversion = 1.12.2
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/vsaccr/backgrounds/9.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -82
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 94
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/vsaccr/fancymenu/images/21.png
+  backgroundnormal = resources/vsaccr/fancymenu/images/21.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 2
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 95
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/vsaccr/fancymenu/images/21.png
+  backgroundnormal = resources/vsaccr/fancymenu/images/21.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/vsaccr/fancymenu/images/21.png
+  backgroundnormal = resources/vsaccr/fancymenu/images/21.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-left
+  x = 3
+  action = movebutton
+  y = -270
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 94
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/vsaccr/fancymenu/images/21.png
+  backgroundnormal = resources/vsaccr/fancymenu/images/21.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 3
+  action = movebutton
+  y = -58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 94
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/vsaccr/fancymenu/images/21.png
+  backgroundnormal = resources/vsaccr/fancymenu/images/21.png
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 234
+  width = 172
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d5db6a4d-3fc6-40be-a849-b2949b08ebc21677903347936
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 131
+  action = deep_customization_element:title_screen_branding
+  actionid = 96d30405-4092-490e-b721-6cd4b5f03ddf1677903348003
+  y = 267
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 489
+  width = 150
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = f00df22e-e686-4b70-aadf-8aba1d480e241677903348005
+  y = 309
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d1fbdd17-da54-4091-9582-2ec2635ba5fd1677903348006
+  y = 182
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 6262ea4f-dce9-41db-90e1-3a20f23692271677903348008
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = d9d705ae-9c25-4476-9b5e-a14820daa0d61677903348009
+  y = 0
+  height = 30
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 114
+  slim = false
+  actionid = 72335228-68d3-457d-a697-7f9376a19b921677921387762
+  action = addentity
+  y = 117
+  scale = 30
+  playername = %playername%
+  parrot = true
+}
+

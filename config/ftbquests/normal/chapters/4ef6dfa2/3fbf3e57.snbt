@@ -1,0 +1,26 @@
+{
+	title: "陨石坠落",
+	disable_toast: true,
+	x: 5.0d,
+	y: 10.0d,
+	text: [
+		"&c陨石矿&r只会生成在陨石坑中；没有&c流星坠落&r事件便不会生成",
+		"",
+		"当有陨石坠落时，你会收到&l一颗陨石坠落在了附近&r的提示"
+	],
+	dependencies: [
+		"0028c0c6"
+	],
+	hide: true,
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "322f9427",
+		type: "observation",
+		title: "发现陨石矿",
+		icon: "nyx:meteor_rock",
+		match_type: "block_id",
+		match: "nyx:meteor_rock",
+		timer: 0L
+	}]
+}

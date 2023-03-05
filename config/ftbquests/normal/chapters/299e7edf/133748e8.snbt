@@ -1,0 +1,33 @@
+{
+	title: "拌饭",
+	x: 40.0d,
+	y: -5.0d,
+	text: [
+		"熟悉的美食"
+	],
+	dependencies: [
+		"e3aa86dd"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "182b71a3",
+		type: "item",
+		title: "盖饭",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Banfan"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Banfan"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

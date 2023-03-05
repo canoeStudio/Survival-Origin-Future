@@ -1,0 +1,17 @@
+{
+	x: 45.0d,
+	y: 10.0d,
+	text: [
+		"可以将披萨装盘"
+	],
+	dependencies: [
+		"e2dc5eb5"
+	],
+	tasks: [{
+		uid: "278e2d37",
+		type: "item",
+		items: [{
+			item: "pizzacraft:pizza_board"
+		}]
+	}]
+}

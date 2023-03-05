@@ -1,0 +1,21 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"如果你找不到相关的种子，那还可以在农贸市场中购买到",
+		"",
+		"放置时会有一个交易员从天而降，因此确保位置的上方没有遮盖"
+	],
+	dependencies: [
+		"4791ab60"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "a71bfa74",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:market"
+		}]
+	}]
+}

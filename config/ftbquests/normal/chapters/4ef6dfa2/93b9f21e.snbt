@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: 15.0d,
+	dependencies: [
+		"a35dce2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8798a62f",
+		type: "item",
+		items: [{
+			item: "nyx:crystal"
+		}]
+	}]
+}

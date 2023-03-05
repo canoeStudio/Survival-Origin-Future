@@ -1,0 +1,20 @@
+{
+	x: 15.0d,
+	y: 5.0d,
+	text: [
+		"可自动喂食周围的动物使它们繁衍的饲料槽",
+		"",
+		"放置之后手持食物对饲料槽&c右键&r装填食物"
+	],
+	dependencies: [
+		"40f18b26"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e295f7f9",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:feeding_trough"
+		}]
+	}]
+}

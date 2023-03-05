@@ -1,0 +1,29 @@
+{
+	title: "获取枫糖",
+	x: 30.0d,
+	y: 20.0d,
+	text: [
+		"用于获取&c枫糖&r的设备",
+		"",
+		"&c枫糖龙头&r需要放置在&c枫树&r中的&c枫糖浆原木&r上；枫树可在&lMapleForest群系&r中找到",
+		"",
+		"&c枫糖大锅&r须放置在龙头正下方；枫糖大锅需要放置在&c岩浆块&r上才可使用"
+	],
+	dependencies: [
+		"96489e02"
+	],
+	tasks: [{
+		uid: "be4bb1ad",
+		type: "item",
+		items: [{
+			item: "sakura:maple_spile"
+		}]
+	},
+	{
+		uid: "ab21b66a",
+		type: "item",
+		items: [{
+			item: "sakura:maple_cauldron"
+		}]
+	}]
+}

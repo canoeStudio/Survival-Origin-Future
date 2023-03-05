@@ -1,0 +1,31 @@
+{
+	title: "projecte",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}
+	},
+	{
+		item: "appliedenergistics2:creative_energy_cell"
+	},
+	{
+		item: "extrautils2:creativechest"
+	},
+	{
+		item: "extrautils2:creativeenergy"
+	},
+	{
+		item: "extrautils2:creativeharvest"
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 32000s,
+			tag: {
+				Energy: 25000000
+			}
+		}
+	}]
+}

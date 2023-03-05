@@ -1,0 +1,28 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"装饰性方块",
+		"",
+		"&c潜行右键&r可切换形态"
+	],
+	dependencies: [
+		"26d895cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9aa45336",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:chair",
+			tag: {
+				IsNoGravity: 0b,
+				MountedHeight: 0.0f,
+				TameableCanRide: 1b,
+				ModelId: "touhou_little_maid:cushion"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

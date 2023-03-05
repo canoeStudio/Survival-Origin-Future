@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 25.0d,
+	y: 0.0d,
+	text: [
+		"一种获取牛奶的§7§m§o残忍§r方便方法"
+	],
+	dependencies: [
+		"f3c3628e"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5c793593",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	},
+	{
+		uid: "87200e5e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:milk_jar"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 25.0d,
+	y: -5.0d,
+	dependencies: [
+		"aa79c2a0"
+	],
+	tasks: [{
+		uid: "71080dc5",
+		type: "item",
+		items: [{
+			item: "teastory:xian_rice"
+		}]
+	}]
+}

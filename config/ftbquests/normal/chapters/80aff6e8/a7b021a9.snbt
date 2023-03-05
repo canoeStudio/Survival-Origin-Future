@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	dependencies: [
+		"f0276461"
+	],
+	tasks: [{
+		uid: "52a8b53f",
+		type: "item",
+		items: [{
+			item: "infilter:infilter_block_infilter"
+		}]
+	}]
+}

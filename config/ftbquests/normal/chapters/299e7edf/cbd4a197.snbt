@@ -1,0 +1,31 @@
+{
+	disable_toast: true,
+	x: 50.0d,
+	y: 5.0d,
+	text: [
+		"可右键打开包装"
+	],
+	dependencies: [
+		"a72b53fb"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "abe77a11",
+		type: "item",
+		title: "盒装披萨",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Hezhuangpisa"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Hezhuangpisa"
+				}
+			}
+		}]
+	}]
+}

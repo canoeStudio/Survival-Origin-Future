@@ -1,0 +1,15 @@
+{
+	title: "茶的开始",
+	x: 20.0d,
+	y: -15.0d,
+	dependencies: [
+		"d1cd1de7"
+	],
+	tasks: [{
+		uid: "40da065b",
+		type: "item",
+		items: [{
+			item: "teastory:tea_leaf"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "樱色钻石矿石",
+	x: 25.0d,
+	y: 40.0d,
+	text: [
+		"只会生成在Sakura的群系中，15至18层生成的概率最高",
+		"",
+		"群系分别为枫树林&c(MapleForest)&r和竹林&c(BambooForest)&r"
+	],
+	dependencies: [
+		"8d526838"
+	],
+	tasks: [{
+		uid: "9c1a6510",
+		type: "observation",
+		title: "樱色钻石矿石",
+		icon: "sakura:sakura_diamond_ore",
+		match_type: "block_id",
+		match: "sakura:sakura_diamond_ore",
+		timer: 0L
+	}]
+}

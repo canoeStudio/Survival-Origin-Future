@@ -1,0 +1,7 @@
+{
+	title: "月之事件",
+	icon: "nyx:fallen_star",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

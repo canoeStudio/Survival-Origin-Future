@@ -1,0 +1,31 @@
+{
+	title: "特色武器",
+	x: 35.0d,
+	y: 45.0d,
+	description: "粉粉的不好看吗？",
+	text: [
+		"主手持刀副手持&c鞘&r时，可按V收刀入鞘"
+	],
+	dependencies: [
+		"961ede92"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d552c2a8",
+		type: "item",
+		items: [{
+			item: "sakura:sheath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d6ab631f",
+		type: "item",
+		items: [{
+			item: "sakura:sakura_katana"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

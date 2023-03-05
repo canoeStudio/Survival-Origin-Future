@@ -1,0 +1,29 @@
+{
+	x: 35.0d,
+	y: -15.0d,
+	text: [
+		"泡茶用的茶包"
+	],
+	dependencies: [
+		"8e16c785"
+	],
+	tasks: [{
+		uid: "cfceb908",
+		type: "item",
+		title: "茶包",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Chabao"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Chabao"
+				}
+			}
+		}]
+	}]
+}

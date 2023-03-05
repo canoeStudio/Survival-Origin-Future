@@ -1,0 +1,7 @@
+{
+	title: "茶和披萨篇",
+	icon: "xlfoodmod:cheeseburger",
+	always_invisible: false,
+	group: 516640296,
+	default_quest_shape: ""
+}

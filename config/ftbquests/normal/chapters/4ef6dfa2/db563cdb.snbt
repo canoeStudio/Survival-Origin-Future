@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 20.0d,
+	text: [
+		"为数不多的镰刀类武器"
+	],
+	dependencies: [
+		"93b9f21e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "568698c0",
+		type: "item",
+		items: [{
+			item: "nyx:scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

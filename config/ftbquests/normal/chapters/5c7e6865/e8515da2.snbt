@@ -1,0 +1,19 @@
+{
+	title: "超多食物",
+	icon: "xlfoodmod:vanilla_flower",
+	x: 10.0d,
+	y: -25.0d,
+	text: [
+		"全新的作物、丰富的食物"
+	],
+	dependencies: [
+		"4791ab60"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "0d181e15",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

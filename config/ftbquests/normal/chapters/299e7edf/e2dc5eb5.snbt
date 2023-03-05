@@ -1,0 +1,31 @@
+{
+	title: "熟的披萨",
+	disable_toast: true,
+	x: 40.0d,
+	y: 10.0d,
+	dependencies: [
+		"4be20b3e",
+		"57f5ad4f",
+		"fea86b9e"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "6e2c6f8d",
+		type: "item",
+		title: "熟披萨",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Shupisa"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Shupisa"
+				}
+			}
+		}]
+	}]
+}

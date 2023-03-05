@@ -1,0 +1,52 @@
+{
+	title: "茶杯与茶壶",
+	x: 35.0d,
+	y: -10.0d,
+	text: [
+		"装茶的容器"
+	],
+	dependencies: [
+		"cd502f6f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "6fd58a5a",
+		type: "item",
+		title: "茶杯",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Chabei"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Chabei"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ad257c83",
+		type: "item",
+		title: "茶壶",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Chahu"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Chahu"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

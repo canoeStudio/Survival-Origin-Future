@@ -1,0 +1,14 @@
+{
+	x: 45.0d,
+	y: 5.0d,
+	dependencies: [
+		"e2dc5eb5"
+	],
+	tasks: [{
+		uid: "22d32b39",
+		type: "item",
+		items: [{
+			item: "pizzacraft:pizza_box"
+		}]
+	}]
+}

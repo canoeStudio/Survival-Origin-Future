@@ -1,0 +1,15 @@
+{
+	title: "新的作物与烹饪工具",
+	icon: "sakura:sakura_sapling",
+	x: 20.0d,
+	y: 15.0d,
+	dependencies: [
+		"8597e108"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d46d0a89",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

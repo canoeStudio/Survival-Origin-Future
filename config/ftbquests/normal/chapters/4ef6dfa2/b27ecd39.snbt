@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 15.0d,
+	dependencies: [
+		"0028c0c6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d08b39f",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

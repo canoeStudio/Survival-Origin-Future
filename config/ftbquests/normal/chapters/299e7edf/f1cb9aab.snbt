@@ -1,0 +1,16 @@
+{
+	x: 22.5d,
+	y: 5.0d,
+	dependencies: [
+		"573ecd2c"
+	],
+	tasks: [{
+		uid: "4a9f2ac4",
+		type: "item",
+		items: [{
+			item: "pizzacraft:olive_oil"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

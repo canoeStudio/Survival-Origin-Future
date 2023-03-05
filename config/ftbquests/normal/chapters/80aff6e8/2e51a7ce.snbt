@@ -1,0 +1,47 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	dependencies: [
+		"e1bfff3f"
+	],
+	tasks: [{
+		uid: "a5507ef5",
+		type: "item",
+		items: [{
+			item: "adpother:gold_vacuum_tube"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1864362a",
+		type: "item",
+		items: [{
+			item: "adpother:gold_respirator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85be995d",
+		type: "item",
+		items: [{
+			item: "adpother:gold_vacuum_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c30adee",
+		type: "item",
+		items: [{
+			item: "adpother:gold_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "955388f5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "pollution_diamond"
+	}]
+}

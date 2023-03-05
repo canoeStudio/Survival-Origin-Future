@@ -1,0 +1,12 @@
+{
+	title: "女仆篇",
+	icon: {
+		id: "touhou_little_maid:hakurei_gohei",
+		tag: {
+			GoheiMode: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

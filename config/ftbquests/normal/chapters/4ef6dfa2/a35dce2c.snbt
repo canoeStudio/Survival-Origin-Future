@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: 10.0d,
+	text: [
+		"是重要的合成材料，但不需要很多",
+		"",
+		"极少量生成在主世界的矿洞中"
+	],
+	dependencies: [
+		"0028c0c6"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "61386c10",
+		type: "observation",
+		title: "发现闪耀的陨石矿",
+		icon: "nyx:gleaning_meteor_rock",
+		match_type: "block_id",
+		match: "nyx:gleaning_meteor_rock",
+		timer: 0L
+	}]
+}

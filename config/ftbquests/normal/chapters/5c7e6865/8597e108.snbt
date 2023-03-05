@@ -1,0 +1,20 @@
+{
+	title: "Sakura",
+	icon: "sakura:sakuraleaves",
+	x: 10.0d,
+	y: 25.0d,
+	description: "家乡的Sakura又开了，你不去看看吗？",
+	text: [
+		"新的材料，新的食物，新的工具，新的防具和新的武器！"
+	],
+	dependencies: [
+		"4791ab60"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "e255a60d",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

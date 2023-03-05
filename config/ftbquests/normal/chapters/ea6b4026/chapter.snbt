@@ -1,0 +1,7 @@
+{
+	title: "庄园之家",
+	icon: "minecraft:wheat",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
