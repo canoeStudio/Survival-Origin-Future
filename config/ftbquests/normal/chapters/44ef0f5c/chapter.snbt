@@ -1,7 +1,7 @@
 {
-	title: "暮色森林篇",
+	title: "又是那片熟悉的森林，又是那个未完结的故事",
 	icon: "twilightforest:miniature_structure",
 	always_invisible: false,
-	group: 1251144738,
+	group: 0,
 	default_quest_shape: ""
 }

@@ -2,6 +2,6 @@
 	title: "污秽之地",
 	icon: "defiledlands:grass_defiled",
 	always_invisible: false,
-	group: 1183538746,
+	group: 0,
 	default_quest_shape: ""
 }

@@ -1,7 +1,7 @@
 {
-	title: "极光幽境篇",
+	title: "极光之境，似梦犹醒",
 	icon: "theaurorian:silentwoodsapling",
 	always_invisible: false,
-	group: 1251144738,
+	group: 0,
 	default_quest_shape: ""
 }

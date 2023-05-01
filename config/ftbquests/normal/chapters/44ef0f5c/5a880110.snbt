@@ -9,7 +9,7 @@
 		"d2647815"
 	],
 	tasks: [{
-		uid: "c1be2dd2",
+		uid: "d92929d5",
 		type: "kill",
 		entity: "tfspellpack:cave_troll_minion",
 		value: 1L
