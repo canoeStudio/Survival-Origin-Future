@@ -31,6 +31,8 @@ import mods.zenutils.command.TabCompletion;
 import mods.zenutils.StringList;
 import mods.zenutils.I18n;
 
+import scripts.util.lang as LangUtil;
+
 val purgeCommand as ZenCommand = ZenCommand.create("purge");
 purgeCommand.getCommandUsage = function(sender) {
     return "vsaccr.command.purgeCommand.usage";
@@ -44,3 +46,17 @@ purgeCommand.execute = function(command, server, sender, args) {
     }
 };
 purgeCommand.register();
+
+val suicideCommand as ZenCommand = ZenCommand.create("suicide");
+suicideCommand.getCommandUsage = function(sender) {
+    return "greedycraft.command.suicideCommand.usage";
+};
+suicideCommand.requiredPermissionLevel = 0;
+suicideCommand.execute = function(command, server, sender, args) {
+    var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
+    if (!isNull(player)) {
+        player.clearActivePotions();
+        server.commandManager.executeCommand(server, "/kill " + player.name);
+    }
+};
+suicideCommand.register();

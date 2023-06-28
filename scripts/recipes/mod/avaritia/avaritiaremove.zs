@@ -4,6 +4,5 @@
  */
  
  //avaritia remove recipes
-recipes.remove(<avaritia:double_compressed_crafting_table>);
-recipes.remove(<avaritia:compressed_crafting_table>);
-recipes.remove(<avaritia:extreme_crafting_table>);
+
+ //avaritia recipes add

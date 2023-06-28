@@ -8,7 +8,21 @@ import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
 import mods.futuremc.SmithingTable;
 import moretweaker.draconicevolution.FusionCrafting;
+import mods.ItemStages.addItemStage;  
+import crafttweaker.item.IItemStack;
 //projecte and projecteEX mod removed all recipes
 //ArcaneWorkbench projecte recipes
-recipes.removeByMod("projecte");
-recipes.removeByMod("projectex");
+
+
+var aqua = <aspect:aqua>;
+var ignis = <aspect:ignis>;
+var terra = <aspect:terra>;
+var aer = <aspect:aer>;
+var ordo = <aspect:ordo>;
+var perditio = <aspect:perditio>;
+var potentia = <aspect:potentia>;
+var desiderium = <aspect:desiderium>;
+val vitreus = <aspect:vitreus>;
+val lux = <aspect:lux>;
+var sensus = <aspect:sensus>;
+

@@ -4,3 +4,4 @@
  */
  //block
 recipes.remove(<minecraft:crafting_table>);
+recipes.remove(<minecraft:chest>);

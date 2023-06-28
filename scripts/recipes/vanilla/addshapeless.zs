@@ -5,3 +5,4 @@
 
  //block
  recipes.addShapeless(<tconstruct:tooltables>, [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]);
+ recipes.addShaped(<minecraft:crafting_table>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, <tconstruct:tooltables>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
