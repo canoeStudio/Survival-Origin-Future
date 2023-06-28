@@ -1,0 +1,18 @@
+{
+	x: 85.0d,
+	y: -5.0d,
+	description: "&6黑金&o",
+	dependencies: [
+		"8141d6bf"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ce6d2a16",
+		type: "item",
+		items: [{
+			item: "divinerpg:halite_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

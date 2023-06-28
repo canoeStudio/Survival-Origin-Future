@@ -1,0 +1,30 @@
+{
+	title: "梦魇商人",
+	x: 195.0d,
+	y: 80.0d,
+	description: "第一层",
+	text: [
+		"梦魇商人是提供梦魇世界&c一切必须品&r的商人，接受任何种类的珍珠进行交易",
+		"",
+		"梦魇商人的所在之地为漂浮在半空中的结构，由深蓝、浅蓝梦魇砖组成，底部及顶部有平滑玻璃"
+	],
+	dependencies: [
+		"6254ceed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d75a1a30",
+		type: "interaction",
+		title: "与梦魇商人交互",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:the_hunger"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:the_hunger"
+	}]
+}

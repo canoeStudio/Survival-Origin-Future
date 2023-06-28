@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 140.0d,
+	description: "&6黑金&o",
+	dependencies: [
+		"e9d697a0"
+	],
+	tasks: [{
+		uid: "e35e5230",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_blade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

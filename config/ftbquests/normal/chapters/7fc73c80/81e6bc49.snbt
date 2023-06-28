@@ -1,0 +1,21 @@
+{
+	title: "击败毁灭者",
+	x: 270.0d,
+	y: 135.0d,
+	dependencies: [
+		"b9346ee3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4ebaf2b8",
+		type: "kill",
+		icon: "divinerpg:red_divine_sword",
+		entity: "divinerpg:wreck",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f793b72f",
+		type: "xp",
+		xp: 15000
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 25.0d,
+	y: 30.0d,
+	dependencies: [
+		"166adb99"
+	],
+	tasks: [{
+		uid: "db66aa5d",
+		type: "item",
+		items: [{
+			item: "divinerpg:bedrock_maul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

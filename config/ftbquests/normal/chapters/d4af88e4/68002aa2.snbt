@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: -25.0d,
+	dependencies: [
+		"bdec7651"
+	],
+	tasks: [{
+		uid: "c62c6bec",
+		type: "item",
+		items: [{
+			item: "divinerpg:generals_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

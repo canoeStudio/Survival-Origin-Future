@@ -1,0 +1,43 @@
+{
+	title: "更好的熔炉",
+	disable_toast: true,
+	x: 12.5d,
+	y: 5.0d,
+	text: [
+		"更快的燃烧速度与更高的燃烧效率"
+	],
+	dependencies: [
+		"fd53cfce"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "9f451838",
+		type: "item",
+		title: "高级熔炉",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Ronglu"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Ronglu"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "519c59a8",
+		type: "item",
+		item: "furnaceoverhaul:iron_kit"
+	},
+	{
+		uid: "4d4474eb",
+		type: "item",
+		item: "furnaceoverhaul:blank_upgrade"
+	}]
+}

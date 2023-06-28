@@ -1,0 +1,31 @@
+{
+	title: "获得原木！",
+	x: 130.0d,
+	y: -5.0d,
+	text: [
+		"熟悉的感觉，不一样的配方"
+	],
+	dependencies: [
+		"c35ad7bf"
+	],
+	tasks: [{
+		uid: "97fddcb5",
+		type: "item",
+		title: "任意原木",
+		icon: "minecraft:log",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}]
+}

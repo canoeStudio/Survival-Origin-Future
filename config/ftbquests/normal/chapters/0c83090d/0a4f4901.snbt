@@ -1,0 +1,47 @@
+{
+	title: "坟墓",
+	disable_toast: true,
+	x: 15.0d,
+	y: -10.0d,
+	text: [
+		"用于激活墓碑相关魔法物品的场所，如&c安卡的祈祷&r、&c墓碑附魔&r等",
+		"",
+		"制作之后放置，&c等待一段时间&r后墓碑便会填充灵魂，此时便可用于激活墓碑魔法",
+		"",
+		"也可以使用&c缚魂瓶&r直接填充灵魂"
+	],
+	dependencies: [
+		"6ff703da"
+	],
+	hide: true,
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "03bc68ca",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple"
+		}]
+	},
+	{
+		uid: "be0bd69b",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_normal 1 1"
+		}]
+	},
+	{
+		uid: "b94b4374",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_cross"
+		}]
+	},
+	{
+		uid: "62a99478",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_original 1 1"
+		}]
+	}]
+}

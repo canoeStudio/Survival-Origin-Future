@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"紫焰人大量生成在下界的&cDOOM地牢&r中；也有低概率生成在下界的任意地方"
+	],
+	dependencies: [
+		"c900bd1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3c1cc903",
+		type: "item",
+		items: [{
+			item: "divinerpg:infernal_flame"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

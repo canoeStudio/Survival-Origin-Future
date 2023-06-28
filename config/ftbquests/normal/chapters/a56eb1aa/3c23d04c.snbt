@@ -1,0 +1,23 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"你群前任龙王，现已隐退"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f16f709a",
+		type: "item",
+		title: "jianyupiaoling",
+		items: [{
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Id: "97c869eb-7e39-3ee7-b4a3-6d3665858b32",
+					Name: "jianyupiaoling"
+				}
+			}
+		}]
+	}]
+}

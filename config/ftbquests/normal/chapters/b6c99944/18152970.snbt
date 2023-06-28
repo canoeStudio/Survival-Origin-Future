@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	dependencies: [
+		"5be396cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1bdad676",
+		type: "observation",
+		title: "发现云母矿石",
+		icon: "quark:biotite_ore",
+		match_type: "block_id",
+		match: "quark:biotite_ore",
+		timer: 0L
+	}]
+}

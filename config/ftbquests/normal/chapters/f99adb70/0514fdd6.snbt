@@ -1,0 +1,16 @@
+{
+	x: 30.0d,
+	y: -25.0d,
+	dependencies: [
+		"e4458ccd"
+	],
+	tasks: [{
+		uid: "8b08a5a3",
+		type: "item",
+		items: [{
+			item: "divinerpg:snowstorm_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

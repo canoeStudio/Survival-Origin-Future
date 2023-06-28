@@ -8,11 +8,5 @@
 	dependencies: [
 		"2b4d257c"
 	],
-	size: 3.0d,
-	tasks: [{
-		uid: "bf63b454",
-		type: "checkmark",
-		title: "The END",
-		icon: "theaurorian:auroriangrass"
-	}]
+	size: 3.0d
 }

@@ -1,0 +1,22 @@
+{
+	title: "击败远古",
+	x: 250.0d,
+	y: 110.0d,
+	dependencies: [
+		"b970634d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "55cadfc9",
+		type: "kill",
+		icon: "divinerpg:quadrotic_staff",
+		entity: "divinerpg:quadro",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e9c4edb0",
+		type: "xp",
+		auto: "enabled",
+		xp: 13000
+	}]
+}

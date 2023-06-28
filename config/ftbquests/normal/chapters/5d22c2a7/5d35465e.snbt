@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 85.0d,
+	description: "&b极光幽境&o",
+	dependencies: [
+		"b2937c8e",
+		"622bdd64"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "863a59fb",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianitesword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

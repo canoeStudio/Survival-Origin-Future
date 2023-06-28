@@ -1,0 +1,16 @@
+{
+	x: 30.0d,
+	y: 5.0d,
+	dependencies: [
+		"cd8414e2"
+	],
+	tasks: [{
+		uid: "8779c1bb",
+		type: "item",
+		items: [{
+			item: "divinerpg:serenade_of_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

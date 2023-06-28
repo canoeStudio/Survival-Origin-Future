@@ -1,0 +1,28 @@
+{
+	title: "神秘人",
+	x: 195.0d,
+	y: 90.0d,
+	description: "第一层",
+	text: [
+		"第一层的神秘人为黑红配色，与之互动会获得&c熔融之球&r"
+	],
+	dependencies: [
+		"6254ceed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c194db80",
+		type: "interaction",
+		title: "与神秘人交互",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:mysterious_man_layer_1"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:mysterious_man_layer_1"
+	}]
+}

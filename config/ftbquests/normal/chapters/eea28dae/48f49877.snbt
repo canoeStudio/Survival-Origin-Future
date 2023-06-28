@@ -1,0 +1,21 @@
+{
+	title: "危险的矿洞",
+	icon: "minecraft:iron_ore",
+	x: 0.0d,
+	y: 10.0d,
+	text: [
+		"矿洞中出现了大量&c特制刷怪箱&r、&c陷阱&r，这使得前期在矿洞非常危险",
+		"",
+		"&c特制刷怪箱不会自行销毁&r"
+	],
+	dependencies: [
+		"70a25795"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "8d745aea",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

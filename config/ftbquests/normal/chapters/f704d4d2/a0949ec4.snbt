@@ -1,0 +1,18 @@
+{
+	x: 40.0d,
+	y: 0.0d,
+	description: "&c下界&o",
+	dependencies: [
+		"ba6ad10e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "559f43b4",
+		type: "item",
+		items: [{
+			item: "divinerpg:bluefire_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

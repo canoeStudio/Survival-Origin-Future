@@ -1,0 +1,21 @@
+{
+	title: "饰品品质",
+	x: 105.0d,
+	y: -10.0d,
+	text: [
+		"锻造台&c只能为&r饰品增加&c额外但又强力的属性&r",
+		"",
+		"它的效果与&l锻造台&r之间&c可以叠加&r"
+	],
+	dependencies: [
+		"ca49e35d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "39a5751f",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:reforger"
+		}]
+	}]
+}

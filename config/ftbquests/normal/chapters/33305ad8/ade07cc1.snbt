@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: -25.0d,
+	description: "&c下界&o",
+	dependencies: [
+		"84af2065"
+	],
+	tasks: [{
+		uid: "0bf8a3c5",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:moltenaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

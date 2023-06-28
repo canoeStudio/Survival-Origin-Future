@@ -1,0 +1,19 @@
+{
+	x: 150.0d,
+	y: 25.0d,
+	text: [
+		"使用元素合成物品的机器",
+		"",
+		"所需材料可在奥姆索大量找到，或使用结晶器"
+	],
+	dependencies: [
+		"3a332a92"
+	],
+	tasks: [{
+		uid: "56a1e713",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:materializer"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 15.0d,
+	y: 0.0d,
+	description: "&a主世界&o",
+	text: [
+		"制作钢锭需参考种植拓展——Sakura的任务"
+	],
+	dependencies: [
+		"0f2ed08c"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "934aa843",
+		type: "item",
+		items: [{
+			item: "sakura:katana"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2b6dec5",
+		type: "item",
+		items: [{
+			item: "sakura:sheath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

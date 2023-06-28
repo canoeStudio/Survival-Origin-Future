@@ -1,0 +1,19 @@
+{
+	title: "无线存储",
+	x: 40.0d,
+	y: -5.0d,
+	text: [
+		"无视维度的仓库管理工具"
+	],
+	dependencies: [
+		"c5d3349f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05b16dd2",
+		type: "item",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	}]
+}

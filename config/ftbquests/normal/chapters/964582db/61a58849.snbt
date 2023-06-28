@@ -1,0 +1,25 @@
+{
+	x: 45.0d,
+	y: -10.0d,
+	text: [
+		"存储线缆负责&c存储网络主机&r和&c存储合成台&r的连接",
+		"",
+		"同时负责接收&c存储连接线缆&r的接入"
+	],
+	dependencies: [
+		"cd894a38"
+	],
+	tasks: [{
+		uid: "3f7d96d5",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "7a7de4d3",
+		type: "item",
+		item: "storagenetwork:kabel",
+		count: 16
+	}]
+}

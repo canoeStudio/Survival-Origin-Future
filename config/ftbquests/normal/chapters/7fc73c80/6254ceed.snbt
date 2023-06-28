@@ -1,0 +1,18 @@
+{
+	title: "第一层",
+	icon: "minecraft:compass",
+	x: 190.0d,
+	y: 85.0d,
+	text: [
+		"第一层的地面高度为17"
+	],
+	dependencies: [
+		"df9e2087"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f6d2380",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

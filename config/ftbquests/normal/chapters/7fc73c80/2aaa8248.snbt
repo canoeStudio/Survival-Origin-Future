@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"用于激活&c暮光维度&r传送门"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "48676edd",
+		type: "item",
+		items: [{
+			item: "divinerpg:twilight_clock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

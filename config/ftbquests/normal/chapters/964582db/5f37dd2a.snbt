@@ -1,0 +1,32 @@
+{
+	x: 27.5d,
+	y: -5.0d,
+	text: [
+		"将潜影盒升级为板条箱增加其容量，并让它获得接入存储网络的功能！",
+		"",
+		"相比箱子，板条箱在渲染机制上拥有更大优势，即在大量使用时，板条箱拥有&a&l更快的加载速度&r"
+	],
+	dependencies: [
+		"fd53cfce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a89431e9",
+		type: "item",
+		title: "板条箱",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Bantiaoxiang"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Bantiaoxiang"
+				}
+			}
+		}]
+	}]
+}

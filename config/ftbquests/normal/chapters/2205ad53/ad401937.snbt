@@ -1,0 +1,38 @@
+{
+	title: "4级火龙头兑换5级火龙头任务",
+	x: 3.0d,
+	y: -40.0d,
+	description: "可重复进行",
+	text: [
+		"可以将4个4级火龙头兑换为1个5级火龙头"
+	],
+	can_repeat: true,
+	dependencies: [
+		"aaa144cb"
+	],
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "8f56af00",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragon_skull",
+			tag: {
+				Stage: 4
+			}
+		}],
+		count: 4L,
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "d2bf2887",
+		type: "item",
+		item: {
+			id: "iceandfire:dragon_skull",
+			tag: {
+				Stage: 5
+			}
+		}
+	}]
+}

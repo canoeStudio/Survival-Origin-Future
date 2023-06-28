@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -15.0d,
+	text: [
+		"可像原版那样主动吸收附近的物品，&l按O开关吸附功能&r"
+	],
+	dependencies: [
+		"b7aa3180"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3776482f",
+		type: "item",
+		items: [{
+			item: "simplemagnets:basicmagnet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

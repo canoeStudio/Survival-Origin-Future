@@ -1,0 +1,36 @@
+{
+	title: "金套",
+	x: 5.0d,
+	y: 20.0d,
+	description: "&a主世界&o",
+	text: [
+		"金灿灿的，真是闪瞎眼了，让怪物感受你的土豪之力！",
+		"",
+		"获得&c永久&r发光1效果；获得&c半永久&r力量1效果，每75秒刷新一次力量1效果，持续20秒"
+	],
+	dependencies: [
+		"2d71f98b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eadabe05",
+		type: "item",
+		title: "金套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jin"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

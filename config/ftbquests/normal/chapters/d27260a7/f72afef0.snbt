@@ -1,0 +1,37 @@
+{
+	title: "获得圆石",
+	x: 120.0d,
+	y: -5.0d,
+	text: [
+		"利用石子，可在没有工具的情况下获得圆石"
+	],
+	dependencies: [
+		"82ddd84f"
+	],
+	tasks: [{
+		uid: "b9fb7e85",
+		type: "item",
+		title: "圆石",
+		icon: "minecraft:cobblestone",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cobblestone"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "41b39152",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 16
+	}]
+}

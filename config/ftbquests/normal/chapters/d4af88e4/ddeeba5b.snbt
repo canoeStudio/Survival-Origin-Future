@@ -1,0 +1,16 @@
+{
+	x: 35.0d,
+	y: -22.5d,
+	dependencies: [
+		"1a7882d9"
+	],
+	tasks: [{
+		uid: "6acc87e8",
+		type: "item",
+		items: [{
+			item: "divinerpg:captains_sparkler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

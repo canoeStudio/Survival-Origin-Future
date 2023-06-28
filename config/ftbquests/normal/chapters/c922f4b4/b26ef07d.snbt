@@ -1,0 +1,17 @@
+{
+	title: "饰品篇",
+	icon: "xat:dragons_eye",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"越高级的饰品越能提供强大的加成",
+		"",
+		"&c部分一级饰品同时也是二级饰品的合成材料&r"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "f402b5a7",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

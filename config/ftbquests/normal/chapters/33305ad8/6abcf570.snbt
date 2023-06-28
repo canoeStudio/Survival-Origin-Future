@@ -1,0 +1,30 @@
+{
+	title: "阿帕拉契亚工具",
+	x: 0.0d,
+	y: 105.0d,
+	description: "&6阿帕拉契亚&o",
+	dependencies: [
+		"8b24ca4e"
+	],
+	tasks: [{
+		uid: "d79b0819",
+		type: "item",
+		title: "阿帕拉契亚工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Apalaqiyatool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Apalaqiyatool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

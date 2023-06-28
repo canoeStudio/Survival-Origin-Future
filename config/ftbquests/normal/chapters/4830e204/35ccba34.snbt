@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"整合包作者，MCBBS的ID：1858585",
+		"",
+		"“我写这么多任务真的有意义吗？”"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "687a1aee",
+		type: "item",
+		title: "&aFengChuan",
+		items: [{
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Id: "feeb8f40-d33f-4967-b5bc-9660c2b9d041",
+					Properties: {
+						textures: [{
+							Signature: "o/BUBBU0GArdtZK3ZAv2Y8png9kYwWUKHMntVOYe07gsl3vBqHLkDHVIxOkglicCpRec7KMAAm23WaCPujGW9ovQH1QMzK3Do2ZqCvacwg6oaGLDGOzuqwqCGnNwyZ9JaLMxZhdqwdxleP7QRrpmT0Q60+JpMaI9qt9/onneqDUJz/4QLNHBUYi9CZ9CkLa3vlek/M7gSszJyhy03LIDaij92ZlYe0lHlvB8hZ7wPBmjEQ0ZmmCBVWTz+AsrPzGwp9GLiD7UaW/8uiSUH9tUEd1j+v+Bblzy/3+o/k19NSpHzq3ttNHjVUW57sy7LSKM/DkXfPiTUacnuxTFnDZQaQSzIVzqgxVRgG/qGF7F7KsovPb7iJ8+InlCmjim3/OTUvfn2iaIoBMOShgZhraXNqt9MFDqXBeNYcTPD73hE/2ki2+YPxsFJNJDaO5Fqjro/LUxtdDjFPKcX+hTg7KGVc1ZSEF2J05xlQI2u5b73AnVct2bVX6Hv1mzPswez6C+JjIYhlGtVX1Sff0NyQzwO8ZrMcB9wf47VY3SVDgDeTdLeXxZm2IKhIwjq9SGbbwVGpw7Ru7da8n2twCQpcCW9ajlkUjJsExoEzW7VrBiYXeBXcdoKfhL7CLZR2hH4mLY/shCmZg7vR67LnbOLoFIPEsDOAfC4NgklIXFeMlY4io=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1Mjk0OTMyNTUyMiwKICAicHJvZmlsZUlkIiA6ICJmZWViOGY0MGQzM2Y0OTY3YjViYzk2NjBjMmI5ZDA0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZW5nQ2h1YW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZmYyNWQ2NjcyMDZmMmU0NmQ0NDJjZjM1OGIzZjFlYzM2MTM4MzkxNzUxYmE2ZWRmOTY1ZmZjODNiODYwMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+						}]
+					},
+					Name: "FengChuan"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 20.0d,
+	y: -20.0d,
+	dependencies: [
+		"bdec7651"
+	],
+	tasks: [{
+		uid: "83423479",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcanium_saber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

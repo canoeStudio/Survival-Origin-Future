@@ -1,0 +1,16 @@
+{
+	title: "击败神话生物",
+	icon: "iceandfire:dragon_horn",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"77e8d27e"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "a2e9c077",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

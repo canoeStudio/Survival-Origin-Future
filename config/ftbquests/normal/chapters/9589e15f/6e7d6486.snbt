@@ -1,0 +1,15 @@
+{
+	x: 75.0d,
+	y: 0.0d,
+	dependencies: [
+		"769c17b5"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "92aed320",
+		type: "dimension",
+		title: "&e暮色森林",
+		dim: 7
+	}]
+}

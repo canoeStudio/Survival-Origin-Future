@@ -1,0 +1,28 @@
+{
+	title: "找到朗姆",
+	x: 25.0d,
+	y: -10.0d,
+	description: "种子商人",
+	text: [
+		"朗姆的房间会有各种种植作物，耕地方块会在地图上显示一道一道的褐色"
+	],
+	dependencies: [
+		"baa117b8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f851451",
+		type: "interaction",
+		title: "朗姆",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:leorna"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:leorna"
+	}]
+}

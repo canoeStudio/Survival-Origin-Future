@@ -1,0 +1,31 @@
+{
+	title: "渊素工具",
+	x: -5.0d,
+	y: 20.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"1e3156f2"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "83c038a8",
+		type: "item",
+		title: "渊素工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Yuansutool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Yuansutool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

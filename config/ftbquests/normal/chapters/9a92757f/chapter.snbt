@@ -1,0 +1,7 @@
+{
+	title: "更多伙伴",
+	icon: "minecraft:bone",
+	always_invisible: false,
+	group: -764256089,
+	default_quest_shape: ""
+}

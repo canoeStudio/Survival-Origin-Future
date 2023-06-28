@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: -15.0d,
+	text: [
+		"生成在&c沙漠群系&r的生物"
+	],
+	dependencies: [
+		"46c82adf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e337d50",
+		type: "kill",
+		entity: "mod_lavacow:boneworm",
+		value: 1L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "颠叟与勒德",
+	x: 155.0d,
+	y: 60.0d,
+	text: [
+		"无论是使用&c颠叟水晶&r还是&c勒德水晶&r，都会召唤出这俩兄弟"
+	],
+	dependencies: [
+		"f3d8a783"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1842ddf5",
+		type: "item",
+		items: [{
+			item: "divinerpg:densos_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6389d5bf",
+		type: "item",
+		items: [{
+			item: "divinerpg:reyvor_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

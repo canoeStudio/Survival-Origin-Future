@@ -1,0 +1,17 @@
+{
+	title: "召唤",
+	icon: "divinerpg:base_spawn_crystal",
+	x: 75.0d,
+	y: 30.0d,
+	text: [
+		"主手持狂暴刀锋，&c右键&r祭坛召唤爆破战王"
+	],
+	dependencies: [
+		"76ab7f2b"
+	],
+	tasks: [{
+		uid: "07e6edc0",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

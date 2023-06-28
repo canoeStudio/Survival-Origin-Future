@@ -1,0 +1,12 @@
+{
+	title: "盾牌篇",
+	icon: "spartanshields:shield_tower_gold",
+	x: 0.0d,
+	y: 0.0d,
+	size: 3.0d,
+	tasks: [{
+		uid: "7fab7043",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

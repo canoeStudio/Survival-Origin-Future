@@ -1,0 +1,28 @@
+{
+	x: 20.0d,
+	y: 40.0d,
+	description: "&c下界&o",
+	text: [
+		"紫焰人大量生成在下界的DOOM地牢中，也有较低概率生成在下界的任意地方"
+	],
+	dependencies: [
+		"d054f904",
+		"7e8b8faa",
+		"f20289a6",
+		"55388812",
+		"5913177f",
+		"5cebe597",
+		"467063de"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "abf71ec8",
+		type: "item",
+		items: [{
+			item: "divinerpg:scorching_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 36.5d,
+	y: -35.0d,
+	description: "&c下界",
+	dependencies: [
+		"e7766424",
+		"fc15f2d6"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d2b7644e",
+		type: "item",
+		items: [{
+			item: "spartanfire:halberd_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

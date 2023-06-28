@@ -1,0 +1,14 @@
+{
+	x: 120.0d,
+	y: 40.0d,
+	dependencies: [
+		"40cfb9b4"
+	],
+	tasks: [{
+		uid: "ec8ea345",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_gem"
+		}]
+	}]
+}

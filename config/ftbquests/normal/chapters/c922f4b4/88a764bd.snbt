@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -20.0d,
+	text: [
+		"额外附带了传送队友的功能"
+	],
+	dependencies: [
+		"c8f3911b"
+	],
+	tasks: [{
+		uid: "6ab37739",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:wormholemirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

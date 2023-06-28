@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: 25.0d,
+	description: "&a一级饰品",
+	dependencies: [
+		"b7424afa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4cf036a7",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketobsidianskull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "获得燧石",
+	x: 115.0d,
+	y: 5.0d,
+	text: [
+		"制作初级工具的开始"
+	],
+	dependencies: [
+		"9dd16659"
+	],
+	hide: true,
+	tasks: [{
+		uid: "254d93c7",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}],
+	rewards: [{
+		uid: "e513655f",
+		type: "item",
+		item: "minecraft:flint"
+	}]
+}

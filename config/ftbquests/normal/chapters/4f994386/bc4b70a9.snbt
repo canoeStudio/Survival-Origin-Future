@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 10.0d,
+	text: [
+		"比原版漏斗输出速度更快"
+	],
+	dependencies: [
+		"4eae2ab6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95280163",
+		type: "item",
+		title: "快速漏斗",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Kuaisuloudou"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Kuaisuloudou"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"&c右键方块&r可以举起方块；再次右键扔出，对砸中的实体造成伤害",
+		"",
+		"对着目的地&c潜行右键&r可以瞬移"
+	],
+	dependencies: [
+		"1ea36725"
+	],
+	tasks: [{
+		uid: "ead2d4dc",
+		type: "item",
+		items: [{
+			item: "mutantbeasts:endersoul_hand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

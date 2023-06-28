@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"雪傀儡变异体不会主动生成，需要用&c化学物质X&r扔向雪傀儡生成"
+	],
+	dependencies: [
+		"dba1d867"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5c225d0",
+		type: "kill",
+		entity: "mutantbeasts:mutant_snow_golem",
+		value: 1L
+	}]
+}

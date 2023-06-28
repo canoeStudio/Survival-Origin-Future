@@ -1,0 +1,17 @@
+{
+	x: 35.0d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"3087ee36"
+	],
+	tasks: [{
+		uid: "2a53caad",
+		type: "item",
+		items: [{
+			item: "spartanfire:halberd_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

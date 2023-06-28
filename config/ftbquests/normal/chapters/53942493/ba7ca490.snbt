@@ -1,0 +1,26 @@
+{
+	title: "传送门材料",
+	x: 55.0d,
+	y: 5.0d,
+	text: [
+		"放置石英块后，用8个&c雪&r将其围成&c正方形&r即可"
+	],
+	dependencies: [
+		"f2781b4a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b136ef59",
+		type: "item",
+		items: [{
+			item: "minecraft:snow"
+		}]
+	},
+	{
+		uid: "8bf14224",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "工具篇",
+	icon: "divinerpg:arlemite_shickaxe",
+	x: 0.0d,
+	y: 10.0d,
+	dependencies: [
+		"e2bb87d4"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "7603cb17",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

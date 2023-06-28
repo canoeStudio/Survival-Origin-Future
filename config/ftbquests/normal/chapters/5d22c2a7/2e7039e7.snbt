@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 105.0d,
+	description: "&5恐惧之地&o",
+	dependencies: [
+		"aca54582"
+	],
+	tasks: [{
+		uid: "cf0f63d8",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadkatana"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

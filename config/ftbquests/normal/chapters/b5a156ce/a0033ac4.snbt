@@ -1,0 +1,20 @@
+{
+	x: -12.5d,
+	y: 15.0d,
+	text: [
+		"翻倍玩家当前能造成的伤害"
+	],
+	dependencies: [
+		"9aa185bf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6bfe6f0d",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:amuletsinwrath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

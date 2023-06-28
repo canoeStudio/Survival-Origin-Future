@@ -1,0 +1,16 @@
+{
+	x: 35.0d,
+	y: -27.5d,
+	dependencies: [
+		"1a7882d9"
+	],
+	tasks: [{
+		uid: "eaf2fa7c",
+		type: "item",
+		items: [{
+			item: "divinerpg:firefly"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

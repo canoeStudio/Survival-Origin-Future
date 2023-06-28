@@ -1,0 +1,35 @@
+{
+	title: "铁质工具",
+	x: -10.0d,
+	y: -15.0d,
+	description: "&a主世界&o",
+	text: [
+		"是合成&c毁灭工具&r的初级物品"
+	],
+	dependencies: [
+		"d145fb85"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "92ad7565",
+		type: "item",
+		title: "铁质工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Irontool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Irontool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

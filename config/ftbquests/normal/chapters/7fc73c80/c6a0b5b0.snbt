@@ -1,0 +1,19 @@
+{
+	title: "战利品",
+	x: 25.0d,
+	y: -5.0d,
+	text: [
+		"伊甸世界生物的主要掉落物"
+	],
+	dependencies: [
+		"d0199bfc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d40b10dd",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_soul"
+		}]
+	}]
+}

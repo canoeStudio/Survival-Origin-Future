@@ -1,0 +1,19 @@
+{
+	x: -35.0d,
+	y: -85.0d,
+	description: "&6黑金&o",
+	dependencies: [
+		"f84536db"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "9b54df1d",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:katana_invar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

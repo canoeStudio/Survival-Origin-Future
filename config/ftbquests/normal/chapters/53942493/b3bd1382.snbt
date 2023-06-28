@@ -1,0 +1,20 @@
+{
+	x: 25.0d,
+	y: 5.0d,
+	text: [
+		"重要的材料",
+		"",
+		"可在地下挖到；也可在魔族塔顶的战利品箱中找到；也可与商人交易换到"
+	],
+	dependencies: [
+		"1df99fcf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dffd31a1",
+		type: "item",
+		items: [{
+			item: "legendera:devildom_amethyst"
+		}]
+	}]
+}

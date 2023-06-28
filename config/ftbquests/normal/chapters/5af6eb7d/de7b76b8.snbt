@@ -1,0 +1,37 @@
+{
+	title: "恐惧之地没有山脉？",
+	icon: "minecraft:compass",
+	x: 130.0d,
+	y: 25.0d,
+	text: [
+		"恐惧之地的生成存在某种问题，可能出现没有山脉的情况，例如能找到的最高地形高度不超过80格，这并不会被判断是在山脉中",
+		"",
+		"还好我技高一筹，给你留了后门"
+	],
+	dependencies: [
+		"40ab8f20"
+	],
+	tasks: [{
+		uid: "36286daf",
+		type: "checkmark",
+		title: "&a对，我就是那个倒霉蛋"
+	},
+	{
+		uid: "54249082",
+		type: "checkmark",
+		title: "&b对，我就是那个倒霉蛋"
+	},
+	{
+		uid: "67e7eab6",
+		type: "checkmark",
+		title: "&c对，我就是那个倒霉蛋"
+	}],
+	rewards: [{
+		uid: "a7824985",
+		type: "command",
+		title: "&c立刻在你的位置召唤查伽洛斯！",
+		icon: "acheads:head 1 13",
+		command: "summon abyssalcraft:chagaroth",
+		player_command: true
+	}]
+}

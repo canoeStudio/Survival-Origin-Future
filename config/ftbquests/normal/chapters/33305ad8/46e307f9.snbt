@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: 55.0d,
+	description: "&e暮色森林&o",
+	text: [
+		"&c唯一&r具有&c自动冶炼&r功能的镐"
+	],
+	dependencies: [
+		"0b889d6d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8016c054",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

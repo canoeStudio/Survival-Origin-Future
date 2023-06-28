@@ -1,0 +1,21 @@
+{
+	title: "驯服更伙伴",
+	icon: "minecraft:bone",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"在这熟悉而又陌生的世界中，你能驯服比以往更多的伙伴，让你的旅途更加有趣！",
+		"",
+		"但搬运坐骑一直是一件令人苦恼的事",
+		"",
+		"不过还好，你拥有工具，不是吗？"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "e392c691",
+		type: "item",
+		items: [{
+			item: "burlapsack:burlap_sack"
+		}]
+	}]
+}

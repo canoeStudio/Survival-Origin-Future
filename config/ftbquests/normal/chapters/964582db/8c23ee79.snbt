@@ -1,0 +1,41 @@
+{
+	title: "升级模块",
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"可以额外为熔炉增加升级的模块",
+		"",
+		"装入&c液体燃料升级&r之后，可以使用燃料桶&c直接右键&r熔炉灌注、存储燃料"
+	],
+	dependencies: [
+		"b6fef795"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "666107c6",
+		type: "item",
+		items: [{
+			item: "furnaceoverhaul:efficiency_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "94fa0082",
+		type: "item",
+		items: [{
+			item: "furnaceoverhaul:speed_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "facfaa73",
+		type: "item",
+		items: [{
+			item: "furnaceoverhaul:liquid_fuel_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

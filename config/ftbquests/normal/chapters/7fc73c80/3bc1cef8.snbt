@@ -1,0 +1,20 @@
+{
+	title: "战利品",
+	x: 255.0d,
+	y: 135.0d,
+	description: "第四层",
+	text: [
+		"第四层生物的主要掉落物"
+	],
+	dependencies: [
+		"1e5c7ec7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45ddd8e0",
+		type: "item",
+		items: [{
+			item: "divinerpg:shiny_pearls"
+		}]
+	}]
+}

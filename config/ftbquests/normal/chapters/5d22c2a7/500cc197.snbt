@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 30.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"1e76e7a7"
+	],
+	tasks: [{
+		uid: "3b5b061d",
+		type: "item",
+		items: [{
+			item: "nyx:scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

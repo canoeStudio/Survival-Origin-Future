@@ -1,0 +1,23 @@
+{
+	title: "战利品",
+	x: 135.0d,
+	y: 45.0d,
+	dependencies: [
+		"140d0c8a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "a5a776c0",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_heart"
+		}]
+	},
+	{
+		uid: "5e122723",
+		type: "item",
+		items: [{
+			item: "divinerpg:experienced_cori_statue"
+		}]
+	}]
+}

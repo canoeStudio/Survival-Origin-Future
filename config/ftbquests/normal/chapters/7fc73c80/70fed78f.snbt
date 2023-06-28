@@ -1,0 +1,20 @@
+{
+	title: "寻找蜂巢",
+	icon: "divinerpg:hive_wall",
+	x: 210.0d,
+	y: 100.0d,
+	text: [
+		"召唤蜂后的场所",
+		"",
+		"蜂巢是外表为黄色的球形建筑，由&c蜂巢壁&r组成，内有蜂卵"
+	],
+	dependencies: [
+		"95a3ab93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d139a193",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

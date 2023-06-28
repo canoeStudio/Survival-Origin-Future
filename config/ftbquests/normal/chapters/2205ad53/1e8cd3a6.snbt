@@ -1,0 +1,23 @@
+{
+	x: -7.5d,
+	y: -30.0d,
+	text: [
+		"无需进行任何额外净化的水壶，装入龙壶的水会自动变成纯净水"
+	],
+	dependencies: [
+		"a632f277"
+	],
+	tasks: [{
+		uid: "d1c3192b",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:dragon_canteen",
+			tag: {
+				Doses: 0,
+				CanteenType: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

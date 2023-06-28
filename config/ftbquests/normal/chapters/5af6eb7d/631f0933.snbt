@@ -1,0 +1,26 @@
+{
+	title: "&c必读",
+	icon: {
+		id: "abyssalcraft:abyssalnomicon",
+		tag: {
+			PotEnergy: 100000.0f
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	description: "游玩深渊国度的重要事项",
+	text: [
+		"深渊国度的攻略为为单一流程，但复杂的&c深渊仪式&r很难通过任务系统详细阐述，因此必须仔细翻阅&c死灵之书&r",
+		"",
+		"&l可在JEI&r中查阅有关合成的相关信息",
+		"",
+		"深渊国度物品信息&c乱码&r为正常情况，当推进深渊国度的内容时，你会获得足够的灵视，便可看懂乱码"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "f2929594",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "升级篇",
+	icon: "enderskills:token",
+	always_invisible: false,
+	group: -998409731,
+	default_quest_shape: ""
+}

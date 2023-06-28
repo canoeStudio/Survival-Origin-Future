@@ -1,0 +1,15 @@
+{
+	title: "辅助篇",
+	icon: "minecraft:golden_apple 1 1",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"一些辅助物品，随着维度的推进你可以获得越来越强力的辅助物品"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "5712bb86",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

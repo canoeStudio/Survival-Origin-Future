@@ -1,0 +1,34 @@
+{
+	title: "觉醒岩晶套",
+	x: 0.0d,
+	y: 160.0d,
+	description: "&1秘界",
+	text: [
+		"整套使你每次近战伤害增加20；增加50%的远程伤害；获得&c永久&r力量4效果；获得&c永久&r伤害吸收3效果；整套盔甲与主副手会随着时间缓慢修复自身耐久"
+	],
+	dependencies: [
+		"561c971f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cf8900db",
+		type: "item",
+		title: "觉醒岩晶套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Juexingyanjing"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Juexingyanjing"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

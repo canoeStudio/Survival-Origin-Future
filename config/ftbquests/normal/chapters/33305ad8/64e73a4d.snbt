@@ -1,0 +1,34 @@
+{
+	title: "影素工具",
+	x: -10.0d,
+	y: -20.0d,
+	description: "&a主世界&o",
+	text: [
+		"合成&c毁灭工具&r的材料，自身属性很低"
+	],
+	dependencies: [
+		"a44bf273"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "98a411b2",
+		type: "item",
+		title: "影素工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any yingsutool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "yingsutool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

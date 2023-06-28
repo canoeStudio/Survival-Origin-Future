@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:redstone_torch",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"&c不要把召唤物拿到副手&r"
+	],
+	dependencies: [
+		"39da6828"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bec56d82",
+		type: "checkmark",
+		title: "&c一个警告"
+	}]
+}

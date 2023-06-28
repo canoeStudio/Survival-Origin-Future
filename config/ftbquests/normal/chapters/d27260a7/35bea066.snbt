@@ -1,0 +1,20 @@
+{
+	title: "QE菜单——立刻备份",
+	icon: "minecraft:map",
+	x: 57.5d,
+	y: 15.0d,
+	text: [
+		"QE菜单中的立刻备份功能可立刻将你的存档备份到backup文件夹中",
+		"",
+		"此操作不会产生多余的存档，即游戏仍然只会保存3个存档；此操作会立即执行，可频繁使用保证最佳的游戏体验"
+	],
+	dependencies: [
+		"4d20d377"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0b4cd7be",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

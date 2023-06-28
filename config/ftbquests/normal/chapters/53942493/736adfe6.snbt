@@ -1,0 +1,19 @@
+{
+	title: "必读事项",
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"传说纪元分为&c魔界&r、&c霜域&r两个维度。必须先前往魔界，才可前往霜域"
+	],
+	dependencies: [
+		"29aca5a4"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "4d504110",
+		type: "checkmark",
+		title: "我理解了",
+		icon: "minecraft:compass"
+	}]
+}

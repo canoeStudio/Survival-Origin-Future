@@ -1,0 +1,43 @@
+{
+	title: "来做个交♂易",
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"可与&c工坊商人&r和&c工坊工匠&r兑换一些冰晶雪原特有的物品"
+	],
+	dependencies: [
+		"4d7edcd9"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "b8cbbb21",
+		type: "interaction",
+		title: "工坊工匠",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:workshop_tinkerer"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:workshop_tinkerer"
+	},
+	{
+		uid: "16500fcb",
+		type: "interaction",
+		title: "工坊商人",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:workshop_merchant"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:workshop_merchant"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -22.5d,
+	y: -55.0d,
+	description: "&e暮色森林",
+	dependencies: [
+		"84e5344f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "8703cd91",
+		type: "item",
+		items: [{
+			item: "spartantwilight:saber_ironwood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

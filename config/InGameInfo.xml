@@ -252,10 +252,10 @@
                 <num>S</num>
                 <num>W</num>
                 <num>N</num>
-                    <str>$d东 $c正X:{xi} $aY:{yi} $9Z:{zi}</str>
-                    <str>$d南 $cX:{xi} $aY:{yi} $9正Z:{zi}</str>
-                    <str>$d西 $c负X:{xi} $aY:{yi} $9Z:{zi}</str>
-                    <str>$d北 $cX:{xi} $aY:{yi} $9负Z:{zi}</str>
+                    <str>$dE $cX:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$dS $cX:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$dW $c-X:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$dN $cX:{xi} $aY:{yi} $9-Z:{zi}</str>
             </operation>
         </line>
     

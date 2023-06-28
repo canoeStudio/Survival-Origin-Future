@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -20.0d,
+	text: [
+		"吸附范围更大，功能更多"
+	],
+	dependencies: [
+		"c43ed8f8"
+	],
+	tasks: [{
+		uid: "1de9f9cb",
+		type: "item",
+		items: [{
+			item: "simplemagnets:advancedmagnet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

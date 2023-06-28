@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 30.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"d09c37de"
+	],
+	tasks: [{
+		uid: "39118456",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_sword_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

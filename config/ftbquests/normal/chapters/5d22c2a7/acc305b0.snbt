@@ -1,0 +1,23 @@
+{
+	x: 45.0d,
+	y: -45.0d,
+	description: "&d魔界",
+	text: [
+		"可使用&c魔界紫晶&r合成钢叶"
+	],
+	dependencies: [
+		"6e3e2dba",
+		"4101944f"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f9d20d28",
+		type: "item",
+		items: [{
+			item: "spartantwilight:lance_steeleaf"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

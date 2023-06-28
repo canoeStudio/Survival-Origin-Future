@@ -1,0 +1,20 @@
+{
+	x: 26.5d,
+	y: -35.0d,
+	description: "&c下界",
+	dependencies: [
+		"e32ff852",
+		"10c4d5e6"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "25b19ec5",
+		type: "item",
+		items: [{
+			item: "spartanfire:pike_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

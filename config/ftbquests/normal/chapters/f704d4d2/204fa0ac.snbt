@@ -1,0 +1,18 @@
+{
+	title: "常规弓",
+	icon: "minecraft:arrow",
+	x: 20.0d,
+	y: -5.0d,
+	text: [
+		"常规弓，升级较为&l容易&r，但伤害&c上限低&r"
+	],
+	dependencies: [
+		"f5ee3cdd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "31fe3eee",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

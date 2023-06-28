@@ -1,0 +1,16 @@
+{
+	x: 70.0d,
+	y: 5.0d,
+	dependencies: [
+		"f0bff4d3"
+	],
+	tasks: [{
+		uid: "82f32e03",
+		type: "item",
+		items: [{
+			item: "legendera:sky_breaker_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	title: "突变开始！",
+	icon: "mutantbeasts:mutant_skeleton_skull",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"一些原版的生物出现了突变，比以往更加难以应对",
+		"",
+		"收集完整的钻石套&c解锁模组内容&r"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "82d29cae",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c2e4702",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59658504",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01e9533b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f795d262",
+		type: "gamestage",
+		title: "解锁突变生物的相关合成",
+		auto: "no_toast",
+		stage: "突变生物——合成"
+	},
+	{
+		uid: "8ca0e312",
+		type: "gamestage",
+		title: "突变开始！",
+		auto: "no_toast",
+		stage: "突变生物"
+	}]
+}

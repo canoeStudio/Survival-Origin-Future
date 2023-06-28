@@ -1,0 +1,16 @@
+{
+	x: 20.0d,
+	y: -25.0d,
+	dependencies: [
+		"bdec7651"
+	],
+	tasks: [{
+		uid: "06086296",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcanite_blaster"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

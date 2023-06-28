@@ -1,0 +1,17 @@
+{
+	x: 45.0d,
+	y: -75.0d,
+	description: "&6原始",
+	dependencies: [
+		"be7cdd18"
+	],
+	tasks: [{
+		uid: "fc60e4f3",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:lance_electrum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

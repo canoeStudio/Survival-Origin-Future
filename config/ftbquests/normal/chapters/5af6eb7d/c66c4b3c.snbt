@@ -1,0 +1,14 @@
+{
+	x: 55.0d,
+	y: 5.0d,
+	dependencies: [
+		"96d97509"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6c8dfdbb",
+		type: "dimension",
+		title: "&5前往深渊荒芜",
+		dim: 50
+	}]
+}

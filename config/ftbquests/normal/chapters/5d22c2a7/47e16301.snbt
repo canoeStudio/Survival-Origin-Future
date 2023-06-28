@@ -1,0 +1,17 @@
+{
+	x: -33.5d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"d1b1e6d1"
+	],
+	tasks: [{
+		uid: "b7cc5bee",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:katana_silver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "战利品",
+	x: 255.0d,
+	y: 120.0d,
+	dependencies: [
+		"db095402"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cf38b32b",
+		type: "item",
+		items: [{
+			item: "divinerpg:rock_chunks"
+		}]
+	},
+	{
+		uid: "2a5cd224",
+		type: "item",
+		items: [{
+			item: "divinerpg:karos_lump"
+		}]
+	}]
+}

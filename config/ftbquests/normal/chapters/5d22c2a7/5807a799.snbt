@@ -1,0 +1,12 @@
+{
+	title: "武器篇",
+	icon: "divinerpg:arksiane_backsword",
+	x: 0.0d,
+	y: 0.0d,
+	size: 3.0d,
+	tasks: [{
+		uid: "0d520254",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

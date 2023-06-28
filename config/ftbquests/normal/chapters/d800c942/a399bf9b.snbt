@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -20.0d,
+	description: "&a主世界",
+	text: [
+		"杰克会生成在主世界的任何地区，其在小地图上会显示非常显眼的南瓜头标志"
+	],
+	dependencies: [
+		"126f21f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3b719be",
+		type: "interaction",
+		title: "与杰克交易",
+		icon: "minecraft:lit_pumpkin",
+		match_type: "entity_id",
+		match: "divinerpg:jack_o_man"
+	}]
+}

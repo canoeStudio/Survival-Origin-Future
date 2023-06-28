@@ -1,0 +1,30 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	text: [
+		"发现了很多整合包作者没发现的内容",
+		"",
+		"(也许他是个天才？"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5605ede3",
+		type: "item",
+		title: "Invincible",
+		items: [{
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Id: "63c754f5-72c7-3cfa-96f4-9478a52d1f6b",
+					Properties: {
+						textures: [{
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1Mjk1ODE5MjIxOCwKICAicHJvZmlsZUlkIiA6ICIyOGNlOWI4M2I5MTI0Mjc5YjM0NzNlNTIxMTQ2ZDhhMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbnZpbmNpYmxlIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q1OGNiNGI4YTcwYjQ0OGRlZDhlNWU0N2VhOGQ5OTUxOWVhYjQxY2RiMWRlYWQ3YTJiNWQ5NTUwM2Q0ZWI0YjciCiAgICB9CiAgfQp9"
+						}]
+					},
+					Name: "Invincible"
+				}
+			}
+		}]
+	}]
+}

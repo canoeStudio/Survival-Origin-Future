@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -20.0d,
+	description: "&a主世界&o",
+	text: [
+		"可一次性对7×7的范围完成锄地工作"
+	],
+	dependencies: [
+		"1d84a715"
+	],
+	tasks: [{
+		uid: "aa85c621",
+		type: "item",
+		items: [{
+			item: "stupidthings:improved_diamond_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

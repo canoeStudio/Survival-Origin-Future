@@ -20,3 +20,7 @@
 	#The temperature of this molten fluid.
 	temperature = 1000
 
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
+

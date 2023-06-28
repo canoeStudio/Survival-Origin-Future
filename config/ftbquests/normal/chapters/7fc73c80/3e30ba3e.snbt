@@ -1,0 +1,22 @@
+{
+	title: "击败暮光之魔",
+	x: 160.0d,
+	y: 65.0d,
+	dependencies: [
+		"8262b932"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d0f5571b",
+		type: "kill",
+		icon: "divinerpg:twilight_demon_statue",
+		entity: "divinerpg:twilight_demon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "695d5afc",
+		type: "xp",
+		auto: "enabled",
+		xp: 10000
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "战斗篇",
+	icon: "divinerpg:divine_shards",
+	x: 0.0d,
+	y: 0.0d,
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "cb44a365",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

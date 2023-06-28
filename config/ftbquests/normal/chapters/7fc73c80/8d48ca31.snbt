@@ -1,0 +1,15 @@
+{
+	x: 50.0d,
+	y: 15.0d,
+	description: "空岛世界",
+	dependencies: [
+		"01822e77"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a50f6d4a",
+		type: "dimension",
+		title: "&6原始",
+		dim: 998
+	}]
+}

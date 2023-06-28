@@ -1,0 +1,22 @@
+{
+	x: 20.0d,
+	y: -5.0d,
+	text: [
+		"3.0封测者，提供了大量的反馈"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "09dd8700",
+		type: "item",
+		title: "wenshaoqing",
+		items: [{
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Name: "wenshaoqing"
+				}
+			}
+		}]
+	}]
+}

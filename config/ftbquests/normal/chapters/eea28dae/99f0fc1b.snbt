@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"以较低的概率生成在主世界5到20层的位置，是获取&c末影珍珠&r的另一种途径"
+	],
+	dependencies: [
+		"70a25795"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1de988e4",
+		type: "observation",
+		title: "发现末影矿石",
+		icon: "enderore:ore_ender",
+		match_type: "block_id",
+		match: "enderore:ore_ender",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "f0b17f6c",
+		type: "item",
+		item: "enderore:dust_ender"
+	}]
+}

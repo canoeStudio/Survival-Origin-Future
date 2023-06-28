@@ -1,0 +1,16 @@
+{
+	x: 110.0d,
+	y: 45.0d,
+	description: "空岛世界",
+	dependencies: [
+		"fec610df"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "9ca6b2be",
+		type: "dimension",
+		title: "&6冰刺",
+		dim: 996
+	}]
+}

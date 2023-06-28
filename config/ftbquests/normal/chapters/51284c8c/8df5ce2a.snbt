@@ -1,0 +1,27 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"25de5607"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cb54bde1",
+		type: "item",
+		title: "骷髅变异体的残骸",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Kuloubianyitibuwei"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Kuloubianyitibuwei"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 120.0d,
+	y: 50.0d,
+	dependencies: [
+		"199d501d"
+	],
+	tasks: [{
+		uid: "cdae7718",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_fragments"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 10.0d,
+	text: [
+		"用于定制门的设备",
+		"",
+		"放入材料，选择所需要的功能，可设置复杂的门系统"
+	],
+	dependencies: [
+		"4eae2ab6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71f783ae",
+		type: "item",
+		items: [{
+			item: "malisisdoors:door_factory"
+		}]
+	}]
+}

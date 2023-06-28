@@ -1,0 +1,16 @@
+{
+	title: "亡灵生物",
+	icon: "mod_lavacow:frozen_dagger",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"c2aebdcf"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "9774488b",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

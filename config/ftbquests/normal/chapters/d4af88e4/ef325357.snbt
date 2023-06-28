@@ -1,0 +1,21 @@
+{
+	title: "击败地牢领主密克斯",
+	x: 60.0d,
+	y: 10.0d,
+	dependencies: [
+		"52f89c7d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "db27bfc8",
+		type: "kill",
+		icon: "divinerpg:halite_blade",
+		entity: "divinerpg:dramix",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9466b8bb",
+		type: "xp",
+		xp: 13000
+	}]
+}

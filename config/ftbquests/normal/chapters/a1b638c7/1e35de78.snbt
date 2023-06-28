@@ -1,0 +1,30 @@
+{
+	title: "战利品",
+	x: -4.0d,
+	y: -20.0d,
+	dependencies: [
+		"4cb9f464"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "127f1713",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:zombiepiranha_item"
+		}]
+	},
+	{
+		uid: "fdd3c111",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:zombiepiranha_item_cooked"
+		}]
+	},
+	{
+		uid: "0c26513e",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:sharptooth"
+		}]
+	}]
+}

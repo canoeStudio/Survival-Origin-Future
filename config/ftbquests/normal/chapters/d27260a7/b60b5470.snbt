@@ -1,0 +1,21 @@
+{
+	title: "获得燧石碎片",
+	x: 120.0d,
+	y: 5.0d,
+	description: "哦♂它太大了♂",
+	text: [
+		"手持燧石对着&c石头&r之类方块的&l最上方&r&c直接右键&r可以将燧石敲成碎片",
+		"",
+		"也可以较高的成本直接合成"
+	],
+	dependencies: [
+		"a690ce01"
+	],
+	tasks: [{
+		uid: "e3552428",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}]
+	}]
+}

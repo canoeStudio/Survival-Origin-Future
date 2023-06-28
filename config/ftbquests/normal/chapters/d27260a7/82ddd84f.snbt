@@ -1,0 +1,31 @@
+{
+	title: "石子",
+	x: 115.0d,
+	y: -5.0d,
+	text: [
+		"散落在地上的石子，可以&c直接右键&r捡起来"
+	],
+	dependencies: [
+		"9dd16659"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4df93dd",
+		type: "item",
+		title: "任意石子",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rock"
+				}
+			}
+		}]
+	}]
+}

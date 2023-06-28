@@ -1,0 +1,32 @@
+{
+	x: 95.0d,
+	y: -12.5d,
+	text: [
+		"可调节周围环境温度的装置，使用&c红石信号&r触发",
+		"",
+		"只能在&c封闭环境&r中使用"
+	],
+	dependencies: [
+		"debc6077"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f84c1384",
+		type: "item",
+		title: "温度调节器",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jiarejiangwe"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jiarejiangwe"
+				}
+			}
+		}]
+	}]
+}

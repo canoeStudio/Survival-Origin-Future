@@ -1,0 +1,21 @@
+{
+	title: "击败瓦格纳",
+	x: 270.0d,
+	y: 130.0d,
+	dependencies: [
+		"ad01d2e2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "94bc518e",
+		type: "kill",
+		icon: "divinerpg:green_divine_sword",
+		entity: "divinerpg:raglok",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "68f28ac0",
+		type: "xp",
+		xp: 15000
+	}]
+}

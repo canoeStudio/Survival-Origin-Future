@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: -10.0d,
+	text: [
+		"可&c完全消除&r物品附魔的装置"
+	],
+	dependencies: [
+		"58e07b4d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e784ff0",
+		type: "item",
+		items: [{
+			item: "futuremc:grindstone"
+		}]
+	}]
+}

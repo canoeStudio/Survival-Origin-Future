@@ -1,0 +1,20 @@
+{
+	title: "神秘遗迹",
+	icon: "twilightforest:maze_stone 1 5",
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"这个世界上出现了各种各样的遗迹……也许里面蕴藏着丰富的宝藏，不要忘记去看看",
+		"",
+		"你甚至可以找到开发者合影时的遗迹，里面也许有&e至高的财富&r呢……但，这个遗迹每个存档只会出现一次哦"
+	],
+	dependencies: [
+		"70a25795"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79016c19",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

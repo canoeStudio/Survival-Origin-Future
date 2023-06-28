@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -15.0d,
+	text: [
+		"会生成在&c沙漠群系&r和&c海洋群系&r中"
+	],
+	dependencies: [
+		"46c82adf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "115f9a3c",
+		type: "kill",
+		entity: "mod_lavacow:ghostray",
+		value: 1L
+	}]
+}

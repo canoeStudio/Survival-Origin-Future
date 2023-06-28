@@ -1,0 +1,23 @@
+{
+	title: "珊瑚宝石",
+	x: 20.0d,
+	y: -5.0d,
+	text: [
+		"获取珊瑚宝石的矿石，珊瑚宝石是重要的合成材料",
+		"",
+		"珊瑚矿石只生成在主世界&c珊瑚侵染沼泽群系(CoraliumInfestedSwamp)&r的地下"
+	],
+	dependencies: [
+		"d9cdb07a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e81abd0",
+		type: "observation",
+		title: "发现珊瑚矿石",
+		icon: "abyssalcraft:coraliumore",
+		match_type: "block_id",
+		match: "abyssalcraft:coraliumore",
+		timer: 0L
+	}]
+}

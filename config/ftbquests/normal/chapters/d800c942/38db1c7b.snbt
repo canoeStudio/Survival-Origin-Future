@@ -1,0 +1,36 @@
+{
+	title: "骑士套",
+	x: 5.0d,
+	y: 85.0d,
+	description: "&e暮色森林&o",
+	text: [
+		"全套给予&c永久&r攀爬1、延伸1效果",
+		"",
+		"攀爬1将使你对着墙走可直接攀爬；延伸1会增加你2格的触及距离"
+	],
+	dependencies: [
+		"fc8111cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad210720",
+		type: "item",
+		title: "骑士套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Qishi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Qishi"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

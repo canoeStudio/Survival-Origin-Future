@@ -1,0 +1,21 @@
+{
+	title: "生物群系指南针",
+	x: 10.0d,
+	y: -10.0d,
+	text: [
+		"寻找群系的指南，使用&c英文&r进行搜索"
+	],
+	dependencies: [
+		"4eae2ab6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c18c6665",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

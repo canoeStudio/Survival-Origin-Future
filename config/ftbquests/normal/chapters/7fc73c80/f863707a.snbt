@@ -1,0 +1,22 @@
+{
+	title: "击败月光女神",
+	icon: "divinerpg:evernight",
+	x: 270.0d,
+	y: 125.0d,
+	dependencies: [
+		"89091d25"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6ee4d667",
+		type: "kill",
+		icon: "divinerpg:evernight",
+		entity: "divinerpg:lady_luna",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c6a01850",
+		type: "xp",
+		xp: 15000
+	}]
+}

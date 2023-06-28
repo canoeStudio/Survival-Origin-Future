@@ -1,0 +1,20 @@
+{
+	x: 7.5d,
+	y: 15.0d,
+	text: [
+		"立刻、完全的治愈使用者"
+	],
+	dependencies: [
+		"bdd36ef7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9134b697",
+		type: "item",
+		items: [{
+			item: "divinerpg:serenade_of_health"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

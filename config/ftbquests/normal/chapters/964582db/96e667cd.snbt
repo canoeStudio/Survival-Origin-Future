@@ -1,0 +1,15 @@
+{
+	x: 100.0d,
+	y: 0.0d,
+	dependencies: [
+		"6fc229bf"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "10cb5bf0",
+		type: "dimension",
+		title: "&d魔界",
+		dim: 1000
+	}]
+}

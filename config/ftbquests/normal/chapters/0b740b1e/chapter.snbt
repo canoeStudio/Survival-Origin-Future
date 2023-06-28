@@ -1,0 +1,7 @@
+{
+	title: "八方旅者",
+	icon: "contenttweaker:stone_grain",
+	always_invisible: false,
+	group: 1211163140,
+	default_quest_shape: ""
+}

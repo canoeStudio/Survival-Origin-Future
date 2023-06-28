@@ -1,0 +1,21 @@
+{
+	title: "伊甸传送门",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"使用&c神圣岩石&r按照4X5的垂直结构搭建即可",
+		"",
+		"手持暮光之钟&c直接右键&r进行激活"
+	],
+	dependencies: [
+		"2aaa8248"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e26ce3f",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_rock"
+		}]
+	}]
+}

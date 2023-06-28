@@ -1,0 +1,14 @@
+{
+	x: 150.0d,
+	y: 60.0d,
+	dependencies: [
+		"fbce6842"
+	],
+	tasks: [{
+		uid: "1279bd73",
+		type: "item",
+		items: [{
+			item: "divinerpg:base_spawn_crystal"
+		}]
+	}]
+}

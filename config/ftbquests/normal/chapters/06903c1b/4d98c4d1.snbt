@@ -1,0 +1,18 @@
+{
+	title: "(船新?)机制",
+	icon: "artifacts:snorkel",
+	x: -5.0d,
+	y: -15.0d,
+	text: [
+		"高版本的部分机制被带到了1.12.2中，例如&c气泡水&r、&c游泳&r、&c草径&r、&c含水方块&r等等，以及高版本的物品"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68020f4b",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

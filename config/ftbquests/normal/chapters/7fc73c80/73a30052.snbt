@@ -1,0 +1,37 @@
+{
+	title: "梦魇世界传送门",
+	x: 175.0d,
+	y: 60.0d,
+	text: [
+		"梦魇床是前往梦魇世界的传送手段",
+		"",
+		"将床放置在&c黑暗&r的地方，然后&c直接右键&r便可进入梦魇世界",
+		"",
+		"进入梦魇世界之后，会立刻在你身边生成一个梦魇传送门，用于返回主世界",
+		"",
+		"&c梦魇世界的生成特点会导致地图出现无法正确显示的问题&r"
+	],
+	dependencies: [
+		"f44c40dc",
+		"52533ba2",
+		"50158d80",
+		"63f2207c",
+		"7b0b076c"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "0e24708a",
+		type: "item",
+		items: [{
+			item: "divinerpg:nightmare_bed"
+		}]
+	}],
+	rewards: [{
+		uid: "3234d5f5",
+		type: "gamestage",
+		title: "现在你可以前往秘界了",
+		auto: "no_toast",
+		stage: "秘界"
+	}]
+}

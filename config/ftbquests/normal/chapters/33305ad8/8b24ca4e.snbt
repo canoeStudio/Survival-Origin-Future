@@ -1,0 +1,31 @@
+{
+	title: "原始工具",
+	x: 0.0d,
+	y: 100.0d,
+	description: "&6原始&o",
+	dependencies: [
+		"c5b6b462"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "7fb07bec",
+		type: "item",
+		title: "原始工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Yuanshitool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Yuanshitool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

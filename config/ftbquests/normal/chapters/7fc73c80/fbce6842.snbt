@@ -1,0 +1,19 @@
+{
+	title: "战利品",
+	x: 145.0d,
+	y: 60.0d,
+	text: [
+		"黑金世界生物的主要掉落物"
+	],
+	dependencies: [
+		"678c9910"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdb432b0",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_soul"
+		}]
+	}]
+}

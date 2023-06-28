@@ -1,0 +1,29 @@
+{
+	x: 35.0d,
+	y: -10.0d,
+	text: [
+		"用于&c连接箱子&r的线缆",
+		"",
+		"连通的&c存储连接线缆&r只需有&c一处&r连接到&c存储线缆&r可使&l整个存储连接线缆接入网络&r",
+		"",
+		"可设置更复杂的名单管理、插入升级插件，实现更高级的设置",
+		"",
+		"同一个箱子&c接入多个线缆&r会使得终端中物品数量&c显示不准确&r"
+	],
+	dependencies: [
+		"cd894a38"
+	],
+	tasks: [{
+		uid: "8278bf28",
+		type: "item",
+		items: [{
+			item: "storagenetwork:storage_kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "50676cdf",
+		type: "item",
+		item: "storagenetwork:storage_kabel",
+		count: 16
+	}]
+}

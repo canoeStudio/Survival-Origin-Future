@@ -1,0 +1,29 @@
+{
+	title: "找到瓦力克",
+	x: 35.0d,
+	y: -10.0d,
+	description: "&c关键道具的出售者",
+	text: [
+		"售卖关键道具&c巫师之书&r的商人",
+		"",
+		"他的房间有两层，一楼二楼都会生成书架、橡木家具等主世方块；一楼还会生成下界疣与灵魂沙，在地图上只有很小的黄色的点"
+	],
+	dependencies: [
+		"baa117b8"
+	],
+	tasks: [{
+		uid: "27ca048d",
+		type: "interaction",
+		title: "瓦力克",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:lord_vatticus"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:lord_vatticus"
+	}]
+}

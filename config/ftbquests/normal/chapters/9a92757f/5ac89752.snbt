@@ -1,0 +1,19 @@
+{
+	x: 15.0d,
+	y: 0.0d,
+	text: [
+		"用于&c驯服&r陆行鸟的食物"
+	],
+	dependencies: [
+		"7c5f7db3"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "67865cce",
+		type: "item",
+		items: [{
+			item: "chococraft:gysahl_green"
+		}]
+	}]
+}

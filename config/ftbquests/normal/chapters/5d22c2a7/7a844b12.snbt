@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -65.0d,
+	description: "&5恐惧之地",
+	dependencies: [
+		"0782e54e",
+		"150222eb",
+		"7c5fa6b5"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "0f958da7",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:warhammer_platinum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

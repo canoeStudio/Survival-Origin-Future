@@ -1,0 +1,105 @@
+{
+	x: -15.0d,
+	y: 45.0d,
+	description: "&a制作海蟒套以开启下界及相关任务&o",
+	text: [
+		"任意1件防具便可提供&c永久&r的水下呼吸效果；在水中时获得力量1效果，每增加1件防具会加一级效果，最高为力量4"
+	],
+	dependencies: [
+		"eda46691",
+		"1ea2737c"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "6c9869c7",
+		type: "item",
+		title: "海蟒头盔",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Haimanghelmet"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Haimanghelmet"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d134e71",
+		type: "item",
+		title: "海蟒胸甲",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Haimangchestplate"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Haimangchestplate"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "abd12f6f",
+		type: "item",
+		title: "海蟒护腿",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Haimangleggings"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Haimangleggings"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "209c9d11",
+		type: "item",
+		title: "海蟒靴子",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Haimangboots"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Haimangboots"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c97dd105",
+		type: "gamestage",
+		title: "&c你可以前往下界了！",
+		auto: "no_toast",
+		stage: "下界"
+	}]
+}

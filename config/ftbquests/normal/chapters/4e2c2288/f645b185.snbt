@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 40.0d,
+	description: "&5奥穆索&o",
+	dependencies: [
+		"5a872241"
+	],
+	tasks: [{
+		uid: "0bae579c",
+		type: "item",
+		items: [{
+			id: "spartanshields:shield_abyssalcraft_ethaxium",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

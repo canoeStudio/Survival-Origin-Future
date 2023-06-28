@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 55.0d,
+	description: "&9末地",
+	dependencies: [
+		"241b821a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "031e0af6",
+		type: "item",
+		items: [{
+			item: "divinerpg:flaming_fury"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

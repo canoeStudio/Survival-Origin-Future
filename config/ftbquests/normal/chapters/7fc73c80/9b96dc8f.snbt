@@ -1,0 +1,18 @@
+{
+	title: "前往黑金世界的准备工作",
+	x: 135.0d,
+	y: 60.0d,
+	text: [
+		"搭建、激活方法与伊甸传送门完全一致；&c只能&r在冰刺世界搭建，否则无法正常传送"
+	],
+	dependencies: [
+		"ed69339b"
+	],
+	tasks: [{
+		uid: "298f6aa8",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_block"
+		}]
+	}]
+}

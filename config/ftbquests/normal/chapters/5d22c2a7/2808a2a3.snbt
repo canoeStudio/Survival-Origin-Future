@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: -65.0d,
+	description: "&5恐惧之地",
+	dependencies: [
+		"d79d9d20",
+		"a3a07e55",
+		"62aac820"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9e4752c8",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_platinum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

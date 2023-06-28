@@ -1,0 +1,36 @@
+{
+	icon: "acheads:head 1 2",
+	x: 0.0d,
+	y: 10.0d,
+	can_repeat: true,
+	dependencies: [
+		"d9cdb07a"
+	],
+	hide: true,
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "7343c060",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "347d7eae",
+		type: "checkmark",
+		title: "重新获取进度"
+	}],
+	rewards: [{
+		uid: "1986feea",
+		type: "gamestage",
+		title: "解锁深渊国度！",
+		auto: "no_toast",
+		stage: "深渊国度"
+	}]
+}

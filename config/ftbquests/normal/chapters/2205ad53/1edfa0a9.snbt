@@ -1,0 +1,32 @@
+{
+	title: "驯服海马",
+	icon: "heq:emerald_horse_armor",
+	x: 7.5d,
+	y: 15.0d,
+	text: [
+		"生成在海洋中的坐骑，在水中拥有非常快的移动速度",
+		"",
+		"喂食&c海绵&r可将其驯服；喂食&c海晶沙粒&r可使其繁衍后代",
+		"",
+		"&c空手潜行右键&r装上鞍后即可骑乘，可为它装备&c马铠&r"
+	],
+	dependencies: [
+		"dee1d433"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfaa98ec",
+		type: "interaction",
+		title: "与海马互动",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:hippocampus"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "iceandfire:hippocampus"
+	}]
+}

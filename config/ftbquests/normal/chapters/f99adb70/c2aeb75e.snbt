@@ -1,0 +1,16 @@
+{
+	x: 25.0d,
+	y: 25.0d,
+	dependencies: [
+		"166adb99"
+	],
+	tasks: [{
+		uid: "1b320fbd",
+		type: "item",
+		items: [{
+			item: "divinerpg:ender_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

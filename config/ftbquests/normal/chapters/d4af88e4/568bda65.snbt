@@ -1,0 +1,14 @@
+{
+	x: 35.0d,
+	y: -30.0d,
+	dependencies: [
+		"1a7882d9"
+	],
+	tasks: [{
+		uid: "ee977326",
+		type: "item",
+		items: [{
+			item: "divinerpg:grenade"
+		}]
+	}]
+}

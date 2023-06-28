@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -10.0d,
+	text: [
+		"可以整花活"
+	],
+	dependencies: [
+		"e1298006"
+	],
+	tasks: [{
+		uid: "eb47ad75",
+		type: "item",
+		items: [{
+			item: "mutantbeasts:hulk_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

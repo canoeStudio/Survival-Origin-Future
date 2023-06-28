@@ -1,0 +1,16 @@
+{
+	x: 32.5d,
+	y: 5.0d,
+	dependencies: [
+		"fce2b74b"
+	],
+	tasks: [{
+		uid: "8c5e9589",
+		type: "item",
+		items: [{
+			item: "legendera:assault_rifle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "死亡知识",
+	icon: "tombstone:decorative_tombstone",
+	x: 0.0d,
+	y: 10.0d,
+	text: [
+		"与死亡有关的技能、被动，学习它可获得&c死亡不掉落经验&r、&c死亡一定获得附魔钥匙&r等能力",
+		"",
+		"&l按J&r或在&lQE菜单&r中打开技能页面",
+		"",
+		"获得&c死亡知识&r的方法有：",
+		"",
+		" 完成墓碑的&c进度&r",
+		"用&c安卡的祈祷&r对墓碑祈祷",
+		"净化僵尸村民",
+		"在&c有灵魂的装饰性坟墓&r上进行附魔",
+		"将&c束魂瓶&r里的灵魂放入一个&c装饰性墓碑&r中"
+	],
+	dependencies: [
+		"6ff703da"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "503754b7",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

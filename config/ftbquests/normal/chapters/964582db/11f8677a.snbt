@@ -1,0 +1,43 @@
+{
+	title: "强光火把",
+	icon: "glaretorch:itemglaretorchlarge2",
+	disable_toast: true,
+	x: 25.0d,
+	y: 5.0d,
+	text: [
+		"亮度更高、范围更大的火把",
+		"",
+		"&c潜行右键&r可向远处丢出强光火把并插在地上",
+		"",
+		"强光火把不受主副手插火把的限制"
+	],
+	dependencies: [
+		"be6cf4ed"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "efecb599",
+		type: "item",
+		title: "强光火把",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Qiangguanghuoba"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Qiangguanghuoba"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "60d2b486",
+		type: "item",
+		item: "minecraft:coal",
+		count: 32
+	}]
+}

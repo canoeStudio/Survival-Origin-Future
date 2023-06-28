@@ -1,0 +1,16 @@
+{
+	x: 35.0d,
+	y: -25.0d,
+	dependencies: [
+		"1a7882d9"
+	],
+	tasks: [{
+		uid: "d9a257d8",
+		type: "item",
+		items: [{
+			item: "divinerpg:shadow_saber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

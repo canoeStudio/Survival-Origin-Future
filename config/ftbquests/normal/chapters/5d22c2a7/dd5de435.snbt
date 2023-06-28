@@ -1,0 +1,19 @@
+{
+	title: "这是...？",
+	icon: "minecraft:water_bucket",
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"这是一把你意想不到的武器"
+	],
+	dependencies: [
+		"5807a799"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "868808f6",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

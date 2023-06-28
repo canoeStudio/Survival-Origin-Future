@@ -1,0 +1,24 @@
+{
+	title: "击败远古",
+	x: 250.0d,
+	y: 105.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"33fae4f6"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cc7de37f",
+		type: "kill",
+		icon: "divinerpg:arksiane_staff",
+		entity: "divinerpg:quadro",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f4f59f52",
+		type: "xp",
+		auto: "enabled",
+		xp: 13000
+	}]
+}

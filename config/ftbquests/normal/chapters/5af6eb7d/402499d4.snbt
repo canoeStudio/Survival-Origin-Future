@@ -1,0 +1,42 @@
+{
+	title: "最终的充能基座",
+	x: 180.0d,
+	y: 15.0d,
+	text: [
+		"可手动合成；也可在奥穆索的&c建筑&r中找到"
+	],
+	dependencies: [
+		"e0db82fd"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "33e1ebf0",
+		type: "observation",
+		title: "奥穆索能量基座",
+		icon: {
+			id: "abyssalcraft:tieredenergypedestal",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		},
+		match_type: "block_id",
+		match: "abyssalcraft:tieredenergypedestal",
+		timer: 0L
+	},
+	{
+		uid: "9b39ceae",
+		type: "observation",
+		title: "奥穆索献祭祭坛",
+		icon: {
+			id: "abyssalcraft:tieredsacrificialaltar",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		},
+		match_type: "block_id",
+		match: "abyssalcraft:tieredsacrificialaltar",
+		timer: 0L
+	}]
+}

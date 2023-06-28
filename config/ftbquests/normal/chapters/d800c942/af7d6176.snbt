@@ -1,0 +1,35 @@
+{
+	title: "金块套",
+	x: 2.5d,
+	y: 20.0d,
+	description: "&a主世界&o",
+	text: [
+		"获得&c永久&r发光1效果；获得&c半永久&r力量2效果，每75秒刷新一次力量2效果，持续20秒",
+		"",
+		"土豪真是不好惹"
+	],
+	dependencies: [
+		"3fab9211"
+	],
+	tasks: [{
+		uid: "046885a5",
+		type: "item",
+		title: "金块套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jinkuai"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jinkuai"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

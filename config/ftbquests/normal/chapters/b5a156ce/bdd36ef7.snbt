@@ -1,0 +1,16 @@
+{
+	title: "辅助篇",
+	icon: "roughtweaks:medikitenchanted",
+	x: 10.0d,
+	y: 10.0d,
+	dependencies: [
+		"e2bb87d4"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "2ba220de",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

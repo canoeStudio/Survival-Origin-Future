@@ -1,0 +1,22 @@
+{
+	title: "发现陆行鸟",
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"来自&c最终幻想&r的陆行鸟出现在了世界中"
+	],
+	dependencies: [
+		"3b3179f0"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "afbe93cc",
+		type: "observation",
+		title: "发现陆行鸟",
+		icon: "chococraft:chocobo_spawn_egg",
+		match_type: "entity_id",
+		match: "chococraft:chocobo",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "恐惧渊素套",
+	x: 5.0d,
+	y: 115.0d,
+	description: "&5恐惧之地&o",
+	text: [
+		"全套给予&c半永久&r的生命和恢复2效果，生命恢复2效果持续15秒，每60秒刷新一次"
+	],
+	dependencies: [
+		"456f0d94"
+	],
+	tasks: [{
+		uid: "5da951d2",
+		type: "item",
+		title: "恐惧渊素套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Kongjuyuansu"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Kongjuyuansu"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

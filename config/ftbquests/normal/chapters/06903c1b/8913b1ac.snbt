@@ -1,0 +1,20 @@
+{
+	title: "PING",
+	icon: "minecraft:redstone_torch",
+	x: -10.0d,
+	y: -10.0d,
+	text: [
+		"可标记并高亮方块，&c一定范围&r内的玩家都可以看到标记；有时间限制",
+		"",
+		"默认按键为&c&l`&r"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62f7c6ca",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

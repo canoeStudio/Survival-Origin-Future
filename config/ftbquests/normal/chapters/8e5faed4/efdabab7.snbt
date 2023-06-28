@@ -1,0 +1,20 @@
+{
+	x: 15.0d,
+	y: -5.0d,
+	text: [
+		"获取&c巨龙之眼&r与&c处理升级&r可以让你更轻松的获取矿物",
+		"",
+		"&c银锭&r可以帮助你更低成本的制作下界合金锭"
+	],
+	dependencies: [
+		"ae4d5297"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6828b63",
+		type: "item",
+		items: [{
+			item: "futuremc:ancient_debris"
+		}]
+	}]
+}

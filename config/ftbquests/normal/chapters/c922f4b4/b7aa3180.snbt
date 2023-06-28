@@ -1,0 +1,16 @@
+{
+	title: "功能饰品",
+	icon: "armorunder:liner_snips",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"b26ef07d"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "1a726cce",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

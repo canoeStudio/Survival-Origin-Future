@@ -1,0 +1,35 @@
+{
+	disable_toast: true,
+	x: 100.0d,
+	y: -15.0d,
+	text: [
+		"用于喝水的容器，可与&c木炭过滤器&r合成将水&c净化&r为纯净水；喝&c生水&r会概率导致&c寄生虫感染&r",
+		"",
+		"无容器时可&c潜行空手右键&r水源直接饮水"
+	],
+	dependencies: [
+		"debc6077"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "3d3fdc89",
+		type: "item",
+		title: "喝水的容器",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Heshuirongqi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Heshuirongqi"
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

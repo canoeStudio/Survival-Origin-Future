@@ -1,0 +1,17 @@
+{
+	x: 15.0d,
+	y: -55.0d,
+	description: "&e暮色森林",
+	dependencies: [
+		"2c8d038b"
+	],
+	tasks: [{
+		uid: "20b0a1c8",
+		type: "item",
+		items: [{
+			item: "spartantwilight:spear_fiery"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

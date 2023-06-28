@@ -1,0 +1,16 @@
+{
+	title: "&c成长曲线",
+	icon: "futuremc:netherite_chestplate",
+	x: 0.0d,
+	y: 0.0d,
+	description: "§7§m§o我TM怎么又被秒了§r",
+	text: [
+		"提升自己，面对越发艰难的旅途咬紧牙关吧！"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "b8a46ea9",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

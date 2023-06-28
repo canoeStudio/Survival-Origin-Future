@@ -1,0 +1,15 @@
+{
+	x: 230.0d,
+	y: 110.0d,
+	dependencies: [
+		"60d1d8bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d313017",
+		type: "item",
+		items: [{
+			item: "divinerpg:band_of_heiva_hunting"
+		}]
+	}]
+}

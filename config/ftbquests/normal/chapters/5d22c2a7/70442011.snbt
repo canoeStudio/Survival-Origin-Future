@@ -1,0 +1,17 @@
+{
+	x: 25.0d,
+	y: 0.0d,
+	description: "&c下界",
+	dependencies: [
+		"b04ead23"
+	],
+	tasks: [{
+		uid: "9948b36d",
+		type: "item",
+		items: [{
+			item: "custommc:wqs10"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

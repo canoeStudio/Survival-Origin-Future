@@ -1,0 +1,34 @@
+{
+	title: "幽冥套",
+	x: 5.0d,
+	y: 95.0d,
+	description: "&b极光幽境&o",
+	text: [
+		"每件盔甲都有6%的几率在攻击时净化身上的负面效果"
+	],
+	dependencies: [
+		"0bd91765"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3ac35cd",
+		type: "item",
+		title: "幽冥套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Youming"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Youming"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

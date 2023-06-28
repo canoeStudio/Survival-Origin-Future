@@ -1,0 +1,14 @@
+{
+	x: 30.0d,
+	y: 5.0d,
+	dependencies: [
+		"2406aac1"
+	],
+	tasks: [{
+		uid: "034be0ae",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_fragments"
+		}]
+	}]
+}

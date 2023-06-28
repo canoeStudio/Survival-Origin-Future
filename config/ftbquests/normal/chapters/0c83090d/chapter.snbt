@@ -1,0 +1,7 @@
+{
+	title: "向死而生",
+	icon: "tombstone:decorative_tombstone 1 1",
+	always_invisible: false,
+	group: -764256089,
+	default_quest_shape: ""
+}

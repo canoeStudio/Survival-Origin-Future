@@ -1,0 +1,19 @@
+{
+	title: "驯兽大师",
+	icon: "minecraft:bone",
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"驯服亡灵生物从而让他们成为你的伙伴！"
+	],
+	dependencies: [
+		"c2aebdcf"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "ee3a55a6",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

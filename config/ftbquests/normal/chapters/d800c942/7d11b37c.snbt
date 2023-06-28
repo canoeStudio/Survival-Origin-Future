@@ -1,0 +1,36 @@
+{
+	title: "伊塞斯套",
+	x: 0.0d,
+	y: 120.0d,
+	description: "&5奥穆索&o",
+	text: [
+		"靴子提供&c永久&r速度2效果；全套会在速度2基础上随机给予锋利、生命恢复等效果"
+	],
+	dependencies: [
+		"0dbf1f57",
+		"c44cec31",
+		"456f0d94"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c2a3c137",
+		type: "item",
+		title: "伊塞斯套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Yisaisi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Yisaisi"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

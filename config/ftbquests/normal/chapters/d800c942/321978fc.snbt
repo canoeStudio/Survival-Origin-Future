@@ -1,0 +1,36 @@
+{
+	title: "神圣套",
+	x: 0.0d,
+	y: 60.0d,
+	description: "&c下界&o",
+	text: [
+		"全套给予&c永久&r的摔落伤害免疫，跳跃高度翻倍，并使每次近战攻击&c增加6点伤害&r"
+	],
+	dependencies: [
+		"96840fe5",
+		"d7ff6a91"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "10662666",
+		type: "item",
+		title: "神圣套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Shensheng"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Shensheng"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

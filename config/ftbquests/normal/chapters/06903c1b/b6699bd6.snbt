@@ -1,0 +1,18 @@
+{
+	title: "自动补种",
+	icon: "minecraft:sapling",
+	x: 5.0d,
+	y: 15.0d,
+	text: [
+		"掉落在地面的&c树苗&r、&c农作物种子&r会自动补种"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "29b33203",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

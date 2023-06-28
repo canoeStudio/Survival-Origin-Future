@@ -1,0 +1,31 @@
+{
+	title: "伊塞斯工具",
+	x: 0.0d,
+	y: 85.0d,
+	description: "&5奥穆索&o",
+	dependencies: [
+		"098e4a5d"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "de4e5045",
+		type: "item",
+		title: "伊塞斯工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any yisaisi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "yisaisi"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

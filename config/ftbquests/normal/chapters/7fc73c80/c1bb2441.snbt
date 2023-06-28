@@ -1,0 +1,23 @@
+{
+	title: "寻找阿帕拉契亚祭坛",
+	x: 85.0d,
+	y: 30.0d,
+	description: "召唤BOSS的祭坛",
+	text: [
+		"阿帕拉契亚祭坛生成在阿帕拉契亚世界的任意位置，其中会生成永恒射手刷怪笼，是召唤永恒射手的场所",
+		"",
+		"阿帕拉契亚祭坛为&c阿帕拉契亚砖块&r与&c末影灯&r组成的露天结构；末影灯分布在其中心及周围"
+	],
+	dependencies: [
+		"8044a3a4"
+	],
+	tasks: [{
+		uid: "d4a8d143",
+		type: "observation",
+		title: "永恒射手刷怪笼",
+		icon: "divinerpg:eternal_archer_spawner",
+		match_type: "block_id",
+		match: "divinerpg:eternal_archer_spawner",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -75.0d,
+	description: "&6原始",
+	dependencies: [
+		"2808a2a3"
+	],
+	tasks: [{
+		uid: "d6ee97a0",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_electrum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

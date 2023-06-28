@@ -1,0 +1,32 @@
+{
+	title: "物品品质",
+	icon: "qualitytools:reforging_station",
+	x: 85.0d,
+	y: -10.0d,
+	text: [
+		"&l锻造台&r可以刷新武器、饰品、防具等等物品的品质，直到完美",
+		"",
+		"通常使用制作该物品的&c制作材料&r就可以进行刷新",
+		"",
+		"但饰品不同，&c一级饰品&r通常可用&c幽冥粉&r进行刷新，而&c二级饰品&r则需要使用&c闪耀锭&r刷新",
+		"",
+		"&c闪耀锭&r可以对任何物品进行品质刷新"
+	],
+	dependencies: [
+		"2cfdd1ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f0fa6d4",
+		type: "item",
+		items: [{
+			item: "qualitytools:reforging_station"
+		}]
+	}],
+	rewards: [{
+		uid: "f82a1c0a",
+		type: "item",
+		item: "xat:glowing_ingot",
+		count: 3
+	}]
+}

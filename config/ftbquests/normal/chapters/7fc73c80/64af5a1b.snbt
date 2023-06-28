@@ -1,0 +1,23 @@
+{
+	title: "寻找伊甸祭坛",
+	x: 25.0d,
+	y: 0.0d,
+	description: "召唤BOSS的祭坛",
+	text: [
+		"&c伊甸祭坛&r生成在伊甸世界的随机位置，中心为太阳风暴刷怪笼，是召唤&c太阳风暴&r的场所",
+		"",
+		"祭坛为4个拱门围成的正方形露天结构，周围有4个石柱，有有很多伊甸灯"
+	],
+	dependencies: [
+		"d0199bfc"
+	],
+	tasks: [{
+		uid: "bbd25a21",
+		type: "observation",
+		title: "发现太阳风暴刷怪笼",
+		icon: "divinerpg:sunstorm_spawner",
+		match_type: "block_id",
+		match: "divinerpg:sunstorm_spawner",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "致谢",
+	icon: "minecraft:skull 1 3",
+	always_invisible: false,
+	group: 1211163140,
+	default_quest_shape: ""
+}

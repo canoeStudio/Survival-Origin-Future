@@ -1,0 +1,14 @@
+{
+	x: 40.0d,
+	y: 0.0d,
+	dependencies: [
+		"4592615f"
+	],
+	tasks: [{
+		uid: "75ee21ff",
+		type: "item",
+		items: [{
+			item: "legendera:evilkind_leader_signet"
+		}]
+	}]
+}

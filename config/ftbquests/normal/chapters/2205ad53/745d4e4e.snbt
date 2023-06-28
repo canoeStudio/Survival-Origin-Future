@@ -1,0 +1,22 @@
+{
+	x: 20.0d,
+	y: -20.0d,
+	text: [
+		"&c蛇发女妖&r被关押在海岸线的&c远古石庙&r中，也会出现在&c地牢&r中",
+		"",
+		"其拥有强大的力量，据说正面看她的人都会被变成石像，所以必须用&c眼罩&r保护自己(或给予自己&c失明&r状态)"
+	],
+	dependencies: [
+		"0f986c93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b57bab97",
+		type: "item",
+		items: [{
+			item: "iceandfire:blindfold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

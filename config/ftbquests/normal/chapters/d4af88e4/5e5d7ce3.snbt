@@ -1,0 +1,16 @@
+{
+	x: 50.0d,
+	y: -20.0d,
+	dependencies: [
+		"84a62d6a"
+	],
+	tasks: [{
+		uid: "c7b640b0",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcanium_reflector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

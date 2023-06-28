@@ -1,0 +1,18 @@
+{
+	title: "祭坛搭建",
+	x: 75.0d,
+	y: 5.0d,
+	text: [
+		"在霜星祭坛上放置一个&c寒霜宝石块&r即可完成搭建"
+	],
+	dependencies: [
+		"cd272d08"
+	],
+	tasks: [{
+		uid: "cd489e60",
+		type: "item",
+		items: [{
+			item: "legendera:frosty_gemstone_block"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 15.0d,
+	y: 0.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"e5678b56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a4555f72",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

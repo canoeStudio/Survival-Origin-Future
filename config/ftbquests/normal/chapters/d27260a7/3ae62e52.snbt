@@ -1,0 +1,34 @@
+{
+	title: "你好啊旅行者",
+	icon: "minecraft:grass",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"我，即是异界旅者中的先驱者，我很欣慰你打开这本百科全书！",
+		"",
+		"这里是我留给你的冒险指引，你的所有疑问都能在其中找到答案！仔细阅读它，享受你的异界之旅！"
+	],
+	dependency_requirement: "one_completed",
+	size: 3.0d,
+	tasks: [{
+		uid: "06afa676",
+		type: "checkmark",
+		title: "&a看完了再点我！！！"
+	},
+	{
+		uid: "66aece73",
+		type: "checkmark",
+		title: "&b看完了再点我！！！"
+	},
+	{
+		uid: "4ad3282f",
+		type: "checkmark",
+		title: "&c看完了再点我！！！"
+	}],
+	rewards: [{
+		uid: "4552d90a",
+		type: "item",
+		title: "鲨鲨这么可爱，赶紧抱抱它",
+		item: "blahaj:blue_shark"
+	}]
+}

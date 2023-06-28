@@ -1,0 +1,20 @@
+{
+	title: "战利品",
+	x: 225.0d,
+	y: 120.0d,
+	description: "第三层",
+	text: [
+		"第三层生物的主要掉落物"
+	],
+	dependencies: [
+		"60d1d8bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "53445d17",
+		type: "item",
+		items: [{
+			item: "divinerpg:polished_pearls"
+		}]
+	}]
+}

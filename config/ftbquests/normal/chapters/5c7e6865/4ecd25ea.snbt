@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"可存储液体，也可定期的自动生成液体，生成液体的种类会随着群系发生变化",
+		"",
+		"每16个区块只能有1口水井处于工作状态"
+	],
+	dependencies: [
+		"4791ab60"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "ff90dba1",
+		type: "item",
+		items: [{
+			item: "well:well"
+		}]
+	}]
+}

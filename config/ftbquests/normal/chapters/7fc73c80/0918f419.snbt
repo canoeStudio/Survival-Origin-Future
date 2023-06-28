@@ -1,0 +1,17 @@
+{
+	x: 200.0d,
+	y: 90.0d,
+	text: [
+		"熔融之球是&c梦魇之球&r的一种，是在&c神圣附魔台&r上合成梦魇世界武器、防具的重要材料之一"
+	],
+	dependencies: [
+		"542221ab"
+	],
+	tasks: [{
+		uid: "e627a2cb",
+		type: "item",
+		items: [{
+			item: "divinerpg:teaker_lump"
+		}]
+	}]
+}

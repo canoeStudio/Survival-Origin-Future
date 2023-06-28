@@ -40,6 +40,222 @@
 	{
 		ftb_money: 100L,
 		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 10000000L,
+		type: "ftbmoney:money"
 	}],
 	loot_crate: {
 		string_id: "blind_box",

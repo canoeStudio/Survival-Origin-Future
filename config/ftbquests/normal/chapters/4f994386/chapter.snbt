@@ -1,0 +1,7 @@
+{
+	title: "辅助篇",
+	icon: "minecraft:shears",
+	always_invisible: false,
+	group: 600188148,
+	default_quest_shape: ""
+}

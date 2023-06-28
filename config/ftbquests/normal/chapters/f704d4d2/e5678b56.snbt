@@ -1,0 +1,16 @@
+{
+	title: "弓之篇",
+	icon: "divinerpg:bow_template",
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"20432f1e"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "25c40485",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

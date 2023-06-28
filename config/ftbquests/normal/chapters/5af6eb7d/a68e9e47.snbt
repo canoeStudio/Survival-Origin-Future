@@ -1,0 +1,29 @@
+{
+	title: "汇聚附魔",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				id: 0s,
+				lvl: 1s
+			}]
+		}
+	},
+	x: 170.0d,
+	y: 35.0d,
+	text: [
+		"一种使附魔突破上限达到6级附魔的仪式",
+		"",
+		"参考仪式——深渊之书——第4页即可",
+		"",
+		"&c部分附魔在达到6级时会导致游戏崩溃、坏档，需及时备份存档"
+	],
+	dependencies: [
+		"e6e3ee60"
+	],
+	tasks: [{
+		uid: "d687f085",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "潜声套",
+	x: 20.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "fef5a5ec",
+		type: "item",
+		items: [{
+			id: "custommc:wqs7",
+			tag: {
+				Quality: {
+					Name: "quality.keen.name",
+					Color: "blue",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: 5802433530499845301L,
+						UUIDLeast: -7684836005038215073L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -5737649887225558225L,
+						UUIDLeast: -7250909381120815670L,
+						AttributeName: "generic.attackDamage"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "89ce3f65",
+		type: "item",
+		title: "潜声套装",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Xunsheng"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Xunsheng"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

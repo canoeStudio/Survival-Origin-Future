@@ -1,0 +1,29 @@
+{
+	x: 12.5d,
+	y: 17.5d,
+	description: "&a主世界&o",
+	dependencies: [
+		"e879297d"
+	],
+	tasks: [{
+		uid: "f875cadd",
+		type: "item",
+		title: "饥荒套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jihuang"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jihuang"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

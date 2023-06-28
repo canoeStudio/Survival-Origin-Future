@@ -1,0 +1,22 @@
+{
+	x: 60.0d,
+	y: 0.0d,
+	dependencies: [
+		"5fa9ad2d"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "9669d942",
+		type: "dimension",
+		title: "&d魔界",
+		dim: 1000
+	}],
+	rewards: [{
+		uid: "f1cd8334",
+		type: "gamestage",
+		title: "觉醒！末影技能！",
+		auto: "no_toast",
+		stage: "末影技能"
+	}]
+}

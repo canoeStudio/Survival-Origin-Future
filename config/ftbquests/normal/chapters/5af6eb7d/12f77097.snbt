@@ -1,0 +1,19 @@
+{
+	x: 115.0d,
+	y: -5.0d,
+	text: [
+		"升级死灵之书的材料",
+		"",
+		"恐惧碎片需要击杀恐惧之地的&c惧魔&r概率掉落"
+	],
+	dependencies: [
+		"99ea8b69"
+	],
+	tasks: [{
+		uid: "a2328853",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:skin 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "击败魔帝神",
+	icon: "legendera:evilkind_god_token",
+	x: 50.0d,
+	y: -15.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"736cc47e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "36e0d32e",
+		type: "kill",
+		entity: "legendera:evilkind_god",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "de20be6f",
+		type: "xp",
+		auto: "enabled",
+		xp: 3000
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 150.0d,
+	y: 65.0d,
+	dependencies: [
+		"15188f19"
+	],
+	tasks: [{
+		uid: "c2d33202",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_fragments"
+		}]
+	}]
+}

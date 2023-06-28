@@ -1,0 +1,21 @@
+{
+	title: "the END",
+	x: 200.0d,
+	y: 40.0d,
+	text: [
+		"祝贺你，弑神之人！"
+	],
+	dependencies: [
+		"da5a6e1a"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "d1ae290b",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:soulreaper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

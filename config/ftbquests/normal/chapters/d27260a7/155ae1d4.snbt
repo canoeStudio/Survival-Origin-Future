@@ -1,0 +1,18 @@
+{
+	title: "击杀记录",
+	icon: "custommc:wqs7",
+	x: 10.5d,
+	y: -5.0d,
+	text: [
+		"只有使用武器的直接伤害击杀生物才会被任务系统记录，被&c武器附魔效果&r、&c技能&r等击杀的生物&c可能&r不会被任务系统记录而造成卡进度的问题"
+	],
+	dependencies: [
+		"21d28d77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "683477e9",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

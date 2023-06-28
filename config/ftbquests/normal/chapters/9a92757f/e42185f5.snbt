@@ -1,0 +1,18 @@
+{
+	title: "驯服炎熔螈",
+	icon: "mod_lavacow:weta_jaw",
+	x: 0.0d,
+	y: -15.0d,
+	text: [
+		"详见&c任务&r：主世界——亡灵崛起"
+	],
+	dependencies: [
+		"17d857c3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5654924",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "战利品",
+	x: 165.0d,
+	y: 55.0d,
+	dependencies: [
+		"9d440773"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ff263de7",
+		type: "item",
+		items: [{
+			item: "divinerpg:soul_fiend_statue"
+		}]
+	},
+	{
+		uid: "54d8aef0",
+		type: "item",
+		items: [{
+			item: "divinerpg:halite_slicer"
+		}]
+	},
+	{
+		uid: "002b7f8f",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_heart"
+		}]
+	}]
+}

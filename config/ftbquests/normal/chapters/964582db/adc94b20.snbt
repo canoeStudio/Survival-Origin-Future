@@ -1,0 +1,25 @@
+{
+	x: 95.0d,
+	y: -10.0d,
+	description: "传送之书的核心",
+	text: [
+		"站在需要标记的地方，&c直接右键&r即可进行绑定；单独的书页也可进行传送",
+		"",
+		"&c多人游戏&r时，手持书页&c潜行右键&r可将自己标记为传送对象，方便其他玩家使用"
+	],
+	dependencies: [
+		"d7652bd3"
+	],
+	tasks: [{
+		uid: "29d3da38",
+		type: "item",
+		items: [{
+			item: "warpbook:unboundwarppage"
+		}]
+	}],
+	rewards: [{
+		uid: "a6b8c6aa",
+		type: "item",
+		item: "warpbook:unboundwarppage"
+	}]
+}

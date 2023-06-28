@@ -1,0 +1,23 @@
+{
+	title: "击败蛇发女妖",
+	x: 20.0d,
+	y: -25.0d,
+	text: [
+		"蛇发女妖的&c石化魔法&r非常强力，拥有&c秒杀&r一切强大生物的威力"
+	],
+	dependencies: [
+		"745d4e4e"
+	],
+	tasks: [{
+		uid: "ce3fa3d2",
+		type: "kill",
+		icon: "iceandfire:dragonbone_sword",
+		entity: "iceandfire:gorgon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a124b373",
+		type: "xp",
+		xp: 1000
+	}]
+}

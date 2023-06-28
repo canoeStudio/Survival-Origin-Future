@@ -1,0 +1,12 @@
+{
+	title: "传说中的传说之地",
+	icon: {
+		id: "patchouli:guide_book",
+		tag: {
+			"patchouli:book": "legendera:legend_recorder"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,17 @@
+{
+	x: 85.0d,
+	y: 35.0d,
+	dependencies: [
+		"8044a3a4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81d8eadb",
+		type: "observation",
+		title: "发现阿帕拉契亚矿石",
+		icon: "divinerpg:apalachia_ore",
+		match_type: "block_id",
+		match: "divinerpg:apalachia_ore",
+		timer: 0L
+	}]
+}

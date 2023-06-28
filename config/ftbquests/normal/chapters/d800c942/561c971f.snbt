@@ -1,0 +1,34 @@
+{
+	title: "岩晶套",
+	x: 0.0d,
+	y: 155.0d,
+	description: "&6黑金&o",
+	text: [
+		"整套会使你每次近战攻击增加16点伤害‘并获得抗性提升2效果"
+	],
+	dependencies: [
+		"5156ce6d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "1ce7d505",
+		type: "item",
+		title: "岩晶套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Yanjing"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Yanjing"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

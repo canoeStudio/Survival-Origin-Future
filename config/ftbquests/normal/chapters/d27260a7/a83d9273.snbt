@@ -1,0 +1,25 @@
+{
+	title: "获得木棍",
+	x: 125.0d,
+	y: 0.0d,
+	text: [
+		"破坏树叶可获得木棍"
+	],
+	dependencies: [
+		"9dd16659"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4bf4bc17",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "245109b3",
+		type: "item",
+		item: "minecraft:stick",
+		count: 2
+	}]
+}

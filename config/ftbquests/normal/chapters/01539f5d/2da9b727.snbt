@@ -1,0 +1,30 @@
+{
+	icon: "legendera:devildom_portal_wand",
+	x: -20.0d,
+	y: 10.0d,
+	can_repeat: true,
+	dependencies: [
+		"764c73fb"
+	],
+	hide: true,
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "8b7d6f4f",
+		type: "dimension",
+		title: "&d访问魔界",
+		dim: 1000
+	},
+	{
+		uid: "0a1ff09e",
+		type: "checkmark",
+		title: "重新获取进度"
+	}],
+	rewards: [{
+		uid: "939b40e6",
+		type: "gamestage",
+		title: "解锁末影技能！",
+		auto: "no_toast",
+		stage: "末影技能"
+	}]
+}

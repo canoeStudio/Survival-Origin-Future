@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 30.0d,
+	description: "&c下界&o",
+	dependencies: [
+		"658e2ed6",
+		"4f7155d1"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ec03ccff",
+		type: "item",
+		items: [{
+			item: "divinerpg:ghast_cannon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "RGB！！！！",
+	x: 35.0d,
+	y: 5.0d,
+	text: [
+		"众所周知，RGB可以提升电脑的性能"
+	],
+	dependencies: [
+		"039fd5c5"
+	],
+	tasks: [{
+		uid: "75b63de5",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_lamp"
+		}]
+	}]
+}

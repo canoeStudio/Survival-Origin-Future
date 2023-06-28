@@ -1,0 +1,16 @@
+{
+	title: "神话生物",
+	icon: "biomesoplenty:sapling_1 1 7",
+	x: 0.0d,
+	y: 10.0d,
+	dependencies: [
+		"3b3179f0"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "ee9a46c4",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

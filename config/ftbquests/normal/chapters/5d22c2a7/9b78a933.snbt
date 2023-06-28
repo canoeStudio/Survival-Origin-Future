@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -20.0d,
+	description: "&a主世界",
+	dependencies: [
+		"25f05a83"
+	],
+	tasks: [{
+		uid: "ed0e5786",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

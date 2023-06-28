@@ -1,0 +1,20 @@
+{
+	title: "记得重启",
+	icon: "betternether:pig_statue_01",
+	x: 20.5d,
+	y: -5.0d,
+	text: [
+		"尽管任务系统在绝大多数时候不会出现问题，但是在&c长时间游戏&r、&c内存不足&r等情况下，任务系统可能会被&c卡住&r，导致你无法推进任务",
+		"",
+		"这时候&c重启游戏&r可解决此类问题"
+	],
+	dependencies: [
+		"21d28d77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6f17cb65",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

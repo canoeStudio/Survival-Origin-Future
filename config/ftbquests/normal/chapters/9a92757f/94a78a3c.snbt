@@ -1,0 +1,35 @@
+{
+	x: 15.0d,
+	y: -5.0d,
+	text: [
+		"用于&c骑乘陆行鸟&r的物品",
+		"",
+		"&c空手潜行右键&r可给陆行鸟装上鞍和箱子等物品",
+		"",
+		"初级鸟鞍&c不具备&r存储功能"
+	],
+	dependencies: [
+		"7c5f7db3"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "a5e127bc",
+		type: "item",
+		title: "陆行鸟鞍",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Luxingniaoan"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Luxingniaoan"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "击败堕落者阿索拉",
+	x: 80.0d,
+	y: 0.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"e4c9ded8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "91d822b4",
+		type: "kill",
+		icon: "acheads:head 1 7",
+		entity: "abyssalcraft:dragonboss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b5a8e89e",
+		type: "xp",
+		auto: "enabled",
+		xp: 6000
+	}]
+}

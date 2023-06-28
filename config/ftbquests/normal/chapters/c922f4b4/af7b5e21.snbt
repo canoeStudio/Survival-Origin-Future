@@ -1,0 +1,55 @@
+{
+	x: 0.0d,
+	y: 85.0d,
+	description: "&c终极饰品",
+	text: [
+		"&c使你造成的伤害翻倍&r"
+	],
+	dependencies: [
+		"da8ae2dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e144f2b7",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:amuletsinwrath",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: 6865195477488389869L,
+						UUIDLeast: -8351244731621791766L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7098370072492720211L,
+						UUIDLeast: -4795810872723470050L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -6951016305807702637L,
+						UUIDLeast: -8076903732673401921L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.punishing.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

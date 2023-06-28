@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: -15.0d,
+	description: "&a主世界",
+	dependencies: [
+		"9e41c775"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75cf87b2",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:warhammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

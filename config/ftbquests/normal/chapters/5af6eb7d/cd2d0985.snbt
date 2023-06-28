@@ -1,0 +1,25 @@
+{
+	title: "查伽洛斯祭坛",
+	x: 125.0d,
+	y: 20.0d,
+	text: [
+		"通往查伽洛斯房间的钥匙"
+	],
+	dependencies: [
+		"63a5da04"
+	],
+	tasks: [{
+		uid: "2382272c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadaltartop"
+		}]
+	},
+	{
+		uid: "3812265c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadaltarbottom"
+		}]
+	}]
+}

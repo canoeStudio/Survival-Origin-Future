@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"非常积极的反馈问题",
+		"",
+		"但是多数都被我忘掉了(笑"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "47054dea",
+		type: "item",
+		title: "kirw",
+		items: [{
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Id: "0258c0ba-49b3-3da3-99da-b0160124238f",
+					Properties: {
+						textures: [{
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1MzAzMjM3NzIxNywKICAicHJvZmlsZUlkIiA6ICIwMjkwNTU2OWE0NTY0MTY0YmFhMmM3MWU5YzUwZDFjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaXJ3IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NhYzgzMTkwNDRkYmY0ZGYzMzNkNzJjNzI1ZjNmMzY0NDRjZmI3ZGU2NGE1M2U2YzRjYzI4MWY1MGFhMjk3YiIKICAgIH0KICB9Cn0="
+						}]
+					},
+					Name: "kirw"
+				}
+			}
+		}]
+	}]
+}

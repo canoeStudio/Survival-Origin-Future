@@ -1,0 +1,32 @@
+{
+	title: "钻石工具",
+	x: 0.0d,
+	y: 15.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"563fc2ba"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "c5710e9b",
+		type: "item",
+		title: "钻石工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any diamondtool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "diamondtool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

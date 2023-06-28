@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	description: "&9获取紫颂果以前往冰晶雪原",
+	dependencies: [
+		"5be396cc"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "566bc10b",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "&c锻造",
+	icon: "mutantbeasts:hulk_hammer",
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"梦开始的地方"
+	],
+	dependencies: [
+		"f94b57be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8c4907b3",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

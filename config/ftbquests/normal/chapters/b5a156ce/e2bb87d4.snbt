@@ -1,0 +1,17 @@
+{
+	title: "终点",
+	icon: "artifacts:ultimate_pendant",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"旅途最终会迎来结局",
+		"",
+		"当你制作出这些物品时，你已在旅途中屹立在了异界的顶点，旅途也结束了"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "855e0ab9",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

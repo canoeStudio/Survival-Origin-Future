@@ -1,0 +1,106 @@
+{
+	title: "龙鳞套",
+	x: 15.0d,
+	y: 45.0d,
+	description: "&a制作龙鳞套以开启下界及相关任务&o",
+	text: [
+		"全套给予&c永久&r夜视效果，套装不区分冰龙、火龙材料，但区分颜色"
+	],
+	dependencies: [
+		"2799f319",
+		"7103f2fd"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "85914421",
+		type: "item",
+		title: "龙鳞头盔",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dragonhelmet"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dragonhelmet"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32089350",
+		type: "item",
+		title: "龙鳞胸甲",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dragonchestplate"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dragonchestplate"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "228ac82d",
+		type: "item",
+		title: "龙鳞护腿",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dragonleggings"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dragonleggings"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d533a833",
+		type: "item",
+		title: "龙鳞靴子",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dragonboots"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dragonboots"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e7a6cf02",
+		type: "gamestage",
+		title: "&c你可以前往下界了！",
+		auto: "no_toast",
+		stage: "下界"
+	}]
+}

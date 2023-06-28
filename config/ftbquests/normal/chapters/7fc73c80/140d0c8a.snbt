@@ -1,0 +1,23 @@
+{
+	title: "击败老道的柯尼",
+	x: 125.0d,
+	y: 45.0d,
+	dependencies: [
+		"55e00b14",
+		"09b2a13f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6e1f84d0",
+		type: "kill",
+		icon: "divinerpg:experienced_cori_statue",
+		entity: "divinerpg:experienced_cori",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cce31aa3",
+		type: "xp",
+		auto: "enabled",
+		xp: 9500
+	}]
+}

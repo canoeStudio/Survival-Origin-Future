@@ -1,0 +1,38 @@
+{
+	title: "熔岩套",
+	disable_toast: true,
+	x: 5.0d,
+	y: 55.0d,
+	description: "&c下界&o",
+	text: [
+		"全套给予&c永久&r防火效果，&c半永久&r生命恢复1效果，生命恢复1效果持续40秒，每60秒刷新一次"
+	],
+	dependencies: [
+		"7129fd25",
+		"ab7612a6",
+		"5a38fec2"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f95f9047",
+		type: "item",
+		title: "熔岩套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Rongyan"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Rongyan"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

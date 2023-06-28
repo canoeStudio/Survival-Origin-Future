@@ -1,0 +1,17 @@
+{
+	x: 115.0d,
+	y: 50.0d,
+	dependencies: [
+		"200ba6e7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69d98c36",
+		type: "observation",
+		title: "冰刺矿石",
+		icon: "divinerpg:skythern_ore",
+		match_type: "block_id",
+		match: "divinerpg:skythern_ore",
+		timer: 0L
+	}]
+}

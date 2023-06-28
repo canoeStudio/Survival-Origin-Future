@@ -1,0 +1,24 @@
+{
+	title: "卡洛斯祭坛",
+	x: 245.0d,
+	y: 120.0d,
+	description: "第三层",
+	text: [
+		"卡洛斯祭坛生成在梦魇世界第三层，是召唤卡洛斯的场所",
+		"",
+		"祭坛在一个相对封闭的场所中，由蓝色、黑色的&c卡洛斯砖&r组成",
+		"",
+		"使用梦魇打火石激活祭坛即可召唤卡洛斯"
+	],
+	dependencies: [
+		"0d0e02bd"
+	],
+	tasks: [{
+		uid: "1f77adbf",
+		type: "interaction",
+		title: "卡洛斯祭坛",
+		icon: "divinerpg:karos_altar",
+		match_type: "block_id",
+		match: "divinerpg:karos_altar"
+	}]
+}

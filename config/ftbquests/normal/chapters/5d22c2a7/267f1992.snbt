@@ -1,0 +1,22 @@
+{
+	title: "锻造开始",
+	x: 0.0d,
+	y: 15.0d,
+	description: "&a主世界&o",
+	text: [
+		"没什么说的，前期必备的武器"
+	],
+	dependencies: [
+		"7cbaa924"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c85c7815",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "战利品",
+	x: 8.0d,
+	y: -20.0d,
+	dependencies: [
+		"1fe337a6"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ae39b128",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:scythe_claw"
+		}]
+	},
+	{
+		uid: "e83b3fe1",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:foul_bristle"
+		}]
+	}]
+}

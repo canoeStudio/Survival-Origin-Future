@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: 5.0d,
+	text: [
+		"对渡鸦喂食&c鬼灵果冻&r的渡鸦会变成亡灵生物&c幽灵渡鸦&r，免疫一切伤害并能穿越任何障碍物",
+		"",
+		"&c亡灵类生物具有在白天会自燃的特点&r"
+	],
+	dependencies: [
+		"0fe391ae"
+	],
+	tasks: [{
+		uid: "a0a684bd",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:ghostjelly"
+		}]
+	}]
+}

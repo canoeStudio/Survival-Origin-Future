@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: 10.0d,
+	text: [
+		"使用它便能在钓鱼时钓出&c墓碑物品&r，部分特定物品只能通过它获得",
+		"",
+		"可对着&c有灵魂的坟墓&r使用进行附魔，获得无限耐久"
+	],
+	dependencies: [
+		"6ff703da"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb0b69f8",
+		type: "item",
+		items: [{
+			item: "tombstone:fishing_rod_of_misadventure"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

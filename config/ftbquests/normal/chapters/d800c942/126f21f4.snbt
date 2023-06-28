@@ -1,0 +1,19 @@
+{
+	title: "兑换篇",
+	icon: "minecraft:emerald",
+	x: 0.0d,
+	y: -10.0d,
+	text: [
+		"需要与特定NPC兑换才可获得的防具"
+	],
+	dependencies: [
+		"ab8fbb3f"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "2ec1e2a9",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

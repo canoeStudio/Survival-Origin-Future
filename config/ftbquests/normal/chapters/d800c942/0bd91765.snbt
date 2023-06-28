@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: 95.0d,
+	text: [
+		"给予&c半永久&r伤害吸收3效果，伤害吸收3效果持续25秒，每30秒刷新一次"
+	],
+	dependencies: [
+		"1b7f8937",
+		"0f03c51b",
+		"38db1c7b"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "beb80fce",
+		type: "item",
+		title: "晶蓝套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jinglan"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jinglan"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "战利品",
+	x: 65.0d,
+	y: 30.0d,
+	text: [
+		"狂暴刀锋是召唤&c爆破战王&r的关键道具"
+	],
+	dependencies: [
+		"651979bd"
+	],
+	tasks: [{
+		uid: "1a4b6523",
+		type: "item",
+		items: [{
+			id: "legendera:rage_blade",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

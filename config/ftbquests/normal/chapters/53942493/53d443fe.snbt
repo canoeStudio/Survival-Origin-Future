@@ -1,0 +1,23 @@
+{
+	x: 27.5d,
+	y: -5.0d,
+	dependencies: [
+		"fce2b74b"
+	],
+	tasks: [{
+		uid: "05f7d899",
+		type: "item",
+		items: [{
+			item: "legendera:explosive_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0a0ec4e",
+		type: "item",
+		items: [{
+			item: "legendera:explosive_arrow"
+		}]
+	}]
+}

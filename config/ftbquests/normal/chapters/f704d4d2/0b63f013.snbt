@@ -1,0 +1,130 @@
+{
+	title: "升级部件",
+	x: 30.0d,
+	y: 10.0d,
+	text: [
+		"一些提供辅助加成的插件，按B打开弓箭插槽"
+	],
+	dependencies: [
+		"0301f339"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "3e9254ae",
+		type: "item",
+		items: [{
+			item: "extrabows:bridge_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5ee8127",
+		type: "item",
+		items: [{
+			item: "extrabows:freeze_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7bb9bfb9",
+		type: "item",
+		items: [{
+			item: "extrabows:push_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "803f09e0",
+		type: "item",
+		items: [{
+			item: "extrabows:water_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f1e9087",
+		type: "item",
+		items: [{
+			item: "extrabows:explosive_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a716a6c8",
+		type: "item",
+		items: [{
+			item: "extrabows:arrow_cost_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3baaf556",
+		type: "item",
+		items: [{
+			item: "extrabows:ender_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50a7ab7b",
+		type: "item",
+		items: [{
+			item: "extrabows:meteor_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70f9f71b",
+		type: "item",
+		items: [{
+			item: "extrabows:triple_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5aa742ef",
+		type: "item",
+		items: [{
+			item: "extrabows:heal_from_damage_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d3c0376",
+		type: "item",
+		items: [{
+			item: "extrabows:lightning_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df3fde27",
+		type: "item",
+		items: [{
+			item: "extrabows:fire_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "71601821",
+		type: "item",
+		items: [{
+			item: "extrabows:double_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

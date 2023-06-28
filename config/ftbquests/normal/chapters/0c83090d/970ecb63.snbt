@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -10.0d,
+	text: [
+		"&c低配、廉价版不死图腾&r",
+		"",
+		"使用时需要&c先进行合成&r，为其添加&c死亡保护附魔&r，它&c只能提供&r对应附魔的死亡保护",
+		"",
+		"效果为&c概率触发&r，可学习&c死亡知识&r使其必定触发"
+	],
+	dependencies: [
+		"6ff703da"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a86d9e4",
+		type: "item",
+		items: [{
+			item: "tombstone:voodoo_poppet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

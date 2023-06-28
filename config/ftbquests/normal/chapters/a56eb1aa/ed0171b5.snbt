@@ -1,0 +1,30 @@
+{
+	x: 30.0d,
+	y: 5.0d,
+	text: [
+		"你群最强肝帝，现任龙王",
+		"",
+		"拜他的肝所赐，他真的发现了很多BUG(笑"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "319be3c5",
+		type: "item",
+		title: "Dargon",
+		items: [{
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Id: "e57b4baf-c0fe-330e-8d70-0276cd6352d3",
+					Properties: {
+						textures: [{
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1Mjk1NTA4ODEzNywKICAicHJvZmlsZUlkIiA6ICJiMTJkYjM5ZDQxZTg0Y2Q2ODRmOGM0OThkNzc0ZWQ4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJnb24iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYwMmRmZDlmZTUzYjQ4NDMwMmFlYWZmNjYyMGEzZDdhOGQxOTY2MDEwN2VhMTNlMzNlNjE5ZDZlZDJiZGFiOSIKICAgIH0KICB9Cn0="
+						}]
+					},
+					Name: "Dargon"
+				}
+			}
+		}]
+	}]
+}

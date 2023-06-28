@@ -1,0 +1,20 @@
+{
+	title: "最后的仪式祭坛",
+	x: 175.0d,
+	y: 15.0d,
+	text: [
+		"祭坛只可以在&c奥姆索&r激活",
+		"",
+		"除手动激活之外，祭坛也会在&c扎哈尔神殿&r中自然生成"
+	],
+	dependencies: [
+		"18b2b8d1"
+	],
+	tasks: [{
+		uid: "4407866c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:ethaxiumbrick"
+		}]
+	}]
+}

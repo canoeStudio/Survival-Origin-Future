@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	text: [
+		"末影龙的掉落物"
+	],
+	dependencies: [
+		"5be396cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8af66ed3",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:enderdragonscale"
+		}]
+	}]
+}

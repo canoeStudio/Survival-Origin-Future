@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 135.0d,
+	description: "&6冰刺&o",
+	dependencies: [
+		"ed6c1ed8"
+	],
+	tasks: [{
+		uid: "96b78546",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_blade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

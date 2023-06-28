@@ -1,0 +1,16 @@
+{
+	x: 155.0d,
+	y: 70.0d,
+	dependencies: [
+		"f3d8a783"
+	],
+	tasks: [{
+		uid: "6d521f15",
+		type: "item",
+		items: [{
+			item: "divinerpg:vamacheron_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

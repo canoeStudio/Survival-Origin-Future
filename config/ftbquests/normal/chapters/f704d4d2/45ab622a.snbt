@@ -1,0 +1,23 @@
+{
+	x: 15.0d,
+	y: 5.0d,
+	description: "&a主世界&o",
+	text: [
+		"十字弩，相比长弓射程有极大提升，伤害浮动更低且伤害上限更高，但射速慢",
+		"",
+		"&c不能再升级&r"
+	],
+	dependencies: [
+		"f5ee3cdd"
+	],
+	tasks: [{
+		uid: "4b86d0b5",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:crossbow_wood",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

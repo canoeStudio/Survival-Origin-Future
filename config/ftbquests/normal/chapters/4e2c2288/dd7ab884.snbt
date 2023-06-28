@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: 10.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"555c32f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3a8bc9b",
+		type: "item",
+		items: [{
+			item: "spartanshields:shield_basic_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

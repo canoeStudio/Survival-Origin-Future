@@ -1,0 +1,11 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "ff7330e4",
+		type: "item",
+		items: [{
+			item: "croparia:iron_furnace"
+		}]
+	}]
+}

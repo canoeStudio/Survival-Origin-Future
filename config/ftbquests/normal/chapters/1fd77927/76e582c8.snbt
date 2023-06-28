@@ -1,0 +1,24 @@
+{
+	title: "击败远古之力",
+	x: 15.0d,
+	y: -5.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"e85ce6b6"
+	],
+	optional: true,
+	tasks: [{
+		uid: "eb24fbf3",
+		type: "kill",
+		icon: "divinerpg:divine_shards",
+		entity: "divinerpg:ancient_entity",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "27829ac4",
+		type: "xp",
+		auto: "enabled",
+		xp: 2000
+	}]
+}

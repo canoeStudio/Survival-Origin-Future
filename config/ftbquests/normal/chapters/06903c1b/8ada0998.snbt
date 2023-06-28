@@ -1,0 +1,18 @@
+{
+	title: "自动爬梯",
+	icon: "minecraft:ladder",
+	x: 10.0d,
+	y: 10.0d,
+	text: [
+		"爬梯时，&c视野朝下&r将会迅速落下；&c视野朝上&r将会自动爬梯"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "46a5d7e9",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

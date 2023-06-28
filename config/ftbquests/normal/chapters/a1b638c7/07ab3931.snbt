@@ -1,0 +1,15 @@
+{
+	title: "战利品",
+	x: 10.0d,
+	y: -20.0d,
+	dependencies: [
+		"85a6937e"
+	],
+	tasks: [{
+		uid: "af77dfe5",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:acidicheart"
+		}]
+	}]
+}

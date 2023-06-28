@@ -1,0 +1,45 @@
+{
+	title: "这是你的墓碑",
+	x: 0.0d,
+	y: 0.0d,
+	description: "常回家看看",
+	text: [
+		"死亡后你会获得钥匙，手持它可以&c高亮&r对应的墓碑；打开墓碑&c不需要&r手持钥匙",
+		"",
+		"此外，死亡后会获得&c幽灵&r状态，可免疫一切敌对生物的仇恨，但&c不包括陷阱装置&r",
+		"",
+		"幽灵状态会因&c互动&r而消失；若打开墓碑，状态则会&c强制缩短&r"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "49daca96",
+		type: "item",
+		items: [{
+			id: "tombstone:grave_key",
+			tag: {
+				tombPosD: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "36b35bb2",
+		type: "item",
+		title: "&c不要急着领！",
+		item: "minecraft:ender_pearl"
+	},
+	{
+		uid: "a9e5cfc9",
+		type: "item",
+		title: "&c不要急着领！",
+		item: "minecraft:ender_pearl"
+	},
+	{
+		uid: "b1566df3",
+		type: "item",
+		title: "&c不要急着领！",
+		item: "minecraft:ender_pearl"
+	}]
+}

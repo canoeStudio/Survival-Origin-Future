@@ -1,0 +1,34 @@
+{
+	title: "马铠",
+	x: 5.0d,
+	y: 20.0d,
+	text: [
+		"更丰富且可合成的马马铠"
+	],
+	dependencies: [
+		"e153041e"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "74375511",
+		type: "item",
+		title: "马铠",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Makai"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Makai"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

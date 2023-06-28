@@ -1,0 +1,16 @@
+{
+	x: -25.0d,
+	y: -5.0d,
+	dependencies: [
+		"e1188b5b"
+	],
+	tasks: [{
+		uid: "ce297dc2",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:crowngold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

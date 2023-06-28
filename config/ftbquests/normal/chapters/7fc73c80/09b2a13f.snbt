@@ -1,0 +1,22 @@
+{
+	title: "寻找冰刺祭坛",
+	x: 115.0d,
+	y: 45.0d,
+	text: [
+		"冰刺祭坛生成在冰刺世界的任意位置，中有老道的柯尼刷怪笼，是召唤老道的柯尼的场所",
+		"",
+		"冰刺祭坛为&c冰刺木板&r、&c冰刺砖块&r与&c石乳灯&r组成的结构，有封顶，但不封闭"
+	],
+	dependencies: [
+		"200ba6e7"
+	],
+	tasks: [{
+		uid: "b391f5ba",
+		type: "observation",
+		title: "老道柯尼刷怪笼",
+		icon: "divinerpg:experienced_cori_spawner",
+		match_type: "block_id",
+		match: "divinerpg:experienced_cori_spawner",
+		timer: 0L
+	}]
+}

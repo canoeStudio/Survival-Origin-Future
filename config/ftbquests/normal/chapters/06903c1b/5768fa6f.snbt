@@ -1,0 +1,20 @@
+{
+	title: "生物不再偷取装备",
+	icon: "futuremc:netherite_sword",
+	x: -10.0d,
+	y: -5.0d,
+	text: [
+		"现在，任何会捡起装备的敌对生物在其消失时(无论是被击杀还是自己死亡)都一定会掉落它们偷取的装备，而不是带着装备消失",
+		"",
+		"对应的，只有被&c命名&r的敌对生物才不会消失"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4cbd500c",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

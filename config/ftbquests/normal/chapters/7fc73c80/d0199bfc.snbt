@@ -1,0 +1,19 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	description: "空岛世界",
+	text: [
+		"暮光维度中的世界非常依赖&c鞘翅&r等飞行工具；暮光维度中&c不可以&r睡觉"
+	],
+	dependencies: [
+		"3bd85778"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "d501101c",
+		type: "dimension",
+		title: "&6伊甸",
+		dim: 993
+	}]
+}

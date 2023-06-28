@@ -1,0 +1,42 @@
+{
+	title: "更多箱子",
+	x: 12.5d,
+	y: -5.0d,
+	text: [
+		"更多存储空间，但在大量使用时会导致游戏&c加载速度变慢"
+	],
+	dependencies: [
+		"fd53cfce"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "f7d5f6c8",
+		type: "item",
+		title: "箱子",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Xiangzi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Xiangzi"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "eea5858f",
+		type: "item",
+		item: "ironchest:iron_gold_chest_upgrade"
+	},
+	{
+		uid: "05c37d6f",
+		type: "item",
+		item: "ironchest:gold_diamond_chest_upgrade"
+	}]
+}

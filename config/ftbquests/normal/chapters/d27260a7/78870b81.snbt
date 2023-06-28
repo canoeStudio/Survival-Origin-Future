@@ -1,0 +1,26 @@
+{
+	title: "自动存档备份功能",
+	icon: "minecraft:writable_book",
+	x: 65.0d,
+	y: 15.0d,
+	text: [
+		"每30分钟便会自动备份一次存档，备份冷却时间从进入存档时开始计算；至多只会保存3个备份",
+		"",
+		"可在&lQE菜单&r中选择&c立刻备份存档&r，如果你预感存档可能遭受在途的核聚变打击",
+		"",
+		"备份的存档以&c压缩包&r形式存放在&cbackup&r文件夹中",
+		"",
+		"若你在游戏&c存档文件夹&r中发现了压缩文件，这是游戏本身自带的存档备份所保存的存档，但是它们没有数量限制，会占用非常多的空间；若你遇到了空间不足的问题，可将其放心删除，backup文件夹的存档完全可取代它们"
+	],
+	dependencies: [
+		"35bea066",
+		"d4dde3f2"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b0c44273",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

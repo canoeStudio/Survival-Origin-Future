@@ -1,0 +1,20 @@
+{
+	x: -36.5d,
+	y: -25.0d,
+	description: "&a主世界",
+	text: [
+		"制作钢锭需参考种植拓展——Sakura的任务"
+	],
+	dependencies: [
+		"d1b1e6d1"
+	],
+	tasks: [{
+		uid: "6feeb5cd",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:katana_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

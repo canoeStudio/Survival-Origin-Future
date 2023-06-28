@@ -1,0 +1,32 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"只能用于在&c冰晶雪原&r与商人兑换，没有伤害"
+	],
+	dependencies: [
+		"21a30d0b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "c4593310",
+		type: "item",
+		title: "末影之剑",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Moyingzhiijan"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Moyingzhiijan"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 145.0d,
+	y: 65.0d,
+	dependencies: [
+		"678c9910"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6c0221b1",
+		type: "observation",
+		title: "发现黑金矿石",
+		icon: "divinerpg:mortum_ore",
+		match_type: "block_id",
+		match: "divinerpg:mortum_ore",
+		timer: 0L
+	}]
+}

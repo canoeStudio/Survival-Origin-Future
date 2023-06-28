@@ -1,0 +1,157 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/txloader/load/vsaccr/backgrounds/18.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 234
+  width = 172
+  action = deep_customization_element:title_screen_forge_top
+  actionid = dc50f7c8-a31e-4896-b085-c79f2dc9a3551683958982736
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 131
+  action = deep_customization_element:title_screen_branding
+  actionid = 12bc9668-51a8-4291-8f7e-3cb655f3c1061683958982793
+  y = 257
+  height = 70
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 489
+  width = 150
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = f09fde41-4bf7-4787-ad12-a0235e00c10d1683958982795
+  y = 309
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 9b373215-fcf6-41c0-b4de-4a0666570b6c1683958982797
+  y = 182
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = fa7ac7c2-97c2-47bf-87cc-189a00a232071683958982800
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = c38e50aa-f2c9-4342-b88b-7d8ec2329ff31683958982802
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"sof.fml.menu.localization.key"}} {"placeholder":"mcversion"}%n%{"placeholder":"local","values":{"key":"sof.fml.menu.localization.1.key"}} {"placeholder":"loadedmods"} Mod%n%%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 155
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a6636522-6009-49f7-a1dd-df2b6dd0d2381683959063936
+  y = 272
+  alignment = left
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/txloader/load/vsaccr/mainmenu/longbuttonhd.png
+  backgroundnormal = config/txloader/load/vsaccr/mainmenu/longbuttonhd1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/txloader/load/vsaccr/mainmenu/shortbuttonhd1.png
+  backgroundnormal = config/txloader/load/vsaccr/mainmenu/shortbuttonhd.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/txloader/load/vsaccr/mainmenu/shortbuttonhd1.png
+  backgroundnormal = config/txloader/load/vsaccr/mainmenu/shortbuttonhd.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/txloader/load/vsaccr/mainmenu/longbuttonhd.png
+  backgroundnormal = config/txloader/load/vsaccr/mainmenu/longbuttonhd1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/txloader/load/vsaccr/mainmenu/longbuttonhd.png
+  backgroundnormal = config/txloader/load/vsaccr/mainmenu/longbuttonhd1.png
+}
+

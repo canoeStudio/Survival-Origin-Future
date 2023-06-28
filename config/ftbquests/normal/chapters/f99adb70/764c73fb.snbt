@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: 10.0d,
+	description: "获取雪花以前往魔界",
+	text: [
+		"前往魔界所需的材料",
+		"",
+		"雪花飞镖是冰晶雪原商人的交易物，需要使用&c雪花&r兑换",
+		"",
+		"雪花可在商人奖励箱或地底的地牢中获取"
+	],
+	dependencies: [
+		"4d7edcd9"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "3ce82573",
+		type: "item",
+		items: [{
+			item: "divinerpg:snowflake_shuriken"
+		}]
+	}]
+}

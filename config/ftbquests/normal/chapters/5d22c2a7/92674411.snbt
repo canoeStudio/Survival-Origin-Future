@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -85.0d,
+	description: "&6黑金&o",
+	dependencies: [
+		"9fd5e5aa"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "f802e5a7",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_invar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "击杀恐惧野兽查加洛斯",
+	x: 135.0d,
+	y: 25.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"241a491f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5966d798",
+		type: "kill",
+		icon: "acheads:head 1 14",
+		entity: "abyssalcraft:chagaroth",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7299f0a4",
+		type: "xp",
+		auto: "enabled",
+		xp: 6500
+	}]
+}

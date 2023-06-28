@@ -1,0 +1,7 @@
+{
+	title: "神秘访客",
+	icon: "divinerpg:heliosis_cannon",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

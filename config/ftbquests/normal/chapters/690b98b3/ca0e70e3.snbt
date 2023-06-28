@@ -1,0 +1,13 @@
+{
+	title: "战斗篇",
+	icon: "divinerpg:hellspider_pumpkin",
+	x: 0.0d,
+	y: 0.0d,
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "fa4b7846",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -15.0d,
+	text: [
+		"生成在&c丛林群系&r和&c沙漠群系&r"
+	],
+	dependencies: [
+		"46c82adf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1388d2cb",
+		type: "kill",
+		entity: "mod_lavacow:ptera",
+		value: 1L
+	}]
+}

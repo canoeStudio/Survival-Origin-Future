@@ -1,0 +1,19 @@
+{
+	x: 95.0d,
+	y: 25.0d,
+	text: [
+		"用于召唤&c永恒射手&r的物品",
+		"",
+		"手持阿帕拉契亚宝石&c直接右键&r永恒射手刷怪笼即可召唤永恒射手"
+	],
+	dependencies: [
+		"f28a1232"
+	],
+	tasks: [{
+		uid: "ad95f43f",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_chunk"
+		}]
+	}]
+}

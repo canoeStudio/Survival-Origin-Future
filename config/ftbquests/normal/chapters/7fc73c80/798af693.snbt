@@ -1,0 +1,19 @@
+{
+	x: 35.0d,
+	y: -5.0d,
+	text: [
+		"召唤太阳风暴的道具",
+		"",
+		"手持&c伊甸宝石&r后&c直接右键&r太阳风暴刷怪笼即可召唤太阳风暴"
+	],
+	dependencies: [
+		"ad930872"
+	],
+	tasks: [{
+		uid: "3e6ce31a",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_chunk"
+		}]
+	}]
+}

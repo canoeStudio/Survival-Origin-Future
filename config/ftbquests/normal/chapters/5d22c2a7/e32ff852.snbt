@@ -1,0 +1,17 @@
+{
+	x: 25.0d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"b66747d3"
+	],
+	tasks: [{
+		uid: "b6f73c0f",
+		type: "item",
+		items: [{
+			item: "spartanfire:pike_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 25.0d,
+	y: 15.0d,
+	dependencies: [
+		"166adb99"
+	],
+	tasks: [{
+		uid: "9bc6b72b",
+		type: "item",
+		items: [{
+			item: "divinerpg:crabclaw_cannon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

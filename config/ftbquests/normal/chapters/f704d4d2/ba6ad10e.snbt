@@ -1,0 +1,21 @@
+{
+	x: 30.0d,
+	y: 0.0d,
+	description: "&a主世界&o",
+	text: [
+		"使用陨石锭升级过的弓箭，拥有更高的伤害浮动区间"
+	],
+	dependencies: [
+		"caf2ba1a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "30786a43",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

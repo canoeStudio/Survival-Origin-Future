@@ -1,0 +1,10 @@
+{
+	title: "成长曲线 II",
+	icon: "extraanvils:infinity_anvil",
+	description: [
+		"必备物品"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

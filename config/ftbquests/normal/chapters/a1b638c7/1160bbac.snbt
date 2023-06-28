@@ -1,0 +1,20 @@
+{
+	title: "被遗忘者",
+	x: -15.0d,
+	y: 0.0d,
+	text: [
+		"类似骷髅的敌对生物，掉落&c万军追忆&r",
+		"",
+		"低概率生成在沙漠群系；也可在沙漠的DOOM地牢中大量找到"
+	],
+	dependencies: [
+		"58135094"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45f3b2d3",
+		type: "kill",
+		entity: "mod_lavacow:forsaken",
+		value: 1L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 95.0d,
+	y: -20.0d,
+	text: [
+		"用于在下雨时收集雨水的装置，收集到的水为&c纯净水&r",
+		"",
+		"雨水收集器会受到&c区块加载机制&r的限制"
+	],
+	dependencies: [
+		"a683df0e"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "52ffe7ee",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:rain_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "98ded9e5",
+		type: "item",
+		item: "simpledifficulty:rain_collector",
+		count: 2
+	}]
+}

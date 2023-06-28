@@ -1,0 +1,29 @@
+{
+	title: "雕像充能",
+	x: 25.0d,
+	y: 10.0d,
+	description: "发现古神雕像",
+	text: [
+		"古神的雕像蕴含着神秘的力量，可无限为死灵之书充能",
+		"",
+		"在主世界的&c黑暗群系(Darklands)&r之中会有较小的概率生成雕像",
+		"",
+		"在主世界&c珊瑚侵染沼泽群系(CoraliumInfestedSwamp)&r中会生成&c修格斯巢穴&r，巢穴内会生成雕像，而当巢穴中修格斯数量足够多而巢穴内缺乏雕像时，修格斯也会&c自行修建雕像&r并进行拜神",
+		"",
+		"&c装饰性雕像只有装饰作用，无法用于充能"
+	],
+	dependencies: [
+		"96e23593"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "3493a873",
+		type: "observation",
+		title: "发现古神雕像",
+		icon: "abyssalcraft:statue",
+		match_type: "block_id",
+		match: "abyssalcraft:statue",
+		timer: 0L
+	}]
+}

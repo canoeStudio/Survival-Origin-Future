@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: 10.0d,
+	text: [
+		"可使容器的物品&c向上传输&r"
+	],
+	dependencies: [
+		"4eae2ab6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa2b7520",
+		type: "item",
+		items: [{
+			item: "uppers:upper"
+		}]
+	}]
+}

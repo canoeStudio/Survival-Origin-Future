@@ -1,0 +1,22 @@
+{
+	title: "亡魂祭坛",
+	x: 265.0d,
+	y: 125.0d,
+	description: "第四层",
+	text: [
+		"亡魂祭坛是生成在梦魇世界第四层的结构，是召唤月光女神的场所",
+		"",
+		"祭坛是露天结构，围墙由蓝色的&c月影砖块&r组成"
+	],
+	dependencies: [
+		"e7b09d28"
+	],
+	tasks: [{
+		uid: "bc36515a",
+		type: "interaction",
+		title: "亡魂祭坛",
+		icon: "divinerpg:lunic_altar",
+		match_type: "block_id",
+		match: "divinerpg:lunic_altar"
+	}]
+}

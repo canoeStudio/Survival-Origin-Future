@@ -1,0 +1,14 @@
+{
+	x: 90.0d,
+	y: 35.0d,
+	dependencies: [
+		"746b0568"
+	],
+	tasks: [{
+		uid: "e3a32a60",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_fragments"
+		}]
+	}]
+}

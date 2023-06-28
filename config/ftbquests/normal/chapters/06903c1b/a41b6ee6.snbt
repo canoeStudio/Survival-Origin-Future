@@ -1,0 +1,15 @@
+{
+	title: "辅助功能",
+	icon: "minecraft:compass",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"&c不需要合成、设置&r便可使用的功能"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "35c7efca",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

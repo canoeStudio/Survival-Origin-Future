@@ -1,0 +1,21 @@
+{
+	x: 235.0d,
+	y: 115.0d,
+	description: "第三层",
+	text: [
+		"用于激活祭坛的道具；从&c梦魇商人&r处获取",
+		"",
+		"手持梦魇打火石对祭坛&c直接右键&r进行激活"
+	],
+	dependencies: [
+		"60d1d8bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f9d71715",
+		type: "item",
+		items: [{
+			item: "divinerpg:dream_flint"
+		}]
+	}]
+}

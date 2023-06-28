@@ -1,0 +1,27 @@
+{
+	x: 20.0d,
+	y: 10.0d,
+	dependencies: [
+		"286c508e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "161fb2e5",
+		type: "item",
+		title: "苹果",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Pingguo"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Pingguo"
+				}
+			}
+		}]
+	}]
+}

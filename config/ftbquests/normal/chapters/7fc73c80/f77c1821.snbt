@@ -1,0 +1,23 @@
+{
+	title: "战利品",
+	x: 105.0d,
+	y: 30.0d,
+	dependencies: [
+		"557eecb2"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "af9dd3c3",
+		type: "item",
+		items: [{
+			item: "divinerpg:eternal_archer_statue"
+		}]
+	},
+	{
+		uid: "77140aca",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_heart"
+		}]
+	}]
+}

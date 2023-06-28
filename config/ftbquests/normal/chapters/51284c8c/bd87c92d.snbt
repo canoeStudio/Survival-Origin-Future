@@ -1,0 +1,34 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	text: [
+		"蜘蛛猪不会主动生成，需要向原版的猪喂食&c发酵蛛眼&r并投掷&c化学物质X&r生成，可以用&c蜘蛛眼&r繁殖或给它回血",
+		"",
+		"蜘蛛猪是中立生物，但会&c主动攻击&r猪和蜘蛛，并同化他们",
+		"",
+		"驯服的&c前提&r是需要一个驯服的、喂食了TNT的&c爬行者仆从&r",
+		"",
+		"驯服的方法：吸引蜘蛛猪的仇恨从而让爬行者怕仆从攻击它，等待蜘蛛猪将爬行者仆从击杀，即可驯服",
+		"",
+		"驯服后可&c潜行右键&r为它装上鞍"
+	],
+	dependencies: [
+		"dba1d867"
+	],
+	hide: true,
+	tasks: [{
+		uid: "529bc090",
+		type: "interaction",
+		title: "与蜘蛛猪互动",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mutantbeasts:spider_pig"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "mutantbeasts:spider_pig"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "渊素套",
+	x: -5.0d,
+	y: 35.0d,
+	description: "&a主世界&o",
+	text: [
+		"给予&c半永久&r的饱和1效果",
+		"",
+		"饱和1效果持续5秒，每1800秒刷新一次"
+	],
+	dependencies: [
+		"132310ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "944551ec",
+		type: "item",
+		title: "渊素套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Yuansu"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Yuansu"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "战利品",
+	x: 165.0d,
+	y: 60.0d,
+	dependencies: [
+		"de5a7993"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "72b290b7",
+		type: "item",
+		items: [{
+			item: "divinerpg:densos_statue"
+		}]
+	},
+	{
+		uid: "968bb164",
+		type: "item",
+		items: [{
+			item: "divinerpg:reyvor_statue"
+		}]
+	},
+	{
+		uid: "2468fd96",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_heart"
+		}]
+	}]
+}

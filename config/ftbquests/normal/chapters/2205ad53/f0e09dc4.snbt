@@ -1,0 +1,29 @@
+{
+	title: "驯龙工具",
+	x: 7.5d,
+	y: -30.0d,
+	text: [
+		"驯龙杖可使龙服从命令；龙吟号角可以将龙收入其中"
+	],
+	dependencies: [
+		"ff93507e"
+	],
+	tasks: [{
+		uid: "7dfc6682",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0ed637c",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

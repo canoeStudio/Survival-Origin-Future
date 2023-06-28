@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: 10.0d,
+	description: "工具",
+	text: [
+		"可将&c一级饰品&r拆解为&c幽冥粉&r的工具，无耐久限制"
+	],
+	dependencies: [
+		"f0fc4cbb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be27b086",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:disintegrationtablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

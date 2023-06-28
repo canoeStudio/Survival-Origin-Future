@@ -1,0 +1,17 @@
+{
+	x: 16.5d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"b3d4cd85"
+	],
+	tasks: [{
+		uid: "082ae87a",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:spear_silver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "冰封套",
+	x: 20.0d,
+	y: 40.0d,
+	description: "&a主世界&o",
+	text: [
+		"全套给予&c永久&r冰封效果，即将6格以内的生物全部缓速"
+	],
+	dependencies: [
+		"547517ed",
+		"b5493563",
+		"85243101",
+		"53f749f9",
+		"60aaa30c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6c55d6f1",
+		type: "item",
+		title: "冰封套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Bingfeng"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Bingfeng"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

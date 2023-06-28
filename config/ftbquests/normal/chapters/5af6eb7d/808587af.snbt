@@ -1,0 +1,30 @@
+{
+	title: "反物质",
+	x: 10.0d,
+	y: 5.0d,
+	description: "有备无患",
+	text: [
+		"重要的合成原料，与水接触时会将水变为&c冰&r",
+		"",
+		"在主世界的&c珊瑚侵染沼泽群系(CoraliumInfestedSwamp)&r的地下有概率会生成液态反物质，但也可在群系地表找到&c反物质牛&r源源不断的获取；还可&c奥穆索&r世界中城市的铁匠铺找到",
+		"",
+		"液态反物质对生物具有极高的伤害，被它杀死的部分生物会变成反物质生物；&c任何&r反物质生物与&c对应的&r正常生物接触时都会产生&c剧烈爆炸&r"
+	],
+	dependencies: [
+		"d9cdb07a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d0bbda0",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidantimatter",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

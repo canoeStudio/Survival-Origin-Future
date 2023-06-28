@@ -1,0 +1,12 @@
+{
+	title: "战斗篇",
+	icon: "divinerpg:sandslash",
+	x: 0.0d,
+	y: 0.0d,
+	size: 3.0d,
+	tasks: [{
+		uid: "14717448",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

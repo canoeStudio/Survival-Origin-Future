@@ -1,0 +1,97 @@
+{
+	title: "模板",
+	x: 200.0d,
+	y: 80.0d,
+	text: [
+		"用于在&c神圣附魔台&r上合成梦魇世界武器、防具的消耗品"
+	],
+	dependencies: [
+		"a00b5521"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "0ca0f993",
+		type: "item",
+		items: [{
+			item: "divinerpg:backsword_template"
+		}]
+	},
+	{
+		uid: "7e3f7970",
+		type: "item",
+		items: [{
+			item: "divinerpg:bow_template"
+		}]
+	},
+	{
+		uid: "7058e4ba",
+		type: "item",
+		items: [{
+			item: "divinerpg:cannon_template"
+		}]
+	},
+	{
+		uid: "e2677fa3",
+		type: "item",
+		items: [{
+			item: "divinerpg:claw_template"
+		}]
+	},
+	{
+		uid: "d9c8388b",
+		type: "item",
+		items: [{
+			item: "divinerpg:disk_template"
+		}]
+	},
+	{
+		uid: "0b9c254c",
+		type: "item",
+		items: [{
+			item: "divinerpg:hammer_template"
+		}]
+	},
+	{
+		uid: "9e015c53",
+		type: "item",
+		items: [{
+			item: "divinerpg:staff_template"
+		}]
+	},
+	{
+		uid: "5f58c86c",
+		type: "item",
+		items: [{
+			item: "divinerpg:degraded_template"
+		}]
+	},
+	{
+		uid: "46f3955d",
+		type: "item",
+		items: [{
+			item: "divinerpg:finished_template"
+		}]
+	},
+	{
+		uid: "6bce3a3a",
+		type: "item",
+		items: [{
+			item: "divinerpg:glistening_template"
+		}]
+	},
+	{
+		uid: "9dbab9bb",
+		type: "item",
+		items: [{
+			item: "divinerpg:demonized_template"
+		}]
+	},
+	{
+		uid: "77851e2d",
+		type: "item",
+		items: [{
+			item: "divinerpg:tormented_template"
+		}]
+	}]
+}

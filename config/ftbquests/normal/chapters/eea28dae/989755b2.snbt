@@ -1,0 +1,25 @@
+{
+	title: "战斗高塔",
+	icon: "minecraft:monster_egg 1 3",
+	x: 0.0d,
+	y: -15.0d,
+	description: "挑战难度&c⭐",
+	text: [
+		"外形如高塔的结构，共有两种形态：正常高塔，其BOSS在最顶部；倒置高塔。其BOSS在最底部；主要生成在&c主世界&r",
+		"",
+		"高塔每层都有2个刷怪笼，只会刷出原版生物",
+		"",
+		"战利品箱会产出钻石、闪耀锭、工具腰带等初级但又重要的材料",
+		"",
+		"正常高塔在击杀BOSS之后会&c自毁&r，倒置高塔不会"
+	],
+	dependencies: [
+		"9a3057dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77115c86",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

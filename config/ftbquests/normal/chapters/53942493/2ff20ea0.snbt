@@ -1,0 +1,19 @@
+{
+	title: "传送门搭建",
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"放置魔影能量核心后，在地上用8个&c黑曜石&r将其围成&c正方形&r，形成一个水平结构，即可完成搭建"
+	],
+	dependencies: [
+		"736adfe6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e8e0dc5",
+		type: "item",
+		items: [{
+			item: "legendera:ender_energy_core"
+		}]
+	}]
+}

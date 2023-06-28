@@ -1,0 +1,25 @@
+{
+	title: "击败莫克文",
+	x: 160.0d,
+	y: 70.0d,
+	text: [
+		"暮光维度的独角兽推出了船新版本！"
+	],
+	dependencies: [
+		"934a3bff"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "443dd104",
+		type: "kill",
+		icon: "divinerpg:vamacheron_statue",
+		entity: "divinerpg:vamacheron",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b23a36e2",
+		type: "xp",
+		auto: "enabled",
+		xp: 10000
+	}]
+}

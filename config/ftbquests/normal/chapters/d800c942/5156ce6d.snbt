@@ -1,0 +1,33 @@
+{
+	title: "黑金套",
+	x: 0.0d,
+	y: 150.0d,
+	description: "&6黑金&o",
+	text: [
+		"整套可给予夜视；并给予&c永久&r力量3效果"
+	],
+	dependencies: [
+		"153e58ff"
+	],
+	tasks: [{
+		uid: "3b4c45c0",
+		type: "item",
+		title: "黑金套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Heijin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Heijin"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "终极祭坛",
+	x: 60.0d,
+	y: -35.0d,
+	text: [
+		"解锁&c终极技能&r"
+	],
+	dependencies: [
+		"d2a5654d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "34244cd0",
+		type: "observation",
+		title: "注视终极祭坛",
+		icon: "enderskills:altar_ultimate",
+		match_type: "block_id",
+		match: "enderskills:altar_ultimate",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "月相",
+	x: 30.0d,
+	y: -10.0d,
+	text: [
+		"凋零附魔台&c不受月相的影响&r，也&c不需要书架&r"
+	],
+	dependencies: [
+		"578ee80d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c40a0b5b",
+		type: "item",
+		items: [{
+			item: "divinerpg:altar_of_corruption"
+		}]
+	}]
+}

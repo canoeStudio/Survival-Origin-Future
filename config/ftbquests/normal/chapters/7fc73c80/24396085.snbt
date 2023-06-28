@@ -1,0 +1,28 @@
+{
+	title: "神秘人",
+	x: 210.0d,
+	y: 105.0d,
+	description: "第二层",
+	text: [
+		"与第二层的神秘人交谈之后会获得预兆之球"
+	],
+	dependencies: [
+		"95a3ab93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fed4f9cb",
+		type: "interaction",
+		title: "与神秘人互动",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:mysterious_man_layer_2"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "divinerpg:mysterious_man_layer_2"
+	}]
+}

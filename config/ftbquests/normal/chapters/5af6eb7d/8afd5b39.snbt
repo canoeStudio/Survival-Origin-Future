@@ -1,0 +1,19 @@
+{
+	x: 65.0d,
+	y: -5.0d,
+	text: [
+		"用于升级死灵之书的材料",
+		"",
+		"深渊僵尸会掉落珊瑚疫染腐肉"
+	],
+	dependencies: [
+		"a62bf3f4"
+	],
+	tasks: [{
+		uid: "2bc364ae",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:skin"
+		}]
+	}]
+}

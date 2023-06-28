@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"僵尸变异体生成在主世界，也可用&c化学物质X&r丢向原版僵尸生成",
+		"",
+		"击杀之后需要用&c打火石&r点燃它的尸体，它会再次复活，直到第四次被击杀"
+	],
+	dependencies: [
+		"dba1d867"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c423a9a",
+		type: "kill",
+		entity: "mutantbeasts:mutant_zombie",
+		value: 1L
+	}]
+}

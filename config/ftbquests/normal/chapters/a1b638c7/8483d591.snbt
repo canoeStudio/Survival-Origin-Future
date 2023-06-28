@@ -1,0 +1,16 @@
+{
+	x: -30.0d,
+	y: 0.0d,
+	dependencies: [
+		"5ecbeefe",
+		"8224dc7f"
+	],
+	tasks: [{
+		uid: "2eb2761c",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:kings_crown"
+		}],
+		ignore_nbt: 1b
+	}]
+}

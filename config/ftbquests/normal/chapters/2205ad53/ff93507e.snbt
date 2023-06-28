@@ -1,0 +1,36 @@
+{
+	title: "获得龙蛋",
+	x: 10.0d,
+	y: -25.0d,
+	text: [
+		"&c4、5级雌龙&r的掉落物，可制作饰品，也可用于孵化",
+		"",
+		"火龙蛋需要将其放在&c点燃的地狱岩&r上；冰龙蛋则需要放在&c水&r里",
+		"",
+		"龙蛋的孵化需要数分钟时间"
+	],
+	dependencies: [
+		"19bc821a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5d1ac113",
+		type: "item",
+		title: "龙蛋",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dragoneggs"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dragoneggs"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 20.0d,
+	y: -10.0d,
+	text: [
+		"用于传送玩家的路标",
+		"",
+		"放置之后，&c空手右键手柄&r可设置其传送地点，传送地点需要与&l地标石&r记录的ID完全一致；路标记录地点之后，会出现指示牌，&c空手右键指示牌&r可传送到对应的地点",
+		"",
+		"&c路标无法进行跨维度传送&r",
+		"",
+		"路标一定会在&c村庄&r中生成"
+	],
+	dependencies: [
+		"878c2343"
+	],
+	tasks: [{
+		uid: "4ec6f1c7",
+		type: "item",
+		title: "路标",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Lubiao"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Lubiao"
+				}
+			}
+		}]
+	}]
+}

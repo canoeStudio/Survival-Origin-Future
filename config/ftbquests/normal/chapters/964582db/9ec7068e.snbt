@@ -1,0 +1,23 @@
+{
+	x: 60.0d,
+	y: 5.0d,
+	text: [
+		"消耗品，放在&c背包中&r时可提供一次死亡不掉落"
+	],
+	dependencies: [
+		"0fc91a04"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2532165f",
+		type: "item",
+		items: [{
+			id: "jmilpol:pendant",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

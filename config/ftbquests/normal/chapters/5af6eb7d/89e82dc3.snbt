@@ -1,0 +1,14 @@
+{
+	x: 175.0d,
+	y: 25.0d,
+	dependencies: [
+		"398a8112"
+	],
+	tasks: [{
+		uid: "d3c46e08",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatekeeperessence"
+		}]
+	}]
+}

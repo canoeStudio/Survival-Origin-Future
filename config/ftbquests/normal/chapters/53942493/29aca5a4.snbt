@@ -1,0 +1,24 @@
+{
+	title: "造访传说纪元",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"这是一本指引你的手册，如需要&c任务系统以外的帮助&r，请仔细阅读它",
+		"",
+		"前往冰晶雪原获取&c雪花飞镖&r以解锁相关内容"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "e8a920ab",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "legendera:legend_recorder"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

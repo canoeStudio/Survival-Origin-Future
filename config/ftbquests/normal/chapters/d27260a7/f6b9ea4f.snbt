@@ -1,0 +1,22 @@
+{
+	title: "我真的没法一直吃面包",
+	icon: "minecraft:bread",
+	x: 105.0d,
+	y: -10.0d,
+	text: [
+		"吃了八百年面包的你，有没有想过你这样真的不会觉得腻吗？",
+		"",
+		"那现在你会了",
+		"",
+		"至少需要&c5种食物&r换着吃才不会感到难以下咽"
+	],
+	dependencies: [
+		"debc6077"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7279b77a",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

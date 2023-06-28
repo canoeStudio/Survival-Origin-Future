@@ -1,0 +1,18 @@
+{
+	title: "模组弓",
+	icon: "extrabows:bridge_upgrade",
+	x: 20.0d,
+	y: 5.0d,
+	text: [
+		"能搭载模组从而大大拓展弓箭的伤害、功能性，拥有&l远高于&r常规弓的伤害，但升级&c非常昂贵&r"
+	],
+	dependencies: [
+		"f5ee3cdd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cedb3d1f",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

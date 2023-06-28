@@ -1,0 +1,21 @@
+{
+	x: 45.0d,
+	y: -10.0d,
+	text: [
+		"可将物品的附魔以&c附魔书&r的形式返还，每取出一种附魔会&c消耗一定耐久&r",
+		"",
+		"&l无耐久附魔情况下&r，耐久低于&l200&r的物品有&c被摧毁&r的风险",
+		"",
+		"&c无限耐久的物品将在一次祛魔之后被摧毁&r"
+	],
+	dependencies: [
+		"9743de0b"
+	],
+	tasks: [{
+		uid: "2066285a",
+		type: "item",
+		items: [{
+			item: "disenchanter:disenchantmenttable"
+		}]
+	}]
+}

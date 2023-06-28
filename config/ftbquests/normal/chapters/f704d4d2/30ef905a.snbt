@@ -1,0 +1,22 @@
+{
+	x: 15.0d,
+	y: -5.0d,
+	description: "&a主世界&o",
+	text: [
+		"强化的弓，其伤害波动区间高于原版的弓",
+		"",
+		"&c不能再升级&r"
+	],
+	dependencies: [
+		"f5ee3cdd"
+	],
+	tasks: [{
+		uid: "13e13b18",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:longbow_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

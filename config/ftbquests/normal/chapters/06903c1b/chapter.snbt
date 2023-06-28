@@ -1,0 +1,7 @@
+{
+	title: "辅助功能",
+	icon: "minecraft:fishing_rod",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

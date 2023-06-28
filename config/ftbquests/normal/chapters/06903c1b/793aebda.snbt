@@ -1,0 +1,20 @@
+{
+	title: "柔软的干草块",
+	x: 10.0d,
+	y: 15.0d,
+	description: "信仰之跃",
+	text: [
+		"充满信仰的你，摔落在干草块上&c不会受到伤害&r"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c34860b",
+		type: "item",
+		items: [{
+			item: "minecraft:hay_block"
+		}]
+	}]
+}

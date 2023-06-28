@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: -20.0d,
+	dependencies: [
+		"bdec7651"
+	],
+	tasks: [{
+		uid: "d8b2dcd6",
+		type: "item",
+		items: [{
+			item: "divinerpg:starlight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

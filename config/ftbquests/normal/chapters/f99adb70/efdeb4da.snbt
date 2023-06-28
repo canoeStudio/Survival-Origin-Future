@@ -1,0 +1,16 @@
+{
+	x: 30.0d,
+	y: -10.0d,
+	dependencies: [
+		"0842ebd9"
+	],
+	tasks: [{
+		uid: "18a899bc",
+		type: "item",
+		items: [{
+			item: "divinerpg:icicle_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

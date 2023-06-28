@@ -1,0 +1,27 @@
+{
+	title: "神圣附魔台",
+	x: 205.0d,
+	y: 85.0d,
+	description: "合成武器防具的工具",
+	text: [
+		"神圣附魔台生成在&c任意层数&r的&c任意位置&r，是在梦魇世界合成防具、装备的场所",
+		"",
+		"在附魔台中。先放入模板，再放入任何种类的梦魇之球进行合成",
+		"",
+		"梦魇之球的&c数目&r决定是否能够合成；但由于没有合成表，需要自行在附魔台上不断放入梦魇之球进行测试"
+	],
+	dependencies: [
+		"5ba83bd8",
+		"6254ceed",
+		"0918f419"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f38c5fda",
+		type: "interaction",
+		title: "发现神圣附魔台",
+		icon: "divinerpg:infusion_table",
+		match_type: "block_id",
+		match: "divinerpg:infusion_table"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "击败蜂后",
+	x: 220.0d,
+	y: 100.0d,
+	dependencies: [
+		"e24b6fd8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "58898d94",
+		type: "kill",
+		icon: "divinerpg:hive_wall",
+		entity: "divinerpg:hive_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "03f0aaa2",
+		type: "xp",
+		auto: "enabled",
+		xp: 11000
+	}]
+}

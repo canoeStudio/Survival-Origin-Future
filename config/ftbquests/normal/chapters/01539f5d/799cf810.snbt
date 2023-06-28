@@ -1,0 +1,133 @@
+{
+	title: "解锁官方商店",
+	icon: "adminshop:shop",
+	x: 20.0d,
+	y: 10.0d,
+	can_repeat: true,
+	dependencies: [
+		"093e2660"
+	],
+	hide: true,
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "a64ff2cf",
+		type: "item",
+		title: "觉醒岩晶套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Juexingyanjing"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Juexingyanjing"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3130338a",
+		type: "item",
+		items: [{
+			item: "divinerpg:halite_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aee38a77",
+		type: "item",
+		items: [{
+			item: "divinerpg:serenade_of_health"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfbeb7ea",
+		type: "item",
+		items: [{
+			item: "jmilpol:everlasting_pendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc500faa",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:amuletsinwrath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3bb4ebf8",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:goldenheart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a08bc114",
+		type: "item",
+		title: "开发者武器",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Kaifazhewuqi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Kaifazhewuqi"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "020e35b8",
+		type: "item",
+		title: "黑金工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Heijintool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Heijintool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "02e8605b",
+		type: "checkmark",
+		title: "重新获取进度"
+	}],
+	rewards: [{
+		uid: "3c8c5579",
+		type: "gamestage",
+		title: "解锁官方商店的合成",
+		auto: "no_toast",
+		stage: "官方商店"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "四相祭坛",
+	x: 245.0d,
+	y: 110.0d,
+	description: "第三层",
+	text: [
+		"四相祭坛生成在梦魇世界第三层，召唤远古的场所",
+		"",
+		"祭坛在一个露天结构中，围墙由浅色、深色的&c梦魇砖&r与&c平滑玻璃&r组成",
+		"",
+		"使用梦魇打火石激活祭坛即可召唤远古"
+	],
+	dependencies: [
+		"0d0e02bd"
+	],
+	tasks: [{
+		uid: "699eedaf",
+		type: "interaction",
+		title: "四相祭坛",
+		icon: "divinerpg:quadrotic_altar",
+		match_type: "block_id",
+		match: "divinerpg:quadrotic_altar"
+	}]
+}

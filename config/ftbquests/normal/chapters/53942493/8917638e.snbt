@@ -1,0 +1,17 @@
+{
+	x: 22.5d,
+	y: -5.0d,
+	dependencies: [
+		"1df99fcf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75f117d0",
+		type: "item",
+		items: [{
+			item: "legendera:soul_devourer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

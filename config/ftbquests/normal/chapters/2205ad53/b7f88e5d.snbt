@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -35.0d,
+	text: [
+		"范围型技能物品，吹响它可让物品影响范围之内的&c自己孵化的龙&r强制落到地面"
+	],
+	dependencies: [
+		"f0e09dc4"
+	],
+	tasks: [{
+		uid: "8df2972f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

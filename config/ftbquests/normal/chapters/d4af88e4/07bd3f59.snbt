@@ -1,0 +1,16 @@
+{
+	x: 50.0d,
+	y: -25.0d,
+	dependencies: [
+		"84a62d6a"
+	],
+	tasks: [{
+		uid: "1d35ed06",
+		type: "item",
+		items: [{
+			item: "divinerpg:ender_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

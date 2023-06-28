@@ -1,0 +1,55 @@
+{
+	title: "卷轴与石板",
+	x: 20.0d,
+	y: -10.0d,
+	text: [
+		"在制作之后，将卷轴或石板对着&c有灵魂的坟墓&r右键，使其&c附魔&r",
+		"",
+		"附魔后的卷轴或石板可按住右键进行使用"
+	],
+	dependencies: [
+		"0a4f4901"
+	],
+	tasks: [{
+		uid: "926c650c",
+		type: "item",
+		title: "卷轴",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any magicScroll"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "magicScroll"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7dd52e03",
+		type: "item",
+		title: "石板",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any magicTablet"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "magicTablet"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

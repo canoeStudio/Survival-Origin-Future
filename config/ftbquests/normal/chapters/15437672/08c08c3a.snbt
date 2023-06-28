@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: 5.0d,
+	description: "反季节种植",
+	text: [
+		"温室玻璃&c垂直&r方向以&c下&r的&c7格&r内的作物不会受到季节影响，对&c甘蔗&r这种只在夏天生长的作物特别有用"
+	],
+	dependencies: [
+		"445f1158"
+	],
+	tasks: [{
+		uid: "f9abfee2",
+		type: "item",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "23a082a8",
+		type: "item",
+		item: "sereneseasons:greenhouse_glass",
+		count: 8
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	x: 0.0d,
+	y: -95.0d,
+	dependencies: [
+		"2d13c692",
+		"2a7926ac",
+		"92674411",
+		"476f11b9",
+		"57cfa9e8",
+		"e97309a9",
+		"e7b28bde",
+		"2fcc2a90",
+		"176ee193",
+		"471daaa2"
+	],
+	dependency_requirement: "one_completed",
+	size: 3.0d,
+	tasks: [{
+		uid: "730fd81f",
+		type: "item",
+		items: [{
+			id: "custommc:wqs1",
+			tag: {
+				Quality: {
+					Name: "quality.legendary.name",
+					Color: "light_purple",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: -28381130053171968L,
+						UUIDLeast: -5753296513540316916L,
+						AttributeName: "potioncore.digSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.10000000149011612d,
+						Operation: 2,
+						UUIDMost: 1368248183632448784L,
+						UUIDLeast: -4688750353032033025L,
+						AttributeName: "generic.attackSpeed"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.15000000596046448d,
+						Operation: 2,
+						UUIDMost: -118974346604949614L,
+						UUIDLeast: -5793038179513479013L,
+						AttributeName: "generic.attackDamage"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 0.5d,
+						Operation: 0,
+						UUIDMost: 3254357361430318741L,
+						UUIDLeast: -6047901503406291793L,
+						AttributeName: "generic.reachDistance"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

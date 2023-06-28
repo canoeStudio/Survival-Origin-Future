@@ -1,0 +1,21 @@
+{
+	title: "全新的盾牌格挡",
+	icon: "pizzacraft:pizza_burnt_shield",
+	x: 0.0d,
+	y: 10.0d,
+	text: [
+		"&c最大保护&r决定盾牌的&c耐久&r",
+		"",
+		"&cShieldingPower&r决定盾牌的&c防御能力&r"
+	],
+	dependencies: [
+		"6444a3b9"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "a7813941",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

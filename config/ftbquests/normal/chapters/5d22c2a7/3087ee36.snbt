@@ -1,0 +1,17 @@
+{
+	x: 35.0d,
+	y: -20.0d,
+	description: "&a主世界",
+	dependencies: [
+		"7a2ab8b0"
+	],
+	tasks: [{
+		uid: "47ba44e7",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:halberd_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

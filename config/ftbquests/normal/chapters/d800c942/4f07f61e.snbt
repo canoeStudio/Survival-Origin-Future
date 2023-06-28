@@ -1,0 +1,32 @@
+{
+	x: 5.0d,
+	y: -20.0d,
+	description: "&a主世界",
+	text: [
+		"增加手持杰克的镰刀时镰刀能造成的伤害"
+	],
+	dependencies: [
+		"a399bf9b"
+	],
+	tasks: [{
+		uid: "6435e0b3",
+		type: "item",
+		title: "杰克套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jieke"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jieke"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

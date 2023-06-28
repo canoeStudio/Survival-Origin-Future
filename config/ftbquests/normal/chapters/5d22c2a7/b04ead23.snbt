@@ -1,0 +1,29 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	description: "&a主世界&o",
+	text: [
+		"与武士套搭配时可获得额外效果"
+	],
+	dependencies: [
+		"62c38e6d"
+	],
+	tasks: [{
+		uid: "eefe894f",
+		type: "item",
+		items: [{
+			item: "sakura:sakura_katana"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e2fd1403",
+		type: "item",
+		items: [{
+			item: "sakura:sheath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

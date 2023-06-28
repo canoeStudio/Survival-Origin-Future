@@ -1,0 +1,16 @@
+{
+	x: 32.5d,
+	y: -5.0d,
+	dependencies: [
+		"fce2b74b"
+	],
+	tasks: [{
+		uid: "980f3569",
+		type: "item",
+		items: [{
+			item: "legendera:black_hole_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

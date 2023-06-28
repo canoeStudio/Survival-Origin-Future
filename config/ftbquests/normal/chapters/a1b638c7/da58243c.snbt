@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -15.0d,
+	text: [
+		"生成在&c沼泽群系&r或&c丛林群系&r的水中"
+	],
+	dependencies: [
+		"46c82adf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95310921",
+		type: "kill",
+		entity: "mod_lavacow:piranha",
+		value: 1L
+	}]
+}

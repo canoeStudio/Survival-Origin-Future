@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: -35.0d,
+	description: "&c下界",
+	dependencies: [
+		"d8f4c141",
+		"b610b67b"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "7d460181",
+		type: "item",
+		items: [{
+			item: "spartanfire:warhammer_ice_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "阿帕拉契亚套",
+	x: 0.0d,
+	y: 140.0d,
+	description: "&6阿帕拉契亚&o",
+	text: [
+		"整套可免疫方块导致的窒息效果；并提供&c半永久&r生命恢复2效果，生命恢复2持续30秒，每60秒刷新一次"
+	],
+	dependencies: [
+		"d0932449"
+	],
+	tasks: [{
+		uid: "44f2bc51",
+		type: "item",
+		title: "阿帕拉契亚套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Apalaqiya"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Apalaqiya"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

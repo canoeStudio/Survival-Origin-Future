@@ -16,37 +16,37 @@
       "mainSelector": {
         "entries": {
           "minecraft:air": 0.2,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
+          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.1,
           "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.1,
           "minecraft:stonebrick[variant=stonebrick]": 0.05,
-          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.1
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
       "floorSelector": {
         "entries": {
           "minecraft:sand[variant=red_sand]": 0.3,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
+          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.1,
           "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.1,
           "minecraft:stonebrick[variant=stonebrick]": 0.05,
-          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.1
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
       "brickSelector": {
         "entries": {
+          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.2,
           "minecraft:stonebrick[variant=stonebrick]": 0.1,
           "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.2,
-          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.2,
           "minecraft:red_sandstone[type=red_sandstone]": 0.5
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
       "legSelector": {
         "entries": {
+          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.2,
           "minecraft:stonebrick[variant=stonebrick]": 0.1,
           "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.2,
-          "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.2,
           "minecraft:red_sandstone[type=red_sandstone]": 0.5
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
@@ -57,8 +57,6 @@
       "gravelBlock": "minecraft:sand[variant=red_sand]",
       "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
       "stoneSlabBlock": "minecraft:stone_slab2[half=top,variant=red_sandstone]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.1,
       "snowChance": 0.0,
       "cactusChance": 0.1,
@@ -107,8 +105,6 @@
       "gravelBlock": "minecraft:snow",
       "stoneWallBlock": "minecraft:packed_ice",
       "stoneSlabBlock": "minecraft:packed_ice",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.05,
       "snowChance": 0.0,
       "cactusChance": 0.0,
@@ -126,30 +122,30 @@
       "mainSelector": {
         "entries": {
           "minecraft:air": 0.2,
-          "minecraft:stained_hardened_clay[color=white]": 0.1,
+          "minecraft:stained_hardened_clay[color=yellow]": 0.1,
           "minecraft:stained_hardened_clay[color=brown]": 0.1,
-          "minecraft:stained_hardened_clay[color=orange]": 0.1,
-          "minecraft:stained_hardened_clay[color=yellow]": 0.1
+          "minecraft:stained_hardened_clay[color=white]": 0.1,
+          "minecraft:stained_hardened_clay[color=orange]": 0.1
         },
         "defaultBlock": "minecraft:planks[variant=dark_oak]"
       },
       "floorSelector": {
         "entries": {
-          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.1,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
           "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:stained_hardened_clay[color=white]": 0.05,
+          "minecraft:stained_hardened_clay[color=yellow]": 0.05,
+          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.1,
           "minecraft:stained_hardened_clay[color=brown]": 0.05,
-          "minecraft:stained_hardened_clay[color=orange]": 0.05,
-          "minecraft:stained_hardened_clay[color=yellow]": 0.05
+          "minecraft:stained_hardened_clay[color=white]": 0.05,
+          "minecraft:stained_hardened_clay[color=orange]": 0.05
         },
         "defaultBlock": "minecraft:planks[variant=dark_oak]"
       },
       "brickSelector": {
         "entries": {
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.33333,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333,
-          "minecraft:stonebrick[variant=stonebrick]": 0.33333
+          "minecraft:stonebrick[variant=stonebrick]": 0.33333,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333
         },
         "defaultBlock": "minecraft:planks[variant=dark_oak]"
       },
@@ -165,8 +161,6 @@
       "gravelBlock": "minecraft:gravel",
       "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
       "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=stone_brick]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.15,
       "snowChance": 0.0,
       "cactusChance": 0.0,
@@ -185,29 +179,29 @@
         "entries": {
           "minecraft:mossy_cobblestone": 0.1,
           "minecraft:air": 0.2,
-          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.05,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.2,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
-          "minecraft:stonebrick[variant=stonebrick]": 0.05
+          "minecraft:stonebrick[variant=stonebrick]": 0.05,
+          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.05,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:planks[variant=jungle]"
       },
       "floorSelector": {
         "entries": {
           "minecraft:mossy_cobblestone": 0.1,
-          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.05,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.2,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
-          "minecraft:stonebrick[variant=stonebrick]": 0.05
+          "minecraft:stonebrick[variant=stonebrick]": 0.05,
+          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.05,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:planks[variant=jungle]"
       },
       "brickSelector": {
         "entries": {
-          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.25,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.25,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.25,
-          "minecraft:stonebrick[variant=stonebrick]": 0.25
+          "minecraft:stonebrick[variant=stonebrick]": 0.25,
+          "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.25,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.25
         },
         "defaultBlock": "minecraft:planks[variant=jungle]"
       },
@@ -223,8 +217,6 @@
       "gravelBlock": "minecraft:gravel",
       "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
       "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=stone_brick]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.6,
       "snowChance": 0.0,
       "cactusChance": 0.0,
@@ -277,8 +269,6 @@
       "gravelBlock": "minecraft:snow",
       "stoneWallBlock": "minecraft:snow",
       "stoneSlabBlock": "minecraft:snow",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.2,
       "snowChance": 1.0,
       "cactusChance": 0.0,
@@ -300,8 +290,8 @@
           "minecraft:cobblestone": 0.1,
           "minecraft:air": 0.2,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1
+          "minecraft:stonebrick[variant=stonebrick]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:planks[variant=spruce]"
       },
@@ -309,16 +299,16 @@
         "entries": {
           "minecraft:cobblestone": 0.1,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1
+          "minecraft:stonebrick[variant=stonebrick]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:planks[variant=spruce]"
       },
       "brickSelector": {
         "entries": {
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.33333,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333,
-          "minecraft:stonebrick[variant=stonebrick]": 0.33333
+          "minecraft:stonebrick[variant=stonebrick]": 0.33333,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333
         },
         "defaultBlock": "minecraft:planks[variant=spruce]"
       },
@@ -334,8 +324,6 @@
       "gravelBlock": "minecraft:gravel",
       "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
       "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=stone_brick]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.25,
       "snowChance": 0.0,
       "cactusChance": 0.0,
@@ -356,37 +344,37 @@
         "entries": {
           "minecraft:air": 0.2,
           "minecraft:sandstone[type=smooth_sandstone]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
+          "minecraft:stonebrick[variant=stonebrick]": 0.05,
           "minecraft:sandstone[type=chiseled_sandstone]": 0.1,
-          "minecraft:stonebrick[variant=stonebrick]": 0.05
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
       "floorSelector": {
         "entries": {
           "minecraft:sandstone[type=smooth_sandstone]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
-          "minecraft:sandstone[type=chiseled_sandstone]": 0.1,
+          "minecraft:sand[variant=sand]": 0.3,
           "minecraft:stonebrick[variant=stonebrick]": 0.05,
-          "minecraft:sand[variant=sand]": 0.3
+          "minecraft:sandstone[type=chiseled_sandstone]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
       "brickSelector": {
         "entries": {
           "minecraft:sandstone[type=smooth_sandstone]": 0.2,
+          "minecraft:sandstone[type=sandstone]": 0.5,
           "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:sandstone[type=chiseled_sandstone]": 0.2,
-          "minecraft:sandstone[type=sandstone]": 0.5
+          "minecraft:sandstone[type=chiseled_sandstone]": 0.2
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
       "legSelector": {
         "entries": {
           "minecraft:sandstone[type=smooth_sandstone]": 0.2,
+          "minecraft:sandstone[type=sandstone]": 0.5,
           "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:sandstone[type=chiseled_sandstone]": 0.2,
-          "minecraft:sandstone[type=sandstone]": 0.5
+          "minecraft:sandstone[type=chiseled_sandstone]": 0.2
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
@@ -396,8 +384,6 @@
       "gravelBlock": "minecraft:sand[variant=sand]",
       "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
       "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=sandstone]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.1,
       "snowChance": 0.0,
       "cactusChance": 0.1,
@@ -417,8 +403,8 @@
           "minecraft:cobblestone": 0.1,
           "minecraft:air": 0.2,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1
+          "minecraft:stonebrick[variant=stonebrick]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:planks[variant=acacia]"
       },
@@ -426,16 +412,16 @@
         "entries": {
           "minecraft:cobblestone": 0.1,
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1
+          "minecraft:stonebrick[variant=stonebrick]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:planks[variant=acacia]"
       },
       "brickSelector": {
         "entries": {
           "minecraft:stonebrick[variant=mossy_stonebrick]": 0.33333,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333,
-          "minecraft:stonebrick[variant=stonebrick]": 0.33333
+          "minecraft:stonebrick[variant=stonebrick]": 0.33333,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333
         },
         "defaultBlock": "minecraft:planks[variant=acacia]"
       },
@@ -451,8 +437,6 @@
       "gravelBlock": "minecraft:gravel",
       "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
       "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=stone_brick]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.25,
       "snowChance": 0.0,
       "cactusChance": 0.0,
@@ -469,9 +453,9 @@
       ],
       "mainSelector": {
         "entries": {
+          "minecraft:brown_mushroom_block[variant=stem]": 0.33333,
           "minecraft:brown_mushroom_block[variant=all_outside]": 0.33333,
-          "minecraft:red_mushroom_block[variant=all_outside]": 0.33333,
-          "minecraft:brown_mushroom_block[variant=stem]": 0.33333
+          "minecraft:red_mushroom_block[variant=all_outside]": 0.33333
         },
         "defaultBlock": "minecraft:red_mushroom_block[variant=all_outside]"
       },
@@ -483,17 +467,17 @@
       },
       "brickSelector": {
         "entries": {
+          "minecraft:brown_mushroom_block[variant=stem]": 0.33333,
           "minecraft:brown_mushroom_block[variant=all_outside]": 0.33333,
-          "minecraft:red_mushroom_block[variant=all_outside]": 0.33333,
-          "minecraft:brown_mushroom_block[variant=stem]": 0.33333
+          "minecraft:red_mushroom_block[variant=all_outside]": 0.33333
         },
         "defaultBlock": "minecraft:red_mushroom_block[variant=all_outside]"
       },
       "legSelector": {
         "entries": {
+          "minecraft:brown_mushroom_block[variant=stem]": 0.33333,
           "minecraft:brown_mushroom_block[variant=all_outside]": 0.33333,
-          "minecraft:red_mushroom_block[variant=all_outside]": 0.33333,
-          "minecraft:brown_mushroom_block[variant=stem]": 0.33333
+          "minecraft:red_mushroom_block[variant=all_outside]": 0.33333
         },
         "defaultBlock": "minecraft:red_mushroom_block[variant=all_outside]"
       },
@@ -503,8 +487,6 @@
       "gravelBlock": "minecraft:gravel",
       "stoneWallBlock": "minecraft:brown_mushroom_block[variant=stem]",
       "stoneSlabBlock": "minecraft:brown_mushroom_block[variant=stem]",
-      "minY": 17,
-      "maxY": 37,
       "vineChance": 0.25,
       "snowChance": 0.0,
       "cactusChance": 0.0,
@@ -521,8 +503,8 @@
         "minecraft:cobblestone": 0.1,
         "minecraft:air": 0.2,
         "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
-        "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1,
-        "minecraft:stonebrick[variant=stonebrick]": 0.1
+        "minecraft:stonebrick[variant=stonebrick]": 0.1,
+        "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1
       },
       "defaultBlock": "minecraft:planks[variant=oak]"
     },
@@ -530,16 +512,16 @@
       "entries": {
         "minecraft:cobblestone": 0.1,
         "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
-        "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1,
-        "minecraft:stonebrick[variant=stonebrick]": 0.1
+        "minecraft:stonebrick[variant=stonebrick]": 0.1,
+        "minecraft:stonebrick[variant=cracked_stonebrick]": 0.1
       },
       "defaultBlock": "minecraft:planks[variant=oak]"
     },
     "brickSelector": {
       "entries": {
         "minecraft:stonebrick[variant=mossy_stonebrick]": 0.33333,
-        "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333,
-        "minecraft:stonebrick[variant=stonebrick]": 0.33333
+        "minecraft:stonebrick[variant=stonebrick]": 0.33333,
+        "minecraft:stonebrick[variant=cracked_stonebrick]": 0.33333
       },
       "defaultBlock": "minecraft:planks[variant=oak]"
     },
@@ -555,8 +537,6 @@
     "gravelBlock": "minecraft:gravel",
     "stoneWallBlock": "minecraft:cobblestone_wall[east=false,north=false,south=false,up=false,variant=cobblestone,west=false]",
     "stoneSlabBlock": "minecraft:stone_slab[half=top,variant=stone_brick]",
-    "minY": 17,
-    "maxY": 37,
     "vineChance": 0.25,
     "snowChance": 0.0,
     "cactusChance": 0.0,

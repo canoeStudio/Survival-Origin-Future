@@ -1,0 +1,39 @@
+{
+	title: "击杀阴影生物",
+	x: 10.0d,
+	y: -5.0d,
+	text: [
+		"可重复完成的奖励任务"
+	],
+	can_repeat: true,
+	dependencies: [
+		"d9cdb07a"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "9e5ff428",
+		type: "kill",
+		entity: "abyssalcraft:shadowcreature",
+		value: 1L
+	},
+	{
+		uid: "0db8371c",
+		type: "kill",
+		entity: "abyssalcraft:shadowmonster",
+		value: 1L
+	},
+	{
+		uid: "f9c64157",
+		type: "kill",
+		entity: "abyssalcraft:shadowbeast",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b52586e5",
+		type: "loot",
+		title: "随机阴影宝石一个",
+		icon: "abyssalcraft:shadowgem",
+		table: 1
+	}]
+}

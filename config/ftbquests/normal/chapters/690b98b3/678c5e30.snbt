@@ -1,0 +1,22 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	text: [
+		"召唤&c观察者&r的物品，观察者是末地阶段的BOSS，但只能在下界召唤",
+		"",
+		"地狱蜘蛛和烈焰射手在下界的&cDOOM地牢&r中大量生成，可大量获取&c熔融碎片&r；前往末地获取&c观察者之眼&r"
+	],
+	dependencies: [
+		"c900bd1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1284318",
+		type: "item",
+		items: [{
+			item: "divinerpg:call_of_the_watcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

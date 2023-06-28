@@ -1,0 +1,29 @@
+{
+	title: "战利品",
+	x: 65.0d,
+	y: -10.0d,
+	dependencies: [
+		"89e92e28"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "eb876980",
+		type: "item",
+		items: [{
+			item: "divinerpg:parasecta_statue"
+		}]
+	},
+	{
+		uid: "e1dd4e95",
+		type: "item",
+		items: [{
+			item: "divinerpg:dungeon_tokens"
+		}]
+	}],
+	rewards: [{
+		uid: "8fa29b54",
+		type: "item",
+		item: "divinerpg:dungeon_tokens",
+		count: 10
+	}]
+}

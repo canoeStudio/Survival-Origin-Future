@@ -1,0 +1,30 @@
+{
+	title: "与鸡蛇互动",
+	x: 2.5d,
+	y: 21.0d,
+	text: [
+		"当一个鸡蛇从鸡蛋孵出，它们也会保护他们遇到的任何鸡，并且会对任何试图捕食鸡的强盗进行战斗，他们甚至会与强大的龙争斗，以拯救可能是他们父母的鸡§7§m§o我哭了，你呢§r",
+		"",
+		"给驯服的鸡蛇喂食&c种子&r会治疗它，也可以将&c腐肉&r直接丢给它",
+		"",
+		"&c野生&r或是用&c发射器&r投蛋刷出的鸡蛇是野生的，会与玩家敌对"
+	],
+	dependencies: [
+		"f267d365"
+	],
+	tasks: [{
+		uid: "6086e434",
+		type: "interaction",
+		title: "与鸡蛇互动",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "iceandfire:if_cockatrice"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "iceandfire:if_cockatrice"
+	}]
+}

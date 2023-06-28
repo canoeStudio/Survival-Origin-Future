@@ -1,0 +1,20 @@
+{
+	title: "战利品",
+	x: 85.0d,
+	y: 35.0d,
+	dependencies: [
+		"4be078d0"
+	],
+	tasks: [{
+		uid: "c8324775",
+		type: "item",
+		items: [{
+			id: "legendera:tnt_launcher",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

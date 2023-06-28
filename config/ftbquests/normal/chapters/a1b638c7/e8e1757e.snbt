@@ -1,0 +1,19 @@
+{
+	title: "驯服炎熔螈的材料",
+	x: 15.0d,
+	y: -2.5d,
+	text: [
+		"只可以驯服&c幼年&r的炎熔螈"
+	],
+	dependencies: [
+		"7248cdcf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09800dbe",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:canebeef"
+		}]
+	}]
+}

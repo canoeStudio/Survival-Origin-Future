@@ -1,0 +1,38 @@
+{
+	title: "铁块套",
+	x: -2.5d,
+	y: 20.0d,
+	description: "&a主世界&o",
+	text: [
+		"给予&c半永久&r的伤害吸收2效果",
+		"",
+		"每75秒，会刷新1次伤害吸收1效果；伤害吸收1持续10秒",
+		"",
+		"昂贵的合成成本，但是非常值得"
+	],
+	dependencies: [
+		"75ab9773"
+	],
+	hide: true,
+	tasks: [{
+		uid: "854f4751",
+		type: "item",
+		title: "铁块套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Tiekuai"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Tiekuai"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

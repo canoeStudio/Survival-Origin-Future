@@ -1,0 +1,31 @@
+{
+	x: -12.5d,
+	y: 22.5d,
+	text: [
+		"会给予与行动有关的永久药水效果，提升你赶路的效率"
+	],
+	dependencies: [
+		"99342c0d"
+	],
+	tasks: [{
+		uid: "3bf5a416",
+		type: "item",
+		title: "旅行者之靴",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any MK"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "MK"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

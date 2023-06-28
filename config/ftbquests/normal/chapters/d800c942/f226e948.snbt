@@ -1,0 +1,38 @@
+{
+	title: "武士套",
+	x: -25.0d,
+	y: 35.0d,
+	description: "&a主世界&o",
+	text: [
+		"全套给予&c永久&r力量1效果",
+		"",
+		"与樱之打刀、鞘同时持有时，给予&c半永久&r生命恢复1效果，生命恢复1持续10秒，每60秒刷新一次",
+		"",
+		"在&c樱&r的群系的地下会生成樱色钻石，如原版钻石一般罕见"
+	],
+	dependencies: [
+		"132310ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5f3f285",
+		type: "item",
+		title: "武士套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Wushi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Wushi"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

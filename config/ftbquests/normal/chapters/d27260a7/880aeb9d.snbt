@@ -1,0 +1,27 @@
+{
+	x: 100.0d,
+	y: -20.0d,
+	text: [
+		"将炼药锅放置于岩浆、岩浆块、火焰、营火等&c火源&r的上方，倒入炼药锅的水便会被加热成纯净水",
+		"",
+		"只可以使用&c玻璃瓶&r接水",
+		"",
+		"注：使用岩浆时可能出现不成功的情况，需要反复尝试直到成功"
+	],
+	dependencies: [
+		"a683df0e"
+	],
+	tasks: [{
+		uid: "4c45a2c1",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "38e7b2bc",
+		type: "item",
+		item: "simpledifficulty:charcoal_filter",
+		count: 8
+	}]
+}

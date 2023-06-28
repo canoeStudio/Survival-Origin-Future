@@ -1,0 +1,17 @@
+{
+	x: 235.0d,
+	y: 120.0d,
+	text: [
+		"灿烂之球是&c梦魇之球&r的一种，是在&c神圣附魔台&r上合成梦魇世界武器、防具的重要材料之一"
+	],
+	dependencies: [
+		"97d9ad6f"
+	],
+	tasks: [{
+		uid: "7e92227f",
+		type: "item",
+		items: [{
+			item: "divinerpg:pardimal_lump"
+		}]
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "盾牌篇",
+	icon: "spartanshields:shield_basic_gold",
+	always_invisible: false,
+	group: -998409731,
+	default_quest_shape: ""
+}

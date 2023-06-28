@@ -1,0 +1,29 @@
+vsaccr.item.guide.name=§cVirtual Survival Climate & Adventure§b§o手冊
+vsaccr.item.guide.subtitle=入门必读Virtual Survival Climate & Adventure參考手冊
+
+vsaccr.command.purgeCommand.chat=已清理所有掉落物
+vsaccr.dismension.nether.remind=你已進去地獄維度，游戲難度會大幅增加！
+vsaccr.event.anticheat.pls_remove=§c探測載入嚴重不平衡模組，你必須移除以下破壞平衡性模組并重启游戲才可游玩：
+vsaccr.stage.disabled_item.name=已停用的物品
+vsaccr.stage.disabled_item.tooltip=§c已停用
+vsaccr.event.anticheat.chat=請不要作弊！好好玩！
+
+
+
+
+
+
+#menu
+
+
+#Mod Translation
+item.notreepunching:rock.basalt.name=玄武石子
+tile.notreepunching:cobblestone.basalt.name=玄武鵝卵石
+
+
+
+
+
+item.contenttweaker.chaos_gem.name=混沌寶石
+item.contenttweaker.angel_core.name=天使核心
+item.contenttweaker.twilight_gem.name=暮光水晶

@@ -1,0 +1,17 @@
+{
+	title: "一个小小的提示",
+	icon: "warpbook:warpbook",
+	x: 165.0d,
+	y: 20.0d,
+	text: [
+		"在最终决战之前，务必在扎哈尔神殿中记录一张&c传送书页&r"
+	],
+	dependencies: [
+		"9fa82416"
+	],
+	tasks: [{
+		uid: "d617b449",
+		type: "checkmark",
+		title: "这也在你的计算之中吗？"
+	}]
+}

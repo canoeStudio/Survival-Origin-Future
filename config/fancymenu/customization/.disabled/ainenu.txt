@@ -1,0 +1,20 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/txloader/load/vsaccr/backgrounds/13.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+

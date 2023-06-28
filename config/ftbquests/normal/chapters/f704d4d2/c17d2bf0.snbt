@@ -1,0 +1,29 @@
+{
+	x: 85.0d,
+	y: 5.0d,
+	description: "&6黑金&o",
+	dependencies: [
+		"23a4553b"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "2d2e5b0f",
+		type: "item",
+		items: [{
+			id: "extrabows:emerald_bow",
+			ForgeCaps: {
+				Parent: {
+					handler: {
+						Items: [],
+						Size: 4
+					},
+					capacity: 30000,
+					energy: 0
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "炽铁套",
+	x: 0.0d,
+	y: 85.0d,
+	description: "&e暮色森林&o",
+	text: [
+		"燃烧攻击者"
+	],
+	dependencies: [
+		"fc8111cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb2b84de",
+		type: "item",
+		title: "炽热套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Chire"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Chire"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

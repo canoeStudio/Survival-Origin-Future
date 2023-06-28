@@ -1,0 +1,35 @@
+{
+	title: "极光钢套",
+	x: 0.0d,
+	y: 100.0d,
+	description: "&b极光幽境&o",
+	text: [
+		"会随着&c使用&r逐渐&c升级自身附魔等级&r"
+	],
+	dependencies: [
+		"0bd91765"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9cbfa5c3",
+		type: "item",
+		title: "极光钢套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Jiguanggang"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Jiguanggang"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

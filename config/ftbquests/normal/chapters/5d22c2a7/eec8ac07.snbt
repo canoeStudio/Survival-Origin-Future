@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 20.0d,
+	description: "&a主世界&o",
+	text: [
+		"强化耐久与攻击力"
+	],
+	dependencies: [
+		"267f1992"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e0a233f0",
+		type: "item",
+		items: [{
+			item: "heq:diamond_block_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

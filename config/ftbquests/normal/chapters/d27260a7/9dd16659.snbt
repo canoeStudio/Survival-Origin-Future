@@ -1,0 +1,24 @@
+{
+	title: "生存指南——其二",
+	icon: "minecraft:golden_pickaxe",
+	x: 115.0d,
+	y: 0.0d,
+	description: "&c超现实生存要素",
+	text: [
+		"要致富先撸树……什么样的猛男才能徒手把树撸下来？",
+		"",
+		"你现在只能空手破坏&c草方块&r、&c沙子&r、&c沙砾&r这种确实像是能用手撸下来的东西",
+		"",
+		"你说木头怎么办？你做个斧子去再砍树很合理对吧！"
+	],
+	dependencies: [
+		"6ecbdaf5"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "266363f1",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Apple is a lie",
+	icon: "extrabows:strong_diamond",
+	x: 20.0d,
+	y: 5.0d,
+	dependencies: [
+		"f94b57be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee858bce",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

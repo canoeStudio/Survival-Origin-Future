@@ -1,0 +1,23 @@
+{
+	title: "战利品",
+	x: 165.0d,
+	y: 70.0d,
+	dependencies: [
+		"5f65f83b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "db803ec6",
+		type: "item",
+		items: [{
+			item: "divinerpg:vamacheron_statue"
+		}]
+	},
+	{
+		uid: "75ba2cf6",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_heart"
+		}]
+	}]
+}

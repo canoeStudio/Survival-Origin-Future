@@ -1,0 +1,16 @@
+{
+	title: "魔杖篇",
+	icon: "divinerpg:arksiane_cannon",
+	x: 0.0d,
+	y: 10.0d,
+	dependencies: [
+		"20432f1e"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "de1455af",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

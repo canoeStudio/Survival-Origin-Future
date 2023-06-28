@@ -1,0 +1,20 @@
+{
+	title: "时装盔甲",
+	icon: "minecraft:iron_chestplate",
+	x: -5.0d,
+	y: 15.0d,
+	text: [
+		"可以开关角色当前的盔甲显示，或修改盔甲显示的功能",
+		"",
+		"可使用&cQE菜单&r或在物品栏中点击角色&c右下角&r的&l衣服标志&r打开；可在图标&c左上角&r开关部位显示"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7945d1ef",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 55.0d,
+	y: -5.0d,
+	text: [
+		"用来激活&c霜域传送门&r的道具",
+		"",
+		"手持法杖&c潜行右键&r石英块即可激活",
+		"",
+		"激活之后，&c空手潜行右键&r传送门即可到达霜域"
+	],
+	dependencies: [
+		"f2781b4a"
+	],
+	tasks: [{
+		uid: "493c63e0",
+		type: "item",
+		items: [{
+			item: "legendera:frost_territory_portal_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

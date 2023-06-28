@@ -1,0 +1,33 @@
+{
+	title: "召唤法杖",
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"&c夜叹&r通过击杀&c送葬者&r以极低概率获得，可召唤&c活尸&r为你作战；可在铁砧上使用&c万军追忆&r来修复",
+		"",
+		"&c恶疫&r可用来召唤&c小树软泥&r为你作战"
+	],
+	dependencies: [
+		"7248cdcf"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "84166473",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:undertaker_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "52921bf3",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:sludge_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

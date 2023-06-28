@@ -1,0 +1,18 @@
+{
+	x: -5.0d,
+	y: 30.0d,
+	description: "&c下界&o",
+	dependencies: [
+		"e480b467"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11b4c3fd",
+		type: "item",
+		items: [{
+			item: "divinerpg:golden_fury"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "火把放置",
+	icon: "glaretorch:itemglaretorchlarge",
+	x: 0.0d,
+	y: 15.0d,
+	text: [
+		"主手&c手持方块&r时，副手的火把会被&c禁用&r",
+		"",
+		"主手为&c空&r时，副手火把也会被&c禁用&r",
+		"",
+		"开启动态光源时，副手的&c最后一根火把&r将无法被使用",
+		"",
+		"但&c强光火把&r无此限制"
+	],
+	dependencies: [
+		"a41b6ee6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "381519f3",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

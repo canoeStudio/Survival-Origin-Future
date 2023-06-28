@@ -1,0 +1,23 @@
+{
+	title: "发现佩拉塞尔塔祭坛",
+	x: 50.0d,
+	y: -10.0d,
+	text: [
+		"召唤泰瑞瑟顿的祭坛"
+	],
+	dependencies: [
+		"763495bd"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "377e1f65",
+		type: "observation",
+		title: "佩拉塞尔塔祭坛",
+		icon: "divinerpg:parasecta_altar",
+		match_type: "block_id",
+		match: "divinerpg:parasecta_altar",
+		timer: 0L
+	}]
+}

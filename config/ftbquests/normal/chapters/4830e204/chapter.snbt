@@ -1,0 +1,18 @@
+{
+	title: "&d开发团队",
+	icon: "minecraft:command_block",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 2.5d,
+		width: 80.0d,
+		height: 45.0d,
+		rotation: 0.0d,
+		image: "mainmenu:together1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

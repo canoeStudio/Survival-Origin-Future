@@ -1,0 +1,32 @@
+{
+	title: "解锁官方商店",
+	icon: "adminshop:shop",
+	x: 0.0d,
+	y: 25.0d,
+	text: [
+		"完成全部前置任务以解锁官方商店"
+	],
+	dependencies: [
+		"652d9d2f",
+		"c3d20521",
+		"d42c3328",
+		"a0033ac4",
+		"5b642c2c",
+		"0065e69d",
+		"41b5385e",
+		"7e2d3ea2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4894564b",
+		type: "checkmark",
+		title: "好！"
+	}],
+	rewards: [{
+		uid: "c9648c80",
+		type: "gamestage",
+		title: "解锁官方商店的合成",
+		auto: "no_toast",
+		stage: "官方商店"
+	}]
+}

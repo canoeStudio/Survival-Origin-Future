@@ -1,0 +1,16 @@
+{
+	x: 90.0d,
+	y: 35.0d,
+	dependencies: [
+		"306f314a"
+	],
+	tasks: [{
+		uid: "0a12078b",
+		type: "item",
+		items: [{
+			item: "legendera:plasma_launcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

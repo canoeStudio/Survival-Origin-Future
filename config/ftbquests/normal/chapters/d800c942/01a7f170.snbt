@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -20.0d,
+	description: "&a主世界",
+	text: [
+		"整套获得&c永久&r饱和效果"
+	],
+	dependencies: [
+		"a399bf9b"
+	],
+	tasks: [{
+		uid: "ed609909",
+		type: "item",
+		title: "骷髅套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Kulou"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Kulou"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

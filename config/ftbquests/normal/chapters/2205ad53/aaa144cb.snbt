@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -25.0d,
+	text: [
+		"对着龙的尸骸&c空手右键&r可以获取，重要的武器锻造材料"
+	],
+	dependencies: [
+		"19bc821a"
+	],
+	tasks: [{
+		uid: "cfae7681",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone"
+		}]
+	}]
+}

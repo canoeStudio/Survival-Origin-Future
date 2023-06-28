@@ -1,0 +1,34 @@
+{
+	title: "更多桶",
+	x: -10.0d,
+	y: -10.0d,
+	text: [
+		"拥有更大的容量，但只能用于&c搬运流体&r，并不能&c取代&r原版的桶"
+	],
+	dependencies: [
+		"4eae2ab6"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "a9354dda",
+		type: "item",
+		title: "桶",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Tong"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Tong"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

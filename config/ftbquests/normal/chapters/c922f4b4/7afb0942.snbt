@@ -1,0 +1,58 @@
+{
+	title: "战利品饰品",
+	x: -5.0d,
+	y: 10.0d,
+	description: "&a一级饰品",
+	text: [
+		"只能通过&c击败对应生物&r或者&c开启战利品箱&r获取"
+	],
+	dependencies: [
+		"f0fc4cbb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e065dc2",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketbezoar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "620f827f",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketapple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b0b42f7c",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:ringoverclocking"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c9f3dca5",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketvitamins"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf51ac36",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketbrokenheart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

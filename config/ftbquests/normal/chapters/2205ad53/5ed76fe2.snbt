@@ -1,0 +1,33 @@
+{
+	title: "龙血",
+	x: 5.0d,
+	y: -25.0d,
+	text: [
+		"用于锻造武器的材料",
+		"",
+		"对着龙的尸骸手持玻璃瓶&c直接右键&r可得到龙血；但获取龙血之后龙的尸骸&c不会再掉落&r龙肉、龙心和龙鳞"
+	],
+	dependencies: [
+		"19bc821a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "656a9cf2",
+		type: "item",
+		title: "龙血",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Longxue"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Longxue"
+				}
+			}
+		}]
+	}]
+}

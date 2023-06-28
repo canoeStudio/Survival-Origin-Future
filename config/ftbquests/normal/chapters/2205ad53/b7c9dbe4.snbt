@@ -1,0 +1,43 @@
+{
+	title: "为龙制作强大的防具",
+	x: 12.5d,
+	y: -35.0d,
+	text: [
+		"&c空手潜行右键&r可为龙装备盔甲"
+	],
+	dependencies: [
+		"1c3b0c3d"
+	],
+	tasks: [{
+		uid: "97394727",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff331776",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c471766",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b90997b7",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonarmor_diamond 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

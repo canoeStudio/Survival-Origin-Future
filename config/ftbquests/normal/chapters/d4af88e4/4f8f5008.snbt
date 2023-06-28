@@ -1,0 +1,24 @@
+{
+	title: "击败泰瑞瑟顿",
+	icon: "divinerpg:parasecta_statue",
+	x: 60.0d,
+	y: -15.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"89e92e28"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6e068884",
+		type: "kill",
+		entity: "divinerpg:parasecta",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c7abb0f4",
+		type: "xp",
+		auto: "enabled",
+		xp: 13000
+	}]
+}

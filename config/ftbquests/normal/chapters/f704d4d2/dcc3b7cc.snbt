@@ -1,0 +1,16 @@
+{
+	title: "投掷篇",
+	icon: "divinerpg:arksiane_disk",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"20432f1e"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "072bc62b",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

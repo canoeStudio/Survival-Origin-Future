@@ -1,0 +1,40 @@
+{
+	title: "卢比套",
+	x: 10.0d,
+	y: 40.0d,
+	description: "&a主世界&o",
+	text: [
+		"全套给予&c永久&r85%的近战攻击减伤效果",
+		"",
+		"但厚重的卢比套让你的&c移动速度&r和&c跳跃高度&r都大幅降低了"
+	],
+	dependencies: [
+		"547517ed",
+		"b5493563",
+		"85243101",
+		"53f749f9",
+		"60aaa30c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d71fc58c",
+		type: "item",
+		title: "卢比套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Lubi"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Lubi"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

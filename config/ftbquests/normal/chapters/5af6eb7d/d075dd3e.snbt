@@ -1,0 +1,19 @@
+{
+	x: 70.0d,
+	y: -5.0d,
+	description: "撕裂法杖的升级版",
+	text: [
+		"升级后的法杖会更快的获取能量"
+	],
+	dependencies: [
+		"8afd5b39"
+	],
+	tasks: [{
+		uid: "0335d0eb",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "突变生物",
+	icon: "mutantbeasts:endersoul_hand",
+	x: -10.0d,
+	y: 0.0d,
+	dependencies: [
+		"3b3179f0"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "ac84dd86",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

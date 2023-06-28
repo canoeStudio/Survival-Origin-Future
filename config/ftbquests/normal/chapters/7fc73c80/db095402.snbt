@@ -1,0 +1,22 @@
+{
+	title: "击败卡洛斯",
+	x: 250.0d,
+	y: 120.0d,
+	dependencies: [
+		"a8d42c7c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d7504583",
+		type: "kill",
+		icon: "divinerpg:karos_dispenser",
+		entity: "divinerpg:karos",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "26beeb92",
+		type: "xp",
+		auto: "enabled",
+		xp: 13000
+	}]
+}

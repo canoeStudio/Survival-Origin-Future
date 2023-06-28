@@ -1,0 +1,15 @@
+{
+	title: "战斗篇",
+	icon: "extrabows:strong_emerald",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"旅者哟，旅途会变得越发艰难，但挑战与机遇并存，你也可以变得更强！勇敢前进吧！"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "8e27a1ae",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

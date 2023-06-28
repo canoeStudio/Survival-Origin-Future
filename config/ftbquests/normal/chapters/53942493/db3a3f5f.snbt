@@ -1,0 +1,16 @@
+{
+	x: 30.0d,
+	y: -5.0d,
+	dependencies: [
+		"fce2b74b"
+	],
+	tasks: [{
+		uid: "359a01d1",
+		type: "item",
+		items: [{
+			item: "legendera:doomsday_scar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

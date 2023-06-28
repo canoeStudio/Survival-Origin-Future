@@ -1,0 +1,20 @@
+{
+	x: 180.0d,
+	y: 20.0d,
+	description: "&c单程票",
+	text: [
+		"黑暗领域自身&c没有&r离开的方法，一旦进入便是单行票",
+		"",
+		"需要借助其他传送工具离开"
+	],
+	dependencies: [
+		"398a8112"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a973fd2f",
+		type: "dimension",
+		title: "&5黑暗领域",
+		dim: 53
+	}]
+}

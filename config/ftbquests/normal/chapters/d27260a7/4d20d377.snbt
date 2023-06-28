@@ -1,0 +1,25 @@
+{
+	title: "QE菜单",
+	icon: "minecraft:noteblock",
+	x: 50.0d,
+	y: 10.0d,
+	text: [
+		"一些关键、常用的按键被添加至了&cQE菜单&r，按住&lZ&r打开",
+		"",
+		"鼠标左右键&c只能切换菜单&r，不能触发功能",
+		"",
+		"将鼠标悬停在功能键上，&l松开Z&r触发对应功能",
+		"",
+		"&c&l修改QE菜单中各个功能对应的游戏按键将会导致该功能在QE菜单中失效"
+	],
+	dependencies: [
+		"c17b9a94"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "326c7355",
+		type: "checkmark",
+		title: "我知道了"
+	}]
+}

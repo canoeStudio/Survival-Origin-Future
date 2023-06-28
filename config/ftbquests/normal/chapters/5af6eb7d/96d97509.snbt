@@ -1,0 +1,25 @@
+{
+	title: "前往深渊荒芜之地的钥匙",
+	x: 40.0d,
+	y: 5.0d,
+	text: [
+		"钥匙可生成前往荒芜之地的传送门，只可在主世界使用",
+		"",
+		"手持钥匙&c直接右键&r可在地上&c立刻生成&r传送门",
+		"",
+		"&c荒芜之地内的生物也可通过该传送门"
+	],
+	dependencies: [
+		"0719153d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d47b7d54",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

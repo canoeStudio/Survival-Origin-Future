@@ -1,0 +1,31 @@
+{
+	title: "击败黑白双煞",
+	icon: "quark:rune",
+	x: 85.0d,
+	y: 10.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"b8d172e1"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "14f29cfc",
+		type: "kill",
+		entity: "legendera:double_ghost_black",
+		value: 1L
+	},
+	{
+		uid: "3228ea7d",
+		type: "kill",
+		entity: "legendera:double_ghost_white",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "75bd2867",
+		type: "xp",
+		auto: "enabled",
+		xp: 3200
+	}]
+}

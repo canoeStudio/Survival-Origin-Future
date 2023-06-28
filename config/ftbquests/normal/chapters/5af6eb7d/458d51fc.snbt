@@ -1,0 +1,45 @@
+{
+	title: "充能基座",
+	x: 120.0d,
+	y: 25.0d,
+	text: [
+		"升级后的基座拥有更大的能量存储空间"
+	],
+	dependencies: [
+		"63a5da04"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e831e87f",
+		type: "observation",
+		title: "恐惧之地能量基座",
+		icon: {
+			id: "abyssalcraft:tieredenergypedestal",
+			Damage: 2s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		},
+		tags: [
+			"2"
+		],
+		match_type: "block_id",
+		match: "abyssalcraft:tieredenergypedestal",
+		timer: 0L
+	},
+	{
+		uid: "37a9f08f",
+		type: "observation",
+		title: "恐惧之地献祭祭坛",
+		icon: {
+			id: "abyssalcraft:tieredsacrificialaltar",
+			Damage: 2s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		},
+		match_type: "block_id",
+		match: "abyssalcraft:tieredsacrificialaltar",
+		timer: 0L
+	}]
+}

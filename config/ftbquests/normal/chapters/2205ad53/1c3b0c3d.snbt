@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: -30.0d,
+	text: [
+		"喂食龙食给龙可增加龙的&c成长&r，准备大量龙食可直接将龙升级至5级"
+	],
+	dependencies: [
+		"ff93507e"
+	],
+	tasks: [{
+		uid: "319f9f39",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_meal"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -45.0d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"2e5e5a3e"
+	],
+	tasks: [{
+		uid: "fcb14ff2",
+		type: "item",
+		items: [{
+			item: "spartanfire:longsword_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

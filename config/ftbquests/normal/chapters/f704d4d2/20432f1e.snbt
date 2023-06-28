@@ -1,0 +1,12 @@
+{
+	title: "远程篇",
+	icon: "divinerpg:arksiane_bow",
+	x: 0.0d,
+	y: 0.0d,
+	size: 3.0d,
+	tasks: [{
+		uid: "a44df4e8",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

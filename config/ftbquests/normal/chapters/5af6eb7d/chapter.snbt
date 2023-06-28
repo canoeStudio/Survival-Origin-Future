@@ -1,0 +1,12 @@
+{
+	title: "古神的低语在耳边回荡",
+	icon: {
+		id: "abyssalcraft:necronomicon",
+		tag: {
+			PotEnergy: 0.0f
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

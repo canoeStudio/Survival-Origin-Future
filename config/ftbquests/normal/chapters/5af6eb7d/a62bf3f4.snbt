@@ -1,0 +1,19 @@
+{
+	x: 55.0d,
+	y: -5.0d,
+	description: "下一步的关键材料",
+	text: [
+		"只有深渊荒原的生物才能获得深渊荒原能量"
+	],
+	dependencies: [
+		"c66c4b3c",
+		"7a94c944"
+	],
+	tasks: [{
+		uid: "51b3a151",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:essence"
+		}]
+	}]
+}

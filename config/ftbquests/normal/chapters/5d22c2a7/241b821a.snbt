@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 45.0d,
+	description: "&c下界",
+	dependencies: [
+		"a2695a3c",
+		"215ec2f1",
+		"c9ec12bf"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "72418f55",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

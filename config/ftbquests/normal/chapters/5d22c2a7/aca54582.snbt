@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 105.0d,
+	description: "&5恐惧之地",
+	dependencies: [
+		"535b6e69"
+	],
+	tasks: [{
+		uid: "c5997d61",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadiumsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

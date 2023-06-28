@@ -1,0 +1,34 @@
+{
+	title: "珊瑚板套",
+	x: -5.0d,
+	y: 110.0d,
+	description: "&5荒芜之地&o",
+	text: [
+		"提供&c永久&r速度2、夜视1效果"
+	],
+	dependencies: [
+		"2d5addfc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3064d989",
+		type: "item",
+		title: "珊瑚板套",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Shanhuban"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Shanhuban"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

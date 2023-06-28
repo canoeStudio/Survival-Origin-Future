@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -20.0d,
+	description: "&a主世界&o",
+	text: [
+		"&c左键&r农作物可收获3×3范围的农作物",
+		"",
+		"该工具&c不提供&r补种效果"
+	],
+	dependencies: [
+		"1d84a715"
+	],
+	tasks: [{
+		uid: "f73539de",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:weta_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

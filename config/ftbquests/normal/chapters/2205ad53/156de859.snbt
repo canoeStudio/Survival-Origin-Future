@@ -1,0 +1,20 @@
+{
+	title: "击败塞壬",
+	icon: "divinerpg:aquaton",
+	x: -15.0d,
+	y: -20.0d,
+	dependencies: [
+		"52be482f"
+	],
+	tasks: [{
+		uid: "705e0690",
+		type: "kill",
+		entity: "iceandfire:siren",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eaa6d1fb",
+		type: "xp",
+		xp: 750
+	}]
+}

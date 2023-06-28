@@ -1,0 +1,7 @@
+{
+	title: "千里冰封，万里&1雪&r飘",
+	icon: "divinerpg:snowflake",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,16 @@
+{
+	icon: "minecraft:redstone_torch",
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"&c不要在副手使用召唤物&r，存在&c使主手持有的物品消失&r的问题"
+	],
+	dependencies: [
+		"58678e87"
+	],
+	tasks: [{
+		uid: "a2a2a4eb",
+		type: "checkmark",
+		title: "&c一个警告"
+	}]
+}

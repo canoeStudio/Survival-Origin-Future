@@ -1,0 +1,17 @@
+{
+	x: 45.0d,
+	y: -20.0d,
+	description: "&a主世界",
+	dependencies: [
+		"39e48cc5"
+	],
+	tasks: [{
+		uid: "1ba02710",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:lance_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

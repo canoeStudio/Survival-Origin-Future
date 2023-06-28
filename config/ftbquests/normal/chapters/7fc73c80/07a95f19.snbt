@@ -1,0 +1,17 @@
+{
+	x: 215.0d,
+	y: 105.0d,
+	text: [
+		"预兆之球是&c梦魇之球&r的一种，是在&c神圣附魔台&r上合成梦魇世界武器、防具的重要材料之一"
+	],
+	dependencies: [
+		"24396085"
+	],
+	tasks: [{
+		uid: "346ae89f",
+		type: "item",
+		items: [{
+			item: "divinerpg:darven_lump"
+		}]
+	}]
+}

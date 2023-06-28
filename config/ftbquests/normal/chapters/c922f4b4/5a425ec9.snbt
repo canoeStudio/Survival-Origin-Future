@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: 25.0d,
+	description: "&a一级饰品",
+	text: [
+		"由&c钴护盾&r和&c黑曜石骷髅头&r在&l铁砧&r上合成"
+	],
+	dependencies: [
+		"b7424afa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "228a8bcf",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:shieldobsidian",
+			tag: {
+				HideFlags: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "驯服骏鹰",
+	icon: "iceandfire:diamond_hippogryph_armor",
+	x: -5.0d,
+	y: 15.0d,
+	text: [
+		"详见&c任务&r：主世界——冰火传说"
+	],
+	dependencies: [
+		"3def7ccc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2910cf73",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

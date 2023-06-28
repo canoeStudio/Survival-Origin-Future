@@ -1,0 +1,17 @@
+{
+	x: -13.5d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"4db92bff"
+	],
+	tasks: [{
+		uid: "c036bd1f",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:rapier_silver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

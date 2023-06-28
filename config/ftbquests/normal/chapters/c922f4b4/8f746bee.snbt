@@ -1,0 +1,34 @@
+{
+	x: -10.0d,
+	y: 20.0d,
+	description: "&d三级饰品",
+	text: [
+		"提供永久&c防火&r、&c夜视&r效果，并能&c透视&r12格以内的矿物，按0打开探测开关"
+	],
+	dependencies: [
+		"f0fc4cbb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "58b61b8e",
+		type: "item",
+		items: [{
+			id: "xat:dragons_eye",
+			ForgeCaps: {
+				"xat:trinket": {
+					target: -1,
+					slot: -1,
+					handler: 0,
+					hitcount: 0,
+					exp: 0,
+					mana: 0,
+					main.ability: 0b,
+					alt.ability: 0b,
+					player.status: -1
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

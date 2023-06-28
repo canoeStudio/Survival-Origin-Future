@@ -1,0 +1,23 @@
+{
+	title: "击败特玛赛克特",
+	x: 65.0d,
+	y: 15.0d,
+	dependencies: [
+		"0463786f",
+		"123ed88d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "215f6203",
+		type: "kill",
+		icon: "divinerpg:termasect_statue",
+		entity: "divinerpg:termasect",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ea1131b5",
+		type: "xp",
+		auto: "enabled",
+		xp: 8500
+	}]
+}

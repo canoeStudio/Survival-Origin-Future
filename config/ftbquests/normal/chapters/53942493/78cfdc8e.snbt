@@ -1,0 +1,16 @@
+{
+	x: 35.0d,
+	y: 5.0d,
+	dependencies: [
+		"88326ae1"
+	],
+	tasks: [{
+		uid: "62a5ca38",
+		type: "item",
+		items: [{
+			item: "legendera:flame_thrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

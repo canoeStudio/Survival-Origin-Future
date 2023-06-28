@@ -1,0 +1,26 @@
+{
+	x: 60.0d,
+	y: -25.0d,
+	text: [
+		"在祭坛周围摆放它可以为祭坛充能从然&c升级祭坛&r",
+		"",
+		"第一次摆放时至少需要两个，摆放之后会出现动画提示，&c摆放无任何规则限制&r",
+		"",
+		"每达到&l一定数量便&r可升级祭坛，升级祭坛可使你&l学习下一阶段技能&r"
+	],
+	dependencies: [
+		"2e164fcd"
+	],
+	tasks: [{
+		uid: "00a8e4fc",
+		type: "item",
+		items: [{
+			item: "enderskills:crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "f47e149b",
+		type: "item",
+		item: "enderskills:crystal"
+	}]
+}

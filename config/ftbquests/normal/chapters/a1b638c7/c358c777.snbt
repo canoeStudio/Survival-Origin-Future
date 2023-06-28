@@ -1,0 +1,33 @@
+{
+	title: "打开战利品箱",
+	x: -45.0d,
+	y: 0.0d,
+	text: [
+		"在战利品箱中必定会有&c统御之冠&r，戴上它可以强迫周围的骷髅成为你的奴仆",
+		"",
+		"&c王之徽纪&r是重要的锻造材料"
+	],
+	dependencies: [
+		"36148dc6"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4b6544dc",
+		type: "item",
+		items: [{
+			id: "mod_lavacow:skeletonking_crown",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72bb9e6d",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:emblem_of_king"
+		}]
+	}]
+}

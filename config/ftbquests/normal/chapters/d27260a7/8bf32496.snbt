@@ -1,0 +1,23 @@
+{
+	title: "称谓",
+	icon: "titles:titlearchive",
+	x: 80.0d,
+	y: -10.0d,
+	text: [
+		"可按&lK&r或在&lQE菜单&r中打开称谓系统，通过完成&c进度&r来解锁称谓",
+		"",
+		"&c任何&r进度分支都可能给予称谓，只是多少的问题",
+		"",
+		"称谓等级由&r颜色&r划分，分为：白、&a绿&r、&b蓝&r、&d紫&r、&e黄金&r、&6暗金&r；墓碑魔法的称谓较为特殊，多数为&c红&r"
+	],
+	dependencies: [
+		"c17b9a94"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "8ac0a45a",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

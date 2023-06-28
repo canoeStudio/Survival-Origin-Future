@@ -1,0 +1,24 @@
+{
+	title: "击败卡洛斯",
+	x: 250.0d,
+	y: 125.0d,
+	description: "&a此任务可重复完成领取奖励",
+	can_repeat: true,
+	dependencies: [
+		"db095402"
+	],
+	optional: true,
+	tasks: [{
+		uid: "867841ac",
+		type: "kill",
+		icon: "divinerpg:arksiane_backsword",
+		entity: "divinerpg:karos",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e31fcac7",
+		type: "xp",
+		auto: "enabled",
+		xp: 13000
+	}]
+}

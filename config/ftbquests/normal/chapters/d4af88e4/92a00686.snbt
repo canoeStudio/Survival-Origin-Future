@@ -1,0 +1,16 @@
+{
+	x: 25.0d,
+	y: -27.5d,
+	dependencies: [
+		"1a7882d9"
+	],
+	tasks: [{
+		uid: "42d242a0",
+		type: "item",
+		items: [{
+			item: "divinerpg:livicia_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 135.0d,
+	y: 5.0d,
+	text: [
+		"可以将药水效果注入食物的加工装置，可以让你在食用食物时获得指定的药水效果"
+	],
+	dependencies: [
+		"6885ad06"
+	],
+	tasks: [{
+		uid: "930945c2",
+		type: "item",
+		items: [{
+			item: "add_potion:blackstonebrick"
+		}]
+	}]
+}

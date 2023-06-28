@@ -1,0 +1,29 @@
+{
+	title: "第一次合成仪式",
+	x: 25.0d,
+	y: 0.0d,
+	text: [
+		"只有通过仪式才可合成物品",
+		"",
+		"参考死灵之书：仪式——正常，第1页",
+		"",
+		"将所需材料放置在祭坛，无需区分&c面朝方向&r，但须&c严格按照&r书中的&c顺时针&r或&c逆时针&r顺序摆放",
+		"",
+		"摆放之后，手持死灵之书&c潜行右键&r最中间的基座展开仪式",
+		"",
+		"&c能量不足、摆放错误会导致仪式失败且不返还材料"
+	],
+	dependencies: [
+		"68f657a7",
+		"175d897f"
+	],
+	tasks: [{
+		uid: "95e1943c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutationgem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

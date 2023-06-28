@@ -1,0 +1,18 @@
+{
+	x: 60.0d,
+	y: 0.0d,
+	text: [
+		"霜域会生成樱钻、卢比、阿尔米特、诺米特、血石、熔岩、赫菲斯辛、影素、绯红矿石"
+	],
+	dependencies: [
+		"ba7ca490",
+		"28ee0842"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2dff1275",
+		type: "dimension",
+		title: "&1&3霜域",
+		dim: 1001
+	}]
+}

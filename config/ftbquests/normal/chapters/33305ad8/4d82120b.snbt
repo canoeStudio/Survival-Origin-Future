@@ -1,0 +1,34 @@
+{
+	title: "鹤嘴锄",
+	x: 0.0d,
+	y: -20.0d,
+	description: "&a主世界&o",
+	text: [
+		"集成&c斧&r、&c锹&r、&c锄&r的三合一工具"
+	],
+	dependencies: [
+		"1d84a715"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d106af54",
+		type: "item",
+		title: "鹤嘴锄",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Hezuichutool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Hezuichutool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -10.0d,
+	text: [
+		"可导出、传送漏斗中的物品",
+		"",
+		"有利于解决漏斗过多导致的顿卡问题"
+	],
+	dependencies: [
+		"4eae2ab6"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e435b27b",
+		type: "item",
+		items: [{
+			item: "hopperducts:hopperduct"
+		}]
+	}]
+}

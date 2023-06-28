@@ -1,0 +1,15 @@
+{
+	x: 55.0d,
+	y: -5.0d,
+	dependencies: [
+		"0fc91a04"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bbf4a92b",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_block"
+		}]
+	}]
+}

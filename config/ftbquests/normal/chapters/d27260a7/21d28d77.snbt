@@ -1,0 +1,29 @@
+{
+	title: "我该如何阅读任务书呢？",
+	icon: "ftbquests:book",
+	x: 15.5d,
+	y: 0.0d,
+	text: [
+		"这些任务真是太大庞大了……以至于你无从下手……好吧，确实有一些任务的优先级很高",
+		"",
+		"完成&c生存要素&r、&c成长曲线&r等&c3组&r任务，便可了解到了整合包的核心玩法！",
+		"",
+		"祝你好运！"
+	],
+	dependencies: [
+		"3ae62e52"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "4e5568f5",
+		type: "checkmark",
+		title: "&c点我点我点我！"
+	}],
+	rewards: [{
+		uid: "9d2851c3",
+		type: "item",
+		title: "送你一朵&e小黄花",
+		item: "minecraft:yellow_flower"
+	}]
+}

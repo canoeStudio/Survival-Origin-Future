@@ -1,0 +1,22 @@
+{
+	title: "毁灭者祭坛",
+	x: 265.0d,
+	y: 135.0d,
+	description: "第四层",
+	text: [
+		"毁灭者祭坛生成在梦魇世界第四层，是召唤毁灭者的场所",
+		"",
+		"祭坛在由红色的&c大厅墙&r组成的封闭建筑中；建筑外部通红色，外部能会生成战利品箱"
+	],
+	dependencies: [
+		"df550f39"
+	],
+	tasks: [{
+		uid: "ad2156a1",
+		type: "interaction",
+		title: "毁灭者祭坛",
+		icon: "divinerpg:wreck_altar",
+		match_type: "block_id",
+		match: "divinerpg:wreck_altar"
+	}]
+}

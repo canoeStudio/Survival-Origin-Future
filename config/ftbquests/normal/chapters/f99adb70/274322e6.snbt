@@ -1,0 +1,16 @@
+{
+	x: 25.0d,
+	y: 0.0d,
+	dependencies: [
+		"166adb99"
+	],
+	tasks: [{
+		uid: "6d05fd18",
+		type: "item",
+		items: [{
+			item: "divinerpg:icicle_bane"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

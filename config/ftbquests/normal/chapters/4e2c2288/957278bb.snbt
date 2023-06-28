@@ -1,0 +1,34 @@
+{
+	x: -10.0d,
+	y: 15.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"dd7ab884"
+	],
+	tasks: [{
+		uid: "910f6a95",
+		type: "item",
+		items: [{
+			id: "spartanshields:shield_basic_iron",
+			tag: {
+				Quality: {
+					Slots: [
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5804612466010668041L,
+						UUIDLeast: -8873236336726391935L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

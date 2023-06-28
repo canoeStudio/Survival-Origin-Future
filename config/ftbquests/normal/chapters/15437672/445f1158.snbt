@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"手持季节指示器便可查看当前季节，即使放在展示框中也不影响信息显示"
+	],
+	dependencies: [
+		"f342563d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e7cd1089",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "120e16f4",
+		type: "item",
+		item: "quark:glass_item_frame"
+	}]
+}

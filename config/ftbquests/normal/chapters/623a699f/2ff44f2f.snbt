@@ -1,0 +1,51 @@
+{
+	title: "&a击&r&b败&r&c艾&r&d瓦&r&e卡&r",
+	icon: "divinerpg:ayeraco_statue_blue",
+	x: 20.0d,
+	y: -5.0d,
+	description: "&a此任务可重复完成领取奖励",
+	text: [
+		"有一种颜色的非常恶sen人，你猜猜是哪个？"
+	],
+	can_repeat: true,
+	dependencies: [
+		"21a30d0b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7c4b20fa",
+		type: "kill",
+		entity: "divinerpg:ayeraco_blue",
+		value: 1L
+	},
+	{
+		uid: "008ee013",
+		type: "kill",
+		entity: "divinerpg:ayeraco_green",
+		value: 1L
+	},
+	{
+		uid: "d6ac61a6",
+		type: "kill",
+		entity: "divinerpg:ayeraco_purple",
+		value: 1L
+	},
+	{
+		uid: "46bcefaf",
+		type: "kill",
+		entity: "divinerpg:ayeraco_red",
+		value: 1L
+	},
+	{
+		uid: "49fb5ca1",
+		type: "kill",
+		entity: "divinerpg:ayeraco_yellow",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4facd80b",
+		type: "xp",
+		auto: "enabled",
+		xp: 2500
+	}]
+}

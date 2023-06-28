@@ -1,0 +1,17 @@
+{
+	x: 65.0d,
+	y: -5.0d,
+	description: "&6原始&o",
+	dependencies: [
+		"815f7944"
+	],
+	tasks: [{
+		uid: "fa68ddcc",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

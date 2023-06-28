@@ -1,0 +1,14 @@
+{
+	x: 160.0d,
+	y: 25.0d,
+	dependencies: [
+		"3a332a92"
+	],
+	tasks: [{
+		uid: "37a3eeb6",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:odbcore"
+		}]
+	}]
+}

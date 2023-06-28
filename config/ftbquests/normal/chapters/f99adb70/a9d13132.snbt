@@ -1,0 +1,16 @@
+{
+	x: 30.0d,
+	y: -15.0d,
+	dependencies: [
+		"f5f28d88"
+	],
+	tasks: [{
+		uid: "1db10f79",
+		type: "item",
+		items: [{
+			item: "divinerpg:fractite_cannon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

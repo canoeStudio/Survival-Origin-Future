@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -25.0d,
+	description: "&6伊甸&o",
+	dependencies: [
+		"cd2e8ae0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "735ea49d",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_slicer"
+		}]
+	}]
+}

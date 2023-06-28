@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -25.0d,
+	description: "&a主世界",
+	dependencies: [
+		"9b78a933"
+	],
+	tasks: [{
+		uid: "d3c41a47",
+		type: "item",
+		items: [{
+			item: "spartanfire:greatsword_dragonbone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

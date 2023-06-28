@@ -1,0 +1,21 @@
+{
+	title: "击败海蟒",
+	icon: "divinerpg:aquatic_maul",
+	x: -20.0d,
+	y: -20.0d,
+	dependencies: [
+		"0f986c93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ed607fb4",
+		type: "kill",
+		entity: "iceandfire:seaserpent",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "98d2e45c",
+		type: "xp",
+		xp: 1500
+	}]
+}

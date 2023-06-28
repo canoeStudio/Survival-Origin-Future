@@ -1,0 +1,31 @@
+{
+	x: 30.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "8fbbc6e7",
+		type: "item",
+		items: [{
+			id: "custommc:wqs8",
+			tag: {
+				Quality: {
+					Name: "quality.long.name",
+					Color: "blue",
+					Slots: [
+						"mainhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.5d,
+						Operation: 0,
+						UUIDMost: -2948554622785729798L,
+						UUIDLeast: -6473588330448000121L,
+						AttributeName: "generic.reachDistance"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

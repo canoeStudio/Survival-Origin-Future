@@ -1,0 +1,500 @@
+{
+	title: "战利品饰品",
+	x: 5.0d,
+	y: 10.0d,
+	description: "&a一级饰品",
+	text: [
+		"通过&c宝箱怪&r获取"
+	],
+	dependencies: [
+		"f0fc4cbb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6406e46",
+		type: "item",
+		items: [{
+			id: "artifacts:pocket_piston",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -6982249983323781564L,
+						UUIDLeast: -8466178727184519757L,
+						Amount: -0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.unlucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3c5bb7b",
+		type: "item",
+		items: [{
+			id: "artifacts:whoopie_cushion",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "058ce286",
+		type: "item",
+		items: [{
+			id: "artifacts:mechanical_glove",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1887652834358442858L,
+						UUIDLeast: -6755095002833625742L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f4f8320",
+		type: "item",
+		items: [{
+			id: "artifacts:thorn_pendant",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5143843532384416637L,
+						UUIDLeast: -5432200465300996604L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8547462299223608041L,
+						UUIDLeast: -7954010333099544030L,
+						Amount: 1.0d,
+						AttributeName: "xat.entityMagic.regen",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.focusing.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db75175f",
+		type: "item",
+		items: [{
+			id: "artifacts:shock_pendant",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2721292243093504403L,
+						UUIDLeast: -7461201409438365117L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7153008566638297993L,
+						UUIDLeast: -6752780609217916763L,
+						Amount: 1.0d,
+						AttributeName: "xat.entityMagic.regen",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.focusing.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6efb6c12",
+		type: "item",
+		items: [{
+			id: "artifacts:fire_gauntlet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6853f43f",
+		type: "item",
+		items: [{
+			id: "artifacts:star_cloak",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -456563900692806706L,
+						UUIDLeast: -8292533033373577195L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.shielding.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0fd48389",
+		type: "item",
+		items: [{
+			id: "artifacts:feral_claws",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -5584055087462922568L,
+						UUIDLeast: -5096076190489105340L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8039127493058344122L,
+						UUIDLeast: -6533667365100063506L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4438618859345431640L,
+						UUIDLeast: -5826174820764945194L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clunky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d0298195",
+		type: "item",
+		items: [{
+			id: "artifacts:panic_necklace",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 6079997694818274960L,
+						UUIDLeast: -6509177889459025609L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.armored.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99c79c23",
+		type: "item",
+		items: [{
+			id: "artifacts:bottled_cloud",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 8066060323092057715L,
+						UUIDLeast: -6035137767856664331L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "978aab35",
+		type: "item",
+		items: [{
+			id: "artifacts:bottled_fart",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "89b9b586",
+		type: "item",
+		items: [{
+			id: "artifacts:power_glove",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "58f3c957",
+		type: "item",
+		items: [{
+			id: "artifacts:flame_pendant",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -4390293128562325325L,
+						UUIDLeast: -8288828005183517219L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd315ce4",
+		type: "item",
+		items: [{
+			id: "artifacts:ultimate_pendant",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5816a0f4",
+		type: "item",
+		items: [{
+			id: "artifacts:magma_stone",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -6751702789582012336L,
+						UUIDLeast: -6553870645748672826L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fc1acc0f",
+		type: "item",
+		items: [{
+			id: "artifacts:antidote_vessel",
+			tag: {
+				Quality: {
+					Name: "quality.unlucky.name",
+					Color: "red",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: -0.20000000298023224d,
+						Operation: 0,
+						UUIDMost: -1928324343743232602L,
+						UUIDLeast: -6339522299124732001L,
+						AttributeName: "generic.luck"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb662f06",
+		type: "item",
+		items: [{
+			id: "artifacts:bubble_wrap",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23641c7f",
+		type: "item",
+		items: [{
+			id: "artifacts:sacrificial_amulet",
+			tag: {
+				Quality: {
+					Name: "quality.undying.name",
+					Color: "light_purple",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: -7249511001694581937L,
+						UUIDLeast: -8008448460671465316L,
+						AttributeName: "potioncore.damageResistance"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 2.0d,
+						Operation: 0,
+						UUIDMost: -8654609249433663545L,
+						UUIDLeast: -7338227581751106288L,
+						AttributeName: "generic.maxHealth"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 1.0d,
+						Operation: 0,
+						UUIDMost: -4715760674554491423L,
+						UUIDLeast: -6681939342686236333L,
+						AttributeName: "potioncore.magicShielding"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0d08bf11",
+		type: "item",
+		items: [{
+			id: "artifacts:lucky_clover",
+			tag: {
+				Quality: {
+					Name: "quality.undying.name",
+					Color: "light_purple",
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					AttributeModifiers: [{
+						Name: "qualitytools",
+						Amount: 0.029999999329447746d,
+						Operation: 2,
+						UUIDMost: 1655869604849207978L,
+						UUIDLeast: -8754698391435923299L,
+						AttributeName: "potioncore.damageResistance"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 2.0d,
+						Operation: 0,
+						UUIDMost: 893545725194879000L,
+						UUIDLeast: -4793605575150762857L,
+						AttributeName: "generic.maxHealth"
+					},
+					{
+						Name: "qualitytools",
+						Amount: 1.0d,
+						Operation: 0,
+						UUIDMost: 1415889853086515747L,
+						UUIDLeast: -7805000606836464195L,
+						AttributeName: "potioncore.magicShielding"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

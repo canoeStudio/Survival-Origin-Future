@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: 10.0d,
+	dependencies: [
+		"166adb99"
+	],
+	tasks: [{
+		uid: "bd43b032",
+		type: "item",
+		items: [{
+			id: "divinerpg:massivence",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

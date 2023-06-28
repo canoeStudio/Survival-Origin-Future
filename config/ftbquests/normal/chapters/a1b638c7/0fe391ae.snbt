@@ -1,0 +1,21 @@
+{
+	x: 20.0d,
+	y: 2.5d,
+	text: [
+		"驯服之后可用&c木棍&r可命令它跟随、徘徊、原地待命",
+		"",
+		"沙滩上可能会生成&c海鸥&r，其特性与渡鸦一致"
+	],
+	dependencies: [
+		"2d814e1c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3480f429",
+		type: "interaction",
+		title: "驯服渡鸦",
+		icon: "mod_lavacow:feather_black",
+		match_type: "entity_id",
+		match: "mod_lavacow:raven"
+	}]
+}

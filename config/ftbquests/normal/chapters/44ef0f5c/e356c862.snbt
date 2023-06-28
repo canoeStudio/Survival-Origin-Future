@@ -1,6 +1,11 @@
 {
+	title: "暮色森林！",
 	x: 20.0d,
 	y: 0.0d,
+	description: "使用暮光水晶激活暮色森林传送门",
+	text: [
+		""
+	],
 	hide: true,
 	size: 2.0d,
 	tasks: [{

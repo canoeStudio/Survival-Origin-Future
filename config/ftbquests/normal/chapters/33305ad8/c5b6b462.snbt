@@ -1,0 +1,32 @@
+{
+	title: "伊甸工具",
+	x: 0.0d,
+	y: 95.0d,
+	description: "&6伊甸&o",
+	dependencies: [
+		"1342f699"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "2ed04507",
+		type: "item",
+		title: "伊甸工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Yidiantool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Yidiantool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

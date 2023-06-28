@@ -1,0 +1,35 @@
+{
+	title: "魔界紫晶工具",
+	disable_toast: true,
+	x: 0.0d,
+	y: 45.0d,
+	description: "&d魔界&o",
+	dependencies: [
+		"39d50eb5",
+		"f1d56e4f"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "58fde7b0",
+		type: "item",
+		title: "魔界紫晶工具",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Mojiezijingtool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Mojiezijingtool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

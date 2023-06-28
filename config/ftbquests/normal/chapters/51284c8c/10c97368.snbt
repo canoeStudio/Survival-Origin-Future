@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	text: [
+		"末影人变异体生成的分身，很脆弱"
+	],
+	dependencies: [
+		"dba1d867"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd8d0963",
+		type: "observation",
+		title: "发现末影人分身",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mutantbeasts:endersoul_clone"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "mutantbeasts:endersoul_clone",
+		timer: 0L
+	}]
+}

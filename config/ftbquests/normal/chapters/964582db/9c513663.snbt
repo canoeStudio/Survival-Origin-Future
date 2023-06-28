@@ -1,0 +1,21 @@
+{
+	title: "绳梯",
+	x: 20.0d,
+	y: 5.0d,
+	text: [
+		"一种专为从上往下铺设而设计的梯子",
+		"",
+		"放置第一个绳梯之后，手持绳梯右键&c第一个绳梯&r便可自动向下铺设，且第二格以后的绳梯均&c不需要&r有方块依附；&c潜行右键&r可回收绳梯"
+	],
+	dependencies: [
+		"fd53cfce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac601dba",
+		type: "item",
+		items: [{
+			item: "ropeladders:rope_ladder"
+		}]
+	}]
+}

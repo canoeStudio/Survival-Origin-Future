@@ -1,0 +1,17 @@
+{
+	x: 25.0d,
+	y: 30.0d,
+	description: "&a主世界&o",
+	dependencies: [
+		"b2f6d7ab"
+	],
+	tasks: [{
+		uid: "3c301b17",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_stabber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

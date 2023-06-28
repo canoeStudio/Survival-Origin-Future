@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -25.0d,
+	dependencies: [
+		"19bc821a"
+	],
+	tasks: [{
+		uid: "dfa58ba7",
+		type: "item",
+		title: "龙鳞",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any Longlin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "Longlin"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "来自霍格沃兹的好东西(不是",
+	icon: "minecraft:ender_pearl",
+	x: 100.0d,
+	y: -5.0d,
+	description: "几乎完美的传送手段",
+	text: [
+		"可跨纬将使用者传送至指定地点或是队友旁边，无冷却，也无任何额外消耗"
+	],
+	dependencies: [
+		"96e667cd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5c10dac",
+		type: "checkmark",
+		title: "我理解了"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	description: "雪的世界",
+	text: [
+		"无BOSS的维度"
+	],
+	dependencies: [
+		"dbdbb781"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "846ec048",
+		type: "dimension",
+		title: "&1冰晶雪原",
+		dim: 994
+	}]
+}

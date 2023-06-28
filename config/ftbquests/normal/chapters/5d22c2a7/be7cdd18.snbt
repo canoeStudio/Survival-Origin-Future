@@ -1,0 +1,21 @@
+{
+	x: 45.0d,
+	y: -65.0d,
+	description: "&5恐惧之地",
+	dependencies: [
+		"3aeb74db",
+		"56a90fbd",
+		"08ec525e"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e2e3ab2c",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:lance_platinum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

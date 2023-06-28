@@ -1,0 +1,7 @@
+{
+	title: "神圣RPG",
+	icon: "divinerpg:black_ender_sword",
+	always_invisible: false,
+	group: -1228302012,
+	default_quest_shape: ""
+}
