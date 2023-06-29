@@ -1,10 +1,10 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
+ * This script is created for the vsaccr modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 32000
-#no_fix_recipe_book
+
 
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;

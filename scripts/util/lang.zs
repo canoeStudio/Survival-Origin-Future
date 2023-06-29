@@ -1,10 +1,10 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
+ * This script is created for the vsaccr modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
 #priority 32000
-#no_fix_recipe_book
+
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.text.ITextComponent;
@@ -21,9 +21,9 @@ function broadcast(msg as ITextComponent) {
 }
 
 function getLanguage() as string {
-    var lang as string = game.localize("greedycraft.language");
+    var lang as string = game.localize("vsaccr.language");
     var ret as string = "en_us";
-    if (isNull(lang) || lang == "greedycraft.language" || lang == "") {
+    if (isNull(lang) || lang == "vsaccr.language" || lang == "") {
         if (DEFAULT_LANGUAGE.trim() == "") {
             if (VersionUtil.getVersionGroup() == 0) {
                 ret = "zh_cn";

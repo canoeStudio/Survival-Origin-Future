@@ -1,5 +1,5 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
+ * This script is created for the vsaccr modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 

@@ -1,5 +1,5 @@
 #priority 32766
-#no_fix_recipe_book
+
 #packmode expert
 
 global FROSTMAW_HP as int = 45000;

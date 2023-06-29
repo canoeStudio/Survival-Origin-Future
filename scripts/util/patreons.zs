@@ -1,10 +1,10 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
+ * This script is created for the VSACCR modpack by Canoe Studio.
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
- */ 
+ */
 
 #priority 32200
-#no_fix_recipe_book
+
 
 import crafttweaker.player.IPlayer;
 import mods.versioner.Versioner;
@@ -79,11 +79,11 @@ function getPlayerPrefixKey(player as IPlayer) as string {
     var level as int = getSponsorLevel(player);
     val mapping as string[int] = {
         0: "", 
-        1: "greedycraft.event.sponsor.prefix.redstone", 
-        2: "greedycraft.event.sponsor.prefix.gold", 
-        3: "greedycraft.event.sponsor.prefix.diamond", 
-        4: "greedycraft.event.sponsor.prefix.emerald",
-        666: "greedycraft.event.sponsor.prefix.creator"
+        1: "vsaccr.event.sponsor.prefix.redstone", 
+        2: "vsaccr.event.sponsor.prefix.gold", 
+        3: "vsaccr.event.sponsor.prefix.diamond", 
+        4: "vsaccr.event.sponsor.prefix.emerald",
+        666: "vsaccr.event.sponsor.prefix.creator"
     };
     var ret = mapping[level];
     if(isNull(ret)) {

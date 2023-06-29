@@ -49,7 +49,7 @@ purgeCommand.register();
 
 val suicideCommand as ZenCommand = ZenCommand.create("suicide");
 suicideCommand.getCommandUsage = function(sender) {
-    return "greedycraft.command.suicideCommand.usage";
+    return "vsaccr.command.suicideCommand.usage";
 };
 suicideCommand.requiredPermissionLevel = 0;
 suicideCommand.execute = function(command, server, sender, args) {
