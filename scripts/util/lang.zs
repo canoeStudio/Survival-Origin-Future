@@ -13,23 +13,26 @@ import mods.zenutils.I18n;
 
 import scripts.util.versions as VersionUtil;
 
-function broadcast(msg as ITextComponent) {
-    var players as IPlayer[] = server.getPlayers() as IPlayer[];
-    for player in players {
-        player.sendRichTextMessage(msg);
-    }
-}
-
 function getLanguage() as string {
     var lang as string = game.localize("vsaccr.language");
     var ret as string = "en_us";
+    var versionGroup = VersionUtil.getVersionGroup();
+
     if (isNull(lang) || lang == "vsaccr.language" || lang == "") {
         if (DEFAULT_LANGUAGE.trim() == "") {
-            if (VersionUtil.getVersionGroup() == 0) {
+            if (versionGroup == 0) {
                 ret = "zh_cn";
-            } else {
+            } else if (versionGroup == 1) {
                 ret = "en_us";
+            } else if (versionGroup == 2) {
+                ret = "fr_fr";
+            } else if (versionGroup == 3) {
+                ret = "es_es";
             }
+            // 添加更多版本组的条件分支和对应的语言选项
+            // else if (versionGroup == 4) {
+            //     ret = "zh_tw";
+            // }
         } else {
             ret = DEFAULT_LANGUAGE.trim();
         }
@@ -40,11 +43,24 @@ function getLanguage() as string {
             ret = DEFAULT_LANGUAGE.trim();
         }
     }
-    if (!(SUPPORTED_LANGUAGES has ret)) {
-        return "en_us";
+
+    var SUPPORTED_LANGUAGES = {
+        "en_us": true,
+        "zh_cn": true,
+        "fr_fr": true,
+        "es_es": true
+        // 添加更多支持的语言选项
+    };
+
+    if (!SUPPORTED_LANGUAGES.hasOwnProperty(ret)) {
+        ret = "en_us";
     }
+
     return ret;
 }
+
+
+
 
 function translate(key as string) as string {
     var lang = getLanguage();

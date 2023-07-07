@@ -25,5 +25,5 @@ function getVersionGroup() as int {
 }
 
 function isServerPack() as bool {
-    return !(loadedMods.contains("resourceloader")) as bool;
+    return !(loadedMods.contains("txloader")) as bool;
 }

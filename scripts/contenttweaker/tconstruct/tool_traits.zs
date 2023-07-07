@@ -35,7 +35,7 @@ pinkyTrait.onBlockHarvestDrops = function(trait, tool, event) {
     if (!event.silkTouch && event.block.definition.id == "minecraft:diamond_ore") {
         if (Math.random() < 0.2) {
             event.addItem(<item:sakura:sakura_diamond>);
-        }-
+        }
     }
 };
 pinkyTrait.register();

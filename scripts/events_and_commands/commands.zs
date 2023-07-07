@@ -60,3 +60,4 @@ suicideCommand.execute = function(command, server, sender, args) {
     }
 };
 suicideCommand.register();
+

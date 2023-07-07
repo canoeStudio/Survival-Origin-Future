@@ -10,7 +10,6 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
 import scripts.util.recipes as RecipeUtil;
-import scripts.util.lang as LangUtil;
 
 ////////////////////////////////
 //                            //
