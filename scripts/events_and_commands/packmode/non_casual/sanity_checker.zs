@@ -59,7 +59,6 @@ static disallowedMods as string[] = [
 ];
 
 function badModLoaded() as bool {
-    var ret as bool = false;
     for mod in disallowedMods {
         if (loadedMods has mod) {
             return true;
@@ -93,20 +92,25 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     }
 });
 
+var potionBlindnessDuration as int = 200;
+var potionWitherDuration as int = 200;
+var potionWitherAmplifier as int = 4;
+var tickInterval40 as int = 40;
+var tickInterval600 as int = 600;
+
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
+    var player = event.player;
 
     if (!badModLoaded() || event.phase != "END" || event.side != "SERVER") {
         return;
     }
 
-    var player = event.player;
-
-    if (!player.creative && player.world.getWorldTime() % 40 == 0) {
-        player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(200, 0, false, false));
-        player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(200, 4, false, false));
+    if (!player.creative && player.world.getWorldTime() % tickInterval40 == 0) {
+        player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(potionBlindnessDuration, 0, false, false));
+        player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(potionWitherDuration, potionWitherAmplifier, false, false));
     }
     
-    if (!player.creative && player.world.getWorldTime() % 600 == 0) {
+    if (!player.creative && player.world.getWorldTime() % tickInterval600 == 0) {
         server.commandManager.executeCommand(server, "/clear " + player.name);
         server.commandManager.executeCommand(server, "/kill " + player.name);
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.pls_remove"));

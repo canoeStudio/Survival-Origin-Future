@@ -17,13 +17,14 @@ import scripts.util.recipes as RecipeUtil;
 //                            // 
 ////////////////////////////////
 
-RecipeUtil.addShaped("minecraft_furnace", <minecraft:furnace>, [
-    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-    [<minecraft:cobblestone>, <ore:blockClay>, <minecraft:cobblestone>],
-    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
+RecipeUtil.addShaped("auto_gen_-444867109", <tconstruct:tooltables>, [
+    [<ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>]
 ]);
-
-
+RecipeUtil.addShaped("auto_gen_272915411", <minecraft:crafting_table> * 4, [
+    [<ore:workbench>, <ore:workbench>],
+    [<ore:workbench>, <ore:workbench>]
+]);
 
 /* Templates
 

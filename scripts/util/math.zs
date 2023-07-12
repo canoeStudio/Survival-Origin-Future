@@ -9,10 +9,17 @@
 import mods.ctutils.utils.Math;
 
 // For calculating power of int values 
-function pow(base as int, exp as int) as long {
-    var ret as long = 1 as long;
-    for i in 0 to exp {
-        ret *= base;
+function pow(base as int, exp as int) {
+    if (exp < 0) {
+        // 处理负指数的情况
+        return 1 / pow(base, -exp);
     }
-    return ret as long;
+
+    var result = 1;
+
+    for i in 0 to exp {
+        result *= base;
+    }
+
+    return result;
 }

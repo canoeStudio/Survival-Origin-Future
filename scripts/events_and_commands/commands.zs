@@ -31,7 +31,6 @@ import mods.zenutils.command.TabCompletion;
 import mods.zenutils.StringList;
 import mods.zenutils.I18n;
 
-import scripts.util.lang as LangUtil;
 
 val purgeCommand as ZenCommand = ZenCommand.create("purge");
 purgeCommand.getCommandUsage = function(sender) {
