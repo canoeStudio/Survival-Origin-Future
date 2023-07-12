@@ -1,0 +1,7 @@
+{
+	title: "巫术学魔法",
+	icon: "ebwizardry:wizard_handbook",
+	always_invisible: false,
+	group: 539994519,
+	default_quest_shape: ""
+}

@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: 16.0d,
+	tasks: [{
+		uid: "cd75b586",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spell_book 1 103"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "合成植物线",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"方法使用燧石小刀挖掘草获得纤维"
+	],
+	dependencies: [
+		"baeb2c9e"
+	],
+	tasks: [{
+		uid: "2355fe64",
+		type: "item",
+		items: [{
+			item: "notreepunching:grass_string"
+		}]
+	}],
+	rewards: [{
+		uid: "ab5a4ec6",
+		type: "item",
+		item: {
+			id: "minecraft:diamond",
+			ForgeCaps: {
+				"treasure2:pouchable": {}
+			}
+		}
+	},
+	{
+		uid: "99311aa4",
+		type: "item",
+		item: "notreepunching:grass_string",
+		count: 16
+	}]
+}

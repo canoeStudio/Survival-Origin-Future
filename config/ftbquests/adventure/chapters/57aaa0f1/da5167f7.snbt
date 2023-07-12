@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"289d72c8"
+	],
+	tasks: [{
+		uid: "bc7f7bc7",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "3945bdaf",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "39f43cbf",
+		type: "item",
+		item: "minecraft:chest",
+		count: 2
+	}]
+}

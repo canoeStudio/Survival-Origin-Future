@@ -1,0 +1,7 @@
+{
+	title: "收集巫术学全部书籍",
+	icon: "tfspellpack:twilight_spell_book 1 189",
+	always_invisible: false,
+	group: 1726218731,
+	default_quest_shape: ""
+}

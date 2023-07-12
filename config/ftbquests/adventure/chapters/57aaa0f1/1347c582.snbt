@@ -1,0 +1,22 @@
+{
+	title: "获得燧石",
+	x: -4.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ca772adb",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "973d66c2",
+		type: "item",
+		item: "minecraft:flint",
+		count: 16
+	}]
+}

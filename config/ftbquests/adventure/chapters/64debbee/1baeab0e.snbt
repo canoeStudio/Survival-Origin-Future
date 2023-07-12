@@ -1,0 +1,24 @@
+{
+	title: "砍任意木头 16*",
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"10d22bc0"
+	],
+	tasks: [{
+		uid: "461a7a7f",
+		type: "item",
+		items: [{
+			id: "minecraft:log",
+			tag: {
+				display: {
+					Name: "砍任意 16* 木头"
+				}
+			}
+		}],
+		count: 16L
+	}]
+}

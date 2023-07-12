@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"1347c582"
+	],
+	tasks: [{
+		uid: "f42421c6",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3568364b",
+		type: "item",
+		item: "notreepunching:flint_shard",
+		count: 16
+	},
+	{
+		uid: "e225ee9a",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

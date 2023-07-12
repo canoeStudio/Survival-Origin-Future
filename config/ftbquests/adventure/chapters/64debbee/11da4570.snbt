@@ -1,0 +1,19 @@
+{
+	title: "收集碎石",
+	x: -2.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"441a5160"
+	],
+	tasks: [{
+		uid: "b5c464cd",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 6L
+	}]
+}

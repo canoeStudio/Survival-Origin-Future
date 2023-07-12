@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"13e4ea3e"
+	],
+	tasks: [{
+		uid: "6e376638",
+		type: "item",
+		items: [{
+			item: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f645f7a6",
+		type: "item",
+		item: "minecraft:flint",
+		count: 16
+	}]
+}

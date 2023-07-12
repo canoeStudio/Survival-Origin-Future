@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -2.0d,
+	dependencies: [
+		"279618ae"
+	],
+	tasks: [{
+		uid: "50d64569",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a21a8e1",
+		type: "item",
+		item: {
+			id: "minecraft:diamond",
+			ForgeCaps: {
+				"treasure2:pouchable": {}
+			}
+		},
+		count: 3
+	}]
+}

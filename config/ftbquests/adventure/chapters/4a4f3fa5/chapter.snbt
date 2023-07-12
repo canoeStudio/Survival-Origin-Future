@@ -1,0 +1,10 @@
+{
+	title: "{greedycraft.quest.chapter.botania}",
+	icon: {
+		id: "botania:lexicon",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 539994519,
+	default_quest_shape: ""
+}

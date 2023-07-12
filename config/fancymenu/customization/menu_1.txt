@@ -9,13 +9,18 @@ customization-meta {
 }
 
 customization {
-  path = config/txloader/load/vsaccr/backgrounds/18.png
+  path = resources/vsaccr/backgrounds/10.png
   action = texturizebackground
 }
 
 customization {
   keepaspectratio = false
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
 }
 
 customization {
@@ -52,7 +57,7 @@ customization {
   width = 150
   action = deep_customization_element:title_screen_forge_copyright
   actionid = f09fde41-4bf7-4787-ad12-a0235e00c10d1683958982795
-  y = 309
+  y = 333
   height = 9
 }
 
@@ -69,7 +74,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 183
   width = 274
   action = deep_customization_element:title_screen_logo
@@ -79,15 +84,15 @@ customization {
 }
 
 customization {
-  orientation = original
+  orientation = bottom-left
   splash_color = #ffff00
   hidden = false
-  x = 0
+  x = 452
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = c38e50aa-f2c9-4342-b88b-7d8ec2329ff31683958982802
-  y = 0
+  y = -272
   height = 30
 }
 
@@ -111,30 +116,14 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/txloader/load/vsaccr/mainmenu/longbuttonhd.png
-  backgroundnormal = config/txloader/load/vsaccr/mainmenu/longbuttonhd1.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/txloader/load/vsaccr/mainmenu/shortbuttonhd1.png
-  backgroundnormal = config/txloader/load/vsaccr/mainmenu/shortbuttonhd.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/txloader/load/vsaccr/mainmenu/shortbuttonhd1.png
-  backgroundnormal = config/txloader/load/vsaccr/mainmenu/shortbuttonhd.png
+  path = resources/vsaccr/mainmenu/banner.png
+  orientation = top-centered
+  x = -143
+  width = 287
+  actionid = 8300f5b9-d80e-423d-a66d-82ead3c5151d1689145498734
+  action = addtexture
+  y = 21
+  height = 100
 }
 
 customization {
@@ -142,16 +131,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/txloader/load/vsaccr/mainmenu/longbuttonhd.png
-  backgroundnormal = config/txloader/load/vsaccr/mainmenu/longbuttonhd1.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/txloader/load/vsaccr/mainmenu/longbuttonhd.png
-  backgroundnormal = config/txloader/load/vsaccr/mainmenu/longbuttonhd1.png
+  backgroundhovered = resources/vsaccr/mainmenu/longbuttonhd1.png
+  backgroundnormal = resources/vsaccr/mainmenu/longbuttonhd.png
 }
 
