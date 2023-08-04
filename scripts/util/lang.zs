@@ -28,7 +28,10 @@ function getLanguage() as string {
                 ret = "fr_fr";
             } else if (versionGroup == 3) {
                 ret = "es_es";
+            } else if (versionGroup == 4) {
+                ret = "zh_tw";
             }
+
             // 添加更多版本组的条件分支和对应的语言选项
             // else if (versionGroup == 4) {
             //     ret = "zh_tw";
@@ -48,8 +51,8 @@ function getLanguage() as string {
         "en_us": true,
         "zh_cn": true,
         "fr_fr": true,
-        "es_es": true
-        // 添加更多支持的语言选项
+        "es_es": true,
+        "zh_tw": true,
     };
 
     if (!SUPPORTED_LANGUAGES.hasOwnProperty(ret)) {
@@ -62,61 +65,3 @@ function getLanguage() as string {
 
 
 
-function translate(key as string) as string {
-    var lang = getLanguage();
-    if (serverTranslations has lang) {
-        if (serverTranslations[lang] has key) {
-            return serverTranslations[lang][key];
-        } else {
-            return game.localize(key);
-        }
-    } else {
-        if (serverTranslations["en_us"] has key) {
-            return serverTranslations["en_us"][key];
-        } else {
-            return game.localize(key);
-        }
-    }
-}
-
-function format(key as string, obj as string) as string {
-    var lang = getLanguage();
-    if (serverTranslations has lang) {
-        if (serverTranslations[lang] has key) {
-            return serverTranslations[lang][key].replace("%s", obj);
-        } else {
-            return I18n.format(key, obj);
-        }
-    } else {
-        if (serverTranslations["en_us"] has key) {
-            return serverTranslations["en_us"][key].replace("%s", obj);
-        } else {
-            return I18n.format(key, obj);
-        }
-    }
-}
-
-function formatArray(key as string, objects as string[]) as string {
-    var lang = getLanguage();
-    if (serverTranslations has lang) {
-        if (serverTranslations[lang] has key) {
-            var str as string = serverTranslations[lang][key];
-            for obj in objects {
-                str = str.replaceFirst("%s", obj);
-            }
-            return str;
-        } else {
-            return I18n.format(key, objects);
-        }
-    } else {
-        if (serverTranslations["en_us"] has key) {
-            var str as string = serverTranslations["en_us"][key];
-            for obj in objects {
-                str = str.replaceFirst("%s", obj);
-            }
-            return str;
-        } else {
-            return I18n.format(key, objects);
-        }
-    }
-}

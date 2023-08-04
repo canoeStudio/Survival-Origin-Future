@@ -1,12 +1,13 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- */
+ * All Rights Reserved: Canoe Studio (2020-2023)
+ * Unless expressly stated in writing by Canoe Studio, all content contained in this document, including but not limited to text, graphics, images, audio, and video files, is protected by copyright law and other intellectual property laws. Without permission, no part of this document may be reproduced, modified, distributed, published, displayed, or used in any other way.
+ * Canoe Studio retains full ownership of its brand, trademarks, and logos, among other intellectual property rights. Without the explicit written permission of Canoe Studio, no one may use or display the brand, trademarks, or logos of Canoe Studio.
+ * Canoe Studio reserves the right to modify, update, and supplement this document to ensure its accuracy and completeness. Canoe Studio shall not be liable for any errors or omissions in this document.
+ */ 
 
 #priority 233
 
 
-#packmode adventure expert
 
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
@@ -40,84 +41,3 @@ import scripts.util.lang as LangUtil;
 // Perfectly balanced.
 // As everything should be.
 
-static disallowedMods as string[] = [
-    "xijun",
-    "bacteria",
-    "deconstruction",
-    "lastsword",
-    "lolipickaxe",
-    "manaita",
-    "torcherino",
-    "decomp_table",
-    "deconstrcution_table",
-    "decon_table",
-    "decontable",
-    "xray",
-    "uncrafting_table",
-    "slashblade",
-    "slashbladetic"
-];
-
-function badModLoaded() as bool {
-    for mod in disallowedMods {
-        if (loadedMods has mod) {
-            return true;
-        }
-    }
-    return false;
-}
-
-for mod in disallowedMods {
-    if (loadedMods has mod) {
-        for item in loadedMods[mod].items {
-            ItemStages.removeItemStage(item);
-            ItemStages.addItemStage("disabled", item);
-            ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.disabled_item.name"), item);
-            RecipeUtil.remove(item);
-            JEI.removeAndHide(item);
-            item.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
-        }
-    }
-}
-
-events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
-    var player as IPlayer = event.player;
-    if (badModLoaded()) {
-        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.pls_remove"));
-        for mod in disallowedMods {
-            if (loadedMods has mod) {
-                player.sendChat("§b" + loadedMods[mod].name + "  §e" + loadedMods[mod].version);
-            }
-        }
-    }
-});
-
-var potionBlindnessDuration as int = 200;
-var potionWitherDuration as int = 200;
-var potionWitherAmplifier as int = 4;
-var tickInterval40 as int = 40;
-var tickInterval600 as int = 600;
-
-events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
-    var player = event.player;
-
-    if (!badModLoaded() || event.phase != "END" || event.side != "SERVER") {
-        return;
-    }
-
-    if (!player.creative && player.world.getWorldTime() % tickInterval40 == 0) {
-        player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(potionBlindnessDuration, 0, false, false));
-        player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(potionWitherDuration, potionWitherAmplifier, false, false));
-    }
-    
-    if (!player.creative && player.world.getWorldTime() % tickInterval600 == 0) {
-        server.commandManager.executeCommand(server, "/clear " + player.name);
-        server.commandManager.executeCommand(server, "/kill " + player.name);
-        player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.anticheat.pls_remove"));
-        for mod in disallowedMods {
-            if (loadedMods has mod) {
-                player.sendChat("§b" + loadedMods[mod].name + "  §e" + loadedMods[mod].version);
-            }
-        }
-    }
-});

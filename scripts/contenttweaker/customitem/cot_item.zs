@@ -5,5 +5,26 @@
  * Canoe Studio reserves the right to modify, update, and supplement this document to ensure its accuracy and completeness. Canoe Studio shall not be liable for any errors or omissions in this document.
  */ 
 
-#priority 30
+
+#loader contenttweaker
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+
+
+val twilightGem= VanillaFactory.createItem("twilight_gem");
+twilightGem.glowing = true;
+twilightGem.maxStackSize = 64;
+twilightGem.creativeTab = <creativetab:misc>;
+twilightGem.register();
+
+val chaosGem= VanillaFactory.createItem("chaos_gem");
+chaosGem.glowing = true;
+chaosGem.maxStackSize = 64;
+chaosGem.creativeTab = <creativetab:misc>;
+chaosGem.register();
+
+val AngelCore= VanillaFactory.createItem("angel_core");
+AngelCore.maxStackSize =64;
+AngelCore.creativeTab = <creativeTab:misc>;
+AngelCore.register();
 

@@ -5,29 +5,13 @@
  * Canoe Studio reserves the right to modify, update, and supplement this document to ensure its accuracy and completeness. Canoe Studio shall not be liable for any errors or omissions in this document.
  */ 
 
- 
-#priority 32767
+
+
+
 
 
 import crafttweaker.item.IItemStack;
-import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.block.IBlock;
 
-global dyeList as IIngredient[] = [
-    <ore:dyeBlack>,
-    <ore:dyeRed>,
-    <ore:dyeGreen>,
-    <ore:dyeBrown>,
-    <ore:dyeBlue>,
-    <ore:dyePurple>,
-    <ore:dyeCyan>,
-    <ore:dyeLightGray>,
-    <ore:dyeGray>,
-    <ore:dyePink>,
-    <ore:dyeLime>,
-    <ore:dyeYellow>,
-    <ore:dyeLightBlue>,
-    <ore:dyeMagenta>,
-    <ore:dyeOrange>,
-    <ore:dyeWhite>
-];
+

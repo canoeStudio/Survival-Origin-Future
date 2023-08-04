@@ -1,7 +1,10 @@
 /*
- * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission. 
- */
+ * All Rights Reserved: Canoe Studio (2020-2023)
+ * Unless expressly stated in writing by Canoe Studio, all content contained in this document, including but not limited to text, graphics, images, audio, and video files, is protected by copyright law and other intellectual property laws. Without permission, no part of this document may be reproduced, modified, distributed, published, displayed, or used in any other way.
+ * Canoe Studio retains full ownership of its brand, trademarks, and logos, among other intellectual property rights. Without the explicit written permission of Canoe Studio, no one may use or display the brand, trademarks, or logos of Canoe Studio.
+ * Canoe Studio reserves the right to modify, update, and supplement this document to ensure its accuracy and completeness. Canoe Studio shall not be liable for any errors or omissions in this document.
+ */ 
+
 
 #priority 4002
 
@@ -14,7 +17,73 @@ import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
     <minecraft:crafting_table>,
-    <croparia:fruit_start>
+    <waystones:warp_stone>,
+    <projecte:item.pe_alchemical_bag>,
+    <projecte:item.pe_alchemical_bag:1>,
+    <projecte:item.pe_alchemical_bag:2>,
+    <projecte:item.pe_alchemical_bag:3>,
+    <projecte:item.pe_alchemical_bag:4>,
+    <projecte:item.pe_alchemical_bag:5>,
+    <projecte:item.pe_alchemical_bag:6>,
+    <projecte:item.pe_alchemical_bag:7>,
+    <projecte:item.pe_alchemical_bag:8>,
+    <projecte:item.pe_alchemical_bag:9>,
+    <projecte:item.pe_alchemical_bag:10>,
+    <projecte:item.pe_alchemical_bag:11>,
+    <projecte:item.pe_alchemical_bag:12>,
+    <projecte:item.pe_alchemical_bag:13>,
+    <projecte:item.pe_alchemical_bag:14>,
+    <projecte:item.pe_alchemical_bag:15>,
+    <projecte:item.pe_philosophers_stone>,
+    <projecte:transmutation_table>,
+    <projecte:interdiction_torch>,
+    <projecte:item.pe_transmutation_tablet>,
+    <projectex:arcane_tablet>,
+    <fd:smoker>,
+    <minecraft:stone_slab:3>,
+    <minecraft:stone_stairs>,
+    <appliedenergistics2:sky_stone_stairs>,
+    <appliedenergistics2:sky_stone_slab>,
+    <appliedenergistics2:smooth_sky_stone_stairs>,
+    <appliedenergistics2:sky_stone_brick_stairs>,
+    <appliedenergistics2:sky_stone_small_brick_stairs>,
+    <appliedenergistics2:smooth_sky_stone_slab>,
+    <appliedenergistics2:sky_stone_brick_slab>,
+    <appliedenergistics2:sky_stone_small_brick_slab>,
+    <minecraft:brick_stairs>,
+    <minecraft:stone_brick_stairs>,
+    <minecraft:stone_slab:4>,
+    <minecraft:stone_slab:5>,
+    <minecraft:oak_stairs>,
+    <minecraft:wooden_slab>,
+    <minecraft:wooden_slab:1>,
+    <minecraft:wooden_slab:2>,
+    <minecraft:wooden_slab:3>,
+    <minecraft:wooden_slab:4>,
+    <minecraft:wooden_slab:5>,
+    <minecraft:spruce_stairs>,
+    <minecraft:birch_stairs>,
+    <minecraft:jungle_stairs>,
+    <minecraft:acacia_stairs>,
+    <minecraft:dark_oak_stairs>,
+    <twilightforest:uncrafting_table>,
+    <actuallyadditions:block_tiny_torch>,
+    <cyclicmagic:ender_eye_orb>,
+    <globalxp:xp_block>,
+    <cyclicmagic:storage_bag>,
+    <cyclicmagic:heart_food>,
+    <cyclicmagic:ender_water>,
+    <prefab:item_monster_masher>,
+    <cyclicmagic:block_miner_smart>,
+    <ic2:blockexplosive:1>,
+    <actuallyadditions:item_crafter_on_a_stick>,
+    <magicfeather:magicfeather>,
+    <cyclicmagic:uncrafting_block>,
+    <actuallyadditions:block_giant_chest>,
+    <actuallyadditions:block_giant_chest_medium>,
+    <actuallyadditions:block_giant_chest_large>
+
+    
    
 ];
 
@@ -54,3 +123,6 @@ for ingredient in removedRecipes {
 for recipeName in removedRecipeNames {
     RecipeUtil.removeByRecipeName(recipeName);
 }
+
+mods.avaritia.ExtremeCrafting.remove(<avaritiatweaks:infinitato>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:neutronium_compressor>);
