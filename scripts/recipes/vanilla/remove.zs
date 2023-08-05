@@ -16,7 +16,6 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
-    <minecraft:crafting_table>,
     <waystones:warp_stone>,
     <projecte:item.pe_alchemical_bag>,
     <projecte:item.pe_alchemical_bag:1>,
@@ -78,13 +77,21 @@ val removedRecipes as IIngredient[] = [
     <ic2:blockexplosive:1>,
     <actuallyadditions:item_crafter_on_a_stick>,
     <magicfeather:magicfeather>,
-    <cyclicmagic:uncrafting_block>,
     <actuallyadditions:block_giant_chest>,
     <actuallyadditions:block_giant_chest_medium>,
-    <actuallyadditions:block_giant_chest_large>
-
-    
-   
+    <actuallyadditions:block_giant_chest_large>,
+    <danknull:dank_null_panel_0>,
+    <danknull:dank_null_panel_1>,
+    <danknull:dank_null_panel_2>,
+    <danknull:dank_null_panel_3>,
+    <danknull:dank_null_panel_4>,
+    <danknull:dank_null_panel_5>,
+    <danknull:dank_null_0>,
+    <danknull:dank_null_1>,
+    <danknull:dank_null_2>,
+    <danknull:dank_null_3>,
+    <danknull:dank_null_4>,
+    <danknull:dank_null_5>  
 ];
 
 val removedRecipeNames as string[] = [
