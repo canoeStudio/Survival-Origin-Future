@@ -20,10 +20,5 @@
 		type: "item",
 		item: "botania:fertilizer",
 		count: 16
-	},
-	{
-		uid: "bd912846",
-		type: "loot",
-		table: 446
 	}]
 }

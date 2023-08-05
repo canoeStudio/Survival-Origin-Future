@@ -1,7 +1,0 @@
-{
-	title: "工具篇",
-	icon: "abyssalcraft:ethaxiumpickaxe",
-	always_invisible: false,
-	group: -998409731,
-	default_quest_shape: ""
-}

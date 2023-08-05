@@ -1,7 +1,0 @@
-{
-	title: "武器篇",
-	icon: "futuremc:netherite_sword",
-	always_invisible: false,
-	group: -998409731,
-	default_quest_shape: ""
-}

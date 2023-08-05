@@ -20,11 +20,6 @@
 		xp: 7500
 	},
 	{
-		uid: "df381b79",
-		type: "loot",
-		table: 450
-	},
-	{
 		uid: "aad45003",
 		type: "item",
 		item: "botania:blacklotus",

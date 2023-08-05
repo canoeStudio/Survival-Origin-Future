@@ -122,10 +122,5 @@
 		uid: "36dff073",
 		type: "xp",
 		xp: 8000
-	},
-	{
-		uid: "7cb36949",
-		type: "loot",
-		table: 445
 	}]
 }

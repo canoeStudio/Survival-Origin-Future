@@ -34,10 +34,5 @@
 		type: "item",
 		item: "botania:blacklotus",
 		count: 2
-	},
-	{
-		uid: "82154761",
-		type: "loot",
-		table: 429
 	}]
 }

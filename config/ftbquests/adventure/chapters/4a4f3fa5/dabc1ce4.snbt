@@ -17,10 +17,5 @@
 		uid: "a8106cc7",
 		type: "xp",
 		xp: 200
-	},
-	{
-		uid: "2272365a",
-		type: "loot",
-		table: 447
 	}]
 }

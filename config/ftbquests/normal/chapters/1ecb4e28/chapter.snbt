@@ -1,7 +1,0 @@
-{
-	title: "美食之家",
-	icon: "harvestcraft:bibimbapitem",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

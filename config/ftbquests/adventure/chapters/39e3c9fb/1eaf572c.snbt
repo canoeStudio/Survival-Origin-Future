@@ -1,0 +1,12 @@
+{
+	x: -27.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "b594995b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_worm"
+		}],
+		count: 10L
+	}]
+}

@@ -1,7 +1,0 @@
-{
-	title: "涂鸦",
-	icon: "mcpaint:brush",
-	always_invisible: false,
-	group: 1469099744,
-	default_quest_shape: ""
-}

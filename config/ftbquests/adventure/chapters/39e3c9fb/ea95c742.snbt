@@ -1,0 +1,13 @@
+{
+	x: -30.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "aa134b33",
+		type: "item",
+		items: [{
+			item: "theaurorian:absorptionorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

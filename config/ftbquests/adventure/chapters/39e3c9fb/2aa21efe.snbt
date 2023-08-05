@@ -1,0 +1,16 @@
+{
+	x: -33.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "321021b9",
+		type: "item",
+		items: [{
+			id: "prefab:item_start_house",
+			tag: {
+				display: {
+					Name: "更原始的木屋"
+				}
+			}
+		}]
+	}]
+}

@@ -22,11 +22,6 @@
 		xp: 700
 	},
 	{
-		uid: "fbd34c5c",
-		type: "loot",
-		table: 436
-	},
-	{
 		uid: "f62989c3",
 		type: "item",
 		item: "botania:manaresource 1 2",

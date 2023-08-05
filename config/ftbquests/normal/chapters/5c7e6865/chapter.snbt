@@ -1,7 +1,0 @@
-{
-	title: "种植拓展",
-	icon: "sakura:sakura_hoe",
-	always_invisible: false,
-	group: -362069978,
-	default_quest_shape: "circle"
-}

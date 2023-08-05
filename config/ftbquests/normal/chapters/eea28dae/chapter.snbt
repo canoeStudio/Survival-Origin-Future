@@ -1,7 +1,0 @@
-{
-	title: "熟悉而又陌生的地方",
-	icon: "minecraft:grass",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

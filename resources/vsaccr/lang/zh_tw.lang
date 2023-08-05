@@ -14,6 +14,11 @@ vsaccr.event.anticheat.chat=請不要作弊！好好玩！
 
 
 
+vsaccr.tconstruct.tool_trait.pinkyTrait.desc=§o少女心！§r\n§f挖掘钻石时有概率获得樱色钻石，有絲綢之觸时无效。
+vsaccr.tconstruct.tool_trait.pinkyTrait.name=粉嫩
+
+
+
 #匠魂材料
 vsaccr.tconstruct.material.sakura_diamond.name=櫻色鑽石
 vsaccr.tconstruct.material.ender_biotite.name=終界雲母
@@ -26,7 +31,7 @@ vsaccr.tconstruct.material.pumpkin.name=南瓜
 
 
 #提示
-vsaccr.tips.1=這個包的靈感來源是 Greedycraft和 Rebirth of the Night（RotN）的部分機制
+vsaccr.tips.1=這個包是基於 Greedycraft 一代版本 ，也被稱爲 Greedycraft Lite modpack .
 vsaccr.tips.2=你可以將所有獲得的新材料都丟進冶煉爐裡，看看會不會產生新的合金。
 vsaccr.tips.3=按住~鍵可以快速挖礦或砍樹！不僅如此，就連石頭也能快速挖掘，不過也會快速消耗工具耐久和飢餓值。
 vsaccr.tips.4=若要丟出物品，請按小鍵盤上的「/」按鈕。
@@ -56,7 +61,7 @@ vsaccr.tips.23=用萤石搭建一个框架，在里面倒一桶水，开始你�
 vsaccr.tips.24=精英怪的出现几率和等级会随着难度而不断增加！
 vsaccr.tips.25=你可以轻松地越过栏杆，但是怪物不能！
 vsaccr.tips.26=请注意：尽管大部分怪物都不会破坏地形，但是凋灵和末影龙可以！所以召唤凋灵的时候请离你的家远远的。
-vsaccr.tips.27=打败僵尸有几率掉落钻石，当然能幸运吗？
+vsaccr.tips.27=本模組包沒有任何反作弊！只有 Mod 探測機制哦。
 vsaccr.tips.28=小心随处可见的精英怪！它们往往非常强力，有的甚至会用原力把你拉过去！
 vsaccr.tips.29=在物品栏界面可以打开任务菜单，它会告诉你游戏流程，做完这些任务还有丰厚的奖励，不要忘了领取！
 vsaccr.tips.30=你可以站在树叶上走行，但是会降低你的移动速度。
@@ -70,7 +75,7 @@ vsaccr.tips.37=包含了高版本机制的整合包，你心动了没有？
 vsaccr.tips.38=§b我加入这条信息只是想看看提示能不能变成彩色。
 vsaccr.tips.39=请不要执着于附魔和原版武器，匠魂是该整合包的核心玩法之一。
 vsaccr.tips.40=伪装板没有这么用的，你在HEI也不会查到伪装板。
-vsaccr.tips.41=不要试图作弊，你会被反作弊制裁的。
+vsaccr.tips.41=不要嘗試加載作弊 Mod，會被 Mod 反作弊制裁的。
 vsaccr.tips.42=如果你想来点挑战性，去打怪物吧。
 vsaccr.tips.43=终极精华是一个很不错的匠魂材料，如果你能快速生长作物的话就不难获得。
 vsaccr.tips.44=给你的镐上装一个阿迪特部件可以极大延长它的使用时间，如果你有耐久3的话也许能达到无限耐久。

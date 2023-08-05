@@ -23,10 +23,5 @@
 		uid: "0ee03a23",
 		type: "xp",
 		xp: 2000
-	},
-	{
-		uid: "d20cd89d",
-		type: "loot",
-		table: 453
 	}]
 }

@@ -1,7 +1,0 @@
-{
-	title: "亡灵崛起",
-	icon: "mod_lavacow:intestine",
-	always_invisible: false,
-	group: -291336786,
-	default_quest_shape: ""
-}

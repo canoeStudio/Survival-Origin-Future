@@ -1,7 +1,0 @@
-{
-	title: "终局",
-	icon: "artifacts:ultimate_pendant",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

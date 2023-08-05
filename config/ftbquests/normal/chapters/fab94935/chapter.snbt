@@ -1,7 +1,0 @@
-{
-	title: "熔炉篇",
-	icon: "croparia:iron_furnace",
-	always_invisible: false,
-	group: -270165485,
-	default_quest_shape: ""
-}

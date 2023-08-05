@@ -1,7 +1,0 @@
-{
-	title: "突变开始",
-	icon: "mutantbeasts:mutant_skeleton_rib_cage",
-	always_invisible: false,
-	group: -291336786,
-	default_quest_shape: ""
-}

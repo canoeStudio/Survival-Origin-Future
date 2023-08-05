@@ -14,11 +14,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "a96bf021",
-		type: "loot",
-		table: 432
-	},
-	{
 		uid: "afe83097",
 		type: "xp",
 		xp: 2000

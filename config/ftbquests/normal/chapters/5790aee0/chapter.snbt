@@ -1,7 +1,0 @@
-{
-	title: "愚蠢之物",
-	icon: "stupidthings:paper_bag_hat",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

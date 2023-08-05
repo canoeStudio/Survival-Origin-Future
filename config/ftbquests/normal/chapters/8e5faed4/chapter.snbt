@@ -1,7 +1,0 @@
-{
-	title: "&c死亡&r与&a生机",
-	icon: "betternether:agave",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

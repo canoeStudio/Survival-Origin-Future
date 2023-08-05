@@ -1,7 +1,0 @@
-{
-	title: "神圣RPG",
-	icon: "divinerpg:hellspider_pumpkin",
-	always_invisible: false,
-	group: -1906331948,
-	default_quest_shape: ""
-}

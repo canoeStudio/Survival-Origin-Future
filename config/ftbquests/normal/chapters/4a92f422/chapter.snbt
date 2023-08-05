@@ -1,7 +1,0 @@
-{
-	title: "冒险维度之争",
-	icon: "betternether:eye_seed",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

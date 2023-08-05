@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	dependencies: [
+		"6581cf5a"
+	],
+	tasks: [{
+		uid: "b32f520e",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "639ff702",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

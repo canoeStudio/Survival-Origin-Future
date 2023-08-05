@@ -1,0 +1,27 @@
+{
+	title: "花大钱买心之容器",
+	x: -26.0d,
+	y: -5.0d,
+	description: "黑心商家！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4963ac96",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:heart_food",
+			tag: {
+				display: {
+					Name: "花大冤买心之容器"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2b01501a",
+		type: "item",
+		item: "cyclicmagic:heart_food",
+		count: 10
+	}]
+}

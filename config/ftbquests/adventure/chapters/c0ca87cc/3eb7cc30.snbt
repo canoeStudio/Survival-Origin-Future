@@ -1,0 +1,9 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "027e9ed4",
+		type: "dimension",
+		dim: 424
+	}]
+}

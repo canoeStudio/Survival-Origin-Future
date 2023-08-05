@@ -19,11 +19,6 @@
 		item: "mysticalagriculture:terrasteel_seeds"
 	},
 	{
-		uid: "82e691fc",
-		type: "loot",
-		table: 435
-	},
-	{
 		uid: "7a01fee2",
 		type: "xp",
 		xp: 1000

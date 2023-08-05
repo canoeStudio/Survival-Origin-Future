@@ -1,7 +1,0 @@
-{
-	title: "游戏阶段",
-	icon: "furnaceoverhaul:zenith_kit",
-	always_invisible: false,
-	group: -764256089,
-	default_quest_shape: ""
-}

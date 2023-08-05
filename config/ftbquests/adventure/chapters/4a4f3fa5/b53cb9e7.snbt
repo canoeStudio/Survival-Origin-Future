@@ -29,10 +29,5 @@
 		uid: "3fbe6b97",
 		type: "xp",
 		xp: 100
-	},
-	{
-		uid: "c65275a1",
-		type: "loot",
-		table: 441
 	}]
 }

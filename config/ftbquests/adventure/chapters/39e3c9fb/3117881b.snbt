@@ -1,0 +1,40 @@
+{
+	x: -29.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "baae73a0",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:wool_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7fcf523d",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:wool_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5170c129",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:wool_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e56d629b",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:wool_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -36,10 +36,5 @@
 		type: "item",
 		item: "botania:manaresource 1 1",
 		count: 6
-	},
-	{
-		uid: "1bda82fc",
-		type: "loot",
-		table: 451
 	}]
 }

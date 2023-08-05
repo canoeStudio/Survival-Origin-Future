@@ -22,10 +22,5 @@
 		uid: "56275971",
 		type: "item",
 		item: "botania:rune"
-	},
-	{
-		uid: "ffe5789c",
-		type: "loot",
-		table: 440
 	}]
 }

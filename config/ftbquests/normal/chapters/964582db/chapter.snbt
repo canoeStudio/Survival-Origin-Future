@@ -1,7 +1,0 @@
-{
-	title: "实用篇",
-	icon: "minecraft:golden_apple 1 1",
-	always_invisible: false,
-	group: 600188148,
-	default_quest_shape: ""
-}

@@ -3,16 +3,5 @@
 	icon: "aether_legacy:ambrosium_shard",
 	always_invisible: false,
 	group: -333320930,
-	default_quest_shape: "",
-	images: [{
-		x: 2.0d,
-		y: -5.5d,
-		width: 8.0d,
-		height: 4.0d,
-		rotation: 0.0d,
-		image: "greedycraft:quests/aether.png",
-		hover: [],
-		click: "",
-		dev: false
-	}]
+	default_quest_shape: ""
 }

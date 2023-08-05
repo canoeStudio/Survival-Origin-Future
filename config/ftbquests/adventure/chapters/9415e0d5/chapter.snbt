@@ -1,7 +1,0 @@
-{
-	title: "{greedycraft.quest.chapter.challenges}",
-	icon: "minecraft:beacon",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

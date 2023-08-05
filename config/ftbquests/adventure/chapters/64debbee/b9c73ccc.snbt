@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"f4cb2eff"
+	],
+	tasks: [{
+		uid: "858929eb",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

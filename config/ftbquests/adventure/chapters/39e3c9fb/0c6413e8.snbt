@@ -1,0 +1,13 @@
+{
+	x: -26.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "adaf30bd",
+		type: "item",
+		items: [{
+			item: "magicfeather:magicfeather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

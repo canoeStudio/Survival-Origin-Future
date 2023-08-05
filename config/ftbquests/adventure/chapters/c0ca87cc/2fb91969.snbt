@@ -1,0 +1,13 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	dependencies: [
+		"beec31f4"
+	],
+	tasks: [{
+		uid: "4ed2ea4c",
+		type: "kill",
+		entity: "theaurorian:moonqueen",
+		value: 1L
+	}]
+}

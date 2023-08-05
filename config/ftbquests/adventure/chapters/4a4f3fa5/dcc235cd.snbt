@@ -20,11 +20,6 @@
 		count: 3
 	},
 	{
-		uid: "e94497f6",
-		type: "loot",
-		table: 449
-	},
-	{
 		uid: "d4080629",
 		type: "xp",
 		xp: 6000

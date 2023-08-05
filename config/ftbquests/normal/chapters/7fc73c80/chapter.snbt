@@ -1,7 +1,0 @@
-{
-	title: "神话，自此开始",
-	icon: "divinerpg:divine_sword",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

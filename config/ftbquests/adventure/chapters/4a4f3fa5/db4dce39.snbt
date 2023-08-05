@@ -16,11 +16,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "dedb732f",
-		type: "loot",
-		table: 448
-	},
-	{
 		uid: "29edb8a4",
 		type: "item",
 		item: "twilightforest:twilight_sapling 1 9",

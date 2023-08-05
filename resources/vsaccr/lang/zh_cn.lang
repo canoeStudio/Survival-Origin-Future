@@ -31,7 +31,14 @@ vsaccr.stage.disabled_item.name=§4已禁用的物品
 vsaccr.stage.disabled_item.name=已禁用的物品
 vsaccr.stage.disabled_item.tooltip=§c已禁用
 vsaccr.stage.disabled_item.tooltip=§c已禁用
-
+vsaccr.scoreboard.title=§b§l生存·起源与未来§r §6v%s
+vsaccr.scoreboard.mode.adventure=§9游戏模式：§6冒险
+vsaccr.scoreboard.author=By：§dCanoe Studio
+vsaccr.scoreboard.cheat_mode=§c§l作弊模式
+vsaccr.scoreboard.creative_mode=§d§l创造模式
+vsaccr.scoreboard.true_hero=§e%s§6§l，永远的神！
+vsaccr.event.hunger.warning=警告
+vsaccr.event.hunger.low=饥饿值较低
 
 vsaccr.tconstruct.tool_trait.pinkyTrait.desc=§o少女心！§r\n§f挖掘钻石时有概率获得樱色钻石，有精准采集时无效。
 vsaccr.tconstruct.tool_trait.pinkyTrait.name=粉嫩
@@ -48,7 +55,7 @@ vsaccr.tconstruct.material.coal.name=煤
 vsaccr.tconstruct.material.pumpkin.name=南瓜
 
 #提示
-vsaccr.tips.1=这个包的灵感来源是贪婪整合包和重生之夜(Rotn)的部分机制
+vsaccr.tips.1=这个包是基于贪婪1改的，也称为贪婪精简版。
 vsaccr.tips.2=你可以把所有得到的新材料都扔进冶炼炉里，看看会不会产生新的合金。
 vsaccr.tips.3=按住~键可以快速挖矿或砍树！不仅仅如此，就连石头也能快速挖掘，不过也会快速消耗工具耐久和饥饿值。
 vsaccr.tips.4=若要扔出物品请按小键盘上的/按钮。

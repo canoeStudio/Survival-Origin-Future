@@ -19,10 +19,5 @@
 		uid: "c9d4514b",
 		type: "xp",
 		xp: 10000
-	},
-	{
-		uid: "9bbaf664",
-		type: "loot",
-		table: 452
 	}]
 }

@@ -28,10 +28,5 @@
 				color2: 0
 			}
 		}
-	},
-	{
-		uid: "b174389a",
-		type: "loot",
-		table: 428
 	}]
 }
