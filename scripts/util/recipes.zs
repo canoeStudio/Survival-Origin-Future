@@ -1,7 +1,9 @@
 /*
- * This script is created for the VSACCR modpack by Canoe Studio and Hope Team.
- * You may NOT use this script in any other publicly distributed modpack without my permission. 
- */  
+ * All Rights Reserved: Canoe Studio (2020-2023)
+ * Unless expressly stated in writing by Canoe Studio, all content contained in this document, including but not limited to text, graphics, images, audio, and video files, is protected by copyright law and other intellectual property laws. Without permission, no part of this document may be reproduced, modified, distributed, published, displayed, or used in any other way.
+ * Canoe Studio retains full ownership of its brand, trademarks, and logos, among other intellectual property rights. Without the explicit written permission of Canoe Studio, no one may use or display the brand, trademarks, or logos of Canoe Studio.
+ * Canoe Studio reserves the right to modify, update, and supplement this document to ensure its accuracy and completeness. Canoe Studio shall not be liable for any errors or omissions in this document.
+ */ 
 
 #priority 32010
 
@@ -52,61 +54,6 @@ function removeAndAddShapeless(name as string, output as IItemStack, recipe as I
     addShapeless(name, output, recipe);
 }
 
-function addModeRecipe(name as string, output as IItemStack, normalRecipe as IIngredient[][], expertRecipe as IIngredient[][]) {
-    if (PACKMODE == MODE_EXPERT) {
-        addShaped(name, output, expertRecipe);
-    } else {
-        addShaped(name, output, normalRecipe);
-    }
-}
-
-function addModeShapelessRecipe(name as string, output as IItemStack, normalRecipe as IIngredient[], expertRecipe as IIngredient[]) {
-    if (PACKMODE == MODE_EXPERT) {
-        addShapeless(name, output, expertRecipe);
-    } else {
-        addShapeless(name, output, normalRecipe);
-    }
-}
-
-function addModeDiffOutputRecipe(name as string, outputNormal as IItemStack, outputExpert as IItemStack, normalRecipe as IIngredient[][], expertRecipe as IIngredient[][]) {
-    if (PACKMODE == MODE_EXPERT) {
-        addShaped(name, outputExpert, expertRecipe);
-    } else {
-        addShaped(name, outputNormal, normalRecipe);
-    }
-}
-
-function addModeDiffOutputShapelessRecipe(name as string, outputNormal as IItemStack, outputExpert as IItemStack, normalRecipe as IIngredient[], expertRecipe as IIngredient[]) {
-    if (PACKMODE == MODE_EXPERT) {
-        addShapeless(name, outputExpert, expertRecipe);
-    } else {
-        addShapeless(name, outputNormal, normalRecipe);
-    }
-}
-
-function addExpertRecipe(name as string, outputExpert as IItemStack, expertRecipe as IIngredient[][]) {
-    if (PACKMODE == MODE_EXPERT) {
-        addShaped(name, outputExpert, expertRecipe);
-    }
-}
-
-function addExpertShapelessRecipe(name as string, outputExpert as IItemStack, expertRecipe as IIngredient[]) {
-    if (PACKMODE == MODE_EXPERT) {
-        addShapeless(name, outputExpert, expertRecipe);
-    }
-}
-
-function addNormalRecipe(name as string, outputNormal as IItemStack, normalRecipe as IIngredient[][]) {
-    if (PACKMODE != MODE_EXPERT) {
-        addShaped(name, outputNormal, normalRecipe);
-    }
-}
-
-function addNormalShapelessRecipe(name as string, outputNormal as IItemStack, normalRecipe as IIngredient[]) {
-    if (PACKMODE != MODE_EXPERT) {
-        addShapeless(name, outputNormal, normalRecipe);
-    }
-}
 
 function addCompressingRecipe(original as IItemStack, compressed as IItemStack) {
     recipes.addShaped(original.definition.id.replace(":", "_") + "_compress", compressed, [

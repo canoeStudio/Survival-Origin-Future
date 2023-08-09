@@ -74,7 +74,6 @@ val removedRecipes as IIngredient[] = [
     <cyclicmagic:ender_water>,
     <prefab:item_monster_masher>,
     <cyclicmagic:block_miner_smart>,
-    <ic2:blockexplosive:1>,
     <actuallyadditions:item_crafter_on_a_stick>,
     <magicfeather:magicfeather>,
     <actuallyadditions:block_giant_chest>,
@@ -91,7 +90,8 @@ val removedRecipes as IIngredient[] = [
     <danknull:dank_null_2>,
     <danknull:dank_null_3>,
     <danknull:dank_null_4>,
-    <danknull:dank_null_5>  
+    <danknull:dank_null_5>,
+    <pouchofunknown:pouch> 
 ];
 
 val removedRecipeNames as string[] = [

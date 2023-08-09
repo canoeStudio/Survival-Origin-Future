@@ -8,7 +8,6 @@
 #priority 100
 
 
-#packmode adventure
 import crafttweaker.world.IWorld;
 
 function setKeepInventoryGameRule(world as IWorld) {
