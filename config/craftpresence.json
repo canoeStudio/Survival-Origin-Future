@@ -1,18 +1,19 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_schemaVersion": 1,
+  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
+  "_schemaVersion": 6,
   "_lastMCVersionId": 340,
   "generalSettings": {
+    "detectATLauncherInstance": true,
     "detectCurseManifest": true,
     "detectMultiMCManifest": true,
     "detectMCUpdaterInstance": true,
     "detectTechnicPack": true,
-    "showTime": true,
-    "detectBiomeData": false,
+    "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "1010768480427049110",
-    "defaultIcon": "vsca",
+    "clientId": "1121781351729856584",
+    "defaultIcon": "grass",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
@@ -47,10 +48,10 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "In the main menu"
+      "textOverride": "In the Main Menu"
     },
     "loadingData": {
-      "textOverride": "Loading the game for an eternity"
+      "textOverride": "Loading..."
     },
     "lanData": {
       "textOverride": "Playing on a LAN Server"
@@ -60,17 +61,13 @@
     }
   },
   "advancedSettings": {
-    "enableCommands": true,
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "renderTooltips": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
-    "refreshRate": 3,
-    "roundSize": 3,
-    "includeExtraGuiClasses": false,
+    "refreshRate": 2,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -97,31 +94,75 @@
       }
     },
     "allowEndpointIcons": true,
-    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short != null ? server.address.short : server.address.full}",
-    "playerSkinEndpoint": "https://mc-heads.net/avatar/{player.uuid.short != null ? player.uuid.short : player.name}"
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10
   },
   "accessibilitySettings": {
-    "tooltipBackgroundColor": "0xF0100010",
-    "tooltipBorderColor": "0x505000FF",
-    "guiBackgroundColor": "minecraft:textures/gui/options_background.png",
-    "buttonBackgroundColor": "minecraft:textures/gui/widgets.png",
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "worldGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
     "languageId": "en_us",
-    "showBackgroundAsDark": true,
     "stripTranslationColors": false,
-    "showLoggingInChat": false,
     "stripExtraGuiElements": false,
-    "configKeyCode": 201
+    "renderTooltips": true,
+    "configKeyCode": 0
   },
   "displaySettings": {
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
-      "details": "{menu.message}{dimension.message}",
-      "gameState": "{server.message} {custom.pack} modpack",
-      "largeImageKey": "{menu.icon}{dimension.icon}",
-      "largeImageText": "{menu.message}{dimension.message}",
-      "smallImageKey": "{pack.icon}",
-      "smallImageText": "{server.message} {custom.pack}",
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
       "buttons": {
         "default": {
           "label": "Example Text",
@@ -130,7 +171,7 @@
       }
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
+      "default": "https://github.com/canoeStudio/Virtual-Survival-Climate-Adventure/blob/main/logo.png?raw=true",
       "YjnN": "https://mc-heads.net/avatar/ad43e137fe6a472395e949620f623884"
     },
     "dynamicVariables": {
@@ -138,7 +179,7 @@
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
-      "player_info_in": "({custom.player_info_health})",
+      "player_info_in": "({custom.player_info.health})",
       "player_info_items": "Items: {item.main_hand.message}",
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",

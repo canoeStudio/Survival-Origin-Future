@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"158e3c28"
+	],
+	tasks: [{
+		uid: "acb058a1",
+		type: "item",
+		items: [{
+			item: "theaurorian:darkamulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59c27b99",
+		type: "kill",
+		entity: "theaurorian:spider",
+		value: 1L
+	}]
+}

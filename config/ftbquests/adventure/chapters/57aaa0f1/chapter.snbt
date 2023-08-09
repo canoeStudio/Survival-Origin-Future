@@ -1,0 +1,7 @@
+{
+	title: "万物之起源",
+	icon: "tconstruct:slime_sapling",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

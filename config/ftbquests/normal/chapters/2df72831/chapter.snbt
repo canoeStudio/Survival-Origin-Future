@@ -1,7 +1,0 @@
-{
-	title: "潘马斯篇",
-	icon: "harvestcraft:fivespiceitem",
-	always_invisible: false,
-	group: 516640296,
-	default_quest_shape: ""
-}

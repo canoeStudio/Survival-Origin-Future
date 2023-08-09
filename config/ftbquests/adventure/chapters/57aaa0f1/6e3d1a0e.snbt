@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"8c77858b"
+	],
+	tasks: [{
+		uid: "6e4975ff",
+		type: "item",
+		items: [{
+			item: "notreepunching:pickaxe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63774f3e",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 6
+	}]
+}

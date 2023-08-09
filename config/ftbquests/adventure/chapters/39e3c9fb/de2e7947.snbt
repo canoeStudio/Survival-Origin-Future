@@ -1,0 +1,19 @@
+{
+	x: -32.0d,
+	y: -2.0d,
+	dependencies: [
+		"2aa21efe"
+	],
+	tasks: [{
+		uid: "78edf444",
+		type: "item",
+		items: [{
+			id: "prefab:item_moderate_house",
+			tag: {
+				display: {
+					Name: "更高级的木屋"
+				}
+			}
+		}]
+	}]
+}

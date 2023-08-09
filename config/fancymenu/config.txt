@@ -9,16 +9,17 @@ B:forcefullscreen = 'false';
 B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
-B:playmenumusic = 'true';
-B:showdebugwarnings = 'true';
+B:playmenumusic = 'false';
+S:variables_to_reset_on_launch = '';
+B:showdebugwarnings = 'false';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '-1';
 
 
 ##[customization]
 
-B:advancedmode = 'true';
-B:showcustomizationbuttons = 'true';
+B:advancedmode = 'false';
+B:showcustomizationbuttons = 'false';
 
 
 ##[mainmenu]
@@ -30,7 +31,6 @@ S:copyrightcolor = '#ffffff';
 ##[loading]
 
 B:allowgameintroskip = 'true';
-S:loadinganimationcolor = '#E22837';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 B:preloadanimations = 'true';
@@ -40,9 +40,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Survival - Origin & Future By Canoe Studio';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[multiplayer_screen]
@@ -58,7 +58,7 @@ B:show_world_icons = 'true';
 ##[layouteditor]
 
 I:gridsize = '10';
-B:editordeleteconfirmation = 'true';
+B:editordeleteconfirmation = 'false';
 B:showgrid = 'false';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';

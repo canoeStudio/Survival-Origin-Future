@@ -1,0 +1,15 @@
+#项目
+item.dynamictreesic2:rubbericseed.name=橡胶种子
+item.dynamictreesic2:rubbericcseed.name=橡胶种子
+
+#种类
+species.dynamictreesic2:rubberic.name=橡胶树
+
+#方块
+tile.dynamictreesic2:leaves0.name=橡胶树叶
+tile.dynamictreesic2:rubbericbranch.name=橡胶树干
+tile.dynamictreesic2:rubbericbranchempty.name=空的橡胶树干
+tile.dynamictreesic2:rubbericbranchfilled.name=装满橡胶树汁的橡胶树干
+tile.dynamictreesic2:rubbericcbranch.name=橡胶树干
+tile.dynamictreesic2:rubbericcbranchempty.name=空的橡胶树干
+tile.dynamictreesic2:rubbericcbranchfilled.name=装满橡胶树汁的橡胶树干

@@ -1,0 +1,21 @@
+{
+    //vanilla
+    "minecraft:boat":{
+        "texture":"entity/boat/boat_oak"
+    },
+    "minecraft:spruce_boat":{
+        "texture":"entity/boat/boat_spruce"
+    },
+    "minecraft:birch_boat":{
+        "texture":"entity/boat/boat_birch"
+    },
+    "minecraft:jungle_boat":{
+        "texture":"entity/boat/boat_jungle"
+    },
+    "minecraft:acacia_boat":{
+        "texture":"entity/boat/boat_acacia"
+    },
+    "minecraft:dark_oak_boat":{
+        "texture":"entity/boat/boat_darkoak"
+    }
+}

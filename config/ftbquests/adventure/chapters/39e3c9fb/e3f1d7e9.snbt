@@ -1,0 +1,29 @@
+{
+	title: "解渴全家桶",
+	x: -27.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0f00f71e",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 7"
+		}]
+	},
+	{
+		uid: "532f9a26",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 6"
+		}]
+	},
+	{
+		uid: "cbcd2b1b",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 5"
+		}]
+	}]
+}

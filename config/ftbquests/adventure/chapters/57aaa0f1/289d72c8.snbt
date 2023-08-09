@@ -1,0 +1,36 @@
+{
+	title: "收集 16 * 任意木板",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"方法手持木头右击木头"
+	],
+	dependencies: [
+		"9576e299"
+	],
+	tasks: [{
+		uid: "646ec628",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankWood"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e89c46f1",
+		type: "item",
+		item: "minecraft:planks",
+		count: 64
+	}]
+}

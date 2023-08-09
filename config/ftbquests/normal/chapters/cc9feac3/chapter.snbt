@@ -1,7 +1,0 @@
-{
-	title: "末地章",
-	icon: "minecraft:end_portal_frame",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

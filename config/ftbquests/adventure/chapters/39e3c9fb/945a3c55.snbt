@@ -1,0 +1,13 @@
+{
+	x: -27.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "af9e8312",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_eye_orb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

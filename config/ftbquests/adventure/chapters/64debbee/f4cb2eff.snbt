@@ -1,0 +1,34 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "20973c46",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "stickWood"
+				}
+			}
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e9795e13",
+		type: "item",
+		item: "minecraft:stick",
+		count: 30
+	},
+	{
+		uid: "cc9874f9",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	}]
+}

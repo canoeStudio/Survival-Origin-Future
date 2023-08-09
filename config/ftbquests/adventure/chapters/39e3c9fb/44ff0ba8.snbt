@@ -1,0 +1,22 @@
+{
+	x: -26.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "84f14832",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockWell"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockWell"
+				}
+			}
+		}]
+	}]
+}

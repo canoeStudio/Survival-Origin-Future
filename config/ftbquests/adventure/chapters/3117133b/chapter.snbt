@@ -1,0 +1,7 @@
+{
+	title: "{greedycraft.quest.chapter.aether}",
+	icon: "aether_legacy:ambrosium_shard",
+	always_invisible: false,
+	group: -333320930,
+	default_quest_shape: ""
+}

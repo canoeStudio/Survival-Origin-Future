@@ -1,0 +1,11 @@
+{
+	x: -27.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "a4b978e4",
+		type: "item",
+		items: [{
+			item: "globalxp:xp_block"
+		}]
+	}]
+}

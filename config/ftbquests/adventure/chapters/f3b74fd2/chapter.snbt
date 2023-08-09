@@ -1,0 +1,7 @@
+{
+	title: "科技时代",
+	icon: "mekanism:machineblock 1 4",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -252,10 +252,10 @@
                 <num>S</num>
                 <num>W</num>
                 <num>N</num>
-                    <str>$d东 $c正X:{xi} $aY:{yi} $9Z:{zi}</str>
-                    <str>$d南 $cX:{xi} $aY:{yi} $9正Z:{zi}</str>
-                    <str>$d西 $c负X:{xi} $aY:{yi} $9Z:{zi}</str>
-                    <str>$d北 $cX:{xi} $aY:{yi} $9负Z:{zi}</str>
+                    <str>$dE $cX:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$dS $cX:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$dW $c-X:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$dN $cX:{xi} $aY:{yi} $9-Z:{zi}</str>
             </operation>
         </line>
     
@@ -826,9 +826,34 @@
         </line>
     </lines>
 
-    <lines at="bottomright">
-    <line>
-            <str>{mainhandlargeicon}{mainhandname}$d    </str>
+    <lines at="bottomcenter">
+        <line>
+        <operation>
+            <str>EQ</str>
+            <var>moonphase</var>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                    <str>$b月相:$a满月</str>
+                    <str>$b月相:$c亏凸月</str>
+                    <str>$b月相:$d下弦月</str>
+                    <str>$b月相:$e残月</str>
+                    <str>$b月相:$6新月</str>
+                    <str>$b月相:$9娥眉月</str>
+                    <str>$b月相:$3上弦月</str>
+                    <str>$b月相:$b盈凸月</str>
+        </operation>
+        </line>
+
+    </lines>
+    <lines at="bottomright"> 
+        <line>
+            <str>{mainhandname} {mainhandlargeicon}$d    </str>
             <op>
                 <str>GE</str>
                 <pct>
@@ -872,7 +897,7 @@
         </line>
         
         <line>
-            <str>{offhandlargeicon}{offhandname}$d    </str>
+            <str>{offhandname} {offhandlargeicon}$d    </str>
             <op>
                 <str>GE</str>
                 <pct>
@@ -1001,31 +1026,7 @@
             <str> </str>
         </line>
         
-        <line>
-        <operation>
-            <str>EQ</str>
-            <var>moonphase</var>
-                <num>0</num>
-                <num>1</num>
-                <num>2</num>
-                <num>3</num>
-                <num>4</num>
-                <num>5</num>
-                <num>6</num>
-                <num>7</num>
-                    <str>$b月相:$a满月</str>
-                    <str>$b月相:$c亏凸月</str>
-                    <str>$b月相:$d下弦月</str>
-                    <str>$b月相:$e残月</str>
-                    <str>$b月相:$6新月</str>
-                    <str>$b月相:$9娥眉月</str>
-                    <str>$b月相:$3上弦月</str>
-                    <str>$b月相:$b盈凸月</str>
-        </operation>
-        </line>
-
-    </lines>
-    <lines at="bottomcenter">      
+     
         <line>
             <str>$r</str>
             <str>$7| </str>       

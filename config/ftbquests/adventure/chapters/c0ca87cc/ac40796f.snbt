@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"用于开启符石地牢。可在瓮或者宝箱里找到，十分罕见。"
+	],
+	dependencies: [
+		"3eb7cc30"
+	],
+	tasks: [{
+		uid: "ba60712d",
+		type: "item",
+		items: [{
+			item: "theaurorian:runestonekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

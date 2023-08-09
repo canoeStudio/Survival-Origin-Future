@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	dependencies: [
+		"ac40796f"
+	],
+	tasks: [{
+		uid: "aa8a2beb",
+		type: "item",
+		items: [{
+			item: "theaurorian:keeperamulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53f6c519",
+		type: "kill",
+		entity: "theaurorian:runestonedungeonkeeper",
+		value: 1L
+	}]
+}

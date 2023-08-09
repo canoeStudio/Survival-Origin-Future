@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"5ed49f1f"
+	],
+	tasks: [{
+		uid: "ef46e631",
+		type: "item",
+		items: [{
+			item: "theaurorian:moontemplekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,4 +1,5 @@
 
+#Configurations for material Cobalt.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -14,4 +15,8 @@
 	modelType = "metallic"
 	#The color of this material.
 	color = 2580657
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
 

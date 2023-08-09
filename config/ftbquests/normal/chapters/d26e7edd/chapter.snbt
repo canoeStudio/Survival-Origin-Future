@@ -1,7 +1,0 @@
-{
-	title: "潘马斯篇",
-	icon: "harvestcraft:venisoncookeditem",
-	always_invisible: false,
-	group: 1485714846,
-	default_quest_shape: ""
-}

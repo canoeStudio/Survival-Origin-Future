@@ -1,0 +1,7 @@
+{
+	title: "{greedycraft.quest.chapter.twilightforest}",
+	icon: "twilightforest:miniature_structure",
+	always_invisible: false,
+	group: -333320930,
+	default_quest_shape: ""
+}

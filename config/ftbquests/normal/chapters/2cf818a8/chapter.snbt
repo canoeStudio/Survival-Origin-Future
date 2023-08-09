@@ -1,7 +1,0 @@
-{
-	title: "科学治理污染",
-	icon: "adpother:aerometer",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"3eb7cc30"
+	],
+	tasks: [{
+		uid: "7ed445a1",
+		type: "item",
+		items: [{
+			id: "theaurorian:lockpicks",
+			tag: {
+				display: {
+					Name: "这开门能成功吗"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

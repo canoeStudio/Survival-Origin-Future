@@ -1,0 +1,20 @@
+{
+	x: -26.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "8d146a61",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_water",
+			tag: {
+				timeout: 0,
+				ActionType: 0,
+				display: {
+					Name: "流体清理器"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
