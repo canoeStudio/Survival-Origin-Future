@@ -1,6 +1,13 @@
-vsaccr.item.guide.name=§cVirtual Survival Climate & Adventure§b§o手冊
-vsaccr.item.guide.subtitle=入门必读Virtual Survival Climate & Adventure參考手冊
+#由於台灣用語差異 故部分物品使用英文顯示，如果你想參加正式譯名，歡迎！
 
+
+
+
+vsaccr.item.guide.name=§c生存·起源與未來§b§o手冊
+vsaccr.item.guide.subtitle=入门必读生存·起源與未來參考手冊
+
+
+#自訂事件
 vsaccr.command.purgeCommand.chat=已清理所有掉落物
 vsaccr.dismension.nether.remind=你已進去地獄維度，游戲難度會大幅增加！
 vsaccr.event.anticheat.pls_remove=§c探測載入嚴重不平衡模組，你必須移除以下破壞平衡性模組并重启游戲才可游玩：
@@ -12,14 +19,183 @@ vsaccr.event.anticheat.chat=請不要作弊！好好玩！
 
 
 
+vsaccr.tconstruct.tool_trait.pinkyTrait.desc=§o少女心！§r\n§f挖掘钻石时有概率获得樱色钻石，有絲綢之觸时无效。
+vsaccr.tconstruct.tool_trait.pinkyTrait.name=粉嫩
 
 
-vsaccr.menu.modlist=模組清單
-vsaccr.menu.official_site=官方Github工作室主頁
-vsaccr.menu.refresh=§b刷新主菜单界面
-vsaccr.menu.accounts=個人使用者
-vsaccr.menu.sponsor=贊助倉庫
-vsaccr.menu.discord=加入官方Discord群組
-vsaccr.menu.github=官方模組包Github開源地址
-vsaccr.menu.folder=打開資料夾
-vsaccr.menu.bisect=關於模組包
+
+#Tic 材料
+vsaccr.tconstruct.material.sakura_diamond.name=櫻色鑽石
+vsaccr.tconstruct.material.ender_biotite.name=終界雲母
+vsaccr.tconstruct.material.diamond.name=鑽石
+vsaccr.tconstruct.material.scarlite.name=緋紅寶石
+vsaccr.tconstruct.material.chocolate.name=巧克力
+vsaccr.tconstruct.material.bedrock.name=基岩
+vsaccr.tconstruct.material.coal.name=煤
+vsaccr.tconstruct.material.pumpkin.name=南瓜
+
+
+#提示
+vsaccr.tips.1=這個包是基於 Greedycraft 一代版本 ，也被稱爲 Greedycraft Lite modpack . 但完全是參考。
+vsaccr.tips.2=你可以將所有獲得的新材料都丟進冶煉爐裡，看看會不會產生新的合金。
+vsaccr.tips.3=按住~鍵可以快速挖礦或砍樹！不僅如此，就連石頭也能快速挖掘，不過也會快速消耗工具耐久和飢餓值。
+vsaccr.tips.4=若要丟出物品，請按小鍵盤上的「/」按鈕。
+vsaccr.tips.5=匠魂的冶煉爐是個製造合金的好東西，如果你礦物夠多的話，別拿各種粉合成了。冶煉爐可以直接澆鑄出礦物塊。
+vsaccr.tips.6=匠魂冶煉爐建議做得越大越好。
+vsaccr.tips.3=/dank/null是個好東西，下礦再也不用擔心物品欄滿了。
+vsaccr.tips.4=果你懶得造房子，你可以尋找村莊，或者在HEI裡搜尋 @Prefab，來瞬間建造房屋！
+vsaccr.tips.5=請記得在終界傳送門旁放置一塊路徑石，這將會非常有幫助。
+vsaccr.tips.6=在空中搭建道路或者進行建造時，使用第一人稱視角將更有利於操作。
+vsaccr.tips.7=在難度提升時，Boss的生命值並不會增加太多。請注意，有些Boss的生命值是固定的。
+vsaccr.tips.8=無盡方塊可以當作信標底座！
+vsaccr.tips.9=你可以在HEI菜單中輸入 @FTBQuests 來查看一些對你執行任務有幫助的物品！
+vsaccr.tips.10=你還沒有獲得無盡方塊嗎？真是可惜。
+vsaccr.tips.11=警告：不要在家裡玩神祕，別怪我沒有提醒你。
+vsaccr.tips.12=遊玩舊版本確實是獨木舟工作室的黑歷史。
+vsaccr.tips.13=夜晚，偶爾會有流星劃過天空，它們降落的地方可能會帶來驚喜！
+vsaccr.tips.14=請佩戴耳機以獲得最佳遊戲體驗。不佩戴也可以。
+vsaccr.tips.15=到地下挖礦時記得小心岩漿，因為地下的熔岩湖實在是太大了。
+vsaccr.tips.16=召喚凋靈時，請確保周圍沒有方塊，尤其是雪和高草一類的方塊容易被忽略。
+vsaccr.tips.17=使用 /purge 命令可以清理所有掉落物品，這可能有助於提高效能，尤其是在跑圖過程中，因為生成區塊時會生成大量掉落物。
+vsaccr.tips.18=把家建在生物群系的交界處建立家園可能是個不錯的主意，這樣你可以方便地養殖不同環境需求的蜜蜂。
+vsaccr.tips.19=如果你的存檔無法載入，請在資料夾內的 Save 資料夾使用你最近的存檔解壓縮恢復。
+vsaccr.tips.20=熱情將原始時代引向未來時代。
+vsaccr.tips.21=盔甲的減傷機制進行了一些更改，現在即使是皮革盔甲也比沒有盔甲好很多！
+vsaccr.tips.22=各種怪物會根據你的進度變得更強大。
+vsaccr.tips.23=使用萤石搭建一個框架，在其中倒一桶水，開始你的天境之旅吧！
+vsaccr.tips.24=精英怪的出現機率和等級會隨著難度不斷增加！
+vsaccr.tips.25=你可以輕鬆地越過欄杆，但怪物不能！
+vsaccr.tips.26=請注意：雖然大部分怪物都不會破壞地形，但凋零和終界龍可以！所以召喚時請遠離你的家。
+vsaccr.tips.27=本模組包沒有任何反作弊！只有 Mod 探測機制哦。
+vsaccr.tips.28=小心隨處可見的精英怪！它們往往非常強大，有的甚至會用原力把你拉過去！
+vsaccr.tips.29=在物品欄界面可以打開任務菜單，它會告訴你遊戲流程，完成這些任務還有豐厚的獎勵，不要忘記領取！
+vsaccr.tips.30=你可以站在樹葉上行走，但會降低你的移動速度。
+vsaccr.tips.31=你潛行時的高度僅有1.5格，可以通過三個半磚高的洞。(真太像高版本機制了)
+vsaccr.tips.32=無盡裝備是一種極其堅硬的材料，不過它也是最破壞平衡性的一種材料...
+vsaccr.tips.33=試試釣魚吧，你可以釣到很多新東西。
+vsaccr.tips.34=由於 HEI 無法支援拼音搜尋，你可以用 HECI 代替。
+vsaccr.tips.35=你打的終界龍和凋靈越多，它們就會變得越強！
+vsaccr.tips.36=想在大白天睡覺嗎？做一個吊床吧！
+vsaccr.tips.37=包含了高版本機制的模組包，你心動了沒有？
+vsaccr.tips.38=§b我加入這條信息只是想看看提示能不能變成彩色。
+vsaccr.tips.39=生存吧，相信你能存活。
+vsaccr.tips.40=偽裝板沒有這樣的用法，你在HEI也不會查到偽裝板。
+vsaccr.tips.41=不要嘗試加載作弊 Mod，會被 Mod 反作弊制裁的。
+vsaccr.tips.42=如果你想增加點挑戰，去打怪物吧。
+vsaccr.tips.43=終極精華是一個很不錯的匠魂材料，如果你能快速生長作物的話就不難獲得。
+vsaccr.tips.44=給你的鎬上裝一個阿迪特部件可以極大延長它的使用時間，如果你有耐久3的話也許能達到無限耐久。
+vsaccr.tips.45=把家建在腐蝕之地是個壞主意。
+vsaccr.tips.46=吃不同種類的食物來提升生命值！多方塊廚房或許能幫到你。
+vsaccr.tips.47=據說來自多個材料可以無限鍛造。
+vsaccr.tips.48=傳送卷軸可以讓你在任何地方到達已啟用的路徑石，但只能使用一次！傳送石可以無限使用，但有冷卻時間！
+vsaccr.tips.49=使用方向鍵可以調整越肩視角的相機角度和位置。
+vsaccr.tips.50=有些礦物太稀有？試著種植出來吧！
+vsaccr.tips.51=壓縮空間是個好東西，允許你極大降低TPS。
+vsaccr.tips.52=原版的食物遭到了削弱，你應該使用廚房製作更高級的食物。
+vsaccr.tips.53=不用擔心踩壞耕地，它們現在不會被踩壞了。
+vsaccr.tips.54=找不到終界城？你可以合成一個翼膜！雖然材料非常昂貴。
+vsaccr.tips.55=若你有一大堆地牢戰利品無處可用，你可以丟了。或許保留東西是不錯的選擇。
+vsaccr.tips.56=轉換桌只需要肝，就能做出來超稀有的轉化桌。
+vsaccr.tips.57=賢者之石你只需要肝，就能做出來肝帝的賢者之石。
+vsaccr.tips.58=堅持集體利益是更好的選擇，獨立個人選擇會導致你發展極度緩慢！
+vsaccr.tips.59=集成某種模組的功能是好事，但會給你帶來不可預期的壞事。
+vsaccr.tips.60=多做匠魂材料工具，混合合成，效果會不同。
+vsaccr.tips.61=做一個鉤爪吧！你就可以飛檐走壁了。
+vsaccr.tips.62=有些匠魂材料會提供負面效果，但有時候，這些效果是挖掘到更好礦物所必需的。
+vsaccr.tips.63=使用4个腐肉可以合成皮革！
+vsaccr.tips.64=鉤爪在終界非常好用，記得去終界之前一定要帶上一個！
+vsaccr.tips.65=飾品可以具有前綴，前綴可以提供屬性加成，你可以製造重鍛站來消耗經驗重鑄飾品。
+vsaccr.tips.66=黑心商人給出的交易往往很誘人！但真的貨真價實嗎？
+vsaccr.tips.67=有一些怪物後期越來越強。
+vsaccr.tips.68=把鳳梨放在披薩上是個壞主意。
+vsaccr.tips.69=囤積了大量的無用地牢戰利品？你可以把它們丟了！
+vsaccr.tips.70=匠魂工具與盔甲的耐久度已耗盡，您或許可考慮遺棄，已不復具實際效用！
+vsaccr.tips.71=進行射擊時請瞄準怪物的頭部，爆頭可以造成更多傷害！當然，怪物也可能會對你進行致命一擊。優良的頭盔能夠減少或甚至完全免除爆頭所帶來的額外傷害。
+vsaccr.tips.72=在你進入地獄後，主世界生成隕石的機率將會增加，而在流星雨期間，隕石的生成機率更是會變得非常高。
+vsaccr.tips.73=擊敗終界龍後，您將獲得豐富的經驗值！
+vsaccr.tips.74=等值交換和等值交換系統中某些物品的合成方式已被重新調整，您需要完成一系列任務來解鎖這些合成能力！
+vsaccr.tips.75=中國版本與國際版本的鏡像存在不同之處，但仍然屬於同一國際版。
+vsaccr.tips.76=如果您認為找尋終界人太困難，那麼您可以慢慢地尋找。
+vsaccr.tips.77=你們開心就是最好的了:)
+vsaccr.tips.78=合成賢者之石需要獨特的方法！
+vsaccr.tips.79=地底偶爾會出現非常罕見的巨型礦脈。
+vsaccr.tips.80=隨著難度的提升，您需要更強大的裝備來戰勝挑戰！
+vsaccr.tips.81=路徑石有時候會在村莊生成，如果看到它們，記得要激活一下！
+vsaccr.tips.82=村民現在看起來和玩家一樣，如果您讓他們高興的話，也許會和您結婚生孩子？您可能需要一個結婚戒指。
+vsaccr.tips.83=如果您持續食用某種食物，其所提供的飢餓值將會逐漸減少，請尋求更豐富的食譜。
+vsaccr.tips.84=NVIDIA 在使用模組包時提供最佳的相容性。
+vsaccr.tips.85=更加真實了。
+vsaccr.tips.86=實際上，這個模組包一半是硬核，一半是休閒。可以稱之為「半硬核半休閒」。
+vsaccr.tips.87=您可以在HEI菜單中啟用超低記憶體模式，但這會降低搜索速度。
+vsaccr.tips.88=如果您有99%的時間不閱讀教程，那就別怪我您的發展緩慢。
+vsaccr.tips.89=在這個階段取得怪物裝備的進展也是相當令人有成就感的。
+vsaccr.tips.90=§3生存·起源與未來對原版食物機制進行了相當大的改進。
+vsaccr.tips.91=在之前的版本中，轉換桌的合成難度非常高，而現在的版本已將合成難度降低了15%。
+vsaccr.tips.92=作為一名資深玩家，在這裡直接表現得不好。
+vsaccr.tips.93=在1.10.900之前的版本中沒有溫度系統，而現在已經被加入了。
+vsaccr.tips.94=1.10.900版本已經推出國際版了？這是怎麼回事呢？
+vsaccr.tips.95=某些物品的提供溫度是有所差異的。
+vsaccr.tips.96=我並不是 SOF 的後代！！
+vsaccr.tips.97=試著破壞方塊，你將來會成為富有的玩家。
+vsaccr.tips.98=不要嘗試利用模組的漏洞來破壞平衡性，（儘管我會修復的）。
+vsaccr.tips.99=有些界面是英文的（對非英語國家來說不太友好，如果您懂英文，就當我沒說過）。
+vsaccr.tips.100=洞穴更新版本已經來臨了！
+vsaccr.tips.101=整合包如果可以進行優化，就應該進行優化；如果不進行優化，至少需要分配8GB內存才能流暢運行。
+vsaccr.tips.102=Croparia 在版本 105a20b 被移除，將成為歷史版本。
+vsaccr.tips.103=您確實可以合成混亂寶石，但並不是純淨的混亂寶石。然而，您確定您知道如何使用它的用途嗎？
+vsaccr.tips.104=融合了高版本的特色，進一步提升了遊戲的可玩性！
+vsaccr.tips.105=玩法是來自興趣愛好，而非您需要去挑戰的。
+vsaccr.tips.106=財富是貪婪的根源。
+vsaccr.tips.107=原點來臨，但未來真的會離開嗎？
+vsaccr.tips.108=您好，甚麼都沒有，愚人節快樂！
+vsaccr.tips.109=“生存·起源與未來” 模組包使用 Forge 伺服端版本。
+vsaccr.tips.110=“生存·起源與未來” 是一種多種語言的模組包。
+vsaccr.tips.111=創始人進化到未來人，我相信你可以實現。
+vsaccr.tips.112=遇到問題不要只能靠螢幕擷取，需要描述+螢幕擷取+發生情境這樣會提高解析能力。
+vsaccr.tips.113=啥也沒有，別看了。
+vsaccr.tips.114=你可以載入第三方資源包，但出問題別來找我！只支援特定的資源包。
+vsaccr.tips.115=關閉光影的方法之一是使用粗暴且簡單的方式，直接刪除光影文件！
+vsaccr.tips.116=Lonelywjx曾經提到過："自己的團隊獨立是不可能的，Hope Team後來加入Canoe Studio了。這是一個喜事啊！"
+vsaccr.tips.117=根據我所知，Canoe Studio是一家大型工作室嗎？這似乎有一些合理性。
+vsaccr.tips.118=混亂寶石沒有特別的用途，純粹適用於合成特殊材料而已。
+vsaccr.tips.119=夢源曾經提到過："Canoe Studio是我創辦的，和Lonelyxiya一樣是創辦人，但由於會議立憲制逐漸出現，不能濫用權力了。"
+vsaccr.tips.120=請注意官網發布的資訊，防止受騙！
+vsaccr.tips.121=其實這可以透過內建顯示核心來驅動，只是效能可能稍微有些不足，這是搭載第四代標壓i3處理器的情況。
+vsaccr.tips.122=2022年開始進行國際版。
+vsaccr.tips.123=堅定意志是最好的遊戲生存基本操作。
+vsaccr.tips.124=半硬核半休閒的模組包，你值得擁有！
+vsaccr.tips.125=2020年9月，獨木舟工作室踏入了誕生一週年。這一年，宛如漂流在充滿挑戰與機會的創意之江。獨木舟工作室的名字寓意著我們同舟共濟，齊心協力，划向更遠的前程。在這個充滿激情的旅程中，我們不斷創新，勇攀高峰，希望透過精湛的遊戲體驗，與玩家們分享屬於獨木舟工作室的獨特視角。
+vsaccr.tips.126=礦物太少？使用通用機械模組來達成五倍產礦吧！
+vsaccr.tips.127=寰宇是一種極其堅硬的材料，不過它也是基本上所有最強力金屬的合金…
+vsaccr.tips.128=首次擊敗原版Boss時難度會有所提升。
+vsaccr.tips.129=無限套娃的模組包！
+vsaccr.tips.130=村民是劫掠者的偽軍。
+vsaccr.tips.131=大部分地上散落的東西都可以空手右鍵撿起！
+vsaccr.tips.132=一般方法種植的神秘農業作物不會掉落種子，建議製作一個有機注入器多方塊機器來處理精華作物。
+vsaccr.tips.133=不同模組的導線是通用的！
+vsaccr.tips.134=各種怪物有時候會變成精英怪，獲得各種不同種類的增益效果，遇到它們請小心。
+vsaccr.tips.135=有時候按鍵不同，詳細請參閱Wiki。
+vsaccr.tips.136=在獨木舟工作室，每次失敗是我們前進道路上的挑戰，而玩家的期望則是我們持續進步的動能。透過不斷的專注和努力，我們不斷嘗試突破自己，為玩家們締造出更加完美的遊戲體驗。
+vsaccr.tips.137=獨木舟工作室只是一個笑話的工作室。實際是不是的
+vsaccr.tips.138=原版的食物遭到了削弱，你應該使用廚房製作更高級的食物。
+vsaccr.tips.139=原版的部分東西都削弱了。
+vsaccr.tips.140=找不到終界城？你可以合成一個末影之翼！雖然材料非常昂貴。
+vsaccr.tips.141=各種怪物有時候會變成精英怪，獲得各種不同種類的增益效果，遇到它們請小心！
+vsaccr.tips.142=使用方向鍵可以調整肩越視角的相機角度和位置。
+vsaccr.tips.143=做一個鉤爪吧！你就可以飛檐走壁了。
+vsaccr.tips.144=試試釣魚吧，你可以釣到很多新東西！
+vsaccr.tips.145=覺得建築方塊不夠？用鑿子！
+vsaccr.tips.146=有1.18~1.13.2版本中的相關機制和物品。
+vsaccr.tips.147=Lonelyxiya 提過交流參考數據是更好的選擇結果。
+vsaccr.tips.148=極大真正優化模組包，記憶體只要3.5G只要給予3G就完美游玩。
+vsaccr.tips.149=本模組包使用 Crafttweaker 進行大量修改内容的。
+vsaccr.tips.150=Pyrotech 讓你成爲一種煩惱的模組，也是快樂的模組。
+
+
+
+
+
+#自訂物品
+item.contenttweaker.chaos_gem.name=混沌寶石
+item.contenttweaker.angel_core.name=天使核心
+item.contenttweaker.twilight_gem.name=暮光水晶
