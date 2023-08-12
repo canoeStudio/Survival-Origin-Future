@@ -172,7 +172,9 @@
     },
     "dynamicIcons": {
       "default": "https://github.com/canoeStudio/Virtual-Survival-Climate-Adventure/blob/main/logo.png?raw=true",
-      "YjnN": "https://mc-heads.net/avatar/ad43e137fe6a472395e949620f623884"
+      "YjnN": "https://mc-heads.net/avatar/ad43e137fe6a472395e949620f623884",
+      "cn-yw-plc-1.openfrp.top": "https://api.mcsrvstat.us/icon/cn-yw-plc-1.openfrp.top",
+      "192.168.1.13": "https://api.mcsrvstat.us/icon/192.168.1.13"
     },
     "dynamicVariables": {
       "default": "Example Text",

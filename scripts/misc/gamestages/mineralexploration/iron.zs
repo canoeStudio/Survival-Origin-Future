@@ -6,4 +6,16 @@
  */
 
 
+import mods.ItemStages.addItemStage;  
+import crafttweaker.item.IItemStack;
 
+
+mods.ItemStages.addItemStage("iron", <minecraft:iron_chestplate>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_helmet>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_hoe>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_axe>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_pickaxe>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_shovel>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_leggings>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_boots>);
+mods.ItemStages.addItemStage("iron", <minecraft:iron_sword>);

@@ -26,6 +26,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
+        "techreborn:nuggets:0",
         "thermalfoundation:material:196"
       ],
       "bloomYieldMinMax": [
@@ -78,12 +79,13 @@
         "fd:tile.copper_ore",
         "fd:tile.ore_2",
         "forestry:tile.for.resources.copper",
-        "ic2:tile.blockOreCopper",
         "mekanism:tile.OreBlock.CopperOre",
+        "techreborn:tile.techreborn.ore2.copper",
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
         "mekanism:nugget:5",
+        "techreborn:nuggets:4",
         "thaumcraft:nugget:1",
         "thermalfoundation:material:192"
       ],
@@ -120,9 +122,11 @@
     "oreIridium": {
       "slagColor": "d5d4e7",
       "langKey": [
+        "techreborn:tile.techreborn.ore.iridium",
         "thermalfoundation:tile.thermalfoundation.ore.iridium"
       ],
       "output": [
+        "techreborn:nuggets:7",
         "thermalfoundation:material:199"
       ],
       "bloomYieldMinMax": [
@@ -145,6 +149,7 @@
       ],
       "output": [
         "minecraft:iron_nugget:0",
+        "techreborn:nuggets:23",
         "thaumcraft:nugget:0"
       ],
       "bloomYieldMinMax": [
@@ -160,10 +165,12 @@
       "slagColor": "95afee",
       "langKey": [
         "mekanism:tile.OreBlock.LeadOre",
+        "techreborn:tile.techreborn.ore.lead",
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
         "mekanism:nugget:7",
+        "techreborn:nuggets:8",
         "thaumcraft:nugget:4",
         "thermalfoundation:material:195"
       ],
@@ -199,6 +206,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
+        "techreborn:nuggets:9",
         "thermalfoundation:material:197"
       ],
       "bloomYieldMinMax": [
@@ -233,6 +241,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.platinum"
       ],
       "output": [
+        "techreborn:nuggets:10",
         "thermalfoundation:material:198"
       ],
       "bloomYieldMinMax": [
@@ -247,10 +256,11 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
-        "ic2:tile.blockOreSilver",
+        "techreborn:tile.techreborn.ore.silver",
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
+        "techreborn:nuggets:11",
         "thaumcraft:nugget:3",
         "thermalfoundation:material:194"
       ],
@@ -268,12 +278,13 @@
       "langKey": [
         "abyssalcraft:tile.abytinore",
         "forestry:tile.for.resources.tin",
-        "ic2:tile.blockOreTin",
         "mekanism:tile.OreBlock.TinOre",
+        "techreborn:tile.techreborn.ore2.tin",
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
         "mekanism:nugget:6",
+        "techreborn:nuggets:13",
         "thaumcraft:nugget:2",
         "thermalfoundation:material:193"
       ],
@@ -289,7 +300,6 @@
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
-        "ic2:tile.blockOreUran",
         "mekanism:tile.OreBlock.UraniumOre"
       ],
       "output": [

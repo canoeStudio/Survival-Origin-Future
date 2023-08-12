@@ -20,7 +20,8 @@ import mods.jei.JEI;
 val disabledItems as IIngredient[] = [
     <projectex:stone_table>,
     <actuallyadditions:block_phantom_breaker>,
-    <cyclicmagic:uncrafting_block>
+    <cyclicmagic:uncrafting_block>,
+    
 
 
 

@@ -13,6 +13,8 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "metallic"
+	#The color of this material.
+	color = 9937308
 
 [molten]
 	#The temperature of this molten fluid.
@@ -21,4 +23,16 @@
 [mysticalagriculture]
 	#The crop tier of this material.
 	tier = 3
+	#The amount of Mystical Agriculture essence required to craft materials.
+	inputCount = 8
+	#The amount of material obtained by crafting Mystical Agriculture essence.
+	outputCount = 6
+
+[thermalexpansion_mysticalagriculture]
+	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Phyto-Gro.
+	basicChance = 100
+	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Rich Phyto-Gro.
+	richChance = 105
+	#The base seed output chance when growing Mystical Agriculture seeds in Thermal Expansion's Insolator with Fluxed Phyto-Gro.
+	fluxChance = 110
 

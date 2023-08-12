@@ -512,7 +512,7 @@ customization {
   action = addbutton
   y = 28
   backgroundnormal = resources/fancymenu/images/links/patreon.png
-  value = https://www.patreon.com/mczph
+  value = https://www.patreon.com/lonelyxiya
   height = 35
 }
 

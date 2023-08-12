@@ -12,5 +12,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee9332c1",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "ee106cd5",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
 	}]
 }

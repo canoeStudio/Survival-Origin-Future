@@ -1,6 +1,34 @@
+sof.fm.curse=Official Curseforge Modpack Homepage
+
+sof.fm.github=Browse the source code/contribute to the modpack?
+sof.fm.lang.desc=Switch Language (You can also contribute translations)
+
+sof.fm.mod.desc=Basic Settings for Each Mod
+sof.fm.mp.desc=Join a Server or Connect with Your Friends Online
+
+sof.fm.options.choose=Options
+sof.fm.options.desc=Basic Game Settings
+sof.fm.options=Options
+
+sof.fm.quitgame.choose=Are you sure you want to exit the game?
+sof.fm.quitgame.desc=Don’t worry about accidental touches.
+sof.fm.quitgame=Exit the game.
+
+sof.fm.ram.info=In-game Memory Usage
+
+sof.fm.sp.choose=Being alone
+sof.fm.sp.desc=Start the game.
 
 
+sof.fm.thank=Thank you all for playing.
+
+sof.fm.activemods=Number of Mods Loaded:
+sof.fm.mcver=Minecraft Game Version:
+sof.fm.totalmods=Total Number of Mods:
+sof.fm.forgever=Forge Version：
 
 
-sof.fm.curse=Official Minecraft International Edition Modpack Homepage
-sof.fm.github=Github open source
+sof.fm.welcome=Welcome everyone to play Survival: Origins & Futures.
+
+sof.fm.patreon=Would you like a cup of coffee? (Universally understood)
+sof.fm.sponser=Would you like a cup of coffee? (Mainland China)

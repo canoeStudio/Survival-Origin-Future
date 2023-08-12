@@ -41,7 +41,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <minecraft:iron_sword>,
         <minecraft:iron_boots>,
         <minecraft:iron_hoe>,
-        <minecraft:iron_leggings>
+        <minecraft:iron_leggings>,
+        
     ]
 
 

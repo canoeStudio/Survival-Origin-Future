@@ -1,22 +1,33 @@
-sof.fm.activemods=載入模式數量：
 sof.fm.curse=Curseforge官方模組包主頁
-sof.fm.forgever=Forge 版本：
-sof.fm.github=Github 開源
+
+sof.fm.github=翻閲源碼/貢獻模組包？
 sof.fm.lang.desc=切換語言（可以貢獻翻譯）
-sof.fm.mcver=Minecraft 游戲版本：
+
 sof.fm.mod.desc=各種模組的基本設定
 sof.fm.mp.desc=加入伺服器或者和你的朋友進行線上遊玩
+
 sof.fm.options.choose=選項
 sof.fm.options.desc=游戲的基本設定
-sof.fm.options=选项
-sof.fm.quitgame.choose=你确定？
-sof.fm.quitgame.desc=别担心误触
-sof.fm.quitgame=退出游戏
-sof.fm.ram.info=游戏内存使用量
+sof.fm.options=選項
+
+sof.fm.quitgame.choose=你確定要關閉游戲？
+sof.fm.quitgame.desc=誤觸離開
+sof.fm.quitgame=離開遊戲
+
+sof.fm.ram.info=游戲記憶體使用量
+
 sof.fm.sp.choose=孤身一人
-sof.fm.sp.desc=开始游戏！
-sof.fm.sponser=赞助地址
-sof.fm.thank=感谢大家游玩
-sof.fm.totalmods=总模组数：
-sof.fm.welcome=欢迎大家游玩生存·起源与未来
-sof.fm.patreon=赞助地址（海外）
+sof.fm.sp.desc=開始遊戲！
+
+sof.fm.thank=感謝大家游玩
+
+sof.fm.activemods=載入模組數量：
+sof.fm.mcver=Minecraft 游戲版本：
+sof.fm.totalmods=模組數量：
+sof.fm.forgever=Forge 版本：
+
+
+sof.fm.welcome=歡迎大家游玩生存·起源與未來
+
+sof.fm.patreon=贊助作者一杯咖啡 (國際通用)
+sof.fm.sponser=贊助作者一杯咖啡 (中國大陸)
